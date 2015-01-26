@@ -8,7 +8,7 @@ use autodie;
 use Carp;
 use Getopt::Std;
 use vars qw/ $opt_d $opt_D $opt_v $opt_h $opt_F $opt_f $opt_b $opt_o $opt_S $opt_l $opt_r $opt_M $opt_w $opt_p $opt_U $opt_L $opt_i $opt_X $opt_e
-$opt_g $opt_G /;
+$opt_g $opt_G $opt_P /;
 use Bio::SearchIO;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
@@ -16,59 +16,18 @@ use Statistics::Descriptive;
 use Data::Dumper;
 use IO::File;# I use this in the data_in() and data_out() methods
 
-getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:');
+getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:P:');
 
 if ($opt_X) {
   
 }
 
 my($debug,$ddebug,$verbose,$help,$folder,$file,$blast,$outfile,@files,$cogsummary,$coglist,$crossref,$minimum_membership,$local_whog,$nonpathogen,$input_file,$exclude_list);
-my ($upper,$lower,$genelist,$coglowcountlimit);
+my ($upper,$lower,$genelist,$coglowcountlimit,$minimum_proportion);
 
 $help = $opt_h;
 if ($help) {
-
-  print <<HELP;
-
-This script takes the output of BLAST against the COG database
-and collects the COGs from the search.  Information about each
-COG is generated from the CGRB COGDB.
-
-usage:  reCOGnition.pl <options>
-
-Options:
--f <text> input file name
--F <text> input folder name (default= blast)
--i <text> input data file -- use results from previous run (usually reCOGnition.xml)
--b <text> type of blast search (default = blastp)
--M <integer>  minimum COG membership level (default = 2)
--o <text> output file name (default = reCOGnition.out)
--S    generate a COG Category Summary
--l    generate a COG List
--g    generate a gene list with corresponding COGs
--r <text> cross-reference to related bugs --
-                (can enclose multiple divisions separated by spaces; enclose in quotes)
--p    when cross-referencing, exclude pathogenic strains
--e <text> when cross-referencing, exclude this list of org ID's (comma-separated list)
--U    when cross-referencing, fractional upper threshold to define common COGs (default = 0.90)
-      This will define the threshold to consider missing COGs and common COGs.
-      i.e. if a given COG is missing in this genome, but present in 90% of the genomes
-      of related bacteria, flag this COG as missing.  Conversely, if a given COG
-      is present in this genome and also present in 90% of related genomes, it is common.
--L    when cross-referencing, fractional lower threshold to define missing COGs (default = 0.10)
-      This will define which COGs are novel.
-      i.e. if the COG is present in this genome and present in only 10% of the other genomes
-      of related bacteria, flag this COG as novel.
--G  when cross-referencing, exclude genomes with less than this number of COGs (default = 1000)
--w <text>       create output file to load local COGDB data (text = local organism code)
--v    verbose output to terminal
--d    debug mode
--D    debug mode -- abbridged analysis
--h    print this help menu
-
-
-HELP
-exit(0);
+    _help();
 }
 
 $| = 1;
@@ -87,7 +46,7 @@ $cogsummary = $opt_S;
 $coglist = $opt_l;
 $crossref = $opt_r;
 $nonpathogen = $opt_p if ($crossref);
-$minimum_membership = $opt_M || 2;
+#$minimum_membership = $opt_M || 2;
 $local_whog = $opt_w;
 $upper = $opt_U || 0.90;
 $lower = $opt_L || 0.10;
@@ -95,6 +54,14 @@ $input_file = $opt_i;
 $exclude_list = $opt_e;
 $genelist = $opt_g;
 $coglowcountlimit = $opt_g || 1000;
+
+if ($opt_M) {
+    $minimum_membership = $opt_M;
+} elsif ($opt_P) {
+    $minimum_proportion = $opt_P;
+} else {
+    _help();
+}
 
 my $cogdb = COGDB->new();
 my $whog = $cogdb->whog();
@@ -120,8 +87,6 @@ if ($verbose) {
   print "-v\t", $verbose || '', "\n";
   print "-h\t", $help || '', "\n";
 }
-
-
 
 if (!$input_file && (!$file && !-e $folder)) {
 #if (!$file && !-e $folder) {
@@ -261,7 +226,16 @@ if (!$input_file) {
             print "\t\tE:  ", $cogs{$cogname}->{E}, "\n";
         }
 
-        next unless ($cogs{$cogname}->{count} && $cogs{$cogname}->{count} >= $minimum_membership);
+        if ($opt_M) {
+            next unless ($cogs{$cogname}->{count} && $cogs{$cogname}->{count} >= $minimum_membership);
+        } elsif ($opt_P) {
+            my $all_count = $whog->cog_count($cogs{$cogname});
+            #my $threshold = int($all_count * $minimum_proportion) * 100;
+            my $threshold = int($all_count * $minimum_proportion);
+            $threshold = 1 unless ($threshold);
+            say "threshold for $cogname: $threshold" if ($debug);
+            next unless ($cogs{$cogname}->{count} && $cogs{$cogname}->{count} >= $threshold);
+        }
 
         my $overlap = 0;
         if ($chk_loop == 1) {
@@ -325,7 +299,7 @@ if (!$input_file) {
 #
     foreach my $cog (map { $cogs{$_}->{cog} } @cognames) {
 
-      next unless ($cogs{$cog->name()}->{count} >= $minimum_membership); ## this is the second check for min membership -- is it necessary?
+#      next unless ($cogs{$cog->name()}->{count} >= $minimum_membership); ## this is the second check for min membership -- is it necessary?
 
       $COGS{$cog->name()}->{cog} = $cog unless ($COGS{$cog->name()}->{count});
       ++$COGS{$cog->name()}->{count};
@@ -1051,4 +1025,59 @@ sub data_in {
     print "$string\n" if ($debug);
   }
   return \%data;
+}
+
+sub _help {
+
+print <<HELP;
+
+This script takes the output of BLAST against the COG database
+and collects the COGs from the search.  Information about each
+COG is generated from the CGRB COGDB.
+
+usage:  reCOGnition.pl <options>
+
+Options:
+-f <text> input file name
+-F <text> input folder name (default= blast)
+-i <text> input data file -- use results from previous run (usually reCOGnition.xml)
+-b <text> type of blast search (default = blastp)
+
+-M <integer>  minimum COG membership level
+-P <decimal>  minimum proportional representation of COGs to accept
+You must use either -M or -P. These levels set the minumum by which a query set is
+declared to contain a COG relationship. Setting -M 2 means that there must be at
+least two examples of hits to a COG before including it in the list of COGs 
+represented in this query set. Setting -P 0.025 means that there must be more
+than 2.5% of the total number of occurrences of a specific COG in the database before
+including it in the list of COGs represented in the query set. The recommended 
+value for either -M or -P is: -M 2 or -P 0.025.
+
+-o <text> output file name (default = reCOGnition.out)
+-S    generate a COG Category Summary
+-l    generate a COG List
+-g    generate a gene list with corresponding COGs
+-r <text> cross-reference to related bugs --
+                (can enclose multiple divisions separated by spaces; enclose in quotes)
+-p    when cross-referencing, exclude pathogenic strains
+-e <text> when cross-referencing, exclude this list of org ID's (comma-separated list)
+-U    when cross-referencing, fractional upper threshold to define common COGs (default = 0.90)
+      This will define the threshold to consider missing COGs and common COGs.
+      i.e. if a given COG is missing in this genome, but present in 90% of the genomes
+      of related bacteria, flag this COG as missing.  Conversely, if a given COG
+      is present in this genome and also present in 90% of related genomes, it is common.
+-L    when cross-referencing, fractional lower threshold to define missing COGs (default = 0.10)
+      This will define which COGs are novel.
+      i.e. if the COG is present in this genome and present in only 10% of the other genomes
+      of related bacteria, flag this COG as novel.
+-G  when cross-referencing, exclude genomes with less than this number of COGs (default = 1000)
+-w <text>       create output file to load local COGDB data (text = local organism code)
+-v    verbose output to terminal
+-d    debug mode
+-D    debug mode -- abbridged analysis
+-h    print this help menu
+
+
+HELP
+exit(0);
 }
