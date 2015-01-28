@@ -762,18 +762,19 @@ if ($crossref) {
 #                    say "skipping statistical analysis of '$cogname' b/c count = " . $COGS{$cogname}->{count} if ($verbose);
 #                    next;
 #                }
-           
                 if ($skew && $skew > 2) {
                     say "skipping '$cogname' b/c skewness = $skew" if ($verbose);
                     next;
                 }
 
                 push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+                #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
             }
         } else {
             # these are COGs that are in query genome, but <5% of the related genomes
-            #push(@sho,[$cogname,$COGS{$cogname}->{count},0,0,0,0,0,0,0]);
             push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+            #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
+            #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[]]); # for debugging purposes
         }
 
     }
@@ -813,8 +814,16 @@ if ($crossref) {
 
     say "\nSignificantly High Occurrences:";
     for my $high (@sho) {
+        if ($debug) {
+            my $elcnt = 0;
+            for my $elem (@$high) {
+                say STDERR "$elcnt: '$elem'";
+                ++$elcnt;
+            }
+        }
         my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u",@$high);
-        $highstring .= "\t" . join ",", @{$high->[11]} if ($high->[11]);
+        #$highstring .= "\t" . join ",", @{$high->[11]} if ($high->[11]);
+        $highstring .= "\t" . join ",", @{$high->[11]} if (scalar(@{$high->[11]}));
         say $highstring if ($verbose);
         say SHO $highstring;
     }
