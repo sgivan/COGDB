@@ -13,6 +13,7 @@ use Bio::SearchIO;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use Statistics::Descriptive;
+#use Statistics::Descriptive::Discrete;
 use Data::Dumper;
 use IO::File;# I use this in the data_in() and data_out() methods
 
@@ -726,14 +727,20 @@ if ($crossref) {
     for my $cogname (keys %COGS) {
         my $orgrep = $cogref{$cogname}->{orgrep};
         my $stats = Statistics::Descriptive::Full->new();
+#        my $stats = Statistics::Descriptive::Discrete->new();
         my @tallies = values %$orgrep;
 
+        print STDERR "tallies for '$cogname': " . scalar(@tallies) . " [ " if ($debug);
+
         for my $tally (@tallies) {
-#            $tally = 0 unless ($tally);
+            $tally = 0 unless ($tally);
 #            next if ($tally == 0);
+            print STDERR "$tally " if ($debug);
             next unless ($tally);
             $stats->add_data($tally);
         }
+
+        print STDERR "]\n" if ($debug);
 
         my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
         $stats->sort_data();
@@ -767,12 +774,17 @@ if ($crossref) {
                     next;
                 }
 
-                push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+                # uncomment next line when debugging finishes
+                push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
+                    || -1,scalar(@lesser),scalar(@greater),\@greater]);
+                #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
                 #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
             }
         } else {
             # these are COGs that are in query genome, but <5% of the related genomes
-            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+            #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
+                    || -1,scalar(@lesser),scalar(@greater),\@greater]);
             #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
             #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[]]); # for debugging purposes
         }
