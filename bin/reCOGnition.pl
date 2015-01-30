@@ -13,7 +13,7 @@ use Bio::SearchIO;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use Statistics::Descriptive;
-#use Statistics::Descriptive::Discrete;
+use Statistics::Descriptive::Discrete;
 use Data::Dumper;
 use IO::File;# I use this in the data_in() and data_out() methods
 
@@ -727,7 +727,7 @@ if ($crossref) {
     for my $cogname (keys %COGS) {
         my $orgrep = $cogref{$cogname}->{orgrep};
         my $stats = Statistics::Descriptive::Full->new();
-#        my $stats = Statistics::Descriptive::Discrete->new();
+        my $stats = Statistics::Descriptive::Discrete->new();
         my @tallies = values %$orgrep;
 
         print STDERR "tallies for '$cogname': " . scalar(@tallies) . " [ " if ($debug);
