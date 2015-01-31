@@ -1,7 +1,7 @@
 #!/bin/env perl
 # $Id: reCOGnition.pl,v 3.22 2010/03/22 23:39:49 givans Exp $
 
-use 5.010;
+use 5.014;
 use warnings;
 use strict;
 use autodie;
@@ -113,6 +113,7 @@ if (!$input_file) {
     print "\nfile:  '$file'  -  $cnt\n" if ($verbose);
 
     last if ($ddebug && $cnt > 2);
+    last if ($debug && $cnt >= 2000);
 
     my (%cogs,@cognames)= ();
 
@@ -289,7 +290,7 @@ if (!$input_file) {
 
     #
     # The following loop populates the %COGS hash.
-    #
+    # %COGS contains the COG data for this genome sequence
     #
 # $COGS{"cog name"} = {
 #       cog =>  COGDB::COG object,
@@ -321,16 +322,6 @@ if (!$input_file) {
   %COGS = %$rtn;
   print "finished loading file\n" if ($debug);
 }
-
-
-#foreach my $orfname (@{$COGS{COG0583}->{list}}) {
-#  print "orf:  $orfname\n";
-#}
-
-
-#exit();
-
-
 
 
 ##################################
@@ -512,6 +503,8 @@ if ($crossref) {
     }
 #
 #
+    # $whog_cnt is the number of crossref species that contains enough COGs to be included
+    # in subsequent analysis (as determined by $coglowcountlimit
     $whog_cnt = scalar(@all_whogs);
     print "number of organisms in '$crossref' = $whog_cnt\n" if ($verbose);
 
@@ -621,8 +614,6 @@ if ($crossref) {
     print "\n\nCOGs in common (threshold = " . int($upper * $whog_cnt) . "/$whog_cnt):\n" if ($verbose);
     print OUT "\n\nCOGs in common (threshold = " . int($upper * $whog_cnt) . "/$whog_cnt):\n";
 
-
-
 #
 # Generate output for COGs passing minimum membership test
 #
@@ -720,16 +711,22 @@ if ($crossref) {
     open(SHO,">","whogs_sho.txt");
     open(SLO,">","whogs_slo.txt");
 
+    say SHO "COG\tTally\tMean\tsd\tCC\tSkew\tKurt\tMin\tMax\t# lesser\t# greater\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
+
+
     # if I use %coref here, I'll not see COGs present in query organism, but absent from others
-    # So, this is only good for SHO'so
+    # So, this is only good for SHO's
     #
     #for my $cogname (keys %cogref) {
     for my $cogname (keys %COGS) {
         my $orgrep = $cogref{$cogname}->{orgrep};
-        my $stats = Statistics::Descriptive::Full->new();
+        #my $stats = Statistics::Descriptive::Full->new();
         my $stats = Statistics::Descriptive::Discrete->new();
         my @tallies = values %$orgrep;
-
+        #
+        # @tallies contains an integer representing the number of times
+        # that COG occurs in a related species' genome
+        #
         print STDERR "tallies for '$cogname': " . scalar(@tallies) . " [ " if ($debug);
 
         for my $tally (@tallies) {
@@ -742,12 +739,17 @@ if ($crossref) {
 
         print STDERR "]\n" if ($debug);
 
-        my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
-        $stats->sort_data();
+        next unless (scalar(@tallies));
+
+        #my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
+        #my ($mean,$sd) = ($stats->mean(0.05),$stats->standard_deviation());
+        #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
+        my ($mean,$sd) = ($stats->median(),$stats->standard_deviation());
+        $sd = $stats->median() unless ($sd);
         my @data = $stats->get_data();
-        my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
-        $skew = 1 unless ($skew);
-        $kurtosis = 0 unless ($kurtosis);
+        #my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
+        my $skew = -1;
+        my $kurtosis = -1;
         my (@greater,@lesser) = ();
 
         for my $val (@data) {
@@ -769,24 +771,25 @@ if ($crossref) {
 #                    say "skipping statistical analysis of '$cogname' b/c count = " . $COGS{$cogname}->{count} if ($verbose);
 #                    next;
 #                }
-                if ($skew && $skew > 2) {
-                    say "skipping '$cogname' b/c skewness = $skew" if ($verbose);
-                    next;
-                }
+#                if ($skew && $skew > 2) {
+#                    say "skipping '$cogname' b/c skewness = $skew" if ($verbose);
+#                    next;
+#                }
 
                 # uncomment next line when debugging finishes
                 push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
-                    || -1,scalar(@lesser),scalar(@greater),\@greater]);
+                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
                 #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
-                #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
+            } else {
+                if ($debug) {
+                    say "$cogname in this genome not significantly high: " . $COGS{$cogname}->{count} . " !> " . ($mean + (  2 * $sd));
+                }
             }
         } else {
             # these are COGs that are in query genome, but <5% of the related genomes
             #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
             push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
-                    || -1,scalar(@lesser),scalar(@greater),\@greater]);
-            #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[1]]); # for debugging purposes
-            #push(@sho,[$cogname,$COGS{$cogname}->{count},1,1,1,1,1,1,1,1,1,[]]); # for debugging purposes
+                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
         }
 
     }
@@ -794,8 +797,9 @@ if ($crossref) {
     # Use %cogref to analyze SLO's
     for my $cogname (keys %cogref) {
         my $orgrep = $cogref{$cogname}->{orgrep};
-        my $stats = Statistics::Descriptive::Full->new();
-
+        #my $stats = Statistics::Descriptive::Full->new();
+        my $stats = Statistics::Descriptive::Discrete->new();
+        my ($skew,$kurtosis) = (-1,-1);
 
         my @tallies = values %$orgrep;
 
@@ -806,15 +810,19 @@ if ($crossref) {
                 $stats->add_data($tally);
             }
 
-            my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
+            #my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
+            #my ($mean,$sd) = ($stats->mean(0.05),$stats->standard_deviation());
+            #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
+            my ($mean,$sd) = ($stats->median(),$stats->standard_deviation());
+            $sd = $stats->median() unless ($sd);
             if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} < ($mean - (2 * $sd))) {
-                if ($stats->skewness() < 0.5) {
-                    say "skipping '$cogname' b/c skewness = " . $stats->skewness() if ($verbose);
-                    next;
-                }
-                push(@slo,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$stats->skewness(),$stats->kurtosis(),$stats->min(),[$stats->max()]]);
+#                if ($stats->skewness() < 0.5) {
+#                    say "skipping '$cogname' b/c skewness = " . $stats->skewness() if ($verbose);
+#                    next;
+#                }
+                push(@slo,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),[$stats->max()]]);
             } elsif (!$COGS{$cogname}) {
-                push(@slo,[$cogname,0,$mean,$sd,$stats->count(),$stats->skewness(),$stats->kurtosis(),$stats->min(),$stats->max()]);
+                push(@slo,[$cogname,0,$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max()]);
             }
 
         }# else { # no other organisms in this group have this COG
@@ -836,6 +844,7 @@ if ($crossref) {
         my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u",@$high);
         #$highstring .= "\t" . join ",", @{$high->[11]} if ($high->[11]);
         $highstring .= "\t" . join ",", @{$high->[11]} if (scalar(@{$high->[11]}));
+        $highstring .= "\t" . join ",", @{$high->[12]} if (scalar(@{$high->[12]}));
         say $highstring if ($verbose);
         say SHO $highstring;
     }
