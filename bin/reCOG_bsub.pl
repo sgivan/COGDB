@@ -25,14 +25,31 @@ use warnings;
 use strict;
 
 my ($debug,$verbose,$help);
-my ($indir);
+my ($indir,$crossref,$local_org_name,$min_proportion);
+my $bsub = '/opt/openlava-2.2/bin/bsub';
+my $reCOGnition = '/home/sgivan/projects/COGDB/bin/reCOGnition.pl';
 
 my $result = GetOptions(
     "indir:s"   =>  \$indir,
+    "crossref:s"    =>  \$crossref,
+    "localorg:s"    =>  \$local_org_name,
+    "proportion:f"  =>  \$min_proportion,
     "debug"     =>  \$debug,
     "verbose"   =>  \$verbose,
     "help"      =>  \$help,
 );
+
+$crossref ||= 'alpha';
+$local_org_name ||= 'Phirschii';
+$min_proportion ||= 0.025;
+
+if ($debug) {
+    say "
+    indir: '$indir'\n
+    crossref: '$crossref'\n
+    localorg: '$local_org_name'\n
+    proportion: '$min_proportion"
+}
 
 if ($help) {
     help();
@@ -54,6 +71,24 @@ for my $stub (<FILES>) {
         say STUB "$indir/$file";
     }
 
+    if (-f $stub) {
+        # use as input to reCOGnition.pl with --infile_list flag
+        # -I $stub -S -l -r alpha -w Phirschii -v -P 0.025 
+        open(my $bsubfh,">",$stub . ".bsub");
+
+        bsub_content($bsubfh,$stub);
+
+        close($bsubfh);
+    }
+
+    open(BSUB,"|-", "$bsub < $stub.bsub");
+    
+    my @bsub_output = <BSUB>;
+
+    close(BSUB);
+
+    say @bsub_output;
+
     close(STUB);
     rewinddir($dh);
 }
@@ -67,6 +102,9 @@ sub help {
 say <<HELP;
 
 --indir <directory name>     directory with blast output files
+--crossref
+--localorg
+--proportion
 --debug
 --verbose
 --help
@@ -77,4 +115,22 @@ HELP
 }
 
 
+sub bsub_content {
+    my $fh = shift;
+    my $infile = shift || 'infile';
+
+
+say $fh <<END;
+#BSUB -J reCOG-$infile
+#BSUB -o $infile.o%J
+#BSUB -e $infile.e%J
+#BSUB -q normal
+#BSUB -n 1
+#BSUB -R "rusage[mem=940]"
+
+$reCOGnition -I $infile -w $local_org_name -r $crossref -l -S -P $min_proportion -d
+
+END
+
+}
 

@@ -8,7 +8,7 @@ use autodie;
 use Carp;
 use Getopt::Std;
 use vars qw/ $opt_d $opt_D $opt_v $opt_h $opt_F $opt_f $opt_b $opt_o $opt_S $opt_l $opt_r $opt_M $opt_w $opt_p $opt_U $opt_L $opt_i $opt_X $opt_e
-$opt_g $opt_G $opt_P /;
+$opt_g $opt_G $opt_P $opt_I /;
 use Bio::SearchIO;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
@@ -17,14 +17,14 @@ use Statistics::Descriptive::Discrete;
 use Data::Dumper;
 use IO::File;# I use this in the data_in() and data_out() methods
 
-getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:P:');
+getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:P:I:');
 
 if ($opt_X) {
   
 }
 
 my($debug,$ddebug,$verbose,$help,$folder,$file,$blast,$outfile,@files,$cogsummary,$coglist,$crossref,$minimum_membership,$local_whog,$nonpathogen,$input_file,$exclude_list);
-my ($upper,$lower,$genelist,$coglowcountlimit,$minimum_proportion);
+my ($upper,$lower,$genelist,$coglowcountlimit,$minimum_proportion,$infile_list);
 
 $help = $opt_h;
 if ($help) {
@@ -39,10 +39,12 @@ $verbose = $opt_v;
 $verbose = 1 if ($debug);
 $file = $opt_f;
 $folder = $opt_F || 'blast';
+$infile_list = $opt_I;
 $blast = $opt_b || 'blastp';
 #$outfile = $opt_o || 'reCOGnition.out';
 #$outfile = $opt_o || 'reCOGnition';
 $outfile = $opt_o || "reCOGnition.$$";
+$outfile = $infile_list . "." . $outfile if ($infile_list);
 $cogsummary = $opt_S;
 $coglist = $opt_l;
 $crossref = $opt_r;
@@ -72,6 +74,7 @@ if ($verbose) {
 
   print "-f\t", $file || '', "\n";
   print "-F\t", $folder || '', "\n";
+  print "-I\t", $infile_list || '', "\n";
   print "-b\t", $blast || '', "\n";
   print "-o\t", $outfile || '', "\n";
   print "-S\t", $cogsummary || '', "\n";
@@ -89,8 +92,7 @@ if ($verbose) {
   print "-h\t", $help || '', "\n";
 }
 
-if (!$input_file && (!$file && !-e $folder)) {
-#if (!$file && !-e $folder) {
+if (!$input_file && (!$file && !-e $folder) && !$infile_list) {
   print STDERR "you must provide either a file name or a folder name\n";
   exit(0);
 }
@@ -103,8 +105,14 @@ open(TAB,">$outfile" . ".reCOG.tab") or die "can't open $outfile" . ".tab: $!";
 
 if (!$input_file) {
 
-  @files = <$folder/*.$blast> if ($folder && !$file);
-  push(@files,$file) if ($file);
+    if ($infile_list && -f $infile_list) {
+        open(my $infh,"<",$infile_list);
+        @files = <$infh>;
+        close($infh);
+    } elsif ($folder && !$file) {
+        @files = <$folder/*.$blast>;
+        push(@files,$file) if ($file);
+    }
 
   my $cnt = 0;
   #my (%CATEGORIES,%ec,%COGS) = ();
@@ -640,7 +648,9 @@ if ($crossref) {
         my $organism = $local_cogdb->organism({ Code => $local_whog });
         my $org_id = $organism->id();
 
-        open(MISS,">whogs_missing_" . "$org_id") or die "can't open 'whog_missing': $!";
+        my $whogs_missing_filename = "whogs_missing_$$" . "_$org_id";
+        $whogs_missing_filename = $infile_list . "." . $whogs_missing_filename if ($infile_list);
+        open(MISS,">$whogs_missing_filename") or die "can't open '$whogs_missing_filename': $!";
     }
 
 
@@ -684,7 +694,9 @@ if ($crossref) {
         my $organism = $local_cogdb->organism({ Code => $local_whog });
         my $org_id = $organism->id();
 
-        open(UNIQUE,">whogs_unique_" . "$org_id") or die "can't open 'whog_unique': $!";
+        my $whogs_unique_filename = "whogs_unique_$$" . "_$org_id";
+        $whogs_unique_filename = $infile_list . "." . $whogs_unique_filename if ($infile_list);
+        open(UNIQUE,">$whogs_unique_filename")  or die "can't open '$whogs_unique_filename': $!";
     }
 
 #
@@ -708,8 +720,10 @@ if ($crossref) {
     # compare to $COGS{$cog->name()}->{count}
     my (@sho,@slo) = ();
 
-    open(SHO,">","whogs_sho.txt");
-    open(SLO,">","whogs_slo.txt");
+    my $sigfile_root = "whogs";
+    $sigfile_root = $infile_list . "." . $sigfile_root if ($infile_list);
+    open(SHO,">",$sigfile_root . "_sho_$$" . ".txt");
+    open(SLO,">",$sigfile_root . "_slo_$$" . ".txt");
 
     say SHO "COG\tTally\tMean\tsd\tCC\tSkew\tKurt\tMin\tMax\t# lesser\t# greater\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
 
@@ -944,8 +958,8 @@ sub data_out {
   }
 
   my $xmloutfile = "$outfile" . ".xml";# $outfile is from MAIN namespace
+  #$xmloutfile = $infile_list . "." . $xmloutfile if ($infile_list);# don't need - already done
 
-  #if (-e 'reCOGnition.xml') {
   if (-e $xmloutfile) {
     if (!copy($xmloutfile, $$ . ".$xmloutfile")) {
         die "can't copy $xmloutfile: $!";
