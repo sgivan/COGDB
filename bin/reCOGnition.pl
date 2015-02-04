@@ -8,7 +8,7 @@ use autodie;
 use Carp;
 use Getopt::Std;
 use vars qw/ $opt_d $opt_D $opt_v $opt_h $opt_F $opt_f $opt_b $opt_o $opt_S $opt_l $opt_r $opt_M $opt_w $opt_p $opt_U $opt_L $opt_i $opt_X $opt_e
-$opt_g $opt_G $opt_P $opt_I /;
+$opt_g $opt_G $opt_P $opt_I $opt_x /;
 use Bio::SearchIO;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
@@ -17,14 +17,14 @@ use Statistics::Descriptive::Discrete;
 use Data::Dumper;
 use IO::File;# I use this in the data_in() and data_out() methods
 
-getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:P:I:');
+getopts('dDvhF:f:b:o:Slr:M:w:pU:L:i:Xe:gG:P:I:x:');
 
 if ($opt_X) {
   
 }
 
 my($debug,$ddebug,$verbose,$help,$folder,$file,$blast,$outfile,@files,$cogsummary,$coglist,$crossref,$minimum_membership,$local_whog,$nonpathogen,$input_file,$exclude_list);
-my ($upper,$lower,$genelist,$coglowcountlimit,$minimum_proportion,$infile_list);
+my ($upper,$lower,$genelist,$coglowcountlimit,$minimum_proportion,$infile_list,$infile_xml);
 
 $help = $opt_h;
 if ($help) {
@@ -40,6 +40,7 @@ $verbose = 1 if ($debug);
 $file = $opt_f;
 $folder = $opt_F || 'blast';
 $infile_list = $opt_I;
+$infile_xml = $opt_x;
 $blast = $opt_b || 'blastp';
 #$outfile = $opt_o || 'reCOGnition.out';
 #$outfile = $opt_o || 'reCOGnition';
@@ -63,7 +64,10 @@ if ($opt_M) {
 } elsif ($opt_P) {
     $minimum_proportion = $opt_P;
 } else {
-    _help();
+    unless ($opt_i || $opt_x) {
+        say "must use either -M or -P";
+        _help();
+    }
 }
 
 my $cogdb = COGDB->new();
@@ -75,6 +79,7 @@ if ($verbose) {
   print "-f\t", $file || '', "\n";
   print "-F\t", $folder || '', "\n";
   print "-I\t", $infile_list || '', "\n";
+  print "-x\t", $infile_xml || '', "\n";
   print "-b\t", $blast || '', "\n";
   print "-o\t", $outfile || '', "\n";
   print "-S\t", $cogsummary || '', "\n";
@@ -92,18 +97,17 @@ if ($verbose) {
   print "-h\t", $help || '', "\n";
 }
 
-if (!$input_file && (!$file && !-e $folder) && !$infile_list) {
+if (!$input_file && (!$file && !-e $folder) && !$infile_list && !$infile_xml) {
   print STDERR "you must provide either a file name or a folder name\n";
-  exit(0);
+  _help();# _help() exits at end
 }
 
 my (%CATEGORIES,%ec,%COGS) = ();
 
 open(OUT,">$outfile" . ".reCOG.out") or die  "can't open $outfile" . ".out: $!";
-#$outfile =~ s/out/tab/;
 open(TAB,">$outfile" . ".reCOG.tab") or die "can't open $outfile" . ".tab: $!";
 
-if (!$input_file) {
+if (!$input_file && !$infile_xml) {
 
     if ($infile_list && -f $infile_list) {
         open(my $infh,"<",$infile_list);
@@ -325,10 +329,41 @@ if (!$input_file) {
 #
 #
 } else {      ## end of if ($file || $folder)
-  print "loading input file '$input_file'\n" if ($debug);
-  my $rtn = data_in($input_file);
-  %COGS = %$rtn;
-  print "finished loading file\n" if ($debug);
+
+    my @xml_input_files = ();
+    if ($opt_x) {
+        say "opening list of xml files: '$infile_xml'" if ($verbose);
+        open(XMLIST,"<",$infile_xml);
+        @xml_input_files = <XMLIST>;
+        close(XMLIST);
+    } else {
+        push(@xml_input_files,$input_file);
+    }
+
+    for my $infile (@xml_input_files) {
+        print "loading input file '$infile'\n" if ($debug);
+        my $rtn = data_in($infile);
+
+      # $rtn is a reference to a hash with structure:
+      #
+    #    $data{$cog->name()} = {
+    #         cog  =>  $cog,
+    #         count  =>  $cogdata->{$cogname}->{occurrence},
+    #         list =>  [@orflist],
+    #        };
+
+#        %COGS = %$rtn;
+
+        for my $key ( keys %$rtn  ) {
+            if ($COGS{$key}) {
+                $COGS{$key}->{count} += $rtn->{$key}->{count};
+                push(@{$COGS{$key}->{list}},@{$rtn->{$key}->{list}});
+            } else {
+                $COGS{$key} = $rtn->{$key};
+            }
+        }
+        print "finished loading file\n" if ($debug);
+    }
 }
 
 
@@ -725,7 +760,7 @@ if ($crossref) {
     open(SHO,">",$sigfile_root . "_sho_$$" . ".txt");
     open(SLO,">",$sigfile_root . "_slo_$$" . ".txt");
 
-    say SHO "COG\tTally\tMean\tsd\tCC\tSkew\tKurt\tMin\tMax\t# lesser\t# greater\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
+    say SHO "COG\tTally\tMean\tsd\tCC\tMin\tMax\t# lesser\t# equal\t# greater\tlesser\tequal\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
 
 
     # if I use %coref here, I'll not see COGs present in query organism, but absent from others
@@ -764,19 +799,23 @@ if ($crossref) {
         #my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
         my $skew = -1;
         my $kurtosis = -1;
-        my (@greater,@lesser) = ();
+        my (@greater,@lesser,@equal) = ((),(),());
 
         for my $val (@data) {
             if ($val > $COGS{$cogname}->{count}) {
                 push(@greater,$val);
-            } else{
+            } elsif ($val == $COGS{$cogname}->{count}) {
+                push(@equal,$val);
+            } else {
                 push(@lesser,$val);
             }
         }
 
         if (scalar(@tallies)) {
 
-            if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} > ($mean + (  2 * $sd))) {
+            #if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} > ($mean + (  2 * $sd)) && $COGS{$cogname}->{count} >= $stats->max()) {
+            if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} > ($mean + (  2 * $sd)) &&
+                (scalar(@greater) + scalar(@equal))/$stats->count() <= 0.05 ) {
                unless ($stats->count() > (0.95 * $whog_cnt)) { 
                     say "skipping statisitical analysis of '$cogname' b/c n < " . 0.95 * $whog_cnt if ($verbose);
                     next;
@@ -791,9 +830,9 @@ if ($crossref) {
 #                }
 
                 # uncomment next line when debugging finishes
-                push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
-                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
-                #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
+                push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
+                    || -1,scalar(@lesser),scalar(@equal),scalar(@greater),\@lesser,\@equal,\@greater]);
+                #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
             } else {
                 if ($debug) {
                     say "$cogname in this genome not significantly high: " . $COGS{$cogname}->{count} . " !> " . ($mean + (  2 * $sd));
@@ -802,8 +841,10 @@ if ($crossref) {
         } else {
             # these are COGs that are in query genome, but <5% of the related genomes
             #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
-            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
-                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
+#            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
+#                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
+            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
+                || -1,scalar(@lesser),scalar(@equal),scalar(@greater),\@lesser,\@equal,\@greater]);
         }
 
     }
@@ -855,8 +896,9 @@ if ($crossref) {
                 ++$elcnt;
             }
         }
-        my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u",@$high);
+        my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u\t%u\t%u",@$high);
         #$highstring .= "\t" . join ",", @{$high->[11]} if ($high->[11]);
+        $highstring .= "\t" . join ",", @{$high->[10]} if (scalar(@{$high->[10]}));
         $highstring .= "\t" . join ",", @{$high->[11]} if (scalar(@{$high->[11]}));
         $highstring .= "\t" . join ",", @{$high->[12]} if (scalar(@{$high->[12]}));
         say $highstring if ($verbose);
@@ -958,7 +1000,6 @@ sub data_out {
   }
 
   my $xmloutfile = "$outfile" . ".xml";# $outfile is from MAIN namespace
-  #$xmloutfile = $infile_list . "." . $xmloutfile if ($infile_list);# don't need - already done
 
   if (-e $xmloutfile) {
     if (!copy($xmloutfile, $$ . ".$xmloutfile")) {
@@ -975,7 +1016,6 @@ sub data_out {
 #    }
   }
 
-  #my $file = IO::File->new(">reCOGnition.xml");
   my $file = IO::File->new(">$xmloutfile");
   my $xml = XML::Writer->new(
            OUTPUT   =>  $file,
@@ -1037,9 +1077,6 @@ sub data_in {
 
   my $indata = XMLin($file);
 
-#  print Dumper($indata);
-#  exit();
-
   my $cogdata = $indata->{data}->{cog};
 
   foreach my $cogname (keys %$cogdata) {
@@ -1056,8 +1093,8 @@ sub data_in {
       push(@orflist,$orflist);
     } else {
       foreach my $orfname (@$orflist) {
-  $string .= "$orfname ";
-  push(@orflist,$orfname);
+        $string .= "$orfname ";
+        push(@orflist,$orfname);
       }
     }
 
@@ -1085,6 +1122,7 @@ Options:
 -f <text> input file name
 -F <text> input folder name (default= blast)
 -i <text> input data file -- use results from previous run (usually reCOGnition.xml)
+-I <filename> file containing list of blast files to process
 -b <text> type of blast search (default = blastp)
 
 -M <integer>  minimum COG membership level
