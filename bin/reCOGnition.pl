@@ -832,7 +832,6 @@ if ($crossref) {
                 # uncomment next line when debugging finishes
                 push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
                     || -1,scalar(@lesser),scalar(@equal),scalar(@greater),\@lesser,\@equal,\@greater]);
-                #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
             } else {
                 if ($debug) {
                     say "$cogname in this genome not significantly high: " . $COGS{$cogname}->{count} . " !> " . ($mean + (  2 * $sd));
@@ -840,7 +839,6 @@ if ($crossref) {
             }
         } else {
             # these are COGs that are in query genome, but <5% of the related genomes
-            #push(@sho,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max(),scalar(@lesser),scalar(@greater),\@greater]);
 #            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
 #                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
             push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
@@ -850,15 +848,18 @@ if ($crossref) {
     }
 
     # Use %cogref to analyze SLO's
+    say "checking SLO's" if ($verbose);
     for my $cogname (keys %cogref) {
         my $orgrep = $cogref{$cogname}->{orgrep};
         #my $stats = Statistics::Descriptive::Full->new();
         my $stats = Statistics::Descriptive::Discrete->new();
         my ($skew,$kurtosis) = (-1,-1);
+        say "checking if '$cogname' is SLO" if ($debug);
 
         my @tallies = values %$orgrep;
 
         if (scalar(@tallies)) {
+            say "\ttally for $cogname: ", scalar(@tallies) if ($debug);
 
             for my $tally (@tallies) {
                 $tally = 0 unless ($tally);
@@ -870,6 +871,8 @@ if ($crossref) {
             #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
             my ($mean,$sd) = ($stats->median(),$stats->standard_deviation());
             $sd = $stats->median() unless ($sd);
+            say "\tmedian: '$mean', sd: '$sd'" if ($debug);
+            say "\ttally in query genome: " . $COGS{$cogname}->{count} || 0;
             if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} < ($mean - (2 * $sd))) {
 #                if ($stats->skewness() < 0.5) {
 #                    say "skipping '$cogname' b/c skewness = " . $stats->skewness() if ($verbose);
@@ -897,7 +900,6 @@ if ($crossref) {
             }
         }
         my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u\t%u\t%u",@$high);
-        #$highstring .= "\t" . join ",", @{$high->[11]} if ($high->[11]);
         $highstring .= "\t" . join ",", @{$high->[10]} if (scalar(@{$high->[10]}));
         $highstring .= "\t" . join ",", @{$high->[11]} if (scalar(@{$high->[11]}));
         $highstring .= "\t" . join ",", @{$high->[12]} if (scalar(@{$high->[12]}));
