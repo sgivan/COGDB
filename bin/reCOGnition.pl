@@ -760,7 +760,7 @@ if ($crossref) {
     open(SHO,">",$sigfile_root . "_sho_$$" . ".txt");
     open(SLO,">",$sigfile_root . "_slo_$$" . ".txt");
 
-    say SHO "COG\tTally\tMean\tsd\tCC\tMin\tMax\t# lesser\t# equal\t# greater\tlesser\tequal\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
+    say SHO "COG\tTally\tMean\tsd\tCC\tskew\tkurtosis\tMin\tMax\t# lesser\t# equal\t# greater\tlesser\tequal\tgreater";# CC is CrossCount (# of cross-referenced species with that COG
 
 
     # if I use %coref here, I'll not see COGs present in query organism, but absent from others
@@ -769,8 +769,7 @@ if ($crossref) {
     #for my $cogname (keys %cogref) {
     for my $cogname (keys %COGS) {
         my $orgrep = $cogref{$cogname}->{orgrep};
-        #my $stats = Statistics::Descriptive::Full->new();
-        my $stats = Statistics::Descriptive::Discrete->new();
+        my $stats = Statistics::Descriptive::Full->new();
         my @tallies = values %$orgrep;
         #
         # @tallies contains an integer representing the number of times
@@ -793,12 +792,10 @@ if ($crossref) {
         #my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
         #my ($mean,$sd) = ($stats->mean(0.05),$stats->standard_deviation());
         #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
-        my ($mean,$sd) = ($stats->median(),$stats->standard_deviation());
-        $sd = $stats->median() unless ($sd);
+        my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
+        $sd = $stats->mean() unless ($sd);
         my @data = $stats->get_data();
-        #my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
-        my $skew = -1;
-        my $kurtosis = -1;
+        my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
         my (@greater,@lesser,@equal) = ((),(),());
 
         for my $val (@data) {
@@ -824,10 +821,10 @@ if ($crossref) {
 #                    say "skipping statistical analysis of '$cogname' b/c count = " . $COGS{$cogname}->{count} if ($verbose);
 #                    next;
 #                }
-#                if ($skew && $skew > 2) {
-#                    say "skipping '$cogname' b/c skewness = $skew" if ($verbose);
-#                    next;
-#                }
+                if ($skew && $skew > 2) {
+                    say "skipping '$cogname' b/c skewness = $skew" if ($verbose);
+                    next;
+                }
 
                 # uncomment next line when debugging finishes
                 push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
@@ -841,7 +838,9 @@ if ($crossref) {
             # these are COGs that are in query genome, but <5% of the related genomes
 #            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
 #                    || -1,scalar(@lesser),scalar(@greater),\@greater, \@tallies]);
-            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
+#            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$stats->min() || -1,$stats->max()
+#                || -1,scalar(@lesser),scalar(@equal),scalar(@greater),\@lesser,\@equal,\@greater]);
+            push(@sho,[$cogname,$COGS{$cogname}->{count},$mean || -1,$sd || -1,$stats->count(),$skew,$kurtosis,$stats->min() || -1,$stats->max()
                 || -1,scalar(@lesser),scalar(@equal),scalar(@greater),\@lesser,\@equal,\@greater]);
         }
 
@@ -851,27 +850,37 @@ if ($crossref) {
     say "checking SLO's" if ($verbose);
     for my $cogname (keys %cogref) {
         my $orgrep = $cogref{$cogname}->{orgrep};
-        #my $stats = Statistics::Descriptive::Full->new();
-        my $stats = Statistics::Descriptive::Discrete->new();
-        my ($skew,$kurtosis) = (-1,-1);
+        my $stats = Statistics::Descriptive::Full->new();
+        #my ($skew,$kurtosis) = (-1,-1);
         say "checking if '$cogname' is SLO" if ($debug);
 
         my @tallies = values %$orgrep;
+        my $n = scalar(@tallies);
 
-        if (scalar(@tallies)) {
-            say "\ttally for $cogname: ", scalar(@tallies) if ($debug);
+        if ($n) {
+            say "\t\@tallies: [" . join(',',@tallies) . "]" if ($debug);
+            say "\t# of tallies for $cogname: $n" if ($debug);
 
+            my $zero = 0;
             for my $tally (@tallies) {
-                $tally = 0 unless ($tally);
-                $stats->add_data($tally);
+                ++$zero unless ($tally);
+                #$tally = 0 unless ($tally);
+                $stats->add_data($tally) if ($tally);
             }
+
+            if ($debug) {
+                say "\tzeroes: '$zero'";
+                say "\tnon-zeroes: '" . $stats->count();
+            }
+
 
             #my ($mean,$sd) = ($stats->trimmed_mean(0.05),$stats->standard_deviation());
             #my ($mean,$sd) = ($stats->mean(0.05),$stats->standard_deviation());
             #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
-            my ($mean,$sd) = ($stats->median(),$stats->standard_deviation());
-            $sd = $stats->median() unless ($sd);
-            say "\tmedian: '$mean', sd: '$sd'" if ($debug);
+            my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
+            my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
+            $sd = $stats->mean() unless ($sd);
+            say "\tmean: '$mean', sd: '$sd'" if ($debug);
             say "\ttally in query genome: " . $COGS{$cogname}->{count} || 0;
             if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} < ($mean - (2 * $sd))) {
 #                if ($stats->skewness() < 0.5) {
@@ -879,7 +888,7 @@ if ($crossref) {
 #                    next;
 #                }
                 push(@slo,[$cogname,$COGS{$cogname}->{count},$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),[$stats->max()]]);
-            } elsif (!$COGS{$cogname}) {
+            } elsif (!$COGS{$cogname} && (($zero/$n) <= 0.05)) {
                 push(@slo,[$cogname,0,$mean,$sd,$stats->count(),$skew,$kurtosis,$stats->min(),$stats->max()]);
             }
 
@@ -900,9 +909,9 @@ if ($crossref) {
             }
         }
         my $highstring = sprintf("%s\t%u\t%.2f\t%.2f\t%u\t%u\t%u\t%u\t%u\t%u",@$high);
-        $highstring .= "\t" . join ",", @{$high->[10]} if (scalar(@{$high->[10]}));
-        $highstring .= "\t" . join ",", @{$high->[11]} if (scalar(@{$high->[11]}));
         $highstring .= "\t" . join ",", @{$high->[12]} if (scalar(@{$high->[12]}));
+        $highstring .= "\t" . join ",", @{$high->[13]} if (scalar(@{$high->[13]}));
+        $highstring .= "\t" . join ",", @{$high->[14]} if (scalar(@{$high->[14]}));
         say $highstring if ($verbose);
         say SHO $highstring;
     }
