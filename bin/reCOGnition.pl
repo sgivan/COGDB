@@ -501,8 +501,7 @@ if ($crossref) {
     my $orgcnt = 0;
     foreach my $organism (@organisms) {
         ++$orgcnt;
-        #last if ($debug && scalar(@all_whogs) >= 5);
-        last if ($debug && $orgcnt > 10);
+        #last if ($debug && $orgcnt > 10);
 
         print $organism->division()->name(), ":  ", $organism->name(), " (" , $organism->code(), ")\n" if ($verbose);
         print OUT $organism->division()->name(), ":  ", $organism->name(), " (" , $organism->code(), ")\n";
@@ -899,9 +898,6 @@ if ($crossref) {
 
         }# else { # no other organisms in this group have this COG
 #
-#            push(@slo,[$cogname,$COGS{$cogname}->{count},0,0,0,0,0]);
-#
-#        }
     }
 
     if ($debug) {
