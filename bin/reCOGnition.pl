@@ -52,8 +52,8 @@ $crossref = $opt_r;
 $nonpathogen = $opt_p if ($crossref);
 #$minimum_membership = $opt_M || 2;
 $local_whog = $opt_w;
-$upper = $opt_U || 0.90;
-$lower = $opt_L || 0.10;
+$upper = $opt_U || 0.95;
+$lower = $opt_L || 0.05;
 $input_file = $opt_i;
 $exclude_list = $opt_e;
 $genelist = $opt_g;
@@ -1177,12 +1177,12 @@ value for either -M or -P is: -M 2 or -P 0.025.
                 (can enclose multiple divisions separated by spaces; enclose in quotes)
 -p    when cross-referencing, exclude pathogenic strains
 -e <text> when cross-referencing, exclude this list of org ID's (comma-separated list)
--U    when cross-referencing, fractional upper threshold to define common COGs (default = 0.90)
+-U    when cross-referencing, fractional upper threshold to define common COGs (default = 0.95)
       This will define the threshold to consider missing COGs and common COGs.
       i.e. if a given COG is missing in this genome, but present in 90% of the genomes
       of related bacteria, flag this COG as missing.  Conversely, if a given COG
       is present in this genome and also present in 90% of related genomes, it is common.
--L    when cross-referencing, fractional lower threshold to define missing COGs (default = 0.10)
+-L    when cross-referencing, fractional lower threshold to define missing COGs (default = 0.05)
       This will define which COGs are novel.
       i.e. if the COG is present in this genome and present in only 10% of the other genomes
       of related bacteria, flag this COG as novel.
