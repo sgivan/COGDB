@@ -5,7 +5,7 @@
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB_Load;
 use COGDB;
 
@@ -18,9 +18,8 @@ if (! $file) {
 }
 
 my $organism_id = $file;
-$organism_id =~ s/whogs_unique_//;
-#print "organism ID = '$organism_id'\n";
-
+$organism_id =~ s/whogs_unique_\d+_//;
+print "organism ID = '$organism_id'\n";
 
 my $dbload = COGDB_Load->new();
 $dbload->localcog_load();
@@ -28,7 +27,11 @@ $dbload->localcog_load();
 my $cogdb = COGDB->new();
 my $local_cogdb = $cogdb->localcogs();
 my $organism = $local_cogdb->organism({ ID => $organism_id});
-print "organism name: ", $organism->name(), "\n";
+if ($organism->name() =~ /\w+/) {
+    print "organism name: ", $organism->name(), "\n";
+} else {
+    print "invalid organism id: '$organism_id'\n";
+}
 
 my $cat_load = $dbload->whog();
 

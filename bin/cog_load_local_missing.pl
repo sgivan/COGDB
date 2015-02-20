@@ -5,7 +5,7 @@
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB_Load;
 use COGDB;
 
@@ -18,7 +18,7 @@ if (! $file) {
 }
 
 my $organism_id = $file;
-$organism_id =~ s/whogs_missing_//;
+$organism_id =~ s/whogs_missing_\d+_//;
 #print "organism ID = '$organism_id'\n";
 
 
