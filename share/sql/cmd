@@ -1,0 +1,4 @@
+mysqldump --opt --user cogtool --password --host ircf-login-0-1 --database COGDB > COGDB.sql
+mysqldump --opt --user cogtool --password --host ircf-login-0-1 --database COGDB --no-data > COGDB_nodata.sql
+mysqldump --opt --user cogtool --password --host ircf-login-0-1 --database COGDB_Local > COGDB_Local.sql
+mysqldump --opt --user cogtool --password --host ircf-login-0-1 --database COGDB_Local --no-data > COGDB_Local_nodata.sql
