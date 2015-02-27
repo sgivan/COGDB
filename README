@@ -1,1 +1,4 @@
-7/2/14: Created lib directory and moved *.pm files, COGDB and COGDB_Local within.
+02/27/2015:
+Koonin and colleagues released an updated version of the COG database with significantly broader coverage, http://nar.oxfordjournals.org/content/43/D1/D261.full.
+
+So, we need to updated this codebase to use the new data. I think the majority of the work will be in converting the database loading scripts to the new file format. Hopefully the existing database structure will capture the relevant new data.
