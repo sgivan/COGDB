@@ -74,7 +74,7 @@ sub cgrbdb {
   } else {
     if (!$self->{_cgrbdb}) {
 #      print "\n\nWHOA! -- ", ++$cnt, "\n", $self->stack(), "\n\n";
-      $cgrbdb = CGRBDB->generate('COGDB','cogtool','cogs');
+      $cgrbdb = CGRBDB->generate('COGDB2014','cogtool','cogs');
       $self->{_cgrbdb} = $cgrbdb;
     } else {
       $cgrbdb = $self->{_cgrbdb};

@@ -19,8 +19,6 @@
 -- Current Database: `COGDB_Local`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `COGDB_Local` /*!40100 DEFAULT CHARACTER SET latin1 */;
-
 USE `COGDB_Local`;
 
 --
@@ -88,4 +86,4 @@ CREATE TABLE `Whog_absent` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-02-27  8:45:08
+-- Dump completed on 2015-02-27 17:19:00

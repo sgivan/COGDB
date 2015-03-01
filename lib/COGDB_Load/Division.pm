@@ -5,7 +5,7 @@ package COGDB_Load::Division;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -54,7 +54,7 @@ sub division_exists {
     my ($self,$org_string) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $fetch = $self->fetch("select `ID` from COGDB.Division where `Name` = '$org_string'");
+    my $fetch = $self->fetch("select `ID` from Division where `Name` = '$org_string'");
 
     for my $row (@$fetch) {
         return $row->[0];
@@ -67,7 +67,7 @@ sub list_divisions {
     my @divisions = ();
     print LOG $self->stack() if ($debug);
 
-    my $fetch = $self->fetch("select `Name` from COGDB.Division");
+    my $fetch = $self->fetch("select `Name` from Division");
 
     for my $divrow (@$fetch) {
         push(@divisions,$divrow->[0]);
@@ -80,7 +80,7 @@ sub division_id {
     my $div_id = 0;
     print LOG $self->stack() if ($debug);
 
-    my $fetch = $self->fetch("select `ID` from COGDB.Division where `Name` = '$divname'");
+    my $fetch = $self->fetch("select `ID` from Division where `Name` = '$divname'");
 
     for my $row (@$fetch) {
         $div_id = $row->[0];
@@ -94,7 +94,7 @@ sub division_like {
     my $div_id = 0;
     print LOG $self->stack() if ($debug);
 
-    my $fetch = $self->fetch("select `ID` from COGDB.Division where `Name` like '%$div_term%'");
+    my $fetch = $self->fetch("select `ID` from Division where `Name` like '%$div_term%'");
 
     for my $row (@$fetch) {
         my $div_id = $row->[0];

@@ -5,7 +5,7 @@ package COGDB_Load::Organism;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -63,8 +63,7 @@ sub load_organism {
 
   foreach my $row (@$organism) {
     my $line = join ',', @$row;
-    #my $string = "insert into COGDB.Organism (`Code`, `Name`, `Division`, `Other`) values ('$row->[0]', '$row->[3]', $row->[2], '$row->[1]')";
-    my $string = "insert into COGDB.Organism (`Code`, `Name`, `Division`, `Other`) values (?, ?, ?, ?)";
+    my $string = "insert into Organism (`Code`, `Name`, `Division`, `Other`) values (?, ?, ?, ?)";
     my $sth = $dbh->prepare($string);
     $sth->bind_param(1,$row->[0]);
     $sth->bind_param(2,$row->[3]);
@@ -82,7 +81,7 @@ sub load_accession {
     my ($self,$orgID,$accession) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $insert = $self->store("insert into COGDB.Accessions (OrgID, Accession) values ($orgID,'$accession')");
+    my $insert = $self->store("insert into Accessions (OrgID, Accession) values ($orgID,'$accession')");
 
     for my $row (@$insert) {
         return $row->[0];
@@ -95,7 +94,7 @@ sub delete_accession {
     my ($self,$accession) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $delete = $self->delete("delete from COGDB.Accessions where `Accession` = '$accession'");
+    my $delete = $self->delete("delete from Accessions where `Accession` = '$accession'");
 
     for my $row (@$delete) {
         return $row->[0];
@@ -109,7 +108,7 @@ sub code_exists {
     my ($self,$code_query) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $fetch = $self->fetch("select `ID` from COGDB.Organism where `Code` = '$code_query'");
+    my $fetch = $self->fetch("select `ID` from Organism where `Code` = '$code_query'");
 
     for my $row (@$fetch) {
         return $row->[0];
@@ -121,9 +120,7 @@ sub organism_exists {
     my ($self,$org_string) = @_;
     print LOG $self->stack() if ($debug);
 
-    #my $fetch = $self->fetch("select `ID` from COGDB.Organism where `Name` = '$org_string'");
-    #my $fetch = $self->fetch("select `code` from COGDB.Organism where `Name` = '$org_string'");
-    my $fetch = $self->fetch("select `code` from COGDB.Organism where `Name` = \"$org_string\"");
+    my $fetch = $self->fetch("select `code` from Organism where `Name` = \"$org_string\"");
 
     for my $row (@$fetch) {
         return $row->[0];
@@ -135,7 +132,7 @@ sub delete_organism {
     my ($self,$code) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $delete = $self->delete("delete from COGDB.Organism where `Code` = '$code'");
+    my $delete = $self->delete("delete from Organism where `Code` = '$code'");
 
 
     for my $row (@$delete) {
@@ -149,7 +146,7 @@ sub set_extend {
     my ($self,$code) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $update = $self->update("update COGDB.Organism set `extend` = 1 where `Code` = '$code'");
+    my $update = $self->update("update Organism set `extend` = 1 where `Code` = '$code'");
 
     for my $row (@$update) {
         return $row->[0];
@@ -162,7 +159,7 @@ sub set_pathogen {
     my ($self,$code) = @_;
     print LOG $self->stack() if ($debug);
 
-    my $update = $self->update("update COGDB.Organism set `pathogen` = 1 where `Code` = '$code'");
+    my $update = $self->update("update Organism set `pathogen` = 1 where `Code` = '$code'");
 
     for my $row (@$update) {
         return $row->[0];
