@@ -5,7 +5,7 @@ package COGDB::Organism;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -54,10 +54,11 @@ sub _init {
     $self->division($self->SUPER::division({ID => $data->[4]}));
 #    $self->division($data->[4]);
 
-    $self->other($data->[5]);
+    $self->taxid($data->[5]);
     $self->extend($data->[6]);
     $self->pathogen($data->[7]);
     $self->accession($data->[8]);
+    $self->bioproject($data->[10]);
 #    print "COGDB::Organism id = '", $self->id(), "'; name = '", $self->name(), "'\n";
   }
   return;
@@ -108,25 +109,25 @@ sub _set_division {
   return $self->{_Division};
 }
 
-sub other {
-  my ($self,$other) = @_;
+sub taxid {
+  my ($self,$taxid) = @_;
   print LOG $self->stack() if ($debug);
 
-  $other ? $self->_set_other($other) : $self->_get_other();
+  $taxid ? $self->_set_taxid($taxid) : $self->_get_taxid();
 }
 
-sub _get_other {
+sub _get_taxid {
   my $self = shift;
   print LOG $self->stack() if ($debug);
-  return $self->{_Other};
+  return $self->{_Taxid};
 }
 
-sub _set_other {
-  my ($self,$other) = @_;
+sub _set_taxid {
+  my ($self,$taxid) = @_;
   print LOG $self->stack() if ($debug);
 
-  $self->{_Other} = $other;
-  return $self->{_Other};
+  $self->{_Taxid} = $taxid;
+  return $self->{_Taxid};
 }
 
 sub extend {
@@ -192,6 +193,26 @@ sub _set_accession {
   return $self->{_accession};
 }
 
+sub bioproject {
+  my ($self,$bioproject) = @_;
+  print LOG $self->stack() if ($debug);
+
+  $bioproject ? $self->_set_bioproject($bioproject) : $self->_get_bioproject();
+}
+
+sub _get_bioproject {
+  my $self = shift;
+  print LOG $self->stack() if ($debug);
+  return $self->{_BioProject};
+}
+
+sub _set_bioproject {
+  my ($self,$bioproject) = @_;
+  print LOG $self->stack() if ($debug);
+
+  $self->{_BioProject} = $bioproject;
+  return $self->{_BioProject};
+}
 
 sub fetch_all {
   my $self = shift;
