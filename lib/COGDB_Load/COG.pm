@@ -4,13 +4,13 @@ package COGDB_Load::COG;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
 
 my $debug = 0;
-my $db = 0;## whether the database should actually be modified
+my $db = 1;## whether the database should actually be modified
 
 if ($debug) {
   open(LOG,">>/home/sgivan/log/COGDB_Load.COG.log") or die "can't open COGDB_Load.COG.log: $!";
@@ -40,20 +40,19 @@ sub parse_file {
   while (<IN>) {
     my $line = $_;
     next unless ($line =~ /\w/);
-    next unless ($line =~ /^\[/);
+    next if ($line =~ /^#/);
     chomp($line);
-    my @values = split /\s{1,}/, $line;
+    my @values = split /\t/, $line;
 
-    my $category = shift(@values);
-    $category =~ s/[\[\]]//g;
     my $cogname = shift(@values);
-    my $description = join ' ', @values;
+    my $category = shift(@values);
+    my $description = shift(@values);
 
     foreach my $category_char (split //, $category) {
       my $category_id = $self->category({Code => $category_char})->id();
       if (!$cog{$cogname}) {
-	++$cognum;
-	$cog{$cogname} = [$cogname, $description, $cognum];
+        ++$cognum;
+        $cog{$cogname} = [$cogname, $description, $cognum];
       }
       push(@cog_assoc,[$cognum, $category_id]);
     }
@@ -78,9 +77,9 @@ sub load_cog {
       $sth->bind_param(3,$data->[2]);
       my $rtn = $cgrbdb->dbAction($dbh,$sth,1);
       if ($rtn) {
-	print "rtn:  ", $rtn->[0]->[0], "\n";
+    	print "rtn:  ", $rtn->[0]->[0], "\n";
       } else {
-	print "loaded $data->[0]\n" if ($debug);
+    	print "loaded $data->[0]\n" if ($debug);
       }
     }
   }
