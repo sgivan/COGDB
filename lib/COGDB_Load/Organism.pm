@@ -7,6 +7,7 @@ use strict;
 use Carp;
 use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
+use COGDB_Load::Division;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
 
@@ -35,6 +36,7 @@ sub parse_file {
   my ($self,$file) = @_;
   print LOG $self->stack() if ($debug);
   my @organism;
+  my $divobj = COGDB_Load::Division->new();
   open(IN,$file) or die "can't open $file: $!";
 
   while (<IN>) {
@@ -48,7 +50,13 @@ sub parse_file {
     my $division = shift(@values);
     my $name = join ' ', @values;
 #    print "code = '$code', int = '$int', division = '$division', name = '$name'\n";
-    push(@organism,[$code, $int, $division, $name]);
+    # load division if necessary
+    if (!$divobj->division_exists($division)) {
+        $divobj->load_division([$division]);
+    }
+    my $divid = $divobj->division_exists($division);
+    #push(@organism,[$code, $int, $division, $name]);
+    push(@organism,[$code, $int, $divid, $name]);
 
   }
   $self->load_organism(\@organism);

@@ -34,14 +34,14 @@ sub new {
 sub load_division {
   my ($self,$division) = @_;
   print LOG $self->stack() if ($debug);
-  print "load_division\n";
+  #print "load_division\n";
   my $cgrbdb = $self->cgrbdb();
   my $dbh = $cgrbdb->dbh();
 
-  foreach my $row (@$division) {
+  foreach my $divstring (@$division) {
 #    my $line = join ',', @$row;
 #    print "line: '$line'\n";
-    my $sth = $dbh->prepare("insert into Division (Name) values ('$row->[0]')");
+    my $sth = $dbh->prepare("insert into Division (Name) values ('$divstring')");
     my $rtn = $cgrbdb->dbAction($dbh,$sth,1);
     if ($rtn) {
       print STDERR $rtn->[0]->[0] . "\n";
