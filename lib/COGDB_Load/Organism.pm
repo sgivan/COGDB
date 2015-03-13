@@ -46,8 +46,10 @@ sub parse_file {
     my @values = split /\s+/, $line;
 #    print "@values\n";
     my $code = shift(@values);
-    my $int = shift(@values);
+    my $taxid = shift(@values);
+    my $bioproject = shift(@values);
     my $division = shift(@values);
+    #my $bioproject = shift(@values);
     my $name = join ' ', @values;
 #    print "code = '$code', int = '$int', division = '$division', name = '$name'\n";
     # load division if necessary
@@ -56,7 +58,7 @@ sub parse_file {
     }
     my $divid = $divobj->division_exists($division);
     #push(@organism,[$code, $int, $division, $name]);
-    push(@organism,[$code, $int, $divid, $name]);
+    push(@organism,[$code, $taxid, $divid, $name,$bioproject]);
 
   }
   $self->load_organism(\@organism);
@@ -71,12 +73,13 @@ sub load_organism {
 
   foreach my $row (@$organism) {
     my $line = join ',', @$row;
-    my $string = "insert into Organism (`Code`, `Name`, `Division`, `Other`) values (?, ?, ?, ?)";
+    my $string = "insert into Organism (`Code`, `Name`, `Division`, `Taxid`, `BioProject`) values (?, ?, ?, ?, ?)";
     my $sth = $dbh->prepare($string);
     $sth->bind_param(1,$row->[0]);
     $sth->bind_param(2,$row->[3]);
     $sth->bind_param(3,$row->[2]);
     $sth->bind_param(4,$row->[1]);
+    $sth->bind_param(5,$row->[4]);
     my $rtn = $cgrbdb->dbAction($dbh,$sth,1);
     if ($rtn) {
       print STDERR $rtn->[0]->[0] . "\n";

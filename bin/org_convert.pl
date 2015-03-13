@@ -54,11 +54,18 @@ open(my $fh, "<", $infile);
 open(my $taxidsfh,"<",'genomes2003-2014.tab');
 open(my $outfh, ">", "outfile");
 
-my %taxid = ();
+my (%taxid,%bioproject,$bpid) = ();
 for my $line (<$taxidsfh>) {
     chomp($line);
     my @vals = split /\s+/, $line;
     $taxid{$vals[0]} = $vals[1];
+
+    if ($vals[2] =~ /uid(\d+)/) {
+        $bpid = $1;
+    } else {
+        $bpid = '00';
+    }
+    $bioproject{$vals[0]} = $bpid;
 }
 
 say "taxids: '" . scalar(keys %taxid) if ($debug);
@@ -72,8 +79,8 @@ while (<$fh>) {
         $group = $1;
     } else {
         my @vals = split/\t/, $line;
-        #say $outfh "$vals[0]\t$vals[1]\t" . ucfirst(lc($group)) . "\t$vals[2]";
-        say $outfh "$vals[0]\t$taxid{$vals[0]}\t" . ucfirst(lc($group)) . "\t$vals[2]";
+        #say $outfh "$vals[0]\t$taxid{$vals[0]}\t" . ucfirst(lc($group)) . "\t$vals[2]";
+        say $outfh "$vals[0]\t$taxid{$vals[0]}\t$bioproject{$vals[0]}\t" . ucfirst(lc($group)) . "\t$vals[2]";
     }
 }
 
