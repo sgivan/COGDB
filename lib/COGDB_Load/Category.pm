@@ -5,7 +5,7 @@ package COGDB_Load::Category;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -34,30 +34,19 @@ sub new {
 sub parse_file {
   my ($self,$file) = @_;
   print LOG $self->stack() if ($debug);
-  my (@super,@category);
+  my (@category);
   open(IN,$file) or die "can't open $file: $!";
-  my ($super,$category) = ();
+  my ($category) = ();
   while (<IN>) {
     my $line = $_;
-    next unless ($line =~ /\w/);
+    next if ($line =~ /^#/);
     chomp($line);
-
-    if ($line =~ /^\w/) {
-#      print "Super: '$line'\n";
-      ++$super;
-      push(@super,[$super, $line]);
-    } else {
-#      print "Category: '$line'\n";
-      ++$category;
-      my @data = split /\s/;
-      my $code = $data[1];
-      $code =~ s/[\[\]]//g;
-      my $name = join ' ', @data[2..$#data];
-#      print "$category\tcode = $code, name = $name, super = $super\n";
-      push(@category,[$category, $code, $name, $super]);
-    }
+    ++$category;
+    my @data = split /\s/;
+    my $code = $data[0];
+    my $name = join ' ', @data[1..$#data];
+    push(@category,[$code, $name]);
   }
-  $self->load_super_category(\@super);
   $self->load_category(\@category);
 }
 
@@ -85,7 +74,7 @@ sub load_category {
 
   foreach my $row (@$list) {
 #    print "ID: $row->[0], code = $row->[1], name = $row->[2], super = $row->[3]\n";
-    my $sth = $dbh->prepare("insert into Category (ID,Code,Name,ID_Super) values ($row->[0],'$row->[1]','$row->[2]',$row->[3])");
+    my $sth = $dbh->prepare("insert into Category (Code,Name) values ('$row->[0]','$row->[1]')");
     my $rtn = $cgrbdb->dbAction($dbh,$sth,1);
 #    print "rtn: ", $rtn->[0]->[0], "\n" if ($rtn);
   }
