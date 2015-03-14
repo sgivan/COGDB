@@ -49,6 +49,7 @@ sub parse_file {
     my $description = shift(@values);
 
     foreach my $category_char (split //, $category) {
+        next unless ($category_char =~ /[A-Z]/);
       my $category_id = $self->category({Code => $category_char})->id();
       if (!$cog{$cogname}) {
         ++$cognum;

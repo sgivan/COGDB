@@ -32,7 +32,7 @@ sub new {
   if ($params->{ID}) {
     $self->_init($params->{ID});
   }
-  $self->table('COGDB.Whog');
+  $self->table('Whog');
   return $self;
 }
 
@@ -40,7 +40,7 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Whog'});
+  my $fetch = $self->SUPER::_init({ID => $id, Table => 'Whog'});
 
   if ($id) {
     $self->id($fetch->[0]->[0]);
@@ -206,7 +206,7 @@ sub coverage_by_division {
   my $self = shift;
   my $params = shift;
   print LOG $self->stack() if ($debug);
-  my $table = $self->table() || $params->{Table} || 'COGDB.Whog';
+  my $table = $self->table() || $params->{Table} || 'Whog';
   my $query;
 
   return undef unless ($params && ref($params) eq 'HASH');
@@ -266,7 +266,7 @@ sub cog_count {
     my $self = shift;
     my $params = shift;
     print LOG $self->stack() if ($debug);
-    my $table = $self->table() || $params->{Table} || 'COGDB.Whog';
+    my $table = $self->table() || $params->{Table} || 'Whog';
 
     return undef unless ($params && ref($params) eq 'HASH');
     my $cog = $params->{cog};

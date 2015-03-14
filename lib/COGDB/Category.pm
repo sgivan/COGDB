@@ -5,7 +5,7 @@ package COGDB::Category;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -40,7 +40,7 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Category'});
+  my $fetch = $self->SUPER::_init({ID => $id, Table => 'Category'});
   my $data = $fetch->[0];
 
   if ($data) {
@@ -122,7 +122,7 @@ sub code_to_id {
   my $id = '';
 
   if ($code) {
-    my $query = "select ID from Category where Code = '$code'";
+    my $query = "select `ID` from Category where `Code` = '$code'";
     my $fetch = $self->fetch($query);
     $id = $fetch->[0]->[0];
   }

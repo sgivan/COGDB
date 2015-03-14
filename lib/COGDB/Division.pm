@@ -47,7 +47,7 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Division'});
+  my $fetch = $self->SUPER::_init({ID => $id, Table => 'Division'});
   my $data = $fetch->[0];
 
   if ($id) {
@@ -69,7 +69,7 @@ sub name_to_id {
   my $dbh = $cgrbdb->dbh();
 
   if ($name) {
-    my $query = "select ID from COGDB.Division where Name = '$name'";
+    my $query = "select ID from Division where Name = '$name'";
     my $fetch = $self->fetch($query);
     $id = $fetch->[0]->[0];
   }
@@ -82,7 +82,7 @@ sub fetch_all {
   print LOG $self->stack() if ($debug);
   my @divisions = ();
 
-  my $query = "select `ID` from COGDB.Division";
+  my $query = "select `ID` from Division";
   my $rtn = $self->fetch($query);
 
   if ($rtn) {

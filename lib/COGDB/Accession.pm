@@ -73,7 +73,7 @@ sub accessions {
 sub exists {
     my ($self,$acc_query) = @_;
 
-    my $fetch = $self->fetch("select `ID` from COGDB.Accessions where `Accession` = '$acc_query'");
+    my $fetch = $self->fetch("select `ID` from Accessions where `Accession` = '$acc_query'");
 
     for my $row (@$fetch) {
         return $row->[0];
@@ -84,7 +84,7 @@ sub exists {
 sub OrgID_by_accession {
     my ($self,$acc_query) = @_;
 
-    my $fetch = $self->fetch("select `OrgID` from COGDB.Accessions where `Accession` = '$acc_query'");
+    my $fetch = $self->fetch("select `OrgID` from Accessions where `Accession` = '$acc_query'");
 
     for my $row (@$fetch) {
         return $row->[0];
@@ -96,7 +96,7 @@ sub accessions_by_OrgID {
     my ($self,$OrgID_query) = @_;
     my @accessions = ();
 
-    my $fetch = $self->fetch("select `Accession` from COGDB.Accessions where `OrgID` = '$OrgID_query'");
+    my $fetch = $self->fetch("select `Accession` from Accessions where `OrgID` = '$OrgID_query'");
 
     for my $row (@$fetch) {
         push(@accessions,$row->[0]);

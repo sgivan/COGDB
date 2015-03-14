@@ -37,7 +37,7 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.SuperCategory'});
+  my $fetch = $self->SUPER::_init({ID => $id, Table => 'SuperCategory'});
 
   if ($id) {
     $self->id($id);

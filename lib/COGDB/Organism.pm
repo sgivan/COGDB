@@ -41,7 +41,7 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Organism'});
+  my $fetch = $self->SUPER::_init({ID => $id, Table => 'Organism'});
   my $data = $fetch->[0];
 
   if ($id) {
