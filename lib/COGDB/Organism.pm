@@ -32,6 +32,9 @@ sub new {
   } elsif ($params->{Code}) {
     my $id = $self->code_to_id($params->{Code});
     $self->_init($id) if ($id);
+  } elsif ($params->{BioProject}) {
+      my $id = $self->bioproject_to_id($params->{BioProject});
+      $self->_init($id) if ($id);
   }
 
   return $self;
@@ -237,6 +240,21 @@ sub code_to_id {
 
   if ($code) {
     my $query = "select ID from Organism where Code = '$code'";
+    my $fetch = $self->fetch($query);
+    $id = $fetch->[0]->[0];
+  }
+  return $id;
+}
+
+sub bioproject_to_id {
+  my ($self,$bioproject) = @_;
+  print LOG $self->stack() if ($debug);
+  my $cgrbdb = $self->cgrbdb();
+  my $dbh = $cgrbdb->dbh();
+  my $id = '';
+
+  if ($bioproject) {
+    my $query = "select `ID` from Organism where `BioProject` = '$bioproject'";
     my $fetch = $self->fetch($query);
     $id = $fetch->[0]->[0];
   }
