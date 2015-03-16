@@ -24,7 +24,7 @@ use strict;
 use warnings;
 use autodie;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
@@ -72,6 +72,7 @@ sub accessions {
 
 sub exists {
     my ($self,$acc_query) = @_;
+    return undef unless ($acc_query);
 
     my $fetch = $self->fetch("select `ID` from Accessions where `Accession` = '$acc_query'");
 

@@ -21,7 +21,7 @@ use warnings;
 use autodie;
 use lib '/home/sgivan/projects/COGDB/lib';
 
-use Test::More tests => 5;
+use Test::More tests => 6;
 
 use_ok('COGDB::Accession');
 
@@ -33,11 +33,14 @@ my $listref = $accession->accessions();
 
 isa_ok($listref,'ARRAY');
 
-for my $acc (@$listref) {
-    #say $acc;
-    like($acc,qr/\S/,"$acc looks OK");
-    cmp_ok($accession->exists($acc),">=",1,"$acc exists");
-    last;
+ok($listref->[0],'Accession number retrieved from database');
+
+SKIP: {
+
+    skip "-- test will fail if accession number doesn't exist", 2 unless (exists($listref->[0]));
+
+    cmp_ok($accession->exists($listref->[0]),">=",1,"Accession number exists");
+    like($listref->[0],qr/\S/,"Accession number looks OK");
 }
 
 done_testing();
