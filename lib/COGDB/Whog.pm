@@ -71,27 +71,6 @@ sub _set_organism {
   return $self->_set('_Organism',$organism);
 }
 
-# sub organism {
-#   my ($self,$organism) = @_;
-#   print LOG $self->stack() if ($debug);
-
-#   $organism ? $self->_set_organism($organism) : $self->_get_organism();
-# }
-
-# sub _get_organism {
-#   my ($self) = @_;
-#   print LOG $self->stack() if ($debug);
-#   return $self->{_Organism};
-# }
-
-# sub _set_organism {
-#   my ($self,$organism) = @_;
-#   print LOG $self->stack() if ($debug);
-
-#   $self->{_Organism} = $organism;
-#   return $self->{_Organism};
-# }
-
 sub cog {
   my ($self,$cog) = @_;
   print LOG $self->stack() if ($debug);
