@@ -20,7 +20,7 @@ use strict;
 use warnings;
 use autodie;
 
-use Test::More tests => 13;
+use Test::More tests => 17;
 use lib '/home/sgivan/projects/COGDB/lib';
 use_ok('COGDB');
 
@@ -37,13 +37,24 @@ isa_ok($all_organisms,'ARRAY','fetch_all returned an array reference');
 for my $looporg (@$all_organisms) {
     isa_ok($looporg,'COGDB::Organism','first object in array reference');
     like($looporg->id(), qr/^\d+$/, 'ID looks OK');
-    like($looporg->code(), qr/^\w{3}$/, "Code looks OK '" . $looporg->code() . "'");
+    like($looporg->code(), qr/^\w{6}$/, "Code looks OK '" . $looporg->code() . "'");
     like($looporg->name(), qr/[\w\s.]+/, "Name looks OK '" . $looporg->name() . "'");
     isa_ok($looporg->division(), 'COGDB::Division', "Division");
-    like($looporg->other(), qr/^\d+$/, 'Other looks OK');
+    like($looporg->taxid(), qr/^\d+$/, 'Taxid looks OK');
     is($looporg->extend(), undef, 'Extend looks OK');
     is($looporg->pathogen(), undef, 'Pathogen looks OK');
-    like($looporg->accession(), qr/[A-Z]{2}_\d+/, "Accession looks OK '" . $looporg->accession() . "'");
+    like($looporg->bioproject(), qr/^\d+$/, 'BioProject looks OK');
+    is($looporg->code_to_id($looporg->code()), $looporg->id(), "code --> id");
+    is($looporg->bioproject_to_id($looporg->bioproject()), $looporg->id(), "bioproject --> id");
+
+    my $divorgs = $looporg->fetch_by_division($looporg->division());
+    is($divorgs->[0]->division()->name(),$looporg->division()->name(), "fetch by division");
+
+
+    SKIP: {
+        skip " -- accession() is deprecated", 1 unless ($looporg->accession());
+        like($looporg->accession(), qr/[A-Z]{2}_\d+/, "Accession looks OK '" . $looporg->accession() . "'");
+    }
     last;
 }
 
