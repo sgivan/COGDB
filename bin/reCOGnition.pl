@@ -157,7 +157,11 @@ if (!$input_file && !$infile_xml) {
         ++$hit_cnt;
 
         my $t_hitname = $hit->name();
-        $t_hitname =~ s/lcl\|//;
+        if ($t_hitname =~ /gi\|(\d+?)\|/) {
+            $t_hitname = $1;
+        } else {
+            die "can't parse '$t_hitname'";
+        }
         $hit->name($t_hitname);
 
         print "hit name: ", $hit->name(), ", E = ", $hit->significance(), " [", $hit->start(), "-", $hit->end(), "]\n" if ($debug);
