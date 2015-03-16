@@ -5,7 +5,7 @@ package COGDB::COG;
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use lib '/home/sgivan/projects/COGDB/lib';
 use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
