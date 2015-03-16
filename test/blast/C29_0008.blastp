@@ -1,0 +1,2397 @@
+BLASTP 2.2.26+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 2014 NCBI COGs
+           1,785,722 sequences; 640,579,405 total letters
+
+
+
+Query= C29_0008 C29_0008: ankyrin repeat protein  [+ 0 upstream : + 0
+downstream]
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|294010043|ref|YP_003543503.1| ankyrin repeat protein [Sphing...   217    6e-69
+  gi|148555730|ref|YP_001263312.1| ankyrin [Sphingomonas wittichi...   191    1e-58
+  gi|103488457|ref|YP_618018.1| ankyrin [Sphingopyxis alaskensis ...   179    3e-54
+  gi|85372862|ref|YP_456924.1| hypothetical protein ELI_00175 [Er...   169    2e-50
+  gi|334140740|ref|YP_004533942.1| ankyrin [Novosphingobium sp. P...   169    2e-50
+  gi|260753378|ref|YP_003226271.1| ankyrin [Zymomonas mobilis sub...   144    1e-40
+  gi|414341348|ref|YP_006982869.1| ankyrin-like protein [Gluconob...  76.6    1e-15
+  gi|392412522|ref|YP_006449129.1| ankyrin repeat-containing prot...  74.3    2e-14
+  gi|225849930|ref|YP_002730164.1| ankyrin domain protein [Persep...  67.4    4e-12
+  gi|183220040|ref|YP_001838036.1| ankyrin repeat-containing prot...  67.0    4e-11
+  gi|288940825|ref|YP_003443065.1| ankyrin [Allochromatium vinosu...  65.5    5e-11
+  gi|190571165|ref|YP_001975523.1| ankyrin repeat domain protein ...  65.1    2e-10
+  gi|152990807|ref|YP_001356529.1| hypothetical protein NIS_1062 ...  61.6    3e-10
+  gi|189502556|ref|YP_001958273.1| hypothetical protein Aasi_1217...  64.7    3e-10
+  gi|190570835|ref|YP_001975193.1| ankyrin repeat domain protein ...  64.3    3e-10
+  gi|190571654|ref|YP_001976012.1| ankyrin repeat domain protein ...  63.2    4e-10
+  gi|190571055|ref|YP_001975413.1| ankyrin repeat domain protein ...  60.8    4e-10
+  gi|336172015|ref|YP_004579153.1| ankyrin [Lacinutrix sp. 5H-3-7-4]  63.2    6e-10
+  gi|256421487|ref|YP_003122140.1| ankyrin [Chitinophaga pinensis...  60.1    7e-10
+  gi|392412462|ref|YP_006449069.1| ankyrin repeat-containing prot...  60.8    1e-09
+  gi|189502232|ref|YP_001957949.1| hypothetical protein Aasi_0849...  62.4    1e-09
+  gi|374309450|ref|YP_005055880.1| ankyrin [Granulicella mallensi...  61.6    1e-09
+  gi|512552558|ref|YP_008090464.1| FOG: Ankyrin repeat [Chthonomo...  61.6    1e-09
+  gi|319952725|ref|YP_004163992.1| ankyrin [Cellulophaga algicola...  59.3    1e-09
+  gi|392412893|ref|YP_006449500.1| ankyrin repeat-containing prot...  61.2    2e-09
+  gi|253998619|ref|YP_003050682.1| ankyrin [Methylovorus glucoset...  60.8    2e-09
+  gi|347755661|ref|YP_004863225.1| ankyrin repeat-containing prot...  58.5    3e-09
+  gi|325295171|ref|YP_004281685.1| ankyrin [Desulfurobacterium th...  59.7    3e-09
+  gi|189502045|ref|YP_001957762.1| hypothetical protein Aasi_0636...  60.8    3e-09
+  gi|384209405|ref|YP_005595125.1| ankyrin repeat-containing prot...  60.8    4e-09
+  gi|392412867|ref|YP_006449474.1| ankyrin repeat-containing prot...  60.1    7e-09
+  gi|392409402|ref|YP_006446009.1| ankyrin repeat-containing prot...  60.1    8e-09
+  gi|18312929|ref|NP_559596.1| ankyrin repeat-containing protein ...  58.5    8e-09
+  gi|154706700|ref|YP_001423804.1| ankyrin repeat protein [Coxiel...  59.7    9e-09
+  gi|336122508|ref|YP_004577283.1| Ankyrin [Methanothermococcus o...  56.6    9e-09
+  gi|312144561|ref|YP_003996007.1| hypothetical protein Halsa_224...  59.3    9e-09
+  gi|189501798|ref|YP_001957515.1| hypothetical protein Aasi_0363...  59.7    1e-08
+  gi|189184207|ref|YP_001937992.1| ankyrin repeat-containing prot...  59.3    1e-08
+  gi|530780662|ref|YP_008432470.1| hypothetical protein N186_0557...  58.5    1e-08
+  gi|392373252|ref|YP_003205085.1| hypothetical protein DAMO_0125...  58.9    1e-08
+  gi|226311505|ref|YP_002771399.1| hypothetical protein BBR47_191...  56.6    1e-08
+  gi|190570839|ref|YP_001975197.1| ankyrin repeat domain protein ...  57.8    2e-08
+  gi|190570743|ref|YP_001975101.1| ankyrin repeat domain protein ...  57.8    2e-08
+  gi|302391769|ref|YP_003827589.1| ankyrin [Acetohalobium arabati...  58.9    2e-08
+  gi|392373836|ref|YP_003205669.1| hypothetical protein DAMO_0765...  57.8    2e-08
+  gi|225849928|ref|YP_002730162.1| pfs, nacht and ankyrin domain ...  58.5    2e-08
+  gi|189502616|ref|YP_001958333.1| hypothetical protein Aasi_1290...  58.9    2e-08
+  gi|146298660|ref|YP_001193251.1| ankyrin [Flavobacterium johnso...  57.8    3e-08
+  gi|260061507|ref|YP_003194587.1| hypothetical protein RB2501_07...  55.5    3e-08
+  gi|91778761|ref|YP_553969.1| ankyrin domain-containing protein ...  55.8    3e-08
+  gi|166367203|ref|YP_001659476.1| ankyrin repeat-containing prot...  57.8    3e-08
+  gi|116626903|ref|YP_829059.1| ankyrin [Candidatus Solibacter us...  57.4    4e-08
+  gi|190570781|ref|YP_001975139.1| ankyrin repeat domain protein ...  57.0    4e-08
+  gi|434398640|ref|YP_007132644.1| Ankyrin [Stanieria cyanosphaer...  57.4    4e-08
+  gi|225629960|ref|YP_002726751.1| ankyrin repeat domain protein ...  57.8    4e-08
+  gi|183220627|ref|YP_001838623.1| ankyrin repeat-containing prot...  57.4    4e-08
+  gi|384209370|ref|YP_005595090.1| ankyrin repeat-containing prot...  57.4    5e-08
+  gi|479198850|ref|YP_007828076.1| FOG: TPR repeat, SEL1 subfamil...  57.4    5e-08
+  gi|183220876|ref|YP_001838872.1| ankyrin repeat-containing prot...  55.8    5e-08
+  gi|189184019|ref|YP_001937804.1| ankyrin repeat-containing prot...  55.8    6e-08
+  gi|451947296|ref|YP_007467891.1| ankyrin repeat-containing prot...  57.0    6e-08
+  gi|116624416|ref|YP_826572.1| ankyrin [Candidatus Solibacter us...  57.0    7e-08
+  gi|374310094|ref|YP_005056524.1| ankyrin [Granulicella mallensi...  56.6    7e-08
+  gi|340617417|ref|YP_004735870.1| ankyrin repeat-containing prot...  54.7    7e-08
+  gi|392413311|ref|YP_006449918.1| ankyrin repeat-containing prot...  57.0    7e-08
+  gi|294508439|ref|YP_003572497.1| hypothetical protein SRM_02624...  55.8    7e-08
+  gi|15889101|ref|NP_354782.1| ankyrin repeat protein [Agrobacter...  55.1    7e-08
+  gi|384209361|ref|YP_005595081.1| ankyrin repeat-containing prot...  56.6    8e-08
+  gi|512552486|ref|YP_008090392.1| FOG: Ankyrin repeat [Chthonomo...  56.6    8e-08
+  gi|470153478|ref|YP_006281980.1| Tiorf66 protein [Pectobacteriu...  54.3    8e-08
+  gi|190570821|ref|YP_001975179.1| ankyrin repeat domain protein ...  56.6    9e-08
+  gi|189502104|ref|YP_001957821.1| hypothetical protein Aasi_0703...  56.6    9e-08
+  gi|190571745|ref|YP_001976103.1| ankyrin repeat domain protein ...  56.2    1e-07
+  gi|392381158|ref|YP_005030355.1| protein of unknown function; a...  54.7    1e-07
+  gi|392412894|ref|YP_006449501.1| ankyrin repeat-containing prot...  54.7    1e-07
+  gi|344202422|ref|YP_004787565.1| ankyrin [Muricauda ruestringen...  53.5    1e-07
+  gi|189502493|ref|YP_001958210.1| hypothetical protein Aasi_1144...  55.8    2e-07
+  gi|384209242|ref|YP_005594962.1| ankyrin repeat-containing prot...  54.3    2e-07
+  gi|392408515|ref|YP_006445122.1| ankyrin repeat-containing prot...  55.5    2e-07
+  gi|91776239|ref|YP_545995.1| ankyrin [Methylobacillus flagellat...  55.1    2e-07
+  gi|312131235|ref|YP_003998575.1| ankyrin [Leadbetterella byssop...  55.5    2e-07
+  gi|158521110|ref|YP_001528980.1| ankyrin [Desulfococcus oleovor...  55.5    2e-07
+  gi|428313634|ref|YP_007124611.1| ankyrin repeat-containing prot...  55.1    2e-07
+  gi|298207980|ref|YP_003716159.1| Ankyrin-like protein [Croceiba...  53.5    2e-07
+  gi|189502738|ref|YP_001958455.1| hypothetical protein Aasi_1435...  55.5    2e-07
+  gi|374288790|ref|YP_005035875.1| putative ankyrin repeat-contai...  54.7    2e-07
+  gi|302035692|ref|YP_003796014.1| hypothetical protein NIDE0308 ...  54.7    3e-07
+  gi|189502614|ref|YP_001958331.1| hypothetical protein Aasi_1288...  55.1    3e-07
+  gi|392411504|ref|YP_006448111.1| ankyrin repeat-containing prot...  54.7    3e-07
+  gi|255035453|ref|YP_003086074.1| ankyrin [Dyadobacter fermentan...  54.7    3e-07
+  gi|260061815|ref|YP_003194895.1| hypothetical protein RB2501_09...  54.7    4e-07
+  gi|313682726|ref|YP_004060464.1| ankyrin [Sulfuricurvum kujiens...  52.8    4e-07
+  gi|392408516|ref|YP_006445123.1| ankyrin repeat-containing prot...  53.5    4e-07
+  gi|428209927|ref|YP_007094280.1| ankyrin [Chroococcidiopsis the...  54.7    4e-07
+  gi|392412261|ref|YP_006448868.1| ankyrin repeat-containing prot...  53.9    4e-07
+  gi|189502133|ref|YP_001957850.1| hypothetical protein Aasi_0738...  54.7    4e-07
+  gi|404497510|ref|YP_006721616.1| ankyrin [Geobacter metalliredu...  54.7    4e-07
+  gi|58616163|ref|YP_195291.1| hypothetical protein p1B23 [Aromat...  53.9    5e-07
+  gi|291288398|ref|YP_003505214.1| ankyrin, partial [Denitrovibri...  53.9    5e-07
+  gi|392413854|ref|YP_006450461.1| ankyrin repeat-containing prot...  53.1    6e-07
+  gi|297537992|ref|YP_003673761.1| Ankyrin [Methylotenera versati...  53.5    6e-07
+  gi|392408969|ref|YP_006445576.1| ankyrin repeat-containing prot...  53.9    7e-07
+  gi|319789292|ref|YP_004150925.1| Ankyrin [Thermovibrio ammonifi...  53.1    7e-07
+  gi|15639821|ref|NP_219271.1| ankyrin, [Treponema pallidum subsp...  53.9    8e-07
+  gi|217979272|ref|YP_002363419.1| ankyrin [Methylocella silvestr...  53.5    8e-07
+  gi|434394331|ref|YP_007129278.1| Ankyrin [Gloeocapsa sp. PCC 7428]  53.5    8e-07
+  gi|392409017|ref|YP_006445624.1| ankyrin repeat-containing prot...  53.5    9e-07
+
+
+> gi|294010043|ref|YP_003543503.1| ankyrin repeat protein [Sphingobium 
+japonicum UT26S]
+Length=203
+
+ Score =  217 bits (552),  Expect = 6e-69, Method: Compositional matrix adjust.
+ Identities = 110/187 (59%), Positives = 140/187 (75%), Gaps = 7/187 (4%)
+
+Query  19   PVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLT  78
+            P+ A+AQFSD+YNFLKAV++ DG K T ++ +PGST++N++D+T+G+TALH+V ARRD T
+Sbjct  20   PMVARAQFSDNYNFLKAVKDADGQKVTDLIQKPGSTVINSRDVTTGDTALHLVIARRDNT  79
+
+Query  79   WMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAV  138
+            W+ FLL +GANPN  D NG TPLM A   RF +GA +LL   AQVD  N SGET LIRAV
+Sbjct  80   WLTFLLAKGANPNLTDNNGNTPLMDAVQARFEEGARSLLTYNAQVDKANGSGETPLIRAV  139
+
+Query  139  QLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAITASDKDRKAGTGAP  198
+            QLRD+ +VRLL+  GANPD++DTIAG SARDYA  D R P ++EA++A+       T AP
+Sbjct  140  QLRDVGLVRLLVAQGANPDRRDTIAGMSARDYAQRDNRTPGLVEALSAAKT-----TTAP  194
+
+Query  199  K--VFGP  203
+            K  V GP
+Sbjct  195  KGPVQGP  201
+
+
+> gi|148555730|ref|YP_001263312.1| ankyrin [Sphingomonas wittichii 
+RW1]
+Length=208
+
+ Score =  191 bits (484),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 105/181 (58%), Positives = 123/181 (68%), Gaps = 7/181 (4%)
+
+Query  25   QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+            QFSDSYNFL AVR+ DG KAT+ L   G+T+VNT+D ++GETAL I   RRDLTW  FLL
+Sbjct  31   QFSDSYNFLNAVRQSDGAKATKALEGNGATMVNTRDYSTGETALMITIKRRDLTWSSFLL  90
+
+Query  85   QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+             +GANPN RD  G  PL  A  L F +GAE LLGR AQV+  NNSGET LI AVQ R++ 
+Sbjct  91   GKGANPNVRDAQGNAPLHAAALLGFTEGAELLLGRNAQVNMANNSGETPLIIAVQQRNVP  150
+
+Query  145  MVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAITASDKDRKAGTGAPK--VFG  202
+            MVRLLL NGA+P   D IAG+SARDYA+ D R   +L+ I     D    T APK  + G
+Sbjct  151  MVRLLLMNGADPKIADRIAGKSARDYASEDPRGSAVLKVI-----DETKSTVAPKKNIAG  205
+
+Query  203  P  203
+            P
+Sbjct  206  P  206
+
+
+> gi|103488457|ref|YP_618018.1| ankyrin [Sphingopyxis alaskensis 
+RB2256]
+Length=208
+
+ Score =  179 bits (455),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 103/194 (53%), Positives = 130/194 (67%), Gaps = 7/194 (4%)
+
+Query  12   LAFALLFPVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIV  71
+            LA A L    AQAQF   Y FL+AV  RDG+KAT  L +   T++NT+++ +GETAL IV
+Sbjct  17   LAAAGLVHGPAQAQFRGGYAFLQAVENRDGNKATSALQD-DPTLINTRNVDTGETALMIV  75
+
+Query  72   TARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGE  131
+            T RRD +W+ FLL +GA+P   D+NG+TPLM A  L + DGA+ LL +KA VD  N  GE
+Sbjct  76   TKRRDTSWLRFLLAKGADPAIADRNGMTPLMHAALLNYTDGADELLKQKAPVDQANRRGE  135
+
+Query  132  TALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAITASDKDR  191
+            TALI AVQ ++ AMVRLL++ GANPDK D +AG SARDYA  D R  Q+L  +     D 
+Sbjct  136  TALILAVQSKNGAMVRLLMRRGANPDKTDHVAGMSARDYARRDDRTGQLLALL-----DT  190
+
+Query  192  KAGTGAPK-VFGPT  204
+            +A   APK  +GPT
+Sbjct  191  QADADAPKREYGPT  204
+
+
+> gi|85372862|ref|YP_456924.1| hypothetical protein ELI_00175 [Erythrobacter 
+litoralis HTCC2594]
+Length=177
+
+ Score =  169 bits (427),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 81/146 (55%), Positives = 109/146 (75%), Gaps = 1/146 (1%)
+
+Query  26   FSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQ  85
+            FSDSYNFL+AVR+RDG++ TQ++  PGST++NT+D+ +G+TALHIV  RRD  W+ FL Q
+Sbjct  2    FSDSYNFLEAVRDRDGNQVTQIIETPGSTLINTRDLATGDTALHIVAERRDTVWIRFLTQ  61
+
+Query  86   RGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAM  145
+            +GANPN  +K GVTPLM++ +L   +G E L+   A+ D  NN GET LI A   R++ M
+Sbjct  62   KGANPNIANKAGVTPLMISASLGNTEGVEALIKAGARHDEGNNLGETPLITATHQRNIEM  121
+
+Query  146  VRLLLKNGANPDKQDTIAGQSARDYA  171
+            V+LLL  GA+PD+ D  +G+SARDYA
+Sbjct  122  VKLLLSKGADPDRNDN-SGRSARDYA  146
+
+
+> gi|334140740|ref|YP_004533942.1| ankyrin [Novosphingobium sp. 
+PP1Y]
+Length=199
+
+ Score =  169 bits (428),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 84/158 (53%), Positives = 117/158 (74%), Gaps = 1/158 (1%)
+
+Query  19   PVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLT  78
+            P  AQA FS+ Y FL+AV+++DG K  + L +P S I+N++D+T+GETALHIVTARRDLT
+Sbjct  16   PAMAQAGFSEGYKFLEAVKKKDGAKVEEALLDPSSQIINSRDVTTGETALHIVTARRDLT  75
+
+Query  79   WMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAV  138
+            W+ +L+  GAN NA D +G TPL +A NL + +GAE LL +KA  D +N++GET LI AV
+Sbjct  76   WLNYLVSHGANVNAADDHGRTPLEMAVNLGWREGAEFLLEQKASPDPSNDAGETPLIYAV  135
+
+Query  139  QLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFR  176
+              +DL +V+ LL+ GA+P++ D  +G+SARDYA  D +
+Sbjct  136  HRKDLQLVKALLQAGADPNRADN-SGRSARDYAALDSK  172
+
+
+> gi|260753378|ref|YP_003226271.1| ankyrin [Zymomonas mobilis subsp. 
+mobilis NCIMB 11163]
+Length=200
+
+ Score =  144 bits (363),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 82/182 (45%), Positives = 122/182 (67%), Gaps = 3/182 (2%)
+
+Query  4    FSRLWSAVLAFAL-LFPVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDIT  62
+            F ++   +LA  L + P+AAQA+ SD+Y FLKAVR+ D  + T +++   S I+++KD  
+Sbjct  3    FRKISGFILALGLAVTPIAAQAE-SDNYTFLKAVRDHDTTQITTLVDRQPS-IIDSKDYN  60
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +G+TALH+ T  RD  W+ + L + A  +A++K G TPLM+AT + + DGA+ LL   A 
+Sbjct  61   TGDTALHLTTRGRDNAWLAYFLYKRARVDAKNKAGQTPLMVATQIGWADGAQLLLEGGAD  120
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILE  182
+             + T+NSG+T LI AVQ R+L MVRLL+ N A+P  +D IAG+SA DYA  D R+  I++
+Sbjct  121  PNITDNSGQTPLIIAVQNRNLQMVRLLVDNHADPSIKDHIAGRSALDYAGQDGRSSAIVK  180
+
+Query  183  AI  184
+             +
+Sbjct  181  IL  182
+
+
+> gi|414341348|ref|YP_006982869.1| ankyrin-like protein [Gluconobacter 
+oxydans H24]
+Length=171
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 58/140 (41%), Positives = 73/140 (52%), Gaps = 4/140 (3%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+            F+ A RE D D  TQ L+     +++T D + G TAL + T    +     LLQRGAN  
+Sbjct  21   FIDAAREGDTDLLTQFLD--AGMVIDTPD-SRGYTALIVSTYNGHVDAARLLLQRGANTE  77
+
+Query  92   ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLK  151
+            A D  G T L         + A+ L+   AQVD  N SG T L+ AV      MVRLLL 
+Sbjct  78   ATDLKGATALSGVAFKGLTEIAKILIDHGAQVDHANFSGRTPLMFAVMFGRADMVRLLLS  137
+
+Query  152  NGANPDKQDTIAGQSARDYA  171
+             GANP+ +D + G SARD A
+Sbjct  138  AGANPEHRD-MDGVSARDLA  156
+
+
+> gi|392412522|ref|YP_006449129.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=283
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 48/105 (46%), Positives = 62/105 (59%), Gaps = 10/105 (10%)
+
+Query  76   DLTWMG---------FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDAT  126
+            +LTW            LL+ GAN NA+D  G TPLM AT    V  A+ LL R A V+AT
+Sbjct  163  ELTWASQQGKTEAVRILLESGANVNAKDDEGFTPLMHATVRGLVPIAQLLLKRGADVNAT  222
+
+Query  127  NNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+             NSG TAL+ A    D+ MV+LL++NGANP  ++   G++A D A
+Sbjct  223  ENSGGTALMIASHEGDIDMVKLLVENGANPTLKEK-GGKTALDMA  266
+
+
+ Score = 55.8 bits (133),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/120 (38%), Positives = 57/120 (48%), Gaps = 1/120 (1%)
+
+Query  41   GDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTP  100
+            GD  T  L       VN K    G TAL    +R+DL +   LL  GANPN  D  G+TP
+Sbjct  72   GDTTTAALLLEYGADVNAK-CDKGITALLDTVSRQDLGFTTMLLAAGANPNVPDNKGMTP  130
+
+Query  101  LMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            L  A      +    L+   AQVD+    G T L  A Q      VR+LL++GAN + +D
+Sbjct  131  LAEAARKGNSEAIAVLVRHGAQVDSKGPKGLTELTWASQQGKTEAVRILLESGANVNAKD  190
+
+
+> gi|225849930|ref|YP_002730164.1| ankyrin domain protein [Persephonella 
+marina EX-H1]
+Length=238
+
+ Score = 67.4 bits (163),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 48/146 (33%), Positives = 77/146 (53%), Gaps = 7/146 (5%)
+
+Query  46   QMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLAT  105
+            ++L E G+  VN KD   GET LHI ++   L  + FL++ GA+ NAR+K G TPL  A 
+Sbjct  97   KILIEAGAD-VNAKD-NDGETPLHIASSEGHLDMVKFLIKHGADINARNKKGRTPLHYAA  154
+
+Query  106  NLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQ  165
+                +   + L+ + A V+A ++   T L  A       +V +L+ NGA+P  +D   G+
+Sbjct  155  RGGNLSVVKYLIKKGADVNALDDDRNTPLHEATARNRKDIVMILIANGADPTIKDKF-GK  213
+
+Query  166  SARDYANGDFRNPQILEAITASDKDR  191
+               DY      +P IL  +  ++K++
+Sbjct  214  KPEDYT----EDPAILRILEKAEKEK  235
+
+
+> gi|183220040|ref|YP_001838036.1| ankyrin repeat-containing protein 
+[Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)']
+Length=646
+
+ Score = 67.0 bits (162),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 38/116 (33%), Positives = 63/116 (54%), Gaps = 2/116 (2%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            +N  D+T G T L +   ++++  +   L   ANPN  D   + P++ A    F  G ET
+Sbjct  194  INLPDLT-GRTPLFVSIEQKNIKLLTLALDANANPNTEDTKSILPIVFAIEKGFTAGVET  252
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            LL R A V+A    GE+ L  +V+ R+L +  LL+K G N D ++ ++G++  + A
+Sbjct  253  LLNRGADVNAKTPEGESLLFYSVEKRNLTVTNLLIKKGLNVDSKN-LSGKTLFELA  307
+
+
+> gi|288940825|ref|YP_003443065.1| ankyrin [Allochromatium vinosum 
+DSM 180]
+Length=323
+
+ Score = 65.5 bits (158),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 56/98 (57%), Gaps = 0/98 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+             G TAL    ++ +   +  L++ GA+  ARDK G T L++A +       ETL G  AQ
+Sbjct  163  EGRTALMQAASKGETGVLPLLIEGGADLEARDKQGATALLIAADQGQAGAVETLAGLGAQ  222
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            +DA +  G TALI AV    +AMV  LL  GA+P++QD
+Sbjct  223  LDAVDALGSTALILAVGHGHVAMVERLLAMGADPNRQD  260
+
+
+> gi|190571165|ref|YP_001975523.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=1136
+
+ Score = 65.1 bits (157),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 36/113 (32%), Positives = 65/113 (58%), Gaps = 4/113 (4%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            V+T+DI+SG++ LH     +++  + +L++  A+ + +D  G+TPL LA +L      E 
+Sbjct  839  VDTRDISSGKSPLHFAMYMKNMEVVKYLIEHNADIDIQDSYGLTPLHLAVDLGNKKMIEQ  898
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSAR  168
+            L+ + A ++A +N G T L+ AV+   L  +  L+KN A+ D    + G+  R
+Sbjct  899  LVEKGANINAQDNDGWTPLVHAVRHGKLDTIEYLIKNKADVD----VVGKDGR  947
+
+
+> gi|152990807|ref|YP_001356529.1| hypothetical protein NIS_1062 
+[Nitratiruptor sp. SB155-2]
+Length=185
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 36/101 (36%), Positives = 59/101 (58%), Gaps = 0/101 (0%)
+
+Query  60   DITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGR  119
+            D  +G T LH    + D+  +  L++ GA+  A  K G+TPL++A  +R +D  + L+  
+Sbjct  17   DSVNGWTQLHEAIYKEDMKRIENLIKSGADVEASSKAGITPLLMAVKIRNLDIVKYLVEH  76
+
+Query  120  KAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+             A VD  +N+G TAL  AV  R + +V+ LLK+ A+ + Q+
+Sbjct  77   GADVDDEDNNGMTALHYAVGERRVNIVKYLLKHDADINAQN  117
+
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 49/184 (27%), Positives = 88/184 (48%), Gaps = 15/184 (8%)
+
+Query  10   AVLAFALLFPVAAQAQFSDSYN----FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGE  65
+            A+  FAL         F+DS N      +A+ + D  +   ++        ++K   +G 
+Sbjct  6    AIFLFAL-------GLFADSVNGWTQLHEAIYKEDMKRIENLIKSGADVEASSK---AGI  55
+
+Query  66   TALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA  125
+            T L +    R+L  + +L++ GA+ +  D NG+T L  A   R V+  + LL   A ++A
+Sbjct  56   TPLLMAVKIRNLDIVKYLVEHGADVDDEDNNGMTALHYAVGERRVNIVKYLLKHDADINA  115
+
+Query  126  TNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSAR-DYANGDFRNPQILEAI  184
+             N  G T L +A  + D+ M+ LLLK GA+P+ ++ +     +  YA   F   + +++ 
+Sbjct  116  QNRYGITPLHQAAYMGDVKMIDLLLKLGADPNIKNALGMNPCQLAYAKHRFLVAKYMQSF  175
+
+Query  185  TASD  188
+            T  +
+Sbjct  176  TKGE  179
+
+
+> gi|189502556|ref|YP_001958273.1| hypothetical protein Aasi_1217 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=1402
+
+ Score = 64.7 bits (156),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 45/136 (33%), Positives = 72/136 (53%), Gaps = 3/136 (2%)
+
+Query  25   QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+            Q + + +   A  +RD +K  +++N      +N KD  S  T LH    +  +    FL+
+Sbjct  164  QLTTAASLHTATEQRDINKIKELVN--AGVNINLKDNNSW-TPLHKAAQKGHIDVAAFLI  220
+
+Query  85   QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+              GA+ NARD NG+TPL +A  L  ++    L+   A V+A N +G T L  A    +LA
+Sbjct  221  SLGADVNARDNNGITPLYVAALLGHLELIRYLIAFGANVNAKNINGNTPLYMAALKGNLA  280
+
+Query  145  MVRLLLKNGANPDKQD  160
+            +VR L++ GA+ + +D
+Sbjct  281  LVRYLIEQGADINDKD  296
+
+
+ Score = 56.6 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 43/131 (33%), Positives = 68/131 (52%), Gaps = 3/131 (2%)
+
+Query  43   KATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLM  102
+            +  ++L E G+  VN K+I  G+T LH       L     L++ GA+ NA+  NG+TPL 
+Sbjct  372  EVAKLLIESGAD-VNAKNI-HGDTPLHWAAEEGHLEVAKLLIESGADVNAKGNNGITPLY  429
+
+Query  103  LATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTI  162
+            +A     ++ A+ L+   A V+A  N+G T L  A +   L + +LL+++GA     +T 
+Sbjct  430  VAAEEEHLEVAKLLIESGADVNAKGNNGITPLYVAAEEEHLEVAKLLIESGAGQGDAET-  488
+
+Query  163  AGQSARDYANG  173
+                 R Y NG
+Sbjct  489  QYNIGRMYRNG  499
+
+
+> gi|190570835|ref|YP_001975193.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=906
+
+ Score = 64.3 bits (155),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 43/121 (36%), Positives = 66/121 (55%), Gaps = 7/121 (6%)
+
+Query  46   QMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLAT  105
+            + L E G+ I NT+   SG T+LH    R  L  + +L+ +GA+ N +DKNG  PL  A 
+Sbjct  545  KYLIEKGANI-NTEASRSGRTSLHFAAQRGSLEVVKYLINKGADLNTKDKNGEIPLHYAV  603
+
+Query  106  NLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRD------LAMVRLLLKNGANPDKQ  159
+                +D  + L+ + A V+A N  GETALI A   +D      L M++ L+  GA+ + +
+Sbjct  604  KSCHLDIVKYLVEKGADVNARNTEGETALIIAFNTQDYYCDRRLDMMKYLIDKGADVNAR  663
+
+Query  160  D  160
+            +
+Sbjct  664  N  664
+
+
+> gi|190571654|ref|YP_001976012.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=385
+
+ Score = 63.2 bits (152),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 39/107 (36%), Positives = 59/107 (55%), Gaps = 1/107 (1%)
+
+Query  65   ETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVD  124
+            ETALH     R +  +  LL++GA+ N +D++G TPL  AT    +D    LL R A V+
+Sbjct  96   ETALHHAVYSRCVGAVNALLKKGADVNVKDRSGSTPLHYATIYELIDVVNALLKRGADVN  155
+
+Query  125  ATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+              + SG T L  A   + + +V +LLK GA+ + +D  +G +   YA
+Sbjct  156  VKDRSGSTPLHYATIYKFIDVVNVLLKTGADINVKDR-SGSTPLHYA  201
+
+
+ Score = 62.0 bits (149),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 39/105 (37%), Positives = 55/105 (52%), Gaps = 1/105 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            VN KD  SG T LH  T    +  +  LL+RGA+ N +D++G TPL  AT  +F+D    
+Sbjct  121  VNVKD-RSGSTPLHYATIYELIDVVNALLKRGADVNVKDRSGSTPLHYATIYKFIDVVNV  179
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            LL   A ++  + SG T L  A     + +V  LL  GA+   +D
+Sbjct  180  LLKTGADINVKDRSGSTPLHYATLSNHVEVVDALLAEGASVHVKD  224
+
+
+ Score = 56.2 bits (134),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 38/107 (36%), Positives = 57/107 (53%), Gaps = 1/107 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            VN KD  SG T LH  T  + +  +  LL+ GA+ N +D++G TPL  AT    V+  + 
+Sbjct  154  VNVKD-RSGSTPLHYATIYKFIDVVNVLLKTGADINVKDRSGSTPLHYATLSNHVEVVDA  212
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTI  162
+            LL   A V   + +G T L  A +   L +V  LL  GA+  ++D++
+Sbjct  213  LLAEGASVHVKDGNGSTPLHYAAKNGYLEIVDALLDRGADVYEKDSL  259
+
+
+> gi|190571055|ref|YP_001975413.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=181
+
+ Score = 60.8 bits (146),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 39/97 (40%), Positives = 49/97 (51%), Gaps = 0/97 (0%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G   LH       L  +  LL+ GAN NA D  G TPL  A ++   +  E LL   A +
+Sbjct  36   GLVPLHYAACGNRLEQVKLLLKNGANVNALDNYGFTPLHYAASINCKEEVELLLKNGADI  95
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            D  N+ G T L  AVQ     +V+LLLKNGAN +  D
+Sbjct  96   DVRNHFGATPLYLAVQGGHENVVKLLLKNGANINIAD  132
+
+
+> gi|336172015|ref|YP_004579153.1| ankyrin [Lacinutrix sp. 5H-3-7-4]
+Length=487
+
+ Score = 63.2 bits (152),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 54/98 (55%), Gaps = 1/98 (1%)
+
+Query  64   GETALHIVTAR-RDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            G T LH V +R +DL  + + ++ G N NA DKNG TP + A     ++  E+LL +   
+Sbjct  256  GLTPLHNVASRSKDLKVIHYFIENGNNINAADKNGSTPFLNAVKSNSIEVIESLLSQVEN  315
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            ++  N  GETAL+ AVQ     +V LLL   A+   +D
+Sbjct  316  IEQANKKGETALMLAVQNNSAEVVELLLSKEASIKAKD  353
+
+
+> gi|256421487|ref|YP_003122140.1| ankyrin [Chitinophaga pinensis 
+DSM 2588]
+Length=155
+
+ Score = 60.1 bits (144),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 66/134 (49%), Gaps = 3/134 (2%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            +N KD + G TAL I T       +  LL  GAN   +D  G T LM      +   A+ 
+Sbjct  24   INAKD-SRGSTALIIATYYNHAAAVSALLDAGANTEIQDTMGNTALMGVCFKGYTGIAKI  82
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDF  175
+            LL   A VDA N +G TAL  A       ++ LLLK+GA+P K+D   G++  DYA    
+Sbjct  83   LLEHGAAVDAENGNGATALTFAATFGRNELIPLLLKHGASPLKKDKF-GRNPIDYAQLQ-  140
+
+Query  176  RNPQILEAITASDK  189
+             NP   E + A+ +
+Sbjct  141  ENPAGYETLVAATR  154
+
+
+> gi|392412462|ref|YP_006449069.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=238
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 54/173 (31%), Positives = 83/173 (48%), Gaps = 15/173 (9%)
+
+Query  6    RLWSAVLAFALLFPVAAQAQFSDSYN--FLKAVRERDGDKATQMLNEPGSTIVNTKDITS  63
+            +L+ A +   L FP    +Q    YN   + A R  +  +  ++LN       N  D+ +
+Sbjct  58   QLFEATVELILQFPAFDDSQ-KKKYNELLIHAARTGNAKETERLLN-------NGADVNA  109
+
+Query  64   ----GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGR  119
+                G T +    ++     +  LL+RGAN N R +NG + LM +      + AE L+ R
+Sbjct  110  RGKWGMTPIIWAASKGHKRIVDLLLRRGANVNTRAENGSSALMWSCFSGNTEIAEILINR  169
+
+Query  120  KAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYAN  172
+             A V+A   SG TALI A        V LLL+ GA+P+ ++   G++A  YAN
+Sbjct  170  GADVNAKAVSGRTALISACHNGHFETVHLLLRKGADPNLREN-QGKNALAYAN  221
+
+
+> gi|189502232|ref|YP_001957949.1| hypothetical protein Aasi_0849 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=723
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 38/105 (36%), Positives = 57/105 (54%), Gaps = 1/105 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            VN  D  S  + L++   +  L  +  LL   AN N +D +G +PL LA  +  ++    
+Sbjct  460  VNLAD-KSNRSPLYVAIRKGSLEMVNILLDYKANINCKDIHGFSPLHLAAGMNHLEIVGL  518
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            L+ R A ++A N  G +AL  AV   +L MVRLLL+ GA+ + QD
+Sbjct  519  LIDRGANIEAKNKDGRSALYVAVDEGNLEMVRLLLEKGADINTQD  563
+
+
+> gi|374309450|ref|YP_005055880.1| ankyrin [Granulicella mallensis 
+MP5ACTX8]
+Length=305
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 42/122 (34%), Positives = 66/122 (54%), Gaps = 5/122 (4%)
+
+Query  47   MLNEPGSTIVNTKDITSGETALHIVTARR-DLTWMGFLLQRGANPNARDKNGVTPLMLAT  105
+            +L++   T   T   TSG+TALH+      +   +  LL +GAN  A+++NG T L+ A 
+Sbjct  124  LLDKKADTTAKT---TSGDTALHLAALNYVNTDILQLLLSKGANVEAKNRNGFTALIYAA  180
+
+Query  106  NLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQ  165
+                 +    LL + A++DA ++ G+TAL+ AV    +  V LL+  GAN +  D   GQ
+Sbjct  181  LEDHTEAVTMLLAKGAKIDAADSEGQTALMHAVSEERIDSVDLLIAKGANLEAVDN-EGQ  239
+
+Query  166  SA  167
+            +A
+Sbjct  240  TA  241
+
+
+> gi|512552558|ref|YP_008090464.1| FOG: Ankyrin repeat [Chthonomonas 
+calidirosea T49]
+Length=356
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 52/141 (37%), Positives = 69/141 (49%), Gaps = 10/141 (7%)
+
+Query  33   LKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNA  92
+            L A    D      +L   G+ +V+  D T G T LH+  A   L  +  LL+ GANPNA
+Sbjct  105  LHAAASTDAADLIPLLISSGA-VVDAPDKT-GRTPLHM-AALAGLQAVEALLKAGANPNA  161
+
+Query  93   RDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKN  152
+             D  G TPL LA ++ +   A TLL   A V+A +N   T L RA       M  LL+ +
+Sbjct  162  ADHIGETPLHLAADMGYTAIAATLLEHGANVNAADNYATTPLHRAAAHGHTTMAALLIAH  221
+
+Query  153  GANPDKQD-------TIAGQS  166
+            GAN + +D       T+A QS
+Sbjct  222  GANIEAKDKQGFTPLTVAVQS  242
+
+
+ Score = 56.6 bits (135),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 36/105 (34%), Positives = 53/105 (50%), Gaps = 1/105 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            VN  D     T LH   A    T    L+  GAN  A+DK G TPL +A      + A+ 
+Sbjct  192  VNAAD-NYATTPLHRAAAHGHTTMAALLIAHGANIEAKDKQGFTPLTVAVQSDHREVAQL  250
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            L+ + A V+  +N+  T ++ A  + D+AM  LLL +GA+   +D
+Sbjct  251  LIEKGANVNVQDNAMATPILHAASVGDVAMAELLLSHGASLHVRD  295
+
+
+> gi|319952725|ref|YP_004163992.1| ankyrin [Cellulophaga algicola 
+DSM 14237]
+Length=156
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 43/140 (31%), Positives = 72/140 (51%), Gaps = 3/140 (2%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+            F   +R  +  +   ML +    ++++KD   G + L + T    L  +  LL  GA  +
+Sbjct  5    FFNEIRNGNFTEVKAMLKQ-NPVLLDSKD-QRGSSPLILATYYDQLEIVALLLTSGAKLD  62
+
+Query  92   ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLK  151
+             +D +G T LM      + D A+ L+ + A V+  N  G TALI +     L + +LLL+
+Sbjct  63   MKDASGNTALMGVCFKGYEDSAKMLIEKGANVNEQNGMGATALIYSATFNRLGIAKLLLE  122
+
+Query  152  NGANPDKQDTIAGQSARDYA  171
+            NGA+  K+D + G++A D+A
+Sbjct  123  NGADVSKKD-VRGKTALDHA  141
+
+
+> gi|392412893|ref|YP_006449500.1| ankyrin repeat-containing protein, 
+partial [Desulfomonile tiedjei DSM 6799]
+Length=359
+
+ Score = 61.2 bits (147),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 41/97 (42%), Positives = 51/97 (53%), Gaps = 0/97 (0%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G T L   + R     +  LL  GA+ NARD+ G TPLM A         E LL + A +
+Sbjct  235  GATPLMKASRREHFDLVELLLDYGADVNARDEFGWTPLMRACRKGSRRIVELLLAKGADM  294
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            DA +  G TALI A   RD++ V LLLK GAN   +D
+Sbjct  295  DAVDLYGATALIIAASERDVSTVELLLKKGANVHAKD  331
+
+
+> gi|253998619|ref|YP_003050682.1| ankyrin [Methylovorus glucosetrophus 
+SIP3-4]
+Length=325
+
+ Score = 60.8 bits (146),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 56/93 (60%), Gaps = 0/93 (0%)
+
+Query  68   LHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATN  127
+            L  V+++ D+  +  +L  GA+PN +D +GVT LM A      D  + LL + A V+A +
+Sbjct  39   LLTVSSKGDIATVKAILDSGASPNTKDADGVTALMYAARKDKADVVKLLLQKGANVNAKD  98
+
+Query  128  NSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            N G TAL+ A +   +A  ++LL+NGA+P  +D
+Sbjct  99   NGGWTALMMAAKKNFVATAKVLLENGADPKIRD  131
+
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 49/122 (40%), Positives = 60/122 (49%), Gaps = 6/122 (5%)
+
+Query  57   NTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETL  116
+            NTKD   G TAL     +     +  LLQ+GAN NA+D  G T LM+A    FV  A+ L
+Sbjct  62   NTKD-ADGVTALMYAARKDKADVVKLLLQKGANVNAKDNGGWTALMMAAKKNFVATAKVL  120
+
+Query  117  LGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD-KQDTIAGQSARDYA--NG  173
+            L   A     + SG +AL  A       MV LL+KNG +   K D   G+S   YA  NG
+Sbjct  121  LENGADPKIRDESGWSALGMAATSGYSEMVDLLVKNGVDASAKSDD--GKSVLMYAAKNG  178
+
+Query  174  DF  175
+            D 
+Sbjct  179  DL  180
+
+
+> gi|347755661|ref|YP_004863225.1| ankyrin repeat-containing protein 
+[Candidatus Chloracidobacterium thermophilum B]
+Length=169
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 52/157 (33%), Positives = 72/157 (46%), Gaps = 4/157 (3%)
+
+Query  17   LFPVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRD  76
+            + P     Q S   N L A R  D       L + G+ I  T     G TAL +      
+Sbjct  1    MTPAQTSHQQSTPMNLLDAARAGDLPAVAAQL-QAGADIEQTD--ARGSTALILAAYYGH  57
+
+Query  77   LTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIR  136
+            +  + FLL+  ANPNA DK G + LM A     +  A  L+   A+V+A N +G TAL+ 
+Sbjct  58   VDLVTFLLEHKANPNAHDKLGNSALMAACFKGHIGIARALVDHGAKVNAVNANGATALMF  117
+
+Query  137  AVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANG  173
+            A     L +  LL++ GA+ +  D   GQ+A   A G
+Sbjct  118  AALFNRLPIAELLIECGADVNAVDD-NGQTALSLARG  153
+
+
+> gi|325295171|ref|YP_004281685.1| ankyrin [Desulfurobacterium 
+thermolithotrophum DSM 11699]
+Length=235
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 49/151 (32%), Positives = 73/151 (48%), Gaps = 5/151 (3%)
+
+Query  43   KATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLM  102
+            K  ++  E G+ I N KD   G T LH+ T R +      L+  GAN NA+D  G TPL 
+Sbjct  84   KLVKLFIEKGANI-NAKDYF-GVTPLHLATMRNNFKIAKLLINHGANINAKDNYGYTPLH  141
+
+Query  103  LATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMV-RLLLKNGANPDKQDT  161
+             A        A+ L+   A V+  +  G T L    + R  ++V +LLLK+GA+   ++ 
+Sbjct  142  FAAIYNSYSVAKLLIKEGANVNERDFYGNTPLHYCARTRKASLVAKLLLKSGADVKIKND  201
+
+Query  162  IAGQSARDYANGDFRNPQILEAITASDKDRK  192
+              G++  D A  + RN +  + I    K RK
+Sbjct  202  -KGKTPLDVAK-EMRNYKFSKLIAKYAKKRK  230
+
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 46/167 (28%), Positives = 74/167 (44%), Gaps = 15/167 (9%)
+
+Query  6    RLWSAVLAFALLFPVAAQAQFSDSY------------NFLKAVRERDGDKATQMLNEPGS  53
+            RL+ A+ A  +L    +   F ++             NF +A +E  GD           
+Sbjct  3    RLFIAISALVVLLTSFSTTTFGETKTQISQIDKRTKRNFFRAAKE--GDVEKVKKLLKKG  60
+
+Query  54   TIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGA  113
+              +N  D     T L       ++  +   +++GAN NA+D  GVTPL LAT       A
+Sbjct  61   VPINITD-KFKWTPLFYAIDFNNIKLVKLFIEKGANINAKDYFGVTPLHLATMRNNFKIA  119
+
+Query  114  ETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            + L+   A ++A +N G T L  A      ++ +LL+K GAN +++D
+Sbjct  120  KLLINHGANINAKDNYGYTPLHFAAIYNSYSVAKLLIKEGANVNERD  166
+
+
+> gi|189502045|ref|YP_001957762.1| hypothetical protein Aasi_0636 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=545
+
+ Score = 60.8 bits (146),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 44/116 (38%), Positives = 64/116 (55%), Gaps = 4/116 (3%)
+
+Query  57   NTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETL  116
+            N KD   G + LHI   + +   +  LLQ+GA  N +D  G TPL  A      D  + L
+Sbjct  75   NIKD-QDGVSPLHIAAYQSNTNIVKLLLQQGAIINFKDSKGHTPLYWAILGNSTDIVQLL  133
+
+Query  117  LGRKAQVDATNNSGETALI-RAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            + + A + AT   GET+L+ +A+  R+L +V+LLL  GANP++ DT  G +   YA
+Sbjct  134  INQGADIYATP-EGETSLLSKAIMNRNLKIVKLLLDKGANPNEVDT-TGWAPLHYA  187
+
+
+> gi|384209405|ref|YP_005595125.1| ankyrin repeat-containing protein 
+[Brachyspira intermedia PWS/A]
+Length=785
+
+ Score = 60.8 bits (146),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 56/88 (64%), Gaps = 4/88 (5%)
+
+Query  84   LQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDL  143
+            L +GANPNA+D+ G T LM AT    +D A+ L+     V+  +N+G T+L+ A +  + 
+Sbjct  87   LDKGANPNAQDEYGFTALMYAT---LIDIAKLLIEEGTDVNIKDNAGATSLMYAARDTNY  143
+
+Query  144  AMVRLLLKNGANPDKQDTIAGQSARDYA  171
+             MV  LLKNGA+ + +DT +G++A  Y+
+Sbjct  144  EMVEFLLKNGADVNIRDT-SGKTALYYS  170
+
+
+ Score = 60.5 bits (145),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 33/95 (35%), Positives = 52/95 (55%), Gaps = 0/95 (0%)
+
+Query  66   TALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA  125
+            T L I   R D   + +LL +GANPN  +    T L +A +    D ++ L+ + A ++ 
+Sbjct  247  TPLMIAALRNDYDMVKYLLDKGANPNTVNNENKTALTIANDYGKFDISKLLIQQGANINT  306
+
+Query  126  TNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+             +  G TAL+ A  + D  MV+ LL+NGAN + +D
+Sbjct  307  QDEEGCTALMNATMIGDYEMVKFLLENGANINTKD  341
+
+
+ Score = 56.6 bits (135),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 36/116 (31%), Positives = 62/116 (53%), Gaps = 1/116 (1%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+            FL+  GA+ N  +++G TPLM A+ L  +  AE L+ + A ++  N  G+T L+ A +L 
+Sbjct  499  FLINNGADINVTNEDGETPLMYASKLHNIKVAELLIQKGADINVINEDGKTPLMYASKLH  558
+
+Query  142  DLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAITASDKDRKAGTGA  197
+            ++ +V LL++ GA+ +  D   G +A  Y   +    ++L    A     K G+ A
+Sbjct  559  NIKVVELLIQKGADINAFDDY-GNTALMYGVNNLETVKLLVENGADVNFYKGGSTA  613
+
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 37/118 (31%), Positives = 65/118 (55%), Gaps = 4/118 (3%)
+
+Query  38   ERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNG  97
+            + +   A + L   G+ I  T +   GET L   +   ++     L+Q+GA+ N  +++G
+Sbjct  490  KNENSSAAEFLINNGADINVTNE--DGETPLMYASKLHNIKVAELLIQKGADINVINEDG  547
+
+Query  98   VTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+             TPLM A+ L  +   E L+ + A ++A ++ G TAL+  V   +L  V+LL++NGA+
+Sbjct  548  KTPLMYASKLHNIKVVELLIQKGADINAFDDYGNTALMYGVN--NLETVKLLVENGAD  603
+
+
+> gi|392412867|ref|YP_006449474.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=890
+
+ Score = 60.1 bits (144),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 38/92 (41%), Positives = 53/92 (58%), Gaps = 0/92 (0%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G+T L I   + D  W+ +LL  GA  N+ D+ G T LM A +   +  AE LL R A +
+Sbjct  440  GQTPLIIAAEKGDEEWVVYLLGEGARINSADRFGDTALMKAASRGQLTVAELLLSRGADI  499
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            +A N  G TAL+RA    +L +VRLL+  GA+
+Sbjct  500  NAKNRYGNTALMRAAFKGNLKLVRLLIDAGAD  531
+
+
+> gi|392409402|ref|YP_006446009.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=1549
+
+ Score = 60.1 bits (144),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 36/99 (36%), Positives = 51/99 (52%), Gaps = 0/99 (0%)
+
+Query  66    TALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA  125
+             TAL     R     M  LL +GA+ NAR  +G+T L+ A   R V+  + L+ + A V A
+Sbjct  913   TALMYAAERGQFEIMKVLLDKGADVNARGNSGITALIYAARSRNVEAVKLLIDKGADVKA  972
+
+Query  126   TNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAG  164
+                S ETA + A  L +L +V+LL+  GAN   +    G
+Sbjct  973   KTESDETAFLSAAALGNLELVKLLVDKGANIHDEGAYGG  1011
+
+
+> gi|18312929|ref|NP_559596.1| ankyrin repeat-containing protein 
+[Pyrobaculum aerophilum str. IM2]
+Length=256
+
+ Score = 58.5 bits (140),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 59/110 (54%), Gaps = 6/110 (5%)
+
+Query  62   TSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKA  121
+            + GE+ LH+V    D   +  LL+ G +PNARD +G TPL +A+        E LL R  
+Sbjct  123  SHGESLLHLVAG--DAGLVKLLLEYGVDPNARDAHGKTPLHMASEHNCAQCVELLLKRGP  180
+
+Query  122  QVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+             V+  + +G T L  A    D+  ++LLL+ GA+ +  D + G++   YA
+Sbjct  181  DVNVKDGAGRTPLHYA---DDVDCIKLLLRYGADLNAVDNM-GRTPLHYA  226
+
+
+ Score = 52.8 bits (125),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 48/156 (31%), Positives = 70/156 (45%), Gaps = 27/156 (17%)
+
+Query  28   DSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRG  87
+            D  N L A R  + +  T++LNE  S  V       G T L+    R D+  +  L++ G
+Sbjct  2    DCNNLLNAARRGEAELLTRLLNEGCSPDVQDD---YGRTPLYYAAERGDVGTVDLLIKAG  58
+
+Query  88   ANPNARDKNGVTPLMLATNLRFVDGAETLLG------RKAQVDATNNSGETA----LIRA  137
+            A+PNARD+ G TP+++AT  R   G   LL        +A   A  N    A    L R 
+Sbjct  59   ADPNARDREGKTPIIIATQSRKF-GVIPLLSASAVGVEEALYTAARNGCHKAVRYMLARG  117
+
+Query  138  VQ-------------LRDLAMVRLLLKNGANPDKQD  160
+            V+               D  +V+LLL+ G +P+ +D
+Sbjct  118  VRPGASHGESLLHLVAGDAGLVKLLLEYGVDPNARD  153
+
+
+> gi|154706700|ref|YP_001423804.1| ankyrin repeat protein [Coxiella 
+burnetii Dugway 5J108-111]
+Length=891
+
+ Score = 59.7 bits (143),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 40/125 (32%), Positives = 64/125 (51%), Gaps = 3/125 (2%)
+
+Query  43   KATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLM  102
+            +  ++L E G+ +   K   +G +ALH   +      +  LL++ A+ N  D  G  PL 
+Sbjct  476  RIAKLLIEAGADV--AKRNCNGNSALHFAASGSHNEIIDLLLEKEADVNEEDHKGNIPLH  533
+
+Query  103  LATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTI  162
+             AT    +   + L+  KA+++  N+ GETAL  AVQ   L M+R L+  GA+ + Q T 
+Sbjct  534  YATLRDSISTVDKLINNKAEINKKNHKGETALYLAVQQNSLEMIRYLINQGADVNAQ-TR  592
+
+Query  163  AGQSA  167
+             G +A
+Sbjct  593  KGNTA  597
+
+
+> gi|336122508|ref|YP_004577283.1| Ankyrin [Methanothermococcus 
+okinawensis IH1]
+Length=136
+
+ Score = 56.6 bits (135),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 36/103 (35%), Positives = 57/103 (55%), Gaps = 3/103 (3%)
+
+Query  76   DLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALI  135
+            D+  +  LL++GAN NA+++ G TPLM AT+    D  + L+   A V+  N  G T L+
+Sbjct  15   DIDKVKELLKKGANVNAKNRFGGTPLMAATSQNHYDIVKLLIENGADVNIRNRIGRTPLM  74
+
+Query  136  RAVQLRDLAMVRLLLKNGANPDKQDTI---AGQSARDYANGDF  175
+             A++L    + +LL++NGA+ + +D     A   A DY   D 
+Sbjct  75   SAIELSYTKIAKLLIENGADVNIKDNFGLTAIMVAEDYIQPDI  117
+
+
+> gi|312144561|ref|YP_003996007.1| hypothetical protein Halsa_2245 
+[Halanaerobium hydrogeniformans]
+Length=459
+
+ Score = 59.3 bits (142),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 47/140 (34%), Positives = 78/140 (56%), Gaps = 4/140 (3%)
+
+Query  56   VNTKDITSGETAL-HIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAE  114
+            VN +D  +G+T L + V+ARR+++ + +LL+  A+ N RD NG T +  A     ++  +
+Sbjct  186  VNARD-NNGKTVLAYAVSARRNISELDYLLKNEADINLRDDNGKTAIFYAVTDNNLNALD  244
+
+Query  115  TLLGRKAQVDATNNSGETALIRAV-QLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANG  173
+             LL   A+V+  ++ GET L  AV +  D A + LL   GA  + Q + +G+S    A  
+Sbjct  245  FLLKNGARVNLKDHKGETVLFYAVRRHEDPAYLNLLTSYGAFVNLQ-SYSGKSVLMSAAK  303
+
+Query  174  DFRNPQILEAITASDKDRKA  193
+            +  NP+I+E + A + D  A
+Sbjct  304  NNSNPKIIELLLAKNADPTA  323
+
+
+> gi|189501798|ref|YP_001957515.1| hypothetical protein Aasi_0363 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=2171
+
+ Score = 59.7 bits (143),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  65   ETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVD  124
+            +T L +  A+  +     L++ GAN   R++ G TPLM A+    +D A+ L+ + A ++
+Sbjct  772  DTPLMMALAKGHINIAQILIENGANVKVRNRFGRTPLMYASQWGHLDIAQILIEKGANIN  831
+
+Query  125  ATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+              +N GETAL+ A +     +V LL+  GA  + QD + GQ+A  YA
+Sbjct  832  EQDNIGETALMNAAREGHKELVELLIDGGAAINAQDHL-GQTALIYA  877
+
+
+> gi|189184207|ref|YP_001937992.1| ankyrin repeat-containing protein 
+12_02 [Orientia tsutsugamushi str. Ikeda]
+Length=495
+
+ Score = 59.3 bits (142),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 54/165 (33%), Positives = 74/165 (45%), Gaps = 15/165 (9%)
+
+Query  43   KATQMLNEPGSTIVNTKDITSGETALHIVTAR-------------RDLTWMGFLLQRGAN  89
+            K T++L     TIV+ ++   G T LH+   R               L     LL  GAN
+Sbjct  83   KITEILLSYNKTIVDVQN-NMGRTPLHLALTRLVSSQSVSSLLSTESLKIAQALLTHGAN  141
+
+Query  90   PNARDKNGVTPLMLATN-LRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRL  148
+             N +DK+G T L  A N    ++  E LL   A V+A NN G+TAL RA +   L+ V  
+Sbjct  142  VNLQDKDGNTALHYAANDFHHLEVTEILLNHGANVNAQNNVGDTALHRAARNGLLSTVVC  201
+
+Query  149  LLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAITASDKDRKA  193
+            LL++GAN   +           A G   N +I+EA+     D  A
+Sbjct  202  LLESGANVHLKGQHGNSVLHCAAQGYAPNKRIVEAVLHHGADVNA  246
+
+
+> gi|530780662|ref|YP_008432470.1| hypothetical protein N186_05570 
+[Thermofilum sp. 1910b]
+Length=290
+
+ Score = 58.5 bits (140),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 40/131 (31%), Positives = 71/131 (54%), Gaps = 7/131 (5%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALH--IVTARRDLTWMGFLLQRGAN  89
+              +AV++ D +K  + L++   T +  K+   G T LH  ++  R+D+     L++ GAN
+Sbjct  7    LFEAVKKGDAEKVKEFLSKGIKTDLRDKE---GFTPLHYAVIYNRKDIA--EILIKHGAN  61
+
+Query  90   PNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLL  149
+             N ++  G TPL  +  L   + AE L+   A V+ TNN G T L  +     +A+ ++L
+Sbjct  62   VNTKNLLGETPLHYSARLCLAEIAELLVSGGANVNITNNYGMTPLHYSAHNNCIAVAKVL  121
+
+Query  150  LKNGANPDKQD  160
+            + NGA+P+ ++
+Sbjct  122  IDNGADPNIRE  132
+
+
+> gi|392373252|ref|YP_003205085.1| hypothetical protein DAMO_0125 
+[Candidatus Methylomirabilis oxyfera]
+Length=572
+
+ Score = 58.9 bits (141),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 44/76 (58%), Gaps = 0/76 (0%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+            +L+ RGA+ N RD    TPLM A           LL RKA  +  +N G TAL+RAVQ  
+Sbjct  357  YLIARGADVNGRDAQNQTPLMTAVMHGHEPVVALLLNRKADPNRADNDGWTALMRAVQRD  416
+
+Query  142  DLAMVRLLLKNGANPD  157
+            D  MVRLL  +GA+P+
+Sbjct  417  DPTMVRLLAAHGADPE  432
+
+
+> gi|226311505|ref|YP_002771399.1| hypothetical protein BBR47_19180 
+[Brevibacillus brevis NBRC 100599]
+Length=156
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 37/110 (34%), Positives = 61/110 (55%), Gaps = 10/110 (9%)
+
+Query  66   TALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA  125
+            + LH      D+  + +L+ +GA+ +A++  G+TPL +A    + + AE L+   A + A
+Sbjct  40   SVLHGAVMTDDVDLIAYLVAQGADVHAKNDEGITPLHIAL---YPEVAEALIAHGADIHA  96
+
+Query  126  TNNSGETALIRAVQLRD----LAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            + + G T L    Q+ D    L +V LLL  GANP+K+D + GQ+  D A
+Sbjct  97   SAHDGSTPL--HTQVADGEERLDVVELLLAKGANPNKKD-MDGQTPYDIA  143
+
+
+> gi|190570839|ref|YP_001975197.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=236
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 61/110 (55%), Gaps = 7/110 (6%)
+
+Query  56   VNTKDIT----SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVD  111
+            V++KDI      GET LH      +   + FL+++GA  NARDKNG TPL  A   + ++
+Sbjct  15   VSSKDINKRNEEGETILHQAVEISNYKTVRFLIKKGAEVNARDKNGYTPLHCAVFAKSLE  74
+
+Query  112  GAETLLGRKAQVDATNN-SGETALIRAVQL--RDLAMVRLLLKNGANPDK  158
+              + LL   A+V+AT   +G T L  A ++    + +++ L+K GA  ++
+Sbjct  75   NVKVLLREGAEVNATQYVTGCTPLHSACKIGGAGVEIIKELVKAGAEVNQ  124
+
+
+> gi|190570743|ref|YP_001975101.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=236
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 61/110 (55%), Gaps = 7/110 (6%)
+
+Query  56   VNTKDIT----SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVD  111
+            V++KDI      GET LH      +   + FL+++GA  NARDKNG TPL  A   + ++
+Sbjct  15   VSSKDINKRNEEGETILHQAVEISNYKTVRFLIKKGAEVNARDKNGYTPLHCAVFAKSLE  74
+
+Query  112  GAETLLGRKAQVDATNN-SGETALIRAVQL--RDLAMVRLLLKNGANPDK  158
+              + LL   A+V+AT   +G T L  A ++    + +++ L+K GA  ++
+Sbjct  75   NVKVLLREGAEVNATQYVTGCTPLHSACKIGGAGVEIIKELVKAGAEVNQ  124
+
+
+> gi|302391769|ref|YP_003827589.1| ankyrin [Acetohalobium arabaticum 
+DSM 5501]
+Length=926
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 35/95 (37%), Positives = 52/95 (55%), Gaps = 0/95 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+             G T LH+  A+  L  + +L++ GAN  A++K G TPL LA     +D  + LL +   
+Sbjct  529  EGWTTLHLAVAKGRLEPVKYLVKNGANIKAQNKAGQTPLHLAAEEGKIDVLDYLLTKDVS  588
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+            +D  NN G TAL  AV   +  +V+ LL  GA+ +
+Sbjct  589  IDLRNNRGRTALFTAVDENNQKIVKFLLGQGADIE  623
+
+
+> gi|392373836|ref|YP_003205669.1| hypothetical protein DAMO_0765 
+[Candidatus Methylomirabilis oxyfera]
+Length=272
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/111 (37%), Positives = 60/111 (54%), Gaps = 0/111 (0%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G TAL    A      +  LL +GA+ N RD+ G TPLM  +    +     LL + A V
+Sbjct  147  GGTALMRSAANGHTEIVTLLLDKGADVNIRDRKGETPLMRTSAEGQLGLVTMLLEKGADV  206
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGD  174
+            +A    GETAL+ A     + +V+LLL +GA+   +D+  G++AR YA G+
+Sbjct  207  NAQAIKGETALMYAAWYGRMGVVKLLLSHGADVYLKDSNKGENARGYAYGN  257
+
+
+> gi|225849928|ref|YP_002730162.1| pfs, nacht and ankyrin domain 
+protein [Persephonella marina EX-H1]
+Length=473
+
+ Score = 58.5 bits (140),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 43/131 (33%), Positives = 67/131 (51%), Gaps = 11/131 (8%)
+
+Query  45   TQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLA  104
+             ++L E G+ + N KD    ET LH   ++R      +L+++GA  NAR+KNG TPL++A
+Sbjct  200  VKILVEKGAEL-NIKD-KDEETPLHKSVSQRKFNVTKYLVEKGAYINARNKNGKTPLLIA  257
+
+Query  105  TNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAG  164
+             +         L+ + A ++A +N G T L  A     +  V+ LL+ GAN +       
+Sbjct  258  ISGVDEKTVNFLIQKGADINAKDNDGWTPLHEATFRGHIGFVKKLLEKGANVN-------  310
+
+Query  165  QSARDYANGDF  175
+              ARD   GD+
+Sbjct  311  --ARDNKYGDY  319
+
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/135 (30%), Positives = 61/135 (45%), Gaps = 13/135 (10%)
+
+Query  23   QAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGF  82
+            +A F     F+K + E+  +             VN +D   G+  LH+V    +      
+Sbjct  289  EATFRGHIGFVKKLLEKGAN-------------VNARDNKYGDYVLHVVARNGNEEIAKL  335
+
+Query  83   LLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRD  142
+            LL+ GA  N RD+ G TPL  A+       A+ L+   A ++A NN G T L +A     
+Sbjct  336  LLKNGAKVNVRDEYGNTPLHAASLEGHFKVAKLLIDHGADINAKNNKGWTPLFKAAMAGK  395
+
+Query  143  LAMVRLLLKNGANPD  157
+            + +  LLL  GA+P+
+Sbjct  396  IKVAILLLTKGADPN  410
+
+
+ Score = 53.5 bits (127),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 34/117 (29%), Positives = 64/117 (55%), Gaps = 2/117 (2%)
+
+Query  44   ATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLML  103
+            A ++L E G+ I   +  + G T LH    + +L  +  L+++GA  N +DK+  TPL  
+Sbjct  166  AVEILIEYGADI--NEQNSEGWTPLHFAAYKGELETVKILVEKGAELNIKDKDEETPLHK  223
+
+Query  104  ATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            + + R  +  + L+ + A ++A N +G+T L+ A+   D   V  L++ GA+ + +D
+Sbjct  224  SVSQRKFNVTKYLVEKGAYINARNKNGKTPLLIAISGVDEKTVNFLIQKGADINAKD  280
+
+
+> gi|189502616|ref|YP_001958333.1| hypothetical protein Aasi_1290 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=1602
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 47/136 (35%), Positives = 69/136 (51%), Gaps = 10/136 (7%)
+
+Query  56    VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+             VN     +G+T LHI  A      +  L + GA+ N+R ++G TPL+LA+       A  
+Sbjct  1288  VNIPHQKTGKTPLHIAAAFNKTKLISLLCKSGADLNSRARDGATPLILASYFHGNVPAII  1347
+
+Query  116   LLGR-KAQVDA--------TNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQS  166
+             LL +  A ++A        TN  G TAL  A Q   +A ++ LLK GANP +  TI G++
+Sbjct  1348  LLAKLGADLNAVTYPHPNLTNGGGMTALHHAAQEGLVANIKALLKLGANP-RLRTIKGKN  1406
+
+Query  167   ARDYANGDFRNPQILE  182
+                +  G ++  QI E
+Sbjct  1407  VAYHLEGAYQCKQISE  1422
+
+
+> gi|146298660|ref|YP_001193251.1| ankyrin [Flavobacterium johnsoniae 
+UW101]
+Length=450
+
+ Score = 57.8 bits (138),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 33/93 (35%), Positives = 54/93 (58%), Gaps = 0/93 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +GET L + +AR +   +  LL +GA+ N  DK G TPL+ A   + +     LL   A+
+Sbjct  133  NGETPLILASARLNREIIQLLLDKGADINVTDKQGNTPLLYACYTKSIPMVTLLLENGAE  192
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            V+ TN++GE AL+ A    +  + +LL++ GA+
+Sbjct  193  VNHTNHAGENALLIACYETNRMLAKLLVERGAD  225
+
+
+> gi|260061507|ref|YP_003194587.1| hypothetical protein RB2501_07900 
+[Robiginitalea biformata HTCC2501]
+Length=158
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 45/144 (31%), Positives = 71/144 (49%), Gaps = 3/144 (2%)
+
+Query  28   DSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRG  87
+            D+  F + +RE + D+    L      ++N +D   G T L +         +  LL++G
+Sbjct  2    DTTQFFEKIREGNLDEVKSAL-AADPQLLNARD-QRGSTPLVLAAYYNQNEVVACLLEKG  59
+
+Query  88   ANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVR  147
+            A  + +D +G T LM      + D A+ L+   A V+A N  G T LI AV      + R
+Sbjct  60   APIDEKDGSGNTALMGVCFKGYTDTAKLLIDSGADVNARNGMGMTCLIFAVTFNQEGIAR  119
+
+Query  148  LLLKNGANPDKQDTIAGQSARDYA  171
+            LL++NGA+ +  D   G+SA D+A
+Sbjct  120  LLVENGADVNAIDA-RGESALDHA  142
+
+
+> gi|91778761|ref|YP_553969.1| ankyrin domain-containing protein 
+[Burkholderia xenovorans LB400]
+Length=178
+
+ Score = 55.8 bits (133),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 45/78 (58%), Gaps = 0/78 (0%)
+
+Query  83   LLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRD  142
+            LL+RGA+P+ R+ NG TP+  A    F    ETLL   A V+  +  G TAL+ A     
+Sbjct  74   LLERGADPDLRNDNGQTPIAGAAFKGFDSVIETLLAHGADVEGASPDGRTALMIAAMFNR  133
+
+Query  143  LAMVRLLLKNGANPDKQD  160
+             A++ LL+ +GANP  +D
+Sbjct  134  TAIMELLIAHGANPKARD  151
+
+
+> gi|166367203|ref|YP_001659476.1| ankyrin repeat-containing protein 
+[Microcystis aeruginosa NIES-843]
+Length=457
+
+ Score = 57.8 bits (138),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 38/92 (41%), Positives = 49/92 (53%), Gaps = 0/92 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            SGET L +   R +L  +  LLQ GANPN   + G T LM+A    + D    LL + A 
+Sbjct  199  SGETPLILAVERGNLGSVQTLLQAGANPNISTEEGETALMIAAAEGYFDIVRLLLAKGAS  258
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGA  154
+            VD  N +GETAL        L +V+ LL+ GA
+Sbjct  259  VDNQNQAGETALHLGTIEGHLEIVQALLQAGA  290
+
+
+> gi|116626903|ref|YP_829059.1| ankyrin [Candidatus Solibacter 
+usitatus Ellin6076]
+Length=395
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 47/134 (35%), Positives = 65/134 (49%), Gaps = 4/134 (3%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +GET LH+   R       +L+ +GA  NARDK G  PL  A    F   A TLL   A 
+Sbjct  107  TGETPLHLAVDRGYQELTEWLIGQGAPVNARDKAGSAPLDEAARRGFDGIAGTLLEHGAH  166
+
+Query  123  VDATN-NSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQIL  181
+             D  N  +G T +  A +  +  +V LLL  GA+P ++D     +  + A G  R P++L
+Sbjct  167  ADEENPETGSTPINEAARRGNPKVVALLLAKGADPSRRDRSGASAVENAARG--RYPEVL  224
+
+Query  182  E-AITASDKDRKAG  194
+            E  IT      +AG
+Sbjct  225  ELLITGGAASEQAG  238
+
+
+> gi|190570781|ref|YP_001975139.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=270
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 38/106 (36%), Positives = 59/106 (56%), Gaps = 7/106 (7%)
+
+Query  56   VNTKDIT----SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVD  111
+            V++KDI      GET LH      +   + FL+++GA  NARDKNG TPL  A   + ++
+Sbjct  49   VSSKDINKRNEEGETILHQAVEISNYKTVRFLIKKGAEVNARDKNGYTPLHCAVFAKSLE  108
+
+Query  112  GAETLLGRKAQVDATNN-SGETALIRAVQL--RDLAMVRLLLKNGA  154
+              + LL   A+V+AT   +G T L  A ++    + +++ L+K GA
+Sbjct  109  NVKVLLREGAEVNATQYVTGCTPLHSACKIGGAGVEIIKELVKAGA  154
+
+
+> gi|434398640|ref|YP_007132644.1| Ankyrin [Stanieria cyanosphaera 
+PCC 7437]
+Length=435
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 39/99 (39%), Positives = 54/99 (55%), Gaps = 0/99 (0%)
+
+Query  62   TSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKA  121
+            T+GET L I T+  +   +  LL+ GANPN  D  G TPL +AT   +     TLL   A
+Sbjct  208  TTGETPLAIATSNGNQEIVQQLLKAGANPNLADLQGDTPLHIATVEGYRYLVATLLKAGA  267
+
+Query  122  QVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            +VD  N  G+T L+ A       +V LL+ +GANP  ++
+Sbjct  268  EVDYRNKIGDTPLMIACLQGYQEIVELLINHGANPQLEN  306
+
+
+> gi|225629960|ref|YP_002726751.1| ankyrin repeat domain protein 
+[Wolbachia sp. wRi]
+Length=1094
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 44/102 (43%), Positives = 54/102 (53%), Gaps = 2/102 (2%)
+
+Query  56    VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+             VN +D  S +T LH             L+Q GA  NA+DK+G T L LA   R VD  +T
+Sbjct  994   VNARDRNS-KTLLHYSALSGSYNIAECLIQEGAGINAKDKDGNTALHLAVIRRKVDITKT  1052
+
+Query  116   LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+             LL   A V+A NN G TAL  AV      +V LLL +GA+ D
+Sbjct  1053  LLKHNADVNARNNLGNTALDCAVD-NCQELVELLLAHGASRD  1093
+
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 43/140 (31%), Positives = 71/140 (51%), Gaps = 9/140 (6%)
+
+Query  64    GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+             G T LHI     DL  + +L++  AN +A+D  G+TPL LA ++  +   E L+   A V
+Sbjct  865   GRTPLHIAAINGDLDMVEYLIKSYANIDAKDNYGMTPLHLAADVGELGIVEYLINEDAYV  924
+
+Query  124   DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSA------RDYANGDFRN  177
+             DA +    T L  A +   L +V+ L++ GAN + ++   G++A      R   +GD R 
+Sbjct  925   DARDEHYRTPLFFAAENGKLNVVKCLIEKGANVNAENEY-GETALHRAVYRATFSGDLRI  983
+
+Query  178   PQIL--EAITASDKDRKAGT  195
+              + L  +    + +DR + T
+Sbjct  984   VESLINKGANVNARDRNSKT  1003
+
+
+ Score = 54.3 bits (129),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 40/112 (36%), Positives = 60/112 (54%), Gaps = 5/112 (4%)
+
+Query  64    GETALHIVTARR----DLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGR  119
+             GETALH    R     DL  +  L+ +GAN NARD+N  T L  +      + AE L+  
+Sbjct  964   GETALHRAVYRATFSGDLRIVESLINKGANVNARDRNSKTLLHYSALSGSYNIAECLIQE  1023
+
+Query  120   KAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+              A ++A +  G TAL  AV  R + + + LLK+ A+ + ++ + G +A D A
+Sbjct  1024  GAGINAKDKDGNTALHLAVIRRKVDITKTLLKHNADVNARNNL-GNTALDCA  1074
+
+
+> gi|183220627|ref|YP_001838623.1| ankyrin repeat-containing protein 
+[Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)']
+Length=473
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 70/136 (51%), Gaps = 5/136 (4%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+             L A+R ++   A  +++   S  V  K    G + LH++  +     +  L++ GANPN
+Sbjct  190  LLIAIRRKNYQFAKFLISNRASIDVVDK---KGFSLLHLLALKGHTELLKILIELGANPN  246
+
+Query  92   -ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLL  150
+               +K  V+PL  AT    ++  + LL R A  D  + +G TAL  AV+  DL +V  LL
+Sbjct  247  KVIEKGNVSPLHFATMNGHLEFVQYLLARGANPDIQDETGYTALHYAVKEGDLELVTTLL  306
+
+Query  151  KNGANPDKQDTIAGQS  166
+            +  ANP+ + TI G S
+Sbjct  307  RKKANPNLR-TIDGYS  321
+
+
+> gi|384209370|ref|YP_005595090.1| ankyrin repeat-containing protein 
+[Brachyspira intermedia PWS/A]
+Length=503
+
+ Score = 57.4 bits (137),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 39/130 (30%), Positives = 65/130 (50%), Gaps = 15/130 (12%)
+
+Query  66   TALHIVTARRDLTWMGFLLQRGANPNARDKNG------VTPLMLATNLRFVDG-------  112
+            T L I   R D   + FL+++GA+ NA+          VTPL+L+ +   ++        
+Sbjct  177  TPLMIAALRNDYDMVKFLVEKGADVNAKTHYSSEYSSVVTPLLLSLDDEHIESRYDENSS  236
+
+Query  113  -AETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+             AE L+   A ++ TN  GET L+ A +L ++ +V LL++ GAN +  D   G +A  Y 
+Sbjct  237  VAEYLINNGADINVTNEDGETPLMYASKLHNIKVVELLIQKGANINAFDNY-GNTALIYG  295
+
+Query  172  NGDFRNPQIL  181
+              +    ++L
+Sbjct  296  VNNLETVKLL  305
+
+
+ Score = 56.6 bits (135),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 40/125 (32%), Positives = 70/125 (56%), Gaps = 11/125 (9%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+            +L+  GA+ N  +++G TPLM A+ L  +   E L+ + A ++A +N G TALI  V   
+Sbjct  240  YLINNGADINVTNEDGETPLMYASKLHNIKVVELLIQKGANINAFDNYGNTALIYGVN--  297
+
+Query  142  DLAMVRLLLKNGANPD--KQDTIAGQSARDYANGDFRNPQILEAITASD-----KDRKAG  194
+            +L  V+LL++NGA+ +  K  + A  SA +Y++   RN  +++ + + +     +D K  
+Sbjct  298  NLETVKLLVENGADVNFYKGGSTALISACEYSHE--RNIDVIKYLVSKNANINAQDNKGD  355
+
+Query  195  TGAPK  199
+            T   K
+Sbjct  356  TALNK  360
+
+
+> gi|479198850|ref|YP_007828076.1| FOG: TPR repeat, SEL1 subfamily 
+[Fretibacterium fastidiosum]
+Length=846
+
+ Score = 57.4 bits (137),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 53/176 (30%), Positives = 81/176 (46%), Gaps = 43/176 (24%)
+
+Query  47   MLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNG---------  97
+            +L + GS  VN +D   G TAL +    ++L  +  LL+ GA+ NARDK+G         
+Sbjct  229  LLIQSGSD-VNARD-KDGNTALKMAANSKELEVVNLLLEAGADVNARDKDGAMALHSAAF  286
+
+Query  98   ----------------------------VTPLMLATNLRFVDGAETLLGRKAQVDATNNS  129
+                                        +TPL+ A + R V   E LL   A ++A + S
+Sbjct  287  NGTPGVIKALLEAGADVNAKVEKSFNIGMTPLLYARSSRAV---EVLLKAGADIEARDGS  343
+
+Query  130  GETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILEAIT  185
+            G TAL+ A +   L +++ LL  GANPD +D+  G +    A     NP+I++A+ 
+Sbjct  344  GSTALVFAAREGRLGLMKTLLDAGANPDVRDSY-GDTLLTVAADSAPNPKIIKALV  398
+
+
+> gi|183220876|ref|YP_001838872.1| ankyrin repeat-containing protein 
+[Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)']
+Length=211
+
+ Score = 55.8 bits (133),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 34/98 (35%), Positives = 53/98 (54%), Gaps = 0/98 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +GET L + T       +  L+Q  AN N  D+ G T    +   RF++ AE LL  K +
+Sbjct  54   NGETPLILATKFGYAEIVEILIQNQANVNLVDQTGKTAFHWSVKKRFLNIAEILLEAKTK  113
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            VDA +++ +TAL+   ++    MV+LL+    NP+ QD
+Sbjct  114  VDAVDSNKKTALVYVTKIGHADMVKLLITKQPNPNLQD  151
+
+
+> gi|189184019|ref|YP_001937804.1| ankyrin repeat-containing protein 
+03_08 [Orientia tsutsugamushi str. Ikeda]
+Length=235
+
+ Score = 55.8 bits (133),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 15/138 (11%)
+
+Query  30   YNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGAN  89
+            Y    A+++ D  K  Q++N+  ST+VN+K    G TAL +    ++L     LL  GAN
+Sbjct  9    YTLHSAIQDGDIKKVKQLINK-DSTLVNSK-YKDGTTALSVALKYKNLPIAEILLSNGAN  66
+
+Query  90   PNARDKNGVTPLMLATNLRFV-------------DGAETLLGRKAQVDATNNSGETALIR  136
+             NA+D +G T L L  +   V             D    LL   A V+  NN G T L  
+Sbjct  67   VNAQDNDGHTALHLVVDTIQVYYEFFEKYPTYCNDHIALLLKYNADVNIENNQGNTPLSD  126
+
+Query  137  AVQLRDLAMVRLLLKNGA  154
+            AV+ + +  + ++LK+ +
+Sbjct  127  AVECKCVEPLAIMLKHNS  144
+
+
+> gi|451947296|ref|YP_007467891.1| ankyrin repeat-containing protein 
+[Desulfocapsa sulfexigens DSM 10523]
+Length=730
+
+ Score = 57.0 bits (136),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 68/139 (49%), Gaps = 10/139 (7%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+            F ++++ R  D AT  +++    +       +G   LH      D T + FL Q+GA+PN
+Sbjct  302  FEQSLQRRYWDIATFFVDKGEEDLNAIAPRIAGIPLLHYYATTEDTTVIEFLCQKGADPN  361
+
+Query  92   ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA----------TNNSGETALIRAVQLR  141
+              D NG++P++ A+        + LL   A +++          ++  G T LI A+  R
+Sbjct  362  LVDTNGMSPILYASWKGRQQTVKLLLSLGADINSACLSDKKTMYSSAPGSTPLILAILER  421
+
+Query  142  DLAMVRLLLKNGANPDKQD  160
+               +V+ L+KNGA+ DK D
+Sbjct  422  HFDLVKFLIKNGADIDKGD  440
+
+
+> gi|116624416|ref|YP_826572.1| ankyrin [Candidatus Solibacter 
+usitatus Ellin6076]
+Length=646
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 37/95 (39%), Positives = 52/95 (55%), Gaps = 1/95 (1%)
+
+Query  64   GETALHIVTARRDLTW-MGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            G TAL I     D T  +  L+ +GA+  A+D  G T L+ A     +D   TLLG+  +
+Sbjct  117  GRTALIIAAGHPDGTETVRLLISKGADSKAKDGGGSTALIEAARANEIDTVRTLLGQAVE  176
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+            +DA +  G TAL+ A    + A V+LLL  GANP+
+Sbjct  177  IDAGDRLGLTALLYAASHGNAAAVKLLLDKGANPN  211
+
+
+> gi|374310094|ref|YP_005056524.1| ankyrin [Granulicella mallensis 
+MP5ACTX8]
+Length=443
+
+ Score = 56.6 bits (135),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 40/132 (30%), Positives = 70/132 (53%), Gaps = 3/132 (2%)
+
+Query  35   AVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARD  94
+            A R++    A  +L++  +  +N +    G + LH+V        +G LL+ GA+ N  +
+Sbjct  75   ACRQKQKQTALYLLDKGANPKINDR---FGNSLLHLVARTGQAEIVGKLLELGADVNLLN  131
+
+Query  95   KNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGA  154
+               + PLM+A +    + A+ LL + A V+A + +G+TALI A + + L M+ +LL  GA
+Sbjct  132  NEALPPLMVAASGFNKEAAQLLLDKGADVNAVDKNGDTALIFATRAQALPMMTVLLDKGA  191
+
+Query  155  NPDKQDTIAGQS  166
+            N +  +   G S
+Sbjct  192  NVNHTNNSGGSS  203
+
+
+> gi|340617417|ref|YP_004735870.1| ankyrin repeat-containing protein 
+[Zobellia galactanivorans]
+Length=157
+
+ Score = 54.7 bits (130),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 48/156 (31%), Positives = 75/156 (48%), Gaps = 4/156 (3%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+            F   +R  + +  T MLN+    +V+  D   G T L + T    +     LL +GA  +
+Sbjct  5    FFNEIRLGNLEAVTHMLND-NPELVDAVD-QRGSTPLILATYYDQMEIAELLLDKGAKID  62
+
+Query  92   ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLK  151
+            A D +G T LM      F   AE L+ R A V+  N+ G T+LI A       + +LLL+
+Sbjct  63   AIDGSGNTALMGVCFKGFAGIAEMLIERGANVNERNSMGATSLIYAATFNRPEIAKLLLE  122
+
+Query  152  NGANPDKQDTIAGQSARDYANGDFRNPQILEAITAS  187
+            +GA+   +D   G +A D+A      P+++E + A 
+Sbjct  123  HGADTTAKDA-RGNTAHDHAKMQ-GVPELIELLAAE  156
+
+
+> gi|392413311|ref|YP_006449918.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=757
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 39/109 (36%), Positives = 63/109 (58%), Gaps = 1/109 (1%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G TAL     R  +  +  L++ GA+   +DK+G + LM A +   ++    L+ R A++
+Sbjct  405  GLTALMRAAYRGHMPVVRLLVESGADLQEQDKDGKSALMKACSSGQIETVNYLVDRGAEI  464
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYAN  172
+            DA N  G TAL+RA    +  +V+LLL+ GANP+ +D  AG +A  +A+
+Sbjct  465  DARNTHGLTALMRAAYKGNEPIVQLLLERGANPELKDN-AGLTAVAWAS  512
+
+
+> gi|294508439|ref|YP_003572497.1| hypothetical protein SRM_02624 
+[Salinibacter ruber M8]
+Length=229
+
+ Score = 55.8 bits (133),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 34/91 (37%), Positives = 50/91 (55%), Gaps = 1/91 (1%)
+
+Query  67   ALHIVTARRDLTWMG-FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDA  125
+            +L ++ A  D   M   L++ GA+PN  D +G TPLM        + A  L+   A V+A
+Sbjct  106  SLLMIAAYSDQPEMADLLIEHGADPNRSDPSGSTPLMGCCFKGLAEAAGVLIEAGADVNA  165
+
+Query  126  TNNSGETALIRAVQLRDLAMVRLLLKNGANP  156
+            T   G TAL+ A    + A+V LLL++GA+P
+Sbjct  166  TGARGATALMYAATYGESALVDLLLEHGADP  196
+
+
+> gi|15889101|ref|NP_354782.1| ankyrin repeat protein [Agrobacterium 
+fabrum str. C58]
+Length=185
+
+ Score = 55.1 bits (131),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 39/94 (41%), Positives = 54/94 (57%), Gaps = 5/94 (5%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLR--FVDGAETLLGRK  120
+             G T LHI+T   D   +  L++RGAN  ARD+ G TPL++  N +    D    LL + 
+Sbjct  93   EGVTILHIIT---DPDTVSLLVKRGANIEARDERGWTPLIMQANNQQNGPDVVAALLAQG  149
+
+Query  121  AQVDATNNSGETALIRAVQLRDLAMVRLLLKNGA  154
+            A  +A   +GETAL  A Q  D A+VR+L+ +GA
+Sbjct  150  ADPNAEGFAGETALSFAKQTGDAALVRMLIASGA  183
+
+
+> gi|384209361|ref|YP_005595081.1| ankyrin repeat-containing protein 
+[Brachyspira intermedia PWS/A]
+Length=382
+
+ Score = 56.6 bits (135),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 59/108 (55%), Gaps = 1/108 (1%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G TA+       +L+ +  L+   A  N +D NG TPLM+A++  + D    L+     V
+Sbjct  126  GWTAVMWACVNGNLSVLKMLVNAKAEVNIKDVNGSTPLMVASDSGYADIVRELIKLDTNV  185
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            +  N  G+TA++    + D+++VR L+K GAN D++ +  G SA  YA
+Sbjct  186  NEKNKFGDTAIMMGAIIGDVSIVRELIKAGANIDEKGS-NGGSALIYA  232
+
+
+> gi|512552486|ref|YP_008090392.1| FOG: Ankyrin repeat [Chthonomonas 
+calidirosea T49]
+Length=389
+
+ Score = 56.6 bits (135),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 54/93 (58%), Gaps = 0/93 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+             G+T LHI  A  D   +  LL+  A+  AR++ G TPL++A     V   + LL   A 
+Sbjct  216  HGDTPLHIAAAVDDAKIVRLLLKAHADIEARNRRGQTPLLVAIESDNVAAGKVLLQAGAS  275
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            V+A +  G+T L+ AV L D+A+ +LL++ GA+
+Sbjct  276  VEAQDVKGDTPLMLAVSLGDVALAKLLVRFGAH  308
+
+
+> gi|470153478|ref|YP_006281980.1| Tiorf66 protein [Pectobacterium 
+sp. SCC3193]
+Length=155
+
+ Score = 54.3 bits (129),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 44/143 (31%), Positives = 67/143 (47%), Gaps = 7/143 (5%)
+
+Query  31   NFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANP  90
+            +  ++VR+   ++   M+N     IVN  +    +  LH   A  ++  +   ++ G + 
+Sbjct  4    DIFQSVRDGLNEELLAMVNIDNINIVNEYN----QNLLHEAIACGNVILINRFIELGIDV  59
+
+Query  91   NARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAV--QLRDLAMVRL  148
+            N +D NG TPL  A   R  D  ET+L  K  V   +  G   L  AV     D  MV L
+Sbjct  60   NHQDNNGQTPLHYAAQRRMEDVGETILMNKGDVLVADKYGNQPLWTAVFNARGDYGMVCL  119
+
+Query  149  LLKNGANPDKQDTIAGQSARDYA  171
+            LLKN A PD ++   G+S  D++
+Sbjct  120  LLKNHAVPDHKNH-YGKSPLDFS  141
+
+
+> gi|190570821|ref|YP_001975179.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=775
+
+ Score = 56.6 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 45/135 (33%), Positives = 59/135 (44%), Gaps = 2/135 (1%)
+
+Query  26   FSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQ  85
+            F D    L      D  K  ++L + G   VNT D   G   LH   A   +  +  L+ 
+Sbjct  51   FDDQSTLLHIAARNDLVKIAELLIKKGGN-VNTAD-QDGWNTLHFAAASSSIGVVEILIA  108
+
+Query  86   RGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAM  145
+             G N N  D+NG TPL  A +    +  E +L + A VDA N +G T L  A       +
+Sbjct  109  NGVNVNVADQNGFTPLHCAAHNENKEIVELILDKGANVDAVNQNGCTPLHCATINGHEEI  168
+
+Query  146  VRLLLKNGANPDKQD  160
+            V LLL+  AN D  D
+Sbjct  169  VELLLEKRANVDVAD  183
+
+
+> gi|189502104|ref|YP_001957821.1| hypothetical protein Aasi_0703 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=762
+
+ Score = 56.6 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 37/108 (34%), Positives = 60/108 (56%), Gaps = 1/108 (1%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G +ALHI +       +  LL +GA+ N ++K+GV PL  A+    ++  + LL R A+V
+Sbjct  573  GSSALHITSQGWHTEIVKLLLDKGADVNVKNKSGVVPLHAASEGGNIETIKLLLERVAEV  632
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            +A   +G T L  A Q     + +LLL+ GA+   +D ++ QSA  +A
+Sbjct  633  NANEETGYTPLDCATQKGHTEVAKLLLEKGADIHVKDEVS-QSALHWA  679
+
+
+> gi|190571745|ref|YP_001976103.1| ankyrin repeat domain protein 
+[Wolbachia endosymbiont of Culex quinquefasciatus Pel]
+Length=564
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/115 (33%), Positives = 62/115 (54%), Gaps = 2/115 (2%)
+
+Query  46   QMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLAT  105
+            + L E G+ I N K  ++G+T LH+ T    L  +  L++ GAN N R+K G  PL  A 
+Sbjct  117  EKLIEKGADI-NAKS-SNGDTPLHLATKNSHLDVLEKLIKEGANVNERNKYGNIPLHWAA  174
+
+Query  106  NLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+                +   E L+ + A ++A NN+G T L  AV+   L + + L+ N A+ + ++
+Sbjct  175  GYGSLSIVEELIEKGADINAKNNNGNTPLHWAVKSSHLEVAKFLISNHADVNAKN  229
+
+
+> gi|392381158|ref|YP_005030355.1| protein of unknown function; 
+ankyrin repeat domain [Azospirillum brasilense Sp245]
+Length=187
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 52/162 (32%), Positives = 74/162 (46%), Gaps = 5/162 (3%)
+
+Query  19   PVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLT  78
+            P  AQ    +  + +KAV   D   A ++L   G    N  D  SG   L +        
+Sbjct  21   PALAQINLLEGPSMVKAVTSNDA-SALRLLLLKGEN-PNQVD-ASGRPVLLLAIGNGHPE  77
+
+Query  79   WMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAV  138
+             +  LL  GANPN  DK+G TPL  A      +  + LL + A+VD  N  G T L+ A 
+Sbjct  78   LVRLLLDGGANPNRADKSGNTPLHYAVEADAPEAVDLLLTKGAKVDQDNRQGITPLMTAA  137
+
+Query  139  QLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQI  180
+            +   + +V  LLK GA  D+ D   G++   +A  D RN ++
+Sbjct  138  RFGRVDLVERLLKAGAQADRTD-FTGRTTLSWAQ-DSRNARV  177
+
+
+> gi|392412894|ref|YP_006449501.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=196
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 46/79 (58%), Gaps = 0/79 (0%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+             LL+ GA  NA+D+ G T LM A+   +VD  + LL   A ++A +  G TALI A    
+Sbjct  85   HLLESGAQVNAKDEFGWTALMRASRRGYVDLVQLLLAHSADMEAGDQYGATALIVAAAEG  144
+
+Query  142  DLAMVRLLLKNGANPDKQD  160
+               +V+ LL NGA+P+ +D
+Sbjct  145  HTNVVKELLDNGADPEARD  163
+
+
+> gi|344202422|ref|YP_004787565.1| ankyrin [Muricauda ruestringensis 
+DSM 13258]
+Length=158
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/133 (34%), Positives = 63/133 (47%), Gaps = 3/133 (2%)
+
+Query  39   RDGD-KATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNG  97
+            R+G+ +A Q L       + TKD   G T L +         + FLL +GA  +A D +G
+Sbjct  12   RNGNLEAVQNLIRKKPNFLETKD-QRGSTPLILAAYYGYEDIVDFLLDKGAQVDALDGSG  70
+
+Query  98   VTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+             T LM      F D AE L+   A +   N  G T LI AV     ++  LLLK+GAN  
+Sbjct  71   NTALMGVCFKGFTDIAEKLIKAGANISQINAMGATCLIYAVTFNRKSIAELLLKHGANAS  130
+
+Query  158  KQDTIAGQSARDY  170
+             +D   G++  D+
+Sbjct  131  VKDA-KGKTVMDF  142
+
+
+> gi|189502493|ref|YP_001958210.1| hypothetical protein Aasi_1144 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=2122
+
+ Score = 55.8 bits (133),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 63/124 (51%), Gaps = 11/124 (9%)
+
+Query  34   KAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVT-------ARRDLTWMGFLLQR  86
+            +AV + D     Q++N   ++I + KD T G TA+HI+        A + L  + F+   
+Sbjct  217  EAVNQGDLQCIKQLIN---ASIRDIKDDT-GNTAVHILINSYKPKIAEQQLKILHFITMF  272
+
+Query  87   GANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMV  146
+            G  PN +D +G TPL LA     ++  + LL R A +   NN G T L  AV   ++ + 
+Sbjct  273  GPRPNMQDNDGNTPLHLAVKKGHIEIVKKLLERSADIYIQNNDGNTPLHLAVIQNEIEIT  332
+
+Query  147  RLLL  150
+            RLLL
+Sbjct  333  RLLL  336
+
+
+> gi|384209242|ref|YP_005594962.1| ankyrin repeat-containing protein 
+[Brachyspira intermedia PWS/A]
+Length=220
+
+ Score = 54.3 bits (129),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/122 (32%), Positives = 67/122 (55%), Gaps = 8/122 (7%)
+
+Query  55   IVNTKDIT------SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLR  108
+            I+N KD+        G T L      +D+  +  LL+  ANPN ++ +G T L+ A++  
+Sbjct  14   ILNKKDVNINVQDRYGVTPLMHAVFNKDIYILELLLKNNANPNMQNDSGKTALIYASSTC  73
+
+Query  109  FVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSAR  168
+              D  + L+  KA V+ T+N   T L+ A   RD+ +++LL ++GAN + Q+ + G++A 
+Sbjct  74   DFDMIQMLIWYKADVNLTDNYKSTPLMYASS-RDVNIIKLLAESGANMNAQN-LDGKTAL  131
+
+Query  169  DY  170
+             Y
+Sbjct  132  MY  133
+
+
+> gi|392408515|ref|YP_006445122.1| ankyrin repeat-containing protein, 
+partial [Desulfomonile tiedjei DSM 6799]
+Length=474
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/100 (36%), Positives = 53/100 (53%), Gaps = 13/100 (13%)
+
+Query  71   VTARRD----LTWMG---------FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLL  117
+            VTA+ D    L W            L++ GAN N  ++ G TPL+ A +   +D AE LL
+Sbjct  119  VTAKEDSDQALIWAAAQGHSDIAELLIKYGANVNTANETGRTPLIEACSRNHIDFAEILL  178
+
+Query  118  GRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+               A V+A +N  E+A+ +A +  +  +VRLLL+ GA  D
+Sbjct  179  RHGADVNAKDNKNESAIFKAAKAGNAGIVRLLLEKGAEID  218
+
+
+> gi|91776239|ref|YP_545995.1| ankyrin [Methylobacillus flagellatus 
+KT]
+Length=321
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 64/181 (35%), Positives = 86/181 (48%), Gaps = 13/181 (7%)
+
+Query  1    MNRFSRLWSAVLAFALLFPVAAQAQFSDSYNFLKAVRERDGDKAT--QMLNEPGSTIVNT  58
+            ++   RL  A+    LL  VA  A   +   +L  V  + GD AT   +LN       NT
+Sbjct  3    ISMLRRLTVALFCSVLLGVVALPALGKEQVPYLLTVSSK-GDLATVKSLLNSGADP--NT  59
+
+Query  59   KDITSGETALHIVTARRDLTWMG-FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLL  117
+            +D   G TAL +  AR+D   +   LL++GA+ NA D  G T LM A    F+D A+ LL
+Sbjct  60   RD-AEGITAL-MYAARKDKADVARVLLEKGADVNATDAGGWTALMFAAKKNFIDTAKVLL  117
+
+Query  118  GRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANP-DKQDTIAGQSARDYA--NGD  174
+               A     + SG +AL  A       MV LL++ G +P  K D   G+S   YA  NGD
+Sbjct  118  EYGADAKVRDESGWSALGMAATSGYSEMVGLLVQRGIDPSSKSDD--GKSILMYAARNGD  175
+
+Query  175  F  175
+             
+Sbjct  176  I  176
+
+
+> gi|312131235|ref|YP_003998575.1| ankyrin [Leadbetterella byssophila 
+DSM 17132]
+Length=490
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 40/123 (33%), Positives = 65/123 (53%), Gaps = 0/123 (0%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +GET LH +  R +   + + + +G +    DK G T LMLA+  R ++  +TLL +   
+Sbjct  258  NGETLLHPLVRRSNPDVLQYFMNKGIDFGTADKEGNTLLMLASGGRDLNLVKTLLEKVNN  317
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYANGDFRNPQILE  182
+            ++A N++GE+AL RAV      +V  LL  GA+ + ++      A  + N   R PQ  +
+Sbjct  318  LNAINSNGESALTRAVASGTPEIVEFLLSKGADANIKNINGDNLASYWFNTLGRGPQSGD  377
+
+Query  183  AIT  185
+            A T
+Sbjct  378  ADT  380
+
+
+> gi|158521110|ref|YP_001528980.1| ankyrin [Desulfococcus oleovorans 
+Hxd3]
+Length=1061
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 64/135 (47%), Gaps = 1/135 (1%)
+
+Query  25   QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+            Q  DS   L    E       +ML + G  I  +++   G TAL    A+ +L     LL
+Sbjct  431  QADDSATLLVTSAENGNATIVKMLLDMGVDI-ESREKKDGSTALIKAAAKNNLEVAEILL  489
+
+Query  85   QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+            ++GAN + RD++G T    AT   +V+ A+ L    A ++ +  +G T LI A    ++ 
+Sbjct  490  KKGANVDGRDRSGCTAFYRATENGYVEMAKLLHSHGADINGSVENGYTPLIAAALANNIE  549
+
+Query  145  MVRLLLKNGANPDKQ  159
+            MV+ LL   A  D Q
+Sbjct  550  MVKFLLDRKAGIDMQ  564
+
+
+ Score = 54.3 bits (129),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 36/100 (36%), Positives = 49/100 (49%), Gaps = 1/100 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            VN +D  SG T L       D   + +LL R    N  D  G TPLM A++  + D A+ 
+Sbjct  627  VNARD-ASGNTVLMSACGSGDANVVAYLLTRKLEVNVTDNYGTTPLMRASSSGYTDIADI  685
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            L+   A ++A N  G +AL  A     L MVR L+  GA+
+Sbjct  686  LIKSGADINARNYKGNSALSEAADRGQLDMVRFLINKGAD  725
+
+
+ Score = 54.3 bits (129),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 42/145 (29%), Positives = 73/145 (50%), Gaps = 10/145 (7%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPN  91
+            F+ A RE D +   ++L++        +D  S      + + R D+  +  LL++GA+ N
+Sbjct  33   FVSACREGDYETVVRLLDKGADVNFGNRDYNSPLIG-AVQSGRMDI--VDLLLEKGADIN  89
+
+Query  92   ARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLK  151
+              ++NG TPLM A++   +D  +  + R A ++A   S  T ++ AV       V+LL+ 
+Sbjct  90   QANRNGYTPLMTASSKCRLDMIKYFIDRGADINARTRSKNTTIMSAVHAGCAEAVKLLIL  149
+
+Query  152  NGANPDKQD-------TIAGQSARD  169
+            NGA+ + +D        IA +S RD
+Sbjct  150  NGADLNDRDDHGDTLLHIAARSPRD  174
+
+
+> gi|428313634|ref|YP_007124611.1| ankyrin repeat-containing protein 
+[Microcoleus sp. PCC 7113]
+Length=508
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 48/131 (37%), Positives = 71/131 (54%), Gaps = 6/131 (5%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMG-FLLQRGANP  90
+            FLKA +  +  +   +L +  +  VNT D   G TAL +  A+   T +   LL +GANP
+Sbjct  27   FLKAAQRGELTQLKAILAQGAN--VNTCD-RDGTTAL-MFAAQSGYTEIARVLLAKGANP  82
+
+Query  91   NAR-DKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLL  149
+            N R ++ G+  LMLA+     D   TL+   A V+ TN+ G TAL+ A     L +V++L
+Sbjct  83   NQRRERYGLVALMLASAAAQADVVHTLIAAGADVNITNDDGSTALMVAAHKGYLKIVQIL  142
+
+Query  150  LKNGANPDKQD  160
+            L  GA+ + QD
+Sbjct  143  LDAGADVNIQD  153
+
+
+> gi|298207980|ref|YP_003716159.1| Ankyrin-like protein [Croceibacter 
+atlanticus HTCC2559]
+Length=173
+
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 46/142 (32%), Positives = 72/142 (51%), Gaps = 7/142 (5%)
+
+Query  32   FLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTAR--RDLTWMGFLLQRGAN  89
+               A+R +D      +L E    ++  KD   G T L + T    +D+T +  LL   A+
+Sbjct  21   LFNAIRSQDKANIAIVLKE-YPELIQAKD-QRGSTPLLLATYYGFKDITEI--LLDHNAD  76
+
+Query  90   PNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLL  149
+             NA+D +G T LM      + + AE L+ R A +D  N++  TALI A      A+V+LL
+Sbjct  77   INAQDASGNTALMGVCFKGYPEIAELLIKRGANIDLQNSNNATALIYATTFNQEAIVKLL  136
+
+Query  150  LKNGANPDKQDTIAGQSARDYA  171
+            L + A+   +D   G +A+D+A
+Sbjct  137  LAHNADKSLKDA-RGHTAKDHA  157
+
+
+> gi|189502738|ref|YP_001958455.1| hypothetical protein Aasi_1435 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=1585
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 43/131 (33%), Positives = 63/131 (48%), Gaps = 11/131 (8%)
+
+Query  25    QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+              F+  YN L+ V+          L + G+ I N K+     TALH  T    L  + +LL
+Sbjct  1136  HFATRYNHLEIVK---------YLLDKGADI-NVKN-NDQWTALHFATRYDHLKIVKYLL  1184
+
+Query  85    QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+              +GA+ N +D +  T L  AT    +   + LL + A + A N   ET LI A +  DL 
+Sbjct  1185  DKGADINVKDNDQWTALHFATRYDHLKIVKLLLEKGADIHAKNKESETLLIYACKKGDLE  1244
+
+Query  145   MVRLLLKNGAN  155
+             +V+ LL  GA+
+Sbjct  1245  LVKYLLDKGAD  1255
+
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 41/136 (30%), Positives = 68/136 (50%), Gaps = 11/136 (8%)
+
+Query  25    QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+              F+  YN LK V+         +L + G+ I N K+     TALH  T    L  + +LL
+Sbjct  1400  HFATRYNHLKIVK---------LLLDKGADI-NVKN-NDQWTALHFATRYDHLEIVKYLL  1448
+
+Query  85    QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+              +GA+ N ++KN  T L  AT    +   + LL + A + A N  G T L +A +   L 
+Sbjct  1449  DKGADINVKNKNQWTALHFATRYNHLKIVKLLLDKGADIHAKNKYGNTPLHKACENGHLE  1508
+
+Query  145   MVRLLLKNGANPDKQD  160
+             +++ L++ GA+ + ++
+Sbjct  1509  VIKYLVEKGADINAKN  1524
+
+
+> gi|374288790|ref|YP_005035875.1| putative ankyrin repeat-containing 
+exported protein [Bacteriovorax marinus SJ]
+Length=296
+
+ Score = 54.7 bits (130),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 34/84 (40%), Positives = 48/84 (57%), Gaps = 1/84 (1%)
+
+Query  77   LTWMGFLL-QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALI  135
+            L ++ +L+ + GA+ N  DK  +TPLM A     ++    LL R A+  A N  G  AL 
+Sbjct  122  LPYIKYLVDEMGADVNKADKEEITPLMEAAASENIEVLSYLLERGAKTGAKNKLGADALT  181
+
+Query  136  RAVQLRDLAMVRLLLKNGANPDKQ  159
+             A+   D AM RLLLKNGA+P+ +
+Sbjct  182  IALSSGDAAMARLLLKNGADPNHK  205
+
+
+> gi|302035692|ref|YP_003796014.1| hypothetical protein NIDE0308 
+[Candidatus Nitrospira defluvii]
+Length=349
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 67/135 (50%), Gaps = 5/135 (4%)
+
+Query  40   DGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVT  99
+            D  + T +L E GS +   +   +G TAL     R     +  LLQ GANPNA+ K  +T
+Sbjct  63   DVSEVTSLL-EDGSPV--DRHNNNGRTALLEAAKRGQTPVVTVLLQYGANPNAKMKQNMT  119
+
+Query  100  PLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQ  159
+             L+ A      D    LL   A +DA    G++AL R+V+   LA  ++LL+ G   +++
+Sbjct  120  ALLTAAEHGHADTIAVLLSNNADIDALCTCGDSALHRSVRKGHLAAAQVLLEQGIAANQK  179
+
+Query  160  DTIAGQSARDYANGD  174
+                G++A + A  D
+Sbjct  180  SH--GETALEIAQHD  192
+
+
+> gi|189502614|ref|YP_001958331.1| hypothetical protein Aasi_1288 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=731
+
+ Score = 55.1 bits (131),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 38/131 (29%), Positives = 70/131 (53%), Gaps = 3/131 (2%)
+
+Query  25   QFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLL  84
+            Q + + +   A+ + D  +  +++N      VN ++I  G + L+I   +  L  +  LL
+Sbjct  184  QLTTTTSLHTAIEKGDIMEVKKLINS--KVDVNARNI-KGLSPLYIAARQGYLEIIELLL  240
+
+Query  85   QRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLA  144
+              GA PN +D+ G TPL LA     ++ A+ L+ + A ++AT+N+G T L  ++    L 
+Sbjct  241  NAGAAPNDKDEYGYTPLHLAMEYNHMEVAKLLIEKGADINATDNTGNTFLYMSILGFQLE  300
+
+Query  145  MVRLLLKNGAN  155
+            M + L++ GA+
+Sbjct  301  MAKQLIELGAD  311
+
+
+> gi|392411504|ref|YP_006448111.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=388
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 37/102 (36%), Positives = 53/102 (52%), Gaps = 2/102 (2%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+             LL  GA   ARD  G T LM+A    + D  E L+   A V+A ++ G + L+RA    
+Sbjct  216  LLLDSGAEIEARDSRGNTALMVAARSGYRDTVECLIAAGADVNARDSFGGSPLVRAASKG  275
+
+Query  142  DLAMVRLLLKNGANPDKQDTIAGQSA--RDYANGDFRNPQIL  181
+            +  +VR+LLK GAN +  DT  G +A  +    GD    ++L
+Sbjct  276  NADVVRVLLKAGANINTVDTTTGSTALIKACKKGDVPTARVL  317
+
+
+> gi|255035453|ref|YP_003086074.1| ankyrin [Dyadobacter fermentans 
+DSM 18053]
+Length=509
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 50/93 (54%), Gaps = 1/93 (1%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAE-TLLGRKAQ  122
+            G T LH +  R +   + + + +G + N  D  G T LMLA + R V   E TLL +   
+Sbjct  262  GATVLHQLIRRPNAEVIAYFVDKGVDLNKADNEGNTLLMLAASGRDVQLVEQTLLPKVKN  321
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            ++A N  GE+AL +A+      M  LLLKNGA+
+Sbjct  322  INAKNEKGESALTKAIATGSSEMAALLLKNGAD  354
+
+
+> gi|260061815|ref|YP_003194895.1| hypothetical protein RB2501_09445 
+[Robiginitalea biformata HTCC2501]
+Length=507
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 42/123 (34%), Positives = 65/123 (53%), Gaps = 4/123 (3%)
+
+Query  63   SGETALH-IVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKA  121
+            SGE+A H +  + +D   + F L+ GA  N  D  G TP   A      +    L G  +
+Sbjct  275  SGESAFHRVAYSDKDPEIIRFFLEHGAIANQPDAEGNTPFGNAAAGNTPEVVGILAGEVS  334
+
+Query  122  QVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDY--ANGDFRNPQ  179
+             VDA N +G+TAL+RAV+  + A+V LL++ GA+   +D   G S   Y  A+ D  +P+
+Sbjct  335  DVDAANAAGQTALMRAVRSNNPAVVSLLIEAGADVAARDE-KGNSISFYLLASFDASHPE  393
+
+Query  180  ILE  182
+            + +
+Sbjct  394  VYD  396
+
+
+> gi|313682726|ref|YP_004060464.1| ankyrin [Sulfuricurvum kujiense 
+DSM 16994]
+Length=170
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 58/109 (53%), Gaps = 1/109 (1%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            +G TALH+     DL    FLL  GA+ NA+D  G TPL+LA   + ++    ++  +A 
+Sbjct  47   AGLTALHVAIKMGDLKISQFLLDNGADINAQDFQGNTPLILAVKKKDLELVTFVIIHRAD  106
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+            V+  NN G T L +A    +  +   LLK  A+P  ++   G +A ++A
+Sbjct  107  VNLANNDGITPLHQAAFSGNEPVADFLLKAHADPHLKNN-DGATAYEFA  154
+
+
+> gi|392408516|ref|YP_006445123.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=225
+
+ Score = 53.5 bits (127),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 47/84 (56%), Gaps = 0/84 (0%)
+
+Query  83   LLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRD  142
+            LL RGA+  A D+ G T LM A    F + A  L+ R AQ++A +N G TAL+R  +   
+Sbjct  86   LLARGAHIEATDQYGATALMKAARRHFPEVARILIQRGAQINAVDNLGRTALMRTARRGF  145
+
+Query  143  LAMVRLLLKNGANPDKQDTIAGQS  166
+              +  LLL++GA+ + +D     S
+Sbjct  146  FDLAALLLESGADTEARDEYGATS  169
+
+
+ Score = 53.1 bits (126),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 29/81 (36%), Positives = 47/81 (58%), Gaps = 0/81 (0%)
+
+Query  82   FLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR  141
+            FLL +GA+  A+D  G TPL+ A  +   +  E LL R A ++AT+  G TAL++A +  
+Sbjct  52   FLLDQGADVEAKDPYGWTPLLWAAAVGQAELVERLLARGAHIEATDQYGATALMKAARRH  111
+
+Query  142  DLAMVRLLLKNGANPDKQDTI  162
+               + R+L++ GA  +  D +
+Sbjct  112  FPEVARILIQRGAQINAVDNL  132
+
+
+> gi|428209927|ref|YP_007094280.1| ankyrin [Chroococcidiopsis thermalis 
+PCC 7203]
+Length=493
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 37/94 (39%), Positives = 49/94 (52%), Gaps = 0/94 (0%)
+
+Query  64   GETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQV  123
+            G T + I  A         LL  GA+ NA+DK+G TPL LAT   + D  ETLL R A V
+Sbjct  270  GSTVVAIAAASGQGAIASALLLYGADINAKDKDGETPLHLATVEGYADVVETLLDRGADV  329
+
+Query  124  DATNNSGETALIRAVQLRDLAMVRLLLKNGANPD  157
+            +  N  G+T L+ A       +   LL+ GA+P+
+Sbjct  330  NVKNQLGDTPLLVAALQGHSQIAEALLRRGADPN  363
+
+
+> gi|392412261|ref|YP_006448868.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=296
+
+ Score = 53.9 bits (128),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 55/187 (29%), Positives = 86/187 (46%), Gaps = 12/187 (6%)
+
+Query  9    SAVLAFALLFPVAAQAQFSDSYNFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETAL  68
+            + VL    +F  A  A   D  +F +AV++RD  +   +LN+     VN K   +G TAL
+Sbjct  11   TGVLVIFTVFGPAIHADEKD--DFFEAVQKRDLKRVQDLLNK--GVDVNAK--RNGCTAL  64
+
+Query  69   HIVT--ARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDAT  126
+             ++     R+   M  LL+RGA+ NA+ K G T L  A      D  +  L   A ++  
+Sbjct  65   MLIHWYGVRNSELMKLLLERGADINAKSKRGRTVLTYAAGSCATDIVKYFLDNGADINVR  124
+
+Query  127  NNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAG----QSARDYANGDFRNPQILE  182
+              +G+TALI A        V++LL  GA+ + ++ +       +    A G +  P  LE
+Sbjct  125  EITGDTALILASCELCCDTVKVLLDRGADVNAKNAVGFTALISAVSGCAFGSWARPAQLE  184
+
+Query  183  AITASDK  189
+               + DK
+Sbjct  185  TKISVDK  191
+
+
+> gi|189502133|ref|YP_001957850.1| hypothetical protein Aasi_0738 
+[Candidatus Amoebophilus asiaticus 5a2]
+Length=1005
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 37/107 (35%), Positives = 61/107 (57%), Gaps = 5/107 (5%)
+
+Query  56   VNTKDITSGETALHIVT--ARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGA  113
+            +N+K I    T LH+     R+D+  +  L+   AN +A+  +G TPL  AT L  ++ A
+Sbjct  363  INSK-IGENYTPLHVAAYIGRKDI--IKLLIDSNANIHAKCNDGNTPLHYATMLSHIEAA  419
+
+Query  114  ETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+              LL ++A+++  N+  ET L  A +   L MV+LL++ GA+ + QD
+Sbjct  420  NLLLEQEAEIEMPNDLWETPLHIAAEQGHLGMVKLLIEKGADFNTQD  466
+
+
+> gi|404497510|ref|YP_006721616.1| ankyrin [Geobacter metallireducens 
+GS-15]
+Length=756
+
+ Score = 54.7 bits (130),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 40/116 (34%), Positives = 59/116 (51%), Gaps = 16/116 (14%)
+
+Query  80   MGFLLQRGANPNARDKNGVTPLMLATNLRFV---------DGAETLLGRKAQVDATNNSG  130
+            + +LL +GA+ NA  K G TPL+LA    F          +  E LL   A+V+A    G
+Sbjct  114  VAYLLGKGADVNAWTKKGDTPLILAMRGAFFHRGPEGDPRETLEALLKHGAEVNAAGEYG  173
+
+Query  131  ETALIRAVQLRDLAMVRLLLKNGANPDKQD-------TIAGQSARDYANGDFRNPQ  179
+             TALI AV+  D  +V  LL+ GA+P  +D       T+A +   DY +   ++P+
+Sbjct  174  RTALIWAVRHADARLVWPLLRKGADPSAKDKDGDTAITLAQELKLDYLSQLLKDPK  229
+
+
+> gi|58616163|ref|YP_195291.1| hypothetical protein p1B23 [Aromatoleum 
+aromaticum EbN1]
+Length=283
+
+ Score = 53.9 bits (128),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 38/100 (38%), Positives = 57/100 (57%), Gaps = 1/100 (1%)
+
+Query  56   VNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAET  115
+            V+ +D + G TALH  +   +  ++  LL++GA  + + + GVTPLMLA +      AE 
+Sbjct  124  VDVRD-SDGYTALHWASEGGNTPFVLSLLRKGAQVDPQSRTGVTPLMLAASAGRYTTAEG  182
+
+Query  116  LLGRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGAN  155
+            LL   A  + T ++G TAL RAV    LA+  LL+  GA+
+Sbjct  183  LLKHGACPNITADTGATALYRAVANDHLAVAELLVAKGAS  222
+
+
+> gi|291288398|ref|YP_003505214.1| ankyrin, partial [Denitrovibrio 
+acetiphilus DSM 12809]
+Length=279
+
+ Score = 53.9 bits (128),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 51/91 (56%), Gaps = 1/91 (1%)
+
+Query  81   GFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQL  140
+              LL+RGA+PN  + +GVTPLMLA         + ++   A+ +  +N G TA+I A + 
+Sbjct  175  SVLLERGADPNKPNIDGVTPLMLAAKFGHEKIVDMMIKHGAKTNLKDNLGRTAMIYAAER  234
+
+Query  141  RDLAMVRLLLKNGANPDKQDTIAGQSARDYA  171
+                +V  L+  GA+ +  D I G +A+DYA
+Sbjct  235  GYTRIVIALISMGADKNITDNI-GNTAKDYA  264
+
+
+> gi|392413854|ref|YP_006450461.1| ankyrin repeat-containing protein, 
+partial [Desulfomonile tiedjei DSM 6799]
+Length=219
+
+ Score = 53.1 bits (126),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 53/162 (33%), Positives = 81/162 (50%), Gaps = 10/162 (6%)
+
+Query  3    RFSRLWSAVLAFALLFPVAAQAQFSDS----YNFLKAVRERDGDKATQMLNEPGSTIVNT  58
+            R S      +  ALL    A AQFS +     + L AVR  D  K  ++L++  +  VN 
+Sbjct  2    RISLKAVVAIVVALLI---AFAQFSMAGPLEESLLDAVRMGDVKKVQELLSKGAN--VNA  56
+
+Query  59   KDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLG  118
+            KD+  G T L +      +  +  LL +GA+ NA++++G T L+ A+     D    L+ 
+Sbjct  57   KDM-DGFTPLMVGAVEGGIDVVKVLLDKGADVNAKNEDGDTALIGASFAGHTDLVILLIQ  115
+
+Query  119  RKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD  160
+            + A V+ATN  G TAL  A       +V+LLL  GAN + ++
+Sbjct  116  KNADVNATNKDGVTALFGAAFEGRPDVVKLLLDKGANVNAKE  157
+
+
+> gi|297537992|ref|YP_003673761.1| Ankyrin [Methylotenera versatilis 
+301]
+Length=317
+
+ Score = 53.5 bits (127),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 60/110 (55%), Gaps = 5/110 (5%)
+
+Query  58   TKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLL  117
+            T+D++   TA     ++ D+  +  +L  GA+ NA+D++GVT LM A      D    L+
+Sbjct  25   TEDVSYLLTA----ASKGDVATVNAMLASGADANAKDEDGVTALMYAVRKDKADVVAALI  80
+
+Query  118  GRKAQVDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQDTIAGQSA  167
+             + A V+A +N G T L+ A +        +LLKNGA+   +D+ AG SA
+Sbjct  81   SKGADVNAKDNGGWTPLMYAAKKNHFITAEVLLKNGADAKVRDS-AGWSA  129
+
+
+> gi|392408969|ref|YP_006445576.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=578
+
+ Score = 53.9 bits (128),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 49/83 (59%), Gaps = 0/83 (0%)
+
+Query  79   WMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAV  138
+             M  LL RG +P+ RD NG TPL++A+          ++  K  V+A +N GETAL++A 
+Sbjct  27   QMEKLLARGVSPDCRDDNGRTPLIVASERGNAALVGVMIRHKCDVNAVDNDGETALMKAA  86
+
+Query  139  QLRDLAMVRLLLKNGANPDKQDT  161
+                L +  +L++NGA+ + Q++
+Sbjct  87   FGGYLTVAEVLVENGADLEMQNS  109
+
+
+> gi|319789292|ref|YP_004150925.1| Ankyrin [Thermovibrio ammonificans 
+HB-1]
+Length=236
+
+ Score = 53.1 bits (126),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 45/134 (34%), Positives = 64/134 (48%), Gaps = 4/134 (3%)
+
+Query  40   DGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVT  99
+            D  +  + L E G+  VN  D   G T LH    R        L++ GA  NA DK G T
+Sbjct  83   DNVEFAKFLIEHGAN-VNATDYF-GLTPLHEAVVRGSYRVAKLLIEHGAKVNATDKYGYT  140
+
+Query  100  PLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLR-DLAMVRLLLKNGANPDK  158
+            PL L         A+ L+   A V+A +N G T L      +   A+ ++LL+NGANP+ 
+Sbjct  141  PLHLTAIYNRPRLAKLLIEHGADVNAKDNYGNTPLHYCATTKGSEAVAKVLLENGANPNV  200
+
+Query  159  QDTIAGQSARDYAN  172
+            ++   G++  D AN
+Sbjct  201  KNN-RGKTPLDLAN  213
+
+
+> gi|15639821|ref|NP_219271.1| ankyrin, [Treponema pallidum subsp. 
+pallidum str. Nichols]
+Length=934
+
+ Score = 53.9 bits (128),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 31/88 (35%), Positives = 48/88 (55%), Gaps = 1/88 (1%)
+
+Query  52   GSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVD  111
+            G   VN +D  +G+T LH+   R D   + FLL  GA+  A+D +G TPLM+A      +
+Sbjct  56   GKDSVNVRD-ANGDTLLHVGVLRNDAHVVDFLLSMGADTEAQDASGSTPLMVAVTENCFE  114
+
+Query  112  GAETLLGRKAQVDATNNSGETALIRAVQ  139
+                L+ R A + + +  G+T L RA++
+Sbjct  115  SVRMLIARDASLFSRDAQGDTPLTRAIR  142
+
+
+> gi|217979272|ref|YP_002363419.1| ankyrin [Methylocella silvestris 
+BL2]
+Length=581
+
+ Score = 53.5 bits (127),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 43/76 (57%), Gaps = 0/76 (0%)
+
+Query  80   MGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQ  139
+            + +LL +GA+ N RD  G TPL  A  L  +   E LL   A V+A ++ G T L+ A+ 
+Sbjct  356  LEYLLGKGADINKRDPQGYTPLTAAVRLGALSTTEFLLDHGADVEAADSDGWTPLLHAIL  415
+
+Query  140  LRDLAMVRLLLKNGAN  155
+              D   ++LLL +GAN
+Sbjct  416  RNDAPGIQLLLSHGAN  431
+
+
+> gi|434394331|ref|YP_007129278.1| Ankyrin [Gloeocapsa sp. PCC 
+7428]
+Length=433
+
+ Score = 53.5 bits (127),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 48/131 (37%), Positives = 63/131 (48%), Gaps = 4/131 (3%)
+
+Query  31   NFLKAVRERDGDKATQMLNEPGSTIVNTKDITSGETALHIVTARRDLTWMGFLLQRGANP  90
+            + LKAV+  D  +   +L+   S  VN  D   G TAL     R     +  LL  GA+ 
+Sbjct  8    SLLKAVKCGDIRQIHALLSAGAS--VNASD-GDGTTALMFAAQRGYTEIVRLLLANGADV  64
+
+Query  91   NARDK-NGVTPLMLATNLRFVDGAETLLGRKAQVDATNNSGETALIRAVQLRDLAMVRLL  149
+            N + K   +TPLMLA     +D  ETLL   A V+A N  G TAL+ A       +VR+ 
+Sbjct  65   NRQRKLYSLTPLMLAAAANHLDIVETLLAHGANVNAINEDGSTALMIAALKGHANIVRVF  124
+
+Query  150  LKNGANPDKQD  160
+            L  GA  D +D
+Sbjct  125  LNAGAKADIRD  135
+
+
+> gi|392409017|ref|YP_006445624.1| ankyrin repeat-containing protein 
+[Desulfomonile tiedjei DSM 6799]
+Length=453
+
+ Score = 53.5 bits (127),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 63/110 (57%), Gaps = 6/110 (5%)
+
+Query  63   SGETALHIVTARRDLTWMGFLLQRGANPNARDKNGVTPLMLATNLRFVDGAETLLGRKAQ  122
+            S ET L      R+L  +  L+ +G + NA+DK+G TPLM A   +  + A+ L+ R A 
+Sbjct  198  SHETVLTEAIEWRNLEVVKLLMDKGLDVNAKDKDGNTPLMEAAWRKNFEVAKFLIDRGAD  257
+
+Query  123  VDATNNSGETALIRAVQLRDLAMVRLLLKNGANPDKQD----TIAGQSAR  168
+            V+A N +G TA + A +  DL +++ L+  GA+ + +D    T+  ++AR
+Sbjct  258  VNAKNKNGRTAPMSAYE--DLRLLKFLIDKGADVNIKDEDGETVFMEAAR  305
+
+
+
+Lambda     K      H
+   0.320    0.134    0.385 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 36661177790
+
+
+  Database: 2014 NCBI COGs
+    Posted date:  Mar 16, 2015  3:15 PM
+  Number of letters in database: 640,579,405
+  Number of sequences in database:  1,785,722
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

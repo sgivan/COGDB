@@ -1,0 +1,1426 @@
+BLASTP 2.2.26+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 2014 NCBI COGs
+           1,785,722 sequences; 640,579,405 total letters
+
+
+
+Query= C29_0007 C29_0007: hypothetical protein  [+ 0 upstream : + 0
+downstream]
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|384220351|ref|YP_005611517.1| hypothetical protein BJ6T_6680...   154    1e-46
+  gi|85374354|ref|YP_458416.1| hypothetical protein ELI_07635 [Er...   147    1e-43
+  gi|103487635|ref|YP_617196.1| glutathione-dependent formaldehyd...   141    3e-41
+  gi|294012132|ref|YP_003545592.1| hypothetical protein SJA_C1-21...   127    4e-36
+  gi|326403889|ref|YP_004283971.1| hypothetical protein ACMV_1742...   118    2e-32
+  gi|114797812|ref|YP_762094.1| hypothetical protein HNE_3421 [Hy...   113    3e-30
+  gi|220920304|ref|YP_002495605.1| glutathione-dependent formalde...  89.7    2e-21
+  gi|148554332|ref|YP_001261914.1| glutathione-dependent formalde...  86.7    5e-20
+  gi|209964342|ref|YP_002297257.1| hypothetical protein RC1_1021 ...  84.0    5e-19
+  gi|154253457|ref|YP_001414281.1| glutathione-dependent formalde...  78.2    5e-17
+  gi|383758180|ref|YP_005437165.1| putative lyase [Rubrivivax gel...  75.9    5e-16
+  gi|284031944|ref|YP_003381875.1| glutathione-dependent formalde...  71.2    2e-14
+  gi|39934905|ref|NP_947181.1| glutathione-dependent formaldehyde...  71.2    2e-14
+  gi|357383955|ref|YP_004898679.1| hypothetical protein [Pelagiba...  71.6    3e-14
+  gi|459289458|ref|YP_007512615.1| hypothetical protein S58_30280...  70.5    3e-14
+  gi|15600658|ref|NP_254152.1| hypothetical protein PA5465 [Pseud...  70.5    5e-14
+  gi|154248159|ref|YP_001419117.1| glutathione-dependent formalde...  70.1    5e-14
+  gi|152966255|ref|YP_001362039.1| glutathione-dependent formalde...  69.7    9e-14
+  gi|56697771|ref|YP_168141.1| hypothetical protein SPO2933 [Rueg...  68.9    1e-13
+  gi|15964867|ref|NP_385220.1| hypothetical protein SMc02548 [Sin...  67.8    5e-13
+  gi|92118149|ref|YP_577878.1| glutathione-dependent formaldehyde...  67.4    6e-13
+  gi|182414935|ref|YP_001820001.1| glutathione-dependent formalde...  67.0    7e-13
+  gi|116251308|ref|YP_767146.1| hypothetical protein RL1542 [Rhiz...  67.0    9e-13
+  gi|34497094|ref|NP_901309.1| hypothetical protein CV_1639 [Chro...  67.0    1e-12
+  gi|114797573|ref|YP_760533.1| hypothetical protein HNE_1832 [Hy...  66.6    1e-12
+  gi|83644298|ref|YP_432733.1| hypothetical protein HCH_01448 [Ha...  65.5    2e-12
+  gi|308049368|ref|YP_003912934.1| glutathione-dependent formalde...  65.9    2e-12
+  gi|116252085|ref|YP_767923.1| hypothetical protein RL2332 [Rhiz...  65.5    3e-12
+  gi|384220380|ref|YP_005611546.1| hypothetical protein BJ6T_6709...  65.1    4e-12
+  gi|116251307|ref|YP_767145.1| hypothetical protein RL1541 [Rhiz...  65.5    4e-12
+  gi|13473114|ref|NP_104681.1| hypothetical protein mlr3608 [Meso...  64.3    6e-12
+  gi|521462431|ref|YP_008149274.1| hypothetical protein SCE1572_1...  64.3    7e-12
+  gi|237807467|ref|YP_002891907.1| glutathione-dependent formalde...  63.9    7e-12
+  gi|315498108|ref|YP_004086912.1| glutathione-dependent formalde...  64.3    8e-12
+  gi|257092287|ref|YP_003165928.1| glutathione-dependent formalde...  63.9    8e-12
+  gi|119385530|ref|YP_916586.1| glutathione-dependent formaldehyd...  63.9    9e-12
+  gi|114797683|ref|YP_760507.1| hypothetical protein HNE_1803 [Hy...  63.5    1e-11
+  gi|459291343|ref|YP_007514500.1| conserved hypothetical protein...  63.5    1e-11
+  gi|197103575|ref|YP_002128952.1| hypothetical protein PHZ_c0109...  62.8    2e-11
+  gi|13470413|ref|NP_101981.1| hypothetical protein mlr0112 [Meso...  62.4    3e-11
+  gi|15888414|ref|NP_354095.1| conserved hypothetical protein [Ag...  62.4    4e-11
+  gi|257095091|ref|YP_003168732.1| glutathione-dependent formalde...  62.0    4e-11
+  gi|568283231|ref|YP_008971096.1| aldehyde-activating protein [L...  61.2    8e-11
+  gi|384219601|ref|YP_005610767.1| hypothetical protein BJ6T_5924...  60.8    1e-10
+  gi|15597902|ref|NP_251396.1| hypothetical protein PA2706 [Pseud...  60.8    1e-10
+  gi|347540786|ref|YP_004848211.1| glutathione-dependent formalde...  60.5    1e-10
+  gi|24372472|ref|NP_716514.1| glutathione-dependent formaldehyde...  59.3    4e-10
+  gi|392378541|ref|YP_004985701.1| conserved protein of unknown f...  59.3    4e-10
+  gi|478180400|ref|YP_007701473.1| putative glutathione-dependent...  58.5    6e-10
+  gi|385330575|ref|YP_005884526.1| glutathione-dependent formalde...  58.9    6e-10
+  gi|103486124|ref|YP_615685.1| glutathione-dependent formaldehyd...  58.9    7e-10
+  gi|116251306|ref|YP_767144.1| hypothetical protein RL1540 [Rhiz...  58.5    9e-10
+  gi|152996022|ref|YP_001340857.1| glutathione-dependent formalde...  57.0    2e-09
+  gi|145298907|ref|YP_001141748.1| glutathione-dependent formalde...  57.0    2e-09
+  gi|15888413|ref|NP_354094.1| conserved hypothetical protein [Ag...  56.6    3e-09
+  gi|91780763|ref|YP_555970.1| hypothetical protein Bxe_C0763 [Bu...  56.2    4e-09
+  gi|357417878|ref|YP_004930898.1| glutathione-dependent formalde...  55.8    6e-09
+  gi|357383954|ref|YP_004898678.1| Gfa-like protein [Pelagibacter...  55.8    6e-09
+  gi|311108233|ref|YP_003981086.1| glutathione-dependent formalde...  55.8    7e-09
+  gi|124265772|ref|YP_001019776.1| hypothetical protein Mpe_A0579...  55.5    9e-09
+  gi|182679321|ref|YP_001833467.1| glutathione-dependent formalde...  55.5    9e-09
+  gi|15599372|ref|NP_252866.1| hypothetical protein PA4177 [Pseud...  55.1    1e-08
+  gi|197103595|ref|YP_002128972.1| hypothetical protein PHZ_c0129...  54.7    2e-08
+  gi|126643281|ref|YP_001086265.1| glutathione-dependent formalde...  54.3    2e-08
+  gi|15964866|ref|NP_385219.1| hypothetical protein SMc02549 [Sin...  54.3    2e-08
+  gi|221638613|ref|YP_002524875.1| glutathione-dependent formalde...  53.5    3e-08
+  gi|116252437|ref|YP_768275.1| hypothetical protein RL2690 [Rhiz...  53.1    5e-08
+  gi|83645912|ref|YP_434347.1| hypothetical protein HCH_03159 [Ha...  52.8    7e-08
+  gi|294084620|ref|YP_003551378.1| glutathione-dependent formalde...  52.4    9e-08
+  gi|154253497|ref|YP_001414321.1| glutathione-dependent formalde...  52.0    1e-07
+  gi|153009937|ref|YP_001371152.1| glutathione-dependent formalde...  52.4    1e-07
+  gi|190573529|ref|YP_001971374.1| hypothetical protein Smlt1535 ...  52.0    2e-07
+  gi|459293658|ref|YP_007516815.1| conserved hypothetical protein...  51.6    2e-07
+  gi|374329369|ref|YP_005079553.1| glutathione-dependent formalde...  50.8    3e-07
+  gi|357384874|ref|YP_004899598.1| Gfa-like protein [Pelagibacter...  50.4    4e-07
+  gi|383758101|ref|YP_005437086.1| putative lyase [Rubrivivax gel...  50.4    4e-07
+  gi|307545803|ref|YP_003898282.1| glutathione-dependent formalde...  50.4    4e-07
+  gi|16127322|ref|NP_421886.1| hypothetical protein CC_3092 [Caul...  50.1    6e-07
+  gi|473830012|ref|YP_007683295.1| glutathione-dependent formalde...  49.7    8e-07
+
+
+> gi|384220351|ref|YP_005611517.1| hypothetical protein BJ6T_66800 
+[Bradyrhizobium japonicum USDA 6]
+Length=135
+
+ Score =  154 bits (390),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 69/114 (61%), Positives = 82/114 (72%), Gaps = 0/114 (0%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G    H LCHC DCR  AGAP VGWT  A     + KG P VY SSE A R FC +CGTG
+Sbjct  19   GEAIVHALCHCRDCRLHAGAPVVGWTMYADDAVKVTKGEPKVYQSSEHARRHFCSDCGTG  78
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            LFYVN  +LPG++D+Q+AT+DDPDA PA  HIQ A+R+GWM +AHELP F+R+P
+Sbjct  79   LFYVNADMLPGVIDVQSATYDDPDAVPATMHIQVAERLGWMERAHELPTFDRYP  132
+
+
+> gi|85374354|ref|YP_458416.1| hypothetical protein ELI_07635 [Erythrobacter 
+litoralis HTCC2594]
+Length=154
+
+ Score =  147 bits (372),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 69/114 (61%), Positives = 77/114 (68%), Gaps = 1/114 (1%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G    H LCHCTDCRR +GAP VGW  V       + G P+VY SSE   R FC  CGTG
+Sbjct  39   GEVINHALCHCTDCRRASGAPMVGWAMVTDGQL-TVSGEPSVYASSEHGRRHFCVQCGTG  97
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            LFY N  +LPGLVD+Q AT D+PD  P  AHIQ ADRIGWM +AH LPEFER+P
+Sbjct  98   LFYSNADMLPGLVDVQVATLDEPDELPPEAHIQVADRIGWMAEAHRLPEFERYP  151
+
+
+> gi|103487635|ref|YP_617196.1| glutathione-dependent formaldehyde-activating 
+protein [Sphingopyxis alaskensis RB2256]
+Length=138
+
+ Score =  141 bits (355),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 64/109 (59%), Positives = 75/109 (69%), Gaps = 1/109 (1%)
+
+Query  22   HRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVN  81
+            H LCHC+DCRR AGAP VGW  V      +  GTP +Y SSE   R FC NCGTGLFY N
+Sbjct  28   HALCHCSDCRRHAGAPMVGWGLVGIDEIEI-SGTPEIYASSEHGRRHFCGNCGTGLFYTN  86
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            + + PG +D+QTAT DDPD  P  A IQTA+RIGWM +  +LP FER+P
+Sbjct  87   DQIFPGQIDVQTATLDDPDLIPVQAQIQTAERIGWMERLVDLPAFERYP  135
+
+
+> gi|294012132|ref|YP_003545592.1| hypothetical protein SJA_C1-21460 
+[Sphingobium japonicum UT26S]
+Length=131
+
+ Score =  127 bits (320),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 60/108 (56%), Positives = 71/108 (66%), Gaps = 1/108 (1%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            LCHC+DCR+ AGAP VGW A+       + G P  Y SS+   R FC  CGTGLFY N A
+Sbjct  24   LCHCSDCRKSAGAPMVGW-ALFPEDRVTVTGRPVTYRSSDNVTREFCGTCGTGLFYRNAA  82
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPE  131
+            V PG+VDIQT T DDP A P   H+Q A+   WM  AHELP+F+R+PE
+Sbjct  83   VFPGMVDIQTGTLDDPSALPPAIHVQFAEAASWMAGAHELPKFDRYPE  130
+
+
+> gi|326403889|ref|YP_004283971.1| hypothetical protein ACMV_17420 
+[Acidiphilium multivorum AIU301]
+Length=130
+
+ Score =  118 bits (296),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 59/114 (52%), Positives = 69/114 (61%), Gaps = 1/114 (1%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            GR   H LC C DCRRCAGAP VGW AV       + G  AVY SS   ERSFCP CG G
+Sbjct  18   GRPRRHSLCFCADCRRCAGAPVVGW-AVVDEGMLRVSGEVAVYRSSGDVERSFCPRCGAG  76
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            LFY ++ + PG VD+QT TFDDP+  P    IQ A+   WM    +LP+  R+P
+Sbjct  77   LFYRSQKLFPGSVDVQTGTFDDPEILPPTEAIQLAEAPSWMAGIGDLPKHWRWP  130
+
+
+> gi|114797812|ref|YP_762094.1| hypothetical protein HNE_3421 [Hyphomonas 
+neptunium ATCC 15444]
+Length=138
+
+ Score =  113 bits (282),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 67/107 (63%), Gaps = 0/107 (0%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC DC++ AGAP V W  + +  F +  G     +SS  + R FC NCGTGL+Y NE 
+Sbjct  29   VCHCRDCQKSAGAPMVAWAMIPADDFRVSAGEARSVNSSGDSFRYFCGNCGTGLYYTNET  88
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+             LPG+VD+Q  T D P+AFP  A +QTA++ GW+     +P F R+P
+Sbjct  89   YLPGIVDVQLMTLDTPEAFPPGAQVQTAEQAGWVTHLAAIPAFTRYP  135
+
+
+> gi|220920304|ref|YP_002495605.1| glutathione-dependent formaldehyde-activating 
+protein [Methylobacterium nodulans ORS 2060]
+Length=132
+
+ Score = 89.7 bits (221),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 46/105 (44%), Positives = 56/105 (53%), Gaps = 1/105 (1%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  CRR  GA +V W +V   +F L  G P  + SS    RSFC  CGT L Y  EA
+Sbjct  24   VCHCASCRRAVGAASVAWLSVKRASFRLTAGEPIRFRSSPGVTRSFCGTCGTSLTYEAEA  83
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+              P  +D+  A+ DDPDA P   H Q A+R+ W   A  LP   R
+Sbjct  84   -YPDELDLTIASLDDPDAVPPKDHTQAAERLRWTSLADGLPVHPR  127
+
+
+> gi|148554332|ref|YP_001261914.1| glutathione-dependent formaldehyde-activating 
+protein [Sphingomonas wittichii RW1]
+Length=152
+
+ Score = 86.7 bits (213),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 46/105 (44%), Positives = 55/105 (52%), Gaps = 3/105 (3%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGL-FYVNEA  83
+            CHC  C+R  GAP + + +V    FH+  G P  Y SSE  ER FC +CG+ L   V+ A
+Sbjct  31   CHCRMCQRFGGAPVMAFASVPLVDFHVEAGDPVRYRSSEIGERWFCRDCGSSLAMRVDRA  90
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+              PGL+D   AT DDP   P   HI    RIGW      LP  ER
+Sbjct  91   --PGLIDFTMATLDDPTWLPPAFHIWRESRIGWFDTIDALPRHER  133
+
+
+> gi|209964342|ref|YP_002297257.1| hypothetical protein RC1_1021 
+[Rhodospirillum centenum SW]
+Length=146
+
+ Score = 84.0 bits (206),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 47/119 (39%), Positives = 59/119 (50%), Gaps = 2/119 (2%)
+
+Query  6    GALCRRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETA  65
+            GA+  R  G    TG    CHC  CRR +GAP + W    + +  L +G PA + SS  A
+Sbjct  14   GAVRYRISGAMAPTGV-AYCHCRTCRRSSGAPVMAWATFPAASVWLTRGVPAAHASSPKA  72
+
+Query  66   ERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             R FCP CGT LF+      P L D+   + DDP A     HI T+ R+ W   A  LP
+Sbjct  73   LRQFCPACGTQLFFAYTEGEPEL-DVSLGSLDDPTALVPAYHIWTSSRLPWFETADSLP  130
+
+
+> gi|154253457|ref|YP_001414281.1| glutathione-dependent formaldehyde-activating 
+protein [Parvibaculum lavamentivorans DS-1]
+Length=136
+
+ Score = 78.2 bits (191),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 38/117 (32%), Positives = 56/117 (48%), Gaps = 0/117 (0%)
+
+Query  1    MPLRRGALCRRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYH  60
+             PL+ G  C           +   CHC  C++ AG+P V W  +    F +++G   +  
+Sbjct  4    FPLKGGCFCGAVRYEVSGYESCAHCHCRMCQKAAGSPVVTWVMIVGDHFRIVEGALKIRK  63
+
+Query  61   SSETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWM  117
+            SS+ AER FC  CGT + +  E      +D+  A+ DDP+A    + I TA R  WM
+Sbjct  64   SSDIAERGFCEECGTQITFQYEKEKGKSIDVTAASLDDPEAVEPASQIWTASRPSWM  120
+
+
+> gi|383758180|ref|YP_005437165.1| putative lyase [Rubrivivax gelatinosus 
+IL144]
+Length=155
+
+ Score = 75.9 bits (185),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 43/108 (40%), Positives = 54/108 (50%), Gaps = 5/108 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEAV  84
+            CHC+ CRR +GA AV W +V    F L++G  A   SS    R FCP CGT LF  ++  
+Sbjct  32   CHCSICRRISGAAAVCWFSVREEDFELIQGEVAQLASSPHFTRHFCPRCGTHLFGRDDLP  91
+
+Query  85   LPG-----LVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFE  127
+             P      LV     T D+PD      H   + R+ W+ QA  LP FE
+Sbjct  92   APPSVGSRLVSAMLGTLDEPDRVAPRLHQWWSSRVFWVEQADGLPRFE  139
+
+
+> gi|284031944|ref|YP_003381875.1| glutathione-dependent formaldehyde-activating 
+GFA [Kribbella flavida DSM 17836]
+Length=153
+
+ Score = 71.2 bits (173),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/112 (36%), Positives = 59/112 (53%), Gaps = 6/112 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVY----HSSETAERSFCPNCGTGLFYV  80
+            C+C DC+R +G     + +VA   F LL G+P  Y     S  T ERSFCP+CG  LF  
+Sbjct  28   CYCKDCQRASGGVMATYFSVALDDFTLLSGSPRSYPYVADSGNTLERSFCPDCGARLFNE  87
+
+Query  81   NEAVLPGLVDIQTATFDDPDAF-PAMAHIQTADRIGWMRQAHELPEFERFPE  131
+              +  PG + +   + D+P+   P +  I TA RI W   A ++P++   P+
+Sbjct  88   RLSGFPGQLFVMLGSLDEPERIKPPIMEIFTAHRISWT-AALDVPQYRARPD  138
+
+
+> gi|39934905|ref|NP_947181.1| glutathione-dependent formaldehyde-activating 
+protein [Rhodopseudomonas palustris CGA009]
+Length=154
+
+ Score = 71.2 bits (173),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 39/102 (38%), Positives = 48/102 (47%), Gaps = 2/102 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            LCHC  C++  GAP      VA   F   +G PA + SS  AER FC +CGT L Y    
+Sbjct  31   LCHCRMCQKATGAPFASMAEVAKDNFAWTRGQPASFRSSSVAERDFCKDCGTPLGY--RL  88
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            +    ++I T TFD PD         T  R+GW      LP 
+Sbjct  89   MFCDSIEILTGTFDRPDRVVPTMQYGTEARLGWTGTIANLPS  130
+
+
+> gi|357383955|ref|YP_004898679.1| hypothetical protein [Pelagibacterium 
+halotolerans B2]
+Length=166
+
+ Score = 71.6 bits (174),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 36/94 (38%), Positives = 50/94 (53%), Gaps = 2/94 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            LCHC  C++ +G+   G  A    T    +G PA++ SSE  ER FC NCGT LFY +  
+Sbjct  30   LCHCRMCQKASGSIFAGLVAAPDDTLVWTRGKPAIWRSSEHVERGFCANCGTPLFYHD--  87
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWM  117
+            V  G  ++   + D+P AFP  A+  T   + W 
+Sbjct  88   VNNGRTNLMIGSLDNPSAFPPGANTGTEGAVSWF  121
+
+
+> gi|459289458|ref|YP_007512615.1| hypothetical protein S58_30280 
+[Bradyrhizobium oligotrophicum S58]
+Length=129
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 39/108 (36%), Positives = 57/108 (53%), Gaps = 3/108 (3%)
+
+Query  23   RLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNE  82
+            R+CHC +C++  G+P     A+ S     ++G  A + SS+  +R FCP CGT LF    
+Sbjct  24   RVCHCRNCQKAMGSPYFA-RALFSHDALTIQGEAARFPSSDALDRMFCPRCGTRLFSWRN  82
+
+Query  83   AVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+                 +V +  A FDDP+AF    HI  + +IGW+     LP+F   P
+Sbjct  83   TR--PVVGVALACFDDPNAFAPTEHIWVSAKIGWVNLNDGLPQFPENP  128
+
+
+> gi|15600658|ref|NP_254152.1| hypothetical protein PA5465 [Pseudomonas 
+aeruginosa PAO1]
+Length=139
+
+ Score = 70.5 bits (171),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 37/101 (37%), Positives = 46/101 (46%), Gaps = 1/101 (1%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEAV  84
+            CHC+ CRR  G     W  V    F  L G PA Y SS +  R FCP CG  L      +
+Sbjct  28   CHCSICRRTTGGIVTTWATVPRAAFRWLAGEPAEYASSASCTRYFCPRCGANLALFTR-L  86
+
+Query  85   LPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+                +D   A+ D P+  PA  HI    R+ W+    +LPE
+Sbjct  87   SADTLDFTVASLDHPERAPANRHIWVGSRLPWLHLDPQLPE  127
+
+
+> gi|154248159|ref|YP_001419117.1| glutathione-dependent formaldehyde-activating 
+protein [Xanthobacter autotrophicus Py2]
+Length=134
+
+ Score = 70.1 bits (170),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 40/108 (37%), Positives = 52/108 (48%), Gaps = 2/108 (2%)
+
+Query  3    LRRGALCRRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSS  62
+            L  G LC R   R     +   CHC  CRR +G+ A+ W  VA   F +  GTPA + SS
+Sbjct  6    LAGGCLCGRLRYRVRHIESAYWCHCAMCRRASGSGALPWLTVARADFEMTAGTPARFSSS  65
+
+Query  63   ETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQT  110
+                R FC +CG+ + +  +      VD+   T DDPDA     HI T
+Sbjct  66   PGVTRLFCGHCGSPILF--DMAKEAAVDVTVGTLDDPDAVTPTHHIWT  111
+
+
+> gi|152966255|ref|YP_001362039.1| glutathione-dependent formaldehyde-activating 
+protein [Kineococcus radiotolerans SRS30216 
+= ATCC BAA-149]
+Length=153
+
+ Score = 69.7 bits (169),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 39/112 (35%), Positives = 58/112 (52%), Gaps = 6/112 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYH----SSETAERSFCPNCGTGLFYV  80
+            C+C DC+R +G     + +VA   F LL G P  Y     S  T  R+FCP CG  +F  
+Sbjct  28   CYCKDCQRSSGGVMGSYFSVAQEDFTLLSGNPKGYSYVAASGNTLVRNFCPECGARVFTD  87
+
+Query  81   NEAVLPGLVDIQTATFDDPDAF-PAMAHIQTADRIGWMRQAHELPEFERFPE  131
+            + +  PG V +   + DDP+   P +  I T DRI W + A ++P++   P+
+Sbjct  88   HLSGFPGQVFVMLGSVDDPERIKPPIMEIFTRDRISWTK-ALDVPQYPARPD  138
+
+
+> gi|56697771|ref|YP_168141.1| hypothetical protein SPO2933 [Ruegeria 
+pomeroyi DSS-3]
+Length=129
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/112 (32%), Positives = 52/112 (46%), Gaps = 1/112 (1%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G+      CHC DCRR   AP   +  +   +       P +Y S++  ER FC  CGT 
+Sbjct  16   GKVAWSCYCHCADCRRNCAAPVTAFFGLPHESVTWSGDAPRIYRSTDRVERLFCGTCGTQ  75
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+            + Y N       + + TAT +DP A P   H+    R+ W+    +LP F+R
+Sbjct  76   MAYRNADDRVN-IHLYTATLEDPSALPPRFHVFHTARLPWLDLQDDLPRFDR  126
+
+
+> gi|15964867|ref|NP_385220.1| hypothetical protein SMc02548 [Sinorhizobium 
+meliloti 1021]
+Length=166
+
+ Score = 67.8 bits (164),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 52/111 (47%), Gaps = 2/111 (2%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G   +CHC  C++ AG   +    +A   F + +G PA Y SS+   R FC +CGT 
+Sbjct  21   GTLGDPHICHCRMCQKAAGNYFLPLANIAREGFRITRGQPAWYRSSDLVRRGFCRDCGTP  80
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFE  127
+            LFY  +      ++I   + DDPD    +       R+ W     +LPE E
+Sbjct  81   LFY--DMPDASFLNIALGSLDDPDDVQPVYQSGVESRMFWFSHLPQLPEKE  129
+
+
+> gi|92118149|ref|YP_577878.1| glutathione-dependent formaldehyde-activating 
+protein [Nitrobacter hamburgensis X14]
+Length=154
+
+ Score = 67.4 bits (163),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C++ +GAP      +    F   +GTPA + SS  AER+FC  CGT L +    
+Sbjct  31   ICHCRMCQKASGAPFASLADIPRANFRWTRGTPATFRSSSIAERAFCAACGTPLSF--SR  88
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            +    ++I T  FD PD         T  R+GW+     LP 
+Sbjct  89   IGGPCIEIMTGAFDRPDLLVPTRQYGTESRLGWVVTIVNLPS  130
+
+
+> gi|182414935|ref|YP_001820001.1| glutathione-dependent formaldehyde-activating 
+protein [Opitutus terrae PB90-1]
+Length=134
+
+ Score = 67.0 bits (162),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 40/105 (38%), Positives = 53/105 (50%), Gaps = 4/105 (4%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKG-TPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            CHC DCRR AGAP V W  V    F + +G    V H++    RSF   CGT L +  E+
+Sbjct  28   CHCVDCRRAAGAPFVTWGTVYRGDFRITQGEVRRVAHANRF--RSFAACCGTPLVF-EES  84
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+              P  +D+  A+ DDP  F     I   DR+ W+     LP++ R
+Sbjct  85   SEPPAIDVTIASLDDPTPFAPERVIWLEDRLPWVVLDPALPQYRR  129
+
+
+> gi|116251308|ref|YP_767146.1| hypothetical protein RL1542 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=158
+
+ Score = 67.0 bits (162),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 39/109 (36%), Positives = 52/109 (48%), Gaps = 4/109 (4%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGT  75
+            +G      +CHC  C++  GA      +V S  F   +G    + SS   ER FC +CGT
+Sbjct  18   SGDIKDSSICHCRMCQKAFGAYYAPLVSVRSADFEWTRGDRKRFRSSNFVERGFCGDCGT  77
+
+Query  76   GLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             L Y  EA  P  + I    FDDP AFP +       +IG++   HELP
+Sbjct  78   PLTY--EA--PDGMAIAAGAFDDPSAFPPLVQFGIEGKIGFVDHLHELP  122
+
+
+> gi|34497094|ref|NP_901309.1| hypothetical protein CV_1639 [Chromobacterium 
+violaceum ATCC 12472]
+Length=191
+
+ Score = 67.0 bits (162),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 34/92 (37%), Positives = 44/92 (48%), Gaps = 1/92 (1%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEAV  84
+            CHC  CRR +GA  V W  V           P  YHSS    R FCP+CG+ L Y +E+ 
+Sbjct  84   CHCRSCRRASGAAFVTWFTVRVHELEWRGEKPVQYHSSAAVSRGFCPHCGSTLTYFHESD  143
+
+Query  85   LPGLVDIQTATFDDPDAFPAMAHIQTADRIGW  116
+             P  +D+  A+ D P+A     H     R+ W
+Sbjct  144  -PEEIDVTAASLDMPEALAPEHHSWWEQRLEW  174
+
+
+> gi|114797573|ref|YP_760533.1| hypothetical protein HNE_1832 [Hyphomonas 
+neptunium ATCC 15444]
+Length=160
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 42/130 (32%), Positives = 60/130 (46%), Gaps = 7/130 (5%)
+
+Query  1    MPLRRGALCR----RRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTP  56
+            MP  R   C+    R    + R  +H +CHC  C++  G        V  T F   +GTP
+Sbjct  1    MPKARSGGCQCGRIRFRAESLRDNSH-VCHCRMCQKATGNFFAALVGVPYTDFQWTRGTP  59
+
+Query  57   AVYHSSETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGW  116
+            A ++SSE A R FC +CGT L+Y +E      + +    FDDP + P    +    R+  
+Sbjct  60   AEFNSSEKARRGFCRDCGTPLYYRHEDNQ--HISMSIGAFDDPASIPLNFQLGMEGRLPQ  117
+
+Query  117  MRQAHELPEF  126
+            M Q   L +F
+Sbjct  118  MDQFEVLDDF  127
+
+
+> gi|83644298|ref|YP_432733.1| hypothetical protein HCH_01448 [Hahella 
+chejuensis KCTC 2396]
+Length=135
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 40/105 (38%), Positives = 50/105 (48%), Gaps = 5/105 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTP--AVYHSSETAERSFCPNCGTGLFYVNE  82
+            CHC+ CR+  GA    +  V    F    G    AVY SS+ AER FCP CG+ L Y   
+Sbjct  24   CHCSKCRKFHGAATGTYGVVNKANFAWTAGEDRIAVYRSSDQAERGFCPQCGSSL-YFRF  82
+
+Query  83   AVLPGLVDIQTATFD-DPDAFPAMAHIQTADRIGWMRQAHELPEF  126
+               P  +DI   T D +PD  P   HI TA +  W      LP++
+Sbjct  83   LSNPDFIDIALGTLDEEPDQLPK-DHIYTASKAKWCVIGDGLPQY  126
+
+
+> gi|308049368|ref|YP_003912934.1| glutathione-dependent formaldehyde-activating 
+GFA [Ferrimonas balearica DSM 9799]
+Length=140
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 39/127 (31%), Positives = 52/127 (41%), Gaps = 2/127 (2%)
+
+Query  1    MPLRRGALC-RRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVY  59
+            +PL  G LC   R   T        CHC  C+R  G P   W           +GTP  Y
+Sbjct  10   LPLTGGCLCGAIRYRITDAPYDAEFCHCRQCQRATGGPVAAWMDFRIEQAIWEQGTPREY  69
+
+Query  60   HSSETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQ  119
+             SS+   R FCP CGT L Y +      L+ +  A+ D PD      H+ T  +  W+  
+Sbjct  70   ASSDQVRRGFCPQCGTALTYRHTGY-ADLLTLSIASLDQPDQVAPRYHLHTNSQCRWLTL  128
+
+Query  120  AHELPEF  126
+              + P +
+Sbjct  129  VDDSPRY  135
+
+
+> gi|116252085|ref|YP_767923.1| hypothetical protein RL2332 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=166
+
+ Score = 65.5 bits (158),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/94 (34%), Positives = 47/94 (50%), Gaps = 2/94 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            LCHC  C++ +G       A         +G P+V+ SSE  ER FC NCGT LF+    
+Sbjct  30   LCHCRMCQKASGNIFAALVAAPDDALSWTRGKPSVWKSSELVERGFCANCGTPLFF--HH  87
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWM  117
+            +  G  ++   + DDP AF  +A+  T + + W 
+Sbjct  88   LENGRTNLMIGSLDDPHAFSPLANTCTENMVAWF  121
+
+
+> gi|384220380|ref|YP_005611546.1| hypothetical protein BJ6T_67090 
+[Bradyrhizobium japonicum USDA 6]
+Length=154
+
+ Score = 65.1 bits (157),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 33/102 (32%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C++ +GAP   +  +  T F   KG P+ + SS  A+R +C  CGT L +    
+Sbjct  31   ICHCRMCQKASGAPFASFADINRTDFAWTKGRPSFFRSSSIADRGYCAACGTPLSFGR--  88
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            +    ++I T  FD PD         T  R+GW+     LP 
+Sbjct  89   IDGDRIEIMTGAFDRPDQIIPARQFGTESRLGWVVGIANLPS  130
+
+
+> gi|116251307|ref|YP_767145.1| hypothetical protein RL1541 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=162
+
+ Score = 65.5 bits (158),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 38/116 (33%), Positives = 54/116 (47%), Gaps = 5/116 (4%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G   LCHC  C++ AG   +    V  + F   +G P  + SS+   R FC +CGT 
+Sbjct  22   GELGYPHLCHCRMCQKAAGNYFMPLAGVMRSDFTFTRGAPKWFQSSDLVRRGFCGDCGTP  81
+
+Query  77   LFY-VNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPE  131
+            LFY + EA     ++I   + D+PDA   +    T  ++ W      LP  E  PE
+Sbjct  82   LFYDIPEA---DFINITLGSLDNPDAVKPVMQSNTGRKMSWFHALDGLP-LEPQPE  133
+
+
+> gi|13473114|ref|NP_104681.1| hypothetical protein mlr3608 [Mesorhizobium 
+loti MAFF303099]
+Length=132
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 55/108 (51%), Gaps = 1/108 (1%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G T A   CHC  CRR   AP   +  V    +  L   P +++SS   ER+FC +CG+ 
+Sbjct  16   GPTQACVSCHCESCRRQCSAPMTTYIGVLDDQWRWLGKPPKIFNSSPGVERTFCDHCGSP  75
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+            L + ++  + G++    A  ++P+ F    H+   +++ W++ A  LP
+Sbjct  76   LSFCSKN-MSGVMHFFAAAMEEPEKFAPTLHVAFEEKLPWLKLADGLP  122
+
+
+> gi|521462431|ref|YP_008149274.1| hypothetical protein SCE1572_14185 
+[Sorangium cellulosum So0157-2]
+Length=136
+
+ Score = 64.3 bits (155),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 36/102 (35%), Positives = 48/102 (47%), Gaps = 3/102 (3%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G   +  +C+C+ CRR  GAP   +       F LL G PA Y SS  A R FC  CG+ 
+Sbjct  21   GAPASVNVCYCSQCRRQTGAPMPSFATYPDEQFELLSGAPATYRSSSFAVRQFCATCGSS  80
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDP-DAFPAMAHIQTADRIGWM  117
+            LF+  +      +DI   T D P D  P    + T  R+ W+
+Sbjct  81   LFWRRDGARE--LDIFLGTMDRPGDLPPPSFQLWTVHRVPWL  120
+
+
+> gi|237807467|ref|YP_002891907.1| glutathione-dependent formaldehyde-activating 
+GFA [Tolumonas auensis DSM 9187]
+Length=131
+
+ Score = 63.9 bits (154),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 34/116 (29%), Positives = 53/116 (46%), Gaps = 3/116 (3%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCG  74
+            G  G   +CHC+ CR+  G+       V +  FH +KG   V  + S+    RSFC  CG
+Sbjct  17   GELGPTMMCHCSKCRKANGSAYAVNAVVKTDEFHFVKGKEFVAEFESTPGVFRSFCKQCG  76
+
+Query  75   TGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            + L Y      P ++ ++  T D P     +AHI    +  W     ++P++E  P
+Sbjct  77   SPL-YSRRPSQPDVLRLRIGTLDTPVDVKPLAHIFVGSKASWDEIHDDIPQYEERP  131
+
+
+> gi|315498108|ref|YP_004086912.1| glutathione-dependent formaldehyde-activating 
+protein [Asticcacaulis excentricus CB 48]
+Length=149
+
+ Score = 64.3 bits (155),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 48/109 (44%), Gaps = 4/109 (4%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G   +CHC  C++  G       +V        K  P  + SS   +R FCP+CGT 
+Sbjct  20   GELGHGSICHCRMCQKAYGNVFAPLVSVREAMLLWTKAEPKRFQSSNLVQRGFCPDCGTP  79
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            L Y  EA  P  V +  A FDDP     +    T  R+ W+   H LPE
+Sbjct  80   LTY--EA--PDGVALSIAAFDDPTDIAPVIQFGTEGRLPWVNGLHNLPE  124
+
+
+> gi|257092287|ref|YP_003165928.1| glutathione-dependent formaldehyde-activating 
+protein [Candidatus Accumulibacter phosphatis 
+clade IIA str. UW-1]
+Length=136
+
+ Score = 63.9 bits (154),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 55/111 (50%), Gaps = 6/111 (5%)
+
+Query  22   HRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVN  81
+             R+CHC  C++  GA A     +       + G  + +HSSET ER FC +CG+ +F  +
+Sbjct  24   QRICHCRACQKVIGA-AFNARVLMRIEHVAISGPISTFHSSETLERGFCSHCGSSIF--S  80
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+              V  G++ +   + D+P  F    H   + +  W+  A  LP+   +PEG
+Sbjct  81   RRVAAGVIGLTAGSLDEPSLFKPDMHFWISSKQPWLIIADNLPQ---YPEG  128
+
+
+> gi|119385530|ref|YP_916586.1| glutathione-dependent formaldehyde-activating 
+protein [Paracoccus denitrificans PD1222]
+Length=131
+
+ Score = 63.9 bits (154),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 36/118 (31%), Positives = 54/118 (46%), Gaps = 6/118 (5%)
+
+Query  11   RRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFC  70
+            R  G    T   + CHC  CRR +G     W A+   +  + +G P  Y +S+ A R FC
+Sbjct  19   RFRGTYDATNDLKACHCGQCRRWSGHY---WAAILPKSLEI-QGQPKWYRASDIARRGFC  74
+
+Query  71   PNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+            P CG+ LF+  +     ++D+     D P     + HI  AD+  +   A  LP+  R
+Sbjct  75   PECGSSLFWQRDG--SDIIDVAAGAIDSPTGLRLLGHIFVADKGDYYEIADGLPQDPR  130
+
+
+> gi|114797683|ref|YP_760507.1| hypothetical protein HNE_1803 [Hyphomonas 
+neptunium ATCC 15444]
+Length=136
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 37/110 (34%), Positives = 53/110 (48%), Gaps = 5/110 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSE---TAERSFCPNCGTGLFYVN  81
+            CHC +C+   G     + A+    F   +GTP  +   +    A R FCP+CGT +    
+Sbjct  26   CHCRECQYFTGGEGNDFIAMPEAAFKFTQGTPKGFTRQDLPNAATREFCPDCGTPIL-TR  84
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHI-QTADRIGWMRQAHELPEFERFP  130
+             + LPG + ++  + DDP AF     I QTAD   +      +P FERFP
+Sbjct  85   SSGLPGAIILKVGSLDDPAAFQGPQIILQTADAQPFHLVPEGVPAFERFP  134
+
+
+> gi|459291343|ref|YP_007514500.1| conserved hypothetical protein 
+[Bradyrhizobium oligotrophicum S58]
+Length=154
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/102 (31%), Positives = 49/102 (48%), Gaps = 2/102 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C++ +GAP   +  +   +F   +G P  + SS  A+R FC  CGT L +    
+Sbjct  31   ICHCRMCQKASGAPFASFAEIDRESFAWTRGQPGTFRSSSIADRYFCAACGTPLGFGR--  88
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            +    ++I T TFD PD         +  R+GW+     LP 
+Sbjct  89   IDGPRIEIMTGTFDRPDLMAPTRQYGSESRLGWVVAIANLPS  130
+
+
+> gi|197103575|ref|YP_002128952.1| hypothetical protein PHZ_c0109 
+[Phenylobacterium zucineum HLK1]
+Length=130
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 34/103 (33%), Positives = 48/103 (47%), Gaps = 3/103 (3%)
+
+Query  23   RLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNE  82
+            R+CHC  C+R  G P     A+ +T    ++G P  + SS+   R FCP CGT LF    
+Sbjct  25   RVCHCRMCQRVTGQPFFA-RALFATEQVAIEGEPQWFASSDDLSRGFCPTCGTTLFSRRG  83
+
+Query  83   AVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+            +   G   +  A  DDP A     H     R+ W++    LP+
+Sbjct  84   SA--GRTSVALAALDDPSALSPTDHFWVESRVAWLKLDDGLPQ  124
+
+
+> gi|13470413|ref|NP_101981.1| hypothetical protein mlr0112 [Mesorhizobium 
+loti MAFF303099]
+Length=132
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 55/109 (50%), Gaps = 3/109 (3%)
+
+Query  22   HRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVN  81
+             R+CHC  C++  GA A     +       ++G  A  ++S   +R FCP+CGT +F   
+Sbjct  24   ERICHCRLCQKAIGA-AFNARVLFRIDDVTIEGPLATVNTSPDLKRGFCPDCGTTMFSRR  82
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            ++   G++ I T + DDP  F    HI TA +  W+     LP++E  P
+Sbjct  83   DSA--GIIGITTGSLDDPTFFRPQMHIFTASKQPWVVLDDGLPQYEGAP  129
+
+
+> gi|15888414|ref|NP_354095.1| conserved hypothetical protein [Agrobacterium 
+fabrum str. C58]
+Length=157
+
+ Score = 62.4 bits (150),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 49/109 (45%), Gaps = 4/109 (4%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGT  75
+            TG      +CHC  C++  GA      +V +  F   +G P  + SS   +R FCP CGT
+Sbjct  18   TGDLQDSSICHCRMCQKAFGAYYAPLVSVRNVEFEWTRGEPKRFQSSSVVKRGFCPECGT  77
+
+Query  76   GLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             L Y  EA  P  V +    FDDP A P         +I ++   H LP
+Sbjct  78   PLTY--EA--PDGVAVAAGAFDDPAALPPTIQWGVERKIDFVDTLHTLP  122
+
+
+> gi|257095091|ref|YP_003168732.1| glutathione-dependent formaldehyde-activating 
+protein [Candidatus Accumulibacter phosphatis 
+clade IIA str. UW-1]
+Length=136
+
+ Score = 62.0 bits (149),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 40/131 (31%), Positives = 60/131 (46%), Gaps = 7/131 (5%)
+
+Query  3    LRRGALC-RRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHS  61
+             R G LC   R   T      R+CHC  C++  GA A     +       + G  + +HS
+Sbjct  4    FRGGCLCGAVRYETTSDPLNQRICHCRACQKVIGA-AFNARVLMRIEHVAISGPISTFHS  62
+
+Query  62   SETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAH  121
+            SET ER FC +CG+ +F  +  V  G++ +   + D+P  F    H   + R  W+  A 
+Sbjct  63   SETLERGFCSHCGSSIF--SRRVAAGVIGLTAGSLDEPSLFKPDMHFWISSRQPWLIIAD  120
+
+Query  122  ELPEFERFPEG  132
+             L +   +PEG
+Sbjct  121  NLAQ---YPEG  128
+
+
+> gi|568283231|ref|YP_008971096.1| aldehyde-activating protein 
+[Leisingera methylohalidivorans DSM 14336]
+Length=132
+
+ Score = 61.2 bits (147),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 47/105 (45%), Gaps = 1/105 (1%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+             CHC DCRR   AP   +  +   +       P +Y+SS   ER FC  CGT + Y   A
+Sbjct  23   YCHCADCRRNCAAPVTAFFGLPHESVAWSGSEPQIYNSSTGVERLFCSACGTQMAY-RTA  81
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+                 + + TAT + P   P   H+  +D + W+     LP + R
+Sbjct  82   RDTVNIHMYTATLECPGELPPKFHVFHSDHVSWLELKDRLPRYGR  126
+
+
+> gi|384219601|ref|YP_005610767.1| hypothetical protein BJ6T_59240 
+[Bradyrhizobium japonicum USDA 6]
+Length=130
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/106 (30%), Positives = 51/106 (48%), Gaps = 5/106 (5%)
+
+Query  23   RLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLF-YVN  81
+            R+CHC  C++  G+P              ++G    Y SSE  +R FC  CGT LF +  
+Sbjct  24   RICHCRLCQKAMGSPYFARAQFDQRAL-TVEGDTGRYASSENIDRVFCKRCGTRLFSWRR  82
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFE  127
+               L G   +   TFDD +AF    HI  ++++ W++    L +++
+Sbjct  83   NGTLAG---VSLTTFDDRNAFAPTEHIWVSEKVAWLKLDDGLTQYQ  125
+
+
+> gi|15597902|ref|NP_251396.1| hypothetical protein PA2706 [Pseudomonas 
+aeruginosa PAO1]
+Length=131
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/107 (32%), Positives = 48/107 (45%), Gaps = 2/107 (2%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCGTGLFYVNE  82
+            CHC+ CR+  GA    +  V    F  + G  AV  YHSS    R+FC +CG+ L ++  
+Sbjct  25   CHCSQCRKAHGAAFATYGKVRREAFRYVAGADAVAEYHSSPGVTRTFCRHCGSNLQWLGG  84
+
+Query  83   AVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERF  129
+               P    I   T D P    A  HI    +  W   A +LP+  ++
+Sbjct  85   NEDPTYTSIALGTLDSPLPSVAQRHIYVGSKADWYVIADDLPQEHQY  131
+
+
+> gi|347540786|ref|YP_004848211.1| glutathione-dependent formaldehyde-activating 
+GFA [Pseudogulbenkiania sp. NH8B]
+Length=128
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/95 (38%), Positives = 48/95 (51%), Gaps = 3/95 (3%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV-YHSSETAERSFCPNCGTGLFYVNEA  83
+            CHC+ CR+ +GA  V W  V         G P + YHSS   ER FCP+CGT L Y +EA
+Sbjct  19   CHCSACRKASGALFVTWFTVRECEVEW-HGEPLMHYHSSCPVERGFCPHCGTTLTYRHEA  77
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMR  118
+              P  +DI  A+ D P+      H    + + W+ 
+Sbjct  78   D-PDSIDITLASLDQPERVMPEHHTWWQEHVPWVE  111
+
+
+> gi|24372472|ref|NP_716514.1| glutathione-dependent formaldehyde-activating 
+enzyme GfaA [Shewanella oneidensis MR-1]
+Length=136
+
+ Score = 59.3 bits (142),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 31/108 (29%), Positives = 47/108 (44%), Gaps = 4/108 (4%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEAV  84
+            CHC  C++  GA    W     +    LKG    + SS+   R FC  CG  L Y     
+Sbjct  30   CHCRMCQKSIGAAFGAWMDFNVSQVTWLKGNVTEFASSDFVRRGFCAQCGCSLTY-RHTE  88
+
+Query  85   LPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+             P  + +  A+FDDP+      HI T  ++ W++        +R+P+ 
+Sbjct  89   YPDYLTLTIASFDDPNLVQPNYHIYTEQQLSWLKIEDNC---QRYPQA  133
+
+
+> gi|392378541|ref|YP_004985701.1| conserved protein of unknown 
+function; Glutathione-dependent formaldehyde-activating GFA 
+domain [Azospirillum brasilense Sp245]
+Length=138
+
+ Score = 59.3 bits (142),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 48/108 (44%), Gaps = 5/108 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEAV  84
+            CHC  CRR  G      T          + T + Y SS  A+R FC  CG+ LF+  +  
+Sbjct  31   CHCGQCRRFHGHFGAYITIPRDAVAFEKQDTLSWYRSSAKAQRGFCARCGSSLFWKGDG-  89
+
+Query  85   LPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+               L+DI   + D P +   + HI  AD+  +      L   ERFPEG
+Sbjct  90   -EALLDIAAGSLDQPTSLTTLRHIHVADKADYYAIDDGL---ERFPEG  133
+
+
+> gi|478180400|ref|YP_007701473.1| putative glutathione-dependent 
+formaldehyde activating enzyme [Octadecabacter arcticus 238]
+Length=127
+
+ Score = 58.5 bits (140),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 35/107 (33%), Positives = 52/107 (49%), Gaps = 4/107 (4%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFY-VNE  82
+            +CHC+ CRR +G       A+        +     + SS+ A+R FC  CG+ LFY +N+
+Sbjct  24   MCHCSQCRRLSGHHWAATRAILDEVVFTNQVGLTWFASSDWAKRGFCNRCGSSLFYRMND  83
+
+Query  83   AVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERF  129
+                G   I    FD+P  F A  HI TAD+  +   A + P  E++
+Sbjct  84   EDGIG---IAAGAFDNPTGFVAGKHIFTADKGDFYTIADDAPHIEKY  127
+
+
+> gi|385330575|ref|YP_005884526.1| glutathione-dependent formaldehyde-activating 
+protein [Marinobacter adhaerens HP15]
+Length=137
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 32/114 (28%), Positives = 51/114 (45%), Gaps = 3/114 (3%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCG  74
+            G  G   LCHC+ CRR  G+       V    F  + G   +  + S     R FC  CG
+Sbjct  17   GPIGPVALCHCSQCRRAHGSAFSASAPVQKVRFRFVTGEDKITEFESRPGKYRGFCSRCG  76
+
+Query  75   TGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+            + L+   +A+ PG++ ++    ++P    A  H+    +  W     ELP+FE+
+Sbjct  77   SQLYSRVDAI-PGILRLRVGCINEPLNKGAAHHVFVGSKSDWFEITDELPQFEK  129
+
+
+> gi|103486124|ref|YP_615685.1| glutathione-dependent formaldehyde-activating 
+protein [Sphingopyxis alaskensis RB2256]
+Length=162
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 47/96 (49%), Gaps = 2/96 (2%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C++ AG   +    V        +G+PA ++SS+ A R FC +CGT L Y  + 
+Sbjct  30   ICHCRMCQKAAGNFFIALIGVPRDAIRWTRGSPATFNSSDKAARGFCRDCGTPLSY--DY  87
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQ  119
+                 +++ T +FDDP  FP         ++ W  +
+Sbjct  88   FDSKHINLTTGSFDDPSQFPPRFQFGLEGQMPWFAE  123
+
+
+> gi|116251306|ref|YP_767144.1| hypothetical protein RL1540 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=158
+
+ Score = 58.5 bits (140),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 47/109 (43%), Gaps = 4/109 (4%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGT  75
+            +G+ G   +CHC  C++  G                 +G P+ + SS   ER FC NCGT
+Sbjct  20   SGKLGRPSICHCRMCQKQFGGFFSALVTAPEEGMEWTRGEPSYFQSSVNIERGFCSNCGT  79
+
+Query  76   GLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             + Y +    PG +++   TFDD      +  +    R+ W+    E P
+Sbjct  80   PMTYRH----PGGLELAIGTFDDRSDLAPLIQVNYDARLPWVETIFEAP  124
+
+
+> gi|152996022|ref|YP_001340857.1| glutathione-dependent formaldehyde-activating 
+protein [Marinomonas sp. MWYL1]
+Length=133
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 34/116 (29%), Positives = 50/116 (43%), Gaps = 3/116 (3%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTP--AVYHSSETAERSFCPNCG  74
+            G  G    CHC  CR+  G+      A+ +T F LLKG    A Y S+    R FC  C 
+Sbjct  17   GDLGDIMQCHCQKCRKANGSAFAANAAIPTTAFTLLKGKELLAEYESTPGVFRVFCKQCA  76
+
+Query  75   TGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            + L Y     +P L+ ++  T D        +HI    +  W     ++P++E  P
+Sbjct  77   SPL-YSRRPNMPELLRLRIGTLDTKIEGKPSSHIFVGSKAEWYEICDDIPQYEERP  131
+
+
+> gi|145298907|ref|YP_001141748.1| glutathione-dependent formaldehyde-activating, 
+GFA [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=132
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 45/87 (52%), Gaps = 10/87 (11%)
+
+Query  14  GRTGRTGAHR---LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFC  70
+           G    TG H+   LCHCT CRR +G P       A   F  +   P  Y SSE AER FC
+Sbjct  9   GIVVSTGDHQEVNLCHCTTCRRWSGGPLFAVHCGADVRFTGI--APVAYRSSEWAERGFC  66
+
+Query  71  PNCGTGLFY----VNEAVLP-GLVDIQ  92
+           P CGT LFY     +E ++P GL  ++
+Sbjct  67  PTCGTHLFYHLLPTDEYIVPAGLFQME  93
+
+
+> gi|15888413|ref|NP_354094.1| conserved hypothetical protein [Agrobacterium 
+fabrum str. C58]
+Length=152
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/112 (29%), Positives = 45/112 (40%), Gaps = 4/112 (4%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G+ G   +CHC  C++  G                 +G P ++ SS    R FC  CGT 
+Sbjct  20   GKLGRPSICHCRMCQKHFGNFFGALVTADQAHLAWTRGQPTLFRSSARIHRGFCNKCGTP  79
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+            L Y      PG V+I    FD P+     A +    R+ W+ Q    P  E+
+Sbjct  80   LTY----HYPGGVEIAIGAFDHPEQIEPQAQVNIHKRMPWIEQLFSKPAIEQ  127
+
+
+> gi|91780763|ref|YP_555970.1| hypothetical protein Bxe_C0763 [Burkholderia 
+xenovorans LB400]
+Length=148
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 37/111 (33%), Positives = 57/111 (51%), Gaps = 9/111 (8%)
+
+Query  25   CHCTDCRRCAGAP-AVGWTAVASTTFHLLKGTPAVYH----SSETAERSFCPNCGTGLFY  79
+            CHC DC+R +GAP A G+  +   +   + GTP +      S   A RSFC +CG+ LF 
+Sbjct  42   CHCQDCQR-SGAPFASGF--IVRVSDMTITGTPRICSVRAGSGMLATRSFCADCGSPLFT  98
+
+Query  80   VNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+              E   P ++ I+ +T D+P  F  M  I T+    W+  +  +P + + P
+Sbjct  99   RGETA-PEVMSIRFSTLDNPSEFRPMLDIWTSSAQPWVCLSQAIPHYPQLP  148
+
+
+> gi|357417878|ref|YP_004930898.1| glutathione-dependent formaldehyde-activating 
+protein [Pseudoxanthomonas spadix BD-a59]
+Length=157
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 45/109 (41%), Gaps = 4/109 (4%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGT  75
+            TG      +CHC  C++  GA      +         +GTPA Y SS    R FC  CGT
+Sbjct  18   TGTLDDASICHCRMCQKAFGAYYAPLVSTRGAALVWTRGTPARYRSSNLVARGFCAQCGT  77
+
+Query  76   GLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             L Y  EA  P  V +    FDDP A P         R+ +    H LP
+Sbjct  78   PLTY--EA--PDGVALAAGAFDDPAALPPHIQYGVEGRLPFTDSLHALP  122
+
+
+> gi|357383954|ref|YP_004898678.1| Gfa-like protein [Pelagibacterium 
+halotolerans B2]
+Length=160
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 50/109 (46%), Gaps = 6/109 (6%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGT  75
+            T   G   +CHC  C++  G+       V S   H  +G P  + SS+ A R+FC +CGT
+Sbjct  23   TKLVGRGSICHCRMCQKAFGS--FFGPLVTSHDGHWTRGEPKWFQSSDAARRAFCSDCGT  80
+
+Query  76   GLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+             L Y  +  L    ++   TFD+P+  P    +   DR+ +      LP
+Sbjct  81   PLAYETKFGL----ELAIGTFDEPEKVPPEIQVNLNDRVSFFEGLSTLP  125
+
+
+> gi|311108233|ref|YP_003981086.1| glutathione-dependent formaldehyde-activating 
+enzyme family protein 3 [Achromobacter xylosoxidans 
+A8]
+Length=151
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 51/108 (47%), Gaps = 6/108 (6%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVY----HSSETAERSFCPNCGTGLFYV  80
+            CHC DC+  +G          + +  LL+G+P  +     S  T  RSFC +CGT LF  
+Sbjct  41   CHCRDCQYSSGGAPAHALIFPTGSITLLRGSPKEHRYRGESGHTVMRSFCTDCGTPLF-G  99
+
+Query  81   NEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFER  128
+            N A + G   ++  + DDP+AF A A + T     W      +P F R
+Sbjct  100  NSAGM-GYDIVRAGSLDDPEAFHARASLWTDSAPSWHHVDRSVPHFPR  146
+
+
+> gi|124265772|ref|YP_001019776.1| hypothetical protein Mpe_A0579 
+[Methylibium petroleiphilum PM1]
+Length=141
+
+ Score = 55.5 bits (132),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 34/106 (32%), Positives = 52/106 (49%), Gaps = 5/106 (5%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCGTGLFYVN  81
+            LCHC  CR+  G+       VA   F L++G   +  + SS    RSFC +CG+ + +  
+Sbjct  31   LCHCGQCRKAQGSAFATVAPVAVEAFRLVRGVDRLRGFQSSPGKWRSFCGDCGSPI-HSR  89
+
+Query  82   EAVLPGLVDIQTATFDDP-DAFPAMAHIQTADRIGWMRQAHELPEF  126
+                P ++ ++  + DDP D  PA AHI  A +  W      LP++
+Sbjct  90   RDDRPAVLRLRVGSLDDPFDQRPA-AHIHVASKAAWWTIDDALPQY  134
+
+
+> gi|182679321|ref|YP_001833467.1| glutathione-dependent formaldehyde-activating 
+protein [Beijerinckia indica subsp. indica 
+ATCC 9039]
+Length=142
+
+ Score = 55.5 bits (132),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 51/110 (46%), Gaps = 6/110 (5%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCGTGLFYVNE  82
+            CHC++CRR  G+    +  +  +   +++G  AV  Y   E A    C  CG+ L+ V  
+Sbjct  35   CHCSNCRRTTGSAFKPFAGIERSQMRIVRGEDAVSIYGGEEAAHDVHCATCGSLLYSVVR  94
+
+Query  83   AVLPGLVDIQTATF-DDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPE  131
+                  V +   T  DDP   P+M HI    +  W +   +LP++E FP 
+Sbjct  95   E--GAYVHVAMGTLVDDPTIRPSM-HIFVGSKAKWYQITDDLPQYETFPN  141
+
+
+> gi|15599372|ref|NP_252866.1| hypothetical protein PA4177 [Pseudomonas 
+aeruginosa PAO1]
+Length=133
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 32/106 (30%), Positives = 45/106 (42%), Gaps = 3/106 (3%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTP--AVYHSSETAERSFCPNCGTGLFYV-N  81
+            CHC  CR+  GA    + +V     H+  G    A + SS    R FC  CG+ LF+  +
+Sbjct  28   CHCGQCRKAHGAAFASYGSVPVADLHIDHGADLLAAFRSSPAVLRRFCSRCGSPLFWSRS  87
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFE  127
+            E      V +   + D P       H+Q A    W R A + P F+
+Sbjct  88   EGEFADWVSVALGSLDTPFPAAKQKHVQVASMACWCRIADDWPRFD  133
+
+
+> gi|197103595|ref|YP_002128972.1| hypothetical protein PHZ_c0129 
+[Phenylobacterium zucineum HLK1]
+Length=143
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 34/116 (29%), Positives = 45/116 (39%), Gaps = 5/116 (4%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G   +CHC  C++  G P   +  V           PA + SS    R FCP+CGT 
+Sbjct  18   GELGRASICHCRMCQKATGGPFGAFVGVDRDRLTWTGEEPARFQSSNLVRRGFCPSCGTP  77
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+            L +         +D+    FD          ++     GWM    EL E ER P G
+Sbjct  78   LTFETAKS----IDLTIFAFDRAAEIAPTVQLEPESSPGWMAHIAEL-EVERPPPG  128
+
+
+> gi|126643281|ref|YP_001086265.1| glutathione-dependent formaldehyde-activating 
+protein [Acinetobacter baumannii ATCC 17978]
+Length=128
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/110 (30%), Positives = 48/110 (44%), Gaps = 4/110 (4%)
+
+Query  25   CHCTDCRRCAG---APAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVN  81
+            CHC DC++  G   AP   +          LK    +  S    +R+FCP CG+ LF + 
+Sbjct  15   CHCRDCQKATGSAYAPIAFFHQSELKISGELKYFETLGSSGRPIKRAFCPTCGSQLFGLP  74
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPE  131
+            E V P ++ I+  T DDP  +   A +  +    W      L  FE+  E
+Sbjct  75   ELV-PEMISIRAGTLDDPSLYHPKAEVFVSQTYAWDMLNPNLKHFEKMIE  123
+
+
+> gi|15964866|ref|NP_385219.1| hypothetical protein SMc02549 [Sinorhizobium 
+meliloti 1021]
+Length=159
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/108 (27%), Positives = 43/108 (40%), Gaps = 4/108 (4%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G   +CHC  C++  G+                +  P+ + SS   +R FCP CGT 
+Sbjct  21   GELGRPSICHCRMCQKQFGSFFSALVTAPKDGVEWTRDEPSYFQSSVNIDRGFCPKCGTP  80
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+            L Y +    PG ++I    FDD         +    R+ W+    E P
+Sbjct  81   LTYRH----PGGLEIAIGAFDDRSDLAPKIQVNYQSRLPWVESIFEQP  124
+
+
+> gi|221638613|ref|YP_002524875.1| glutathione-dependent formaldehyde-activating 
+protein [Rhodobacter sphaeroides KD131]
+Length=128
+
+ Score = 53.5 bits (127),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 49/108 (45%), Gaps = 6/108 (6%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C+R  G        V +    + +GTPAV+ SS  AER FC  CGT LFY ++ 
+Sbjct  14   VCHCRMCQRATGNAFAPLLEVLTADV-VWEGTPAVWASSSVAERGFCATCGTPLFYRSDD  72
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPE  131
+                  ++   T    D  P   H     R+GW+     LP+    PE
+Sbjct  73   T----TELMAGTLAGFDFRPTANH-GIEGRMGWLGGLAALPDQATRPE  115
+
+
+> gi|116252437|ref|YP_768275.1| hypothetical protein RL2690 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=133
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 42/129 (33%), Positives = 58/129 (45%), Gaps = 9/129 (7%)
+
+Query  6    GALC-RRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHL-LKGTPAV--YHS  61
+            G LC   R   T + G    CHC+ CRR  G   + + AV      L ++G   V  Y S
+Sbjct  9    GCLCGAVRFSTTAKPGPVVGCHCSQCRRQTG---LYYAAVNVARAALSVEGAEVVRWYRS  65
+
+Query  62   SETAERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAH  121
+            SE A+R FC NCG+ LF+  +A       +    FD P +     HI  AD+  +     
+Sbjct  66   SEEAQRGFCSNCGSALFW--QADGSAESSVMAGAFDTPSSLAFGHHIYCADKGDFYEITD  123
+
+Query  122  ELPEFERFP  130
+             LP++   P
+Sbjct  124  GLPQYAVNP  132
+
+
+> gi|83645912|ref|YP_434347.1| hypothetical protein HCH_03159 [Hahella 
+chejuensis KCTC 2396]
+Length=130
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 37/125 (30%), Positives = 57/125 (46%), Gaps = 6/125 (5%)
+
+Query  8    LC-RRRPGRTGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSET  64
+            LC R +   TG+ G    CHC  CR+  GA       V    F+ LKG   +  + SS  
+Sbjct  7    LCGRVKYDITGKVGDIIHCHCRTCRKAHGAAFSSVARVDDNDFN-LKGAEHLNAFESSPG  65
+
+Query  65   AERSFCPNCGTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+              R FC +CGT ++   E   P ++ ++  + D+       +HI  +D+  W     ELP
+Sbjct  66   KSRFFCSHCGTQVYAKRENT-PFII-LRLGSLDNDPQSQEKSHIWVSDKASWYDINKELP  123
+
+Query  125  EFERF  129
+             +E +
+Sbjct  124  VYEEY  128
+
+
+> gi|294084620|ref|YP_003551378.1| glutathione-dependent formaldehyde-activating 
+protein [Candidatus Puniceispirillum marinum 
+IMCC1322]
+Length=142
+
+ Score = 52.4 bits (124),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 46/108 (43%), Gaps = 5/108 (5%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCGTGLFYVN  81
+            +CHC DCRR +G      T+V    F +   + A+  Y SS  A+R FC  CG+ +FY  
+Sbjct  35   ICHCDDCRRISGTSWAA-TSVPDHCFKITSSSDALRWYDSSSWAKRGFCNVCGSCMFYSM  93
+
+Query  82   EAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERF  129
+                 G + I     DD D       I       W +   ++P  + F
+Sbjct  94   NG--EGRISIAPGVLDDNDMLRVRGQIFAISHPLWCKPDPDVPHLDDF  139
+
+
+> gi|154253497|ref|YP_001414321.1| glutathione-dependent formaldehyde-activating 
+protein [Parvibaculum lavamentivorans DS-1]
+Length=144
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/116 (28%), Positives = 52/116 (45%), Gaps = 6/116 (5%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+              T   R+CHC  C++   +P +   +        + G  A + SSE   R FCP CG+ 
+Sbjct  27   AETIGSRVCHCRICQKAMASPFLAVASFPKKAV-TVTGETARWRSSERLWRHFCPKCGSS  85
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+            +    E +    +    AT DDP +     HI  + ++ W+  +  LP+   +PEG
+Sbjct  86   VTL--EPLDGDRLGFPLATLDDPQSINPEMHIWVSAKVPWLMLSDGLPQ---YPEG  136
+
+
+> gi|153009937|ref|YP_001371152.1| glutathione-dependent formaldehyde-activating 
+protein [Ochrobactrum anthropi ATCC 49188]
+Length=162
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 50/117 (43%), Gaps = 6/117 (5%)
+
+Query  17   GRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTG  76
+            G  G+  +CHC  C++  G       +V+       +  P  + SS   +R FCP CGT 
+Sbjct  24   GAMGSASICHCRMCQKAFGNFYAPLVSVSDAKLEWTRNEPKRFRSSNHVQRGFCPECGTP  83
+
+Query  77   LFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEF--ERFPE  131
+            L Y  EA  P  + +    FD P+            R+ ++ +   LP +  ER PE
+Sbjct  84   LTY--EA--PDGIALAIGAFDAPEEIEPTVQWGVEKRLPYVAELANLPGYTTERDPE  136
+
+
+> gi|190573529|ref|YP_001971374.1| hypothetical protein Smlt1535 
+[Stenotrophomonas maltophilia K279a]
+Length=160
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/101 (30%), Positives = 44/101 (44%), Gaps = 4/101 (4%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFYVNEA  83
+            +CHC  C++  GA      +V    F   +G P  + SS    R FC +CGT L Y  EA
+Sbjct  29   ICHCRMCQKAFGAYYAPLVSVRGVQFSWTRGQPRYFQSSNVVRRGFCADCGTPLSY--EA  86
+
+Query  84   VLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELP  124
+              P  V +    FD+P+  P         ++ ++     LP
+Sbjct  87   --PDGVAVAAGAFDEPERLPPTIQYGVERKLPFVDTLASLP  125
+
+
+> gi|459293658|ref|YP_007516815.1| conserved hypothetical protein 
+[Bradyrhizobium oligotrophicum S58]
+Length=141
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 34/117 (29%), Positives = 55/117 (47%), Gaps = 7/117 (6%)
+
+Query  16   TGRTGAHRLCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTP--AVYHSSETAERSFCPNC  73
+            +G   A   CHC  CR  +G P   ++        +  GT   A++  +  ++R +C  C
+Sbjct  18   SGAPEAMGYCHCRSCRSWSGGPVNAFSLWKPDAVRIASGTEHVAMFQKTPLSQRQYCDKC  77
+
+Query  74   GTGLFYVNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFP  130
+            G  L   +  +  GL+D+  AT  D D  PA+ H+  A+ +  MR    LP+ + FP
+Sbjct  78   GGHLMTTHPPL--GLIDVFAATIPDLDFQPAV-HVNYAETVLPMRDG--LPKLKDFP  129
+
+
+> gi|374329369|ref|YP_005079553.1| glutathione-dependent formaldehyde-activating 
+protein [Pseudovibrio sp. FO-BEG1]
+Length=137
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 47/108 (44%), Gaps = 5/108 (5%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAV--YHSSETAERSFCPNCGTGLFYVN  81
+            LCHCT CRR    P     A+      +  G   +  Y SS+ A R+FC NCG+ LFY  
+Sbjct  29   LCHCTMCRRWNSGP-FHALAIPFDALKVESGEENISYYRSSDYARRAFCSNCGSSLFYHG  87
+
+Query  82   EAV--LPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFE  127
+            + +  +   V       ++P       HI  A +  +     +LP+ E
+Sbjct  88   DKIPEIAHEVYFSAGLLEEPTGLKMAGHIFCASKGDYYEIEGDLPQHE  135
+
+
+> gi|357384874|ref|YP_004899598.1| Gfa-like protein [Pelagibacterium 
+halotolerans B2]
+Length=132
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 37/107 (35%), Positives = 45/107 (42%), Gaps = 11/107 (10%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYH----SSETAERSFCPNCGTGLFYV  80
+            CHC DCRR  G   +   A   T    + G PAV+     S     RSFC  CG+ LF  
+Sbjct  26   CHCEDCRRLTGTGHI-VQAFFKTDGVTVNGKPAVFENVADSGSERRRSFCATCGSTLFS-  83
+
+Query  81   NEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGW-----MRQAHE  122
+                 PG++ I    FD+ D F     + T  R  W       QAHE
+Sbjct  84   ERNTAPGVIGIAIGAFDNSDWFSPGMVLYTNQRPPWDPEVPGVQAHE  130
+
+
+> gi|383758101|ref|YP_005437086.1| putative lyase [Rubrivivax gelatinosus 
+IL144]
+Length=136
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 35/105 (33%), Positives = 46/105 (44%), Gaps = 10/105 (10%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVY----HSSETAERSFCPNCGTGLFYV  80
+            CHC DC+R +G+ A   T         + G  A Y     S     R FCP+CG+ LF +
+Sbjct  27   CHCRDCQRSSGS-AYAPTFFVPQQALEISGEVAYYGSPGSSGRIVRRGFCPSCGSQLFGI  85
+
+Query  81   NEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPE  125
+             EA +PGLV ++  T DD   +     I       W      LPE
+Sbjct  86   AEA-MPGLVGVRAGTLDDASQYVPHVDIFVGQAAPW----DHLPE  125
+
+
+> gi|307545803|ref|YP_003898282.1| glutathione-dependent formaldehyde-activating 
+protein [Halomonas elongata DSM 2581]
+Length=142
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 46/98 (47%), Gaps = 10/98 (10%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYHSSETAERSFCPNCGTGLFY-----  79
+            CHC  CR   G P +   +V   T    +   ++Y SS+ AER FC +CGT LFY     
+Sbjct  30   CHCQMCRTWGGGPLLAMESVGRVTLEG-EDQVSIYASSDWAERGFCRHCGTHLFYRLRTG  88
+
+Query  80   VNEAVLPGLVDIQTA-TFDDP---DAFPAMAHIQTADR  113
+             + AV  GLVD   A TFD     D  P   H   A +
+Sbjct  89   EHYAVPVGLVDSGEAWTFDSQIFIDEKPGWYHFGNATK  126
+
+
+> gi|16127322|ref|NP_421886.1| hypothetical protein CC_3092 [Caulobacter 
+crescentus CB15]
+Length=134
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 49/113 (43%), Gaps = 7/113 (6%)
+
+Query  24   LCHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVY----HSSETAERSFCPNCGTGLFY  79
+            +CHC +C+  +G        V +  F   KG P  Y     S +   R FC +CGT L  
+Sbjct  25   VCHCRECQYASGGGPNYIALVPTPAFAFTKGEPRRYTRPGGSGQAVTRIFCADCGTPL--  82
+
+Query  80   VNEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERFPEG  132
+            V+E  +P +V ++    DDP  + A   + T +   W       P F + P G
+Sbjct  83   VSEIAMP-IVAVKLGGLDDPAPYKAGVSVWTCEAQPWHPIDPAAPAFAKNPSG  134
+
+
+> gi|473830012|ref|YP_007683295.1| glutathione-dependent formaldehyde-activating 
+GFA [Thalassolituus oleivorans MIL-1]
+Length=138
+
+ Score = 49.7 bits (117),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 46/109 (42%), Gaps = 6/109 (6%)
+
+Query  25   CHCTDCRRCAGAPAVGWTAVASTTFHLLKGTPAVYH----SSETAERSFCPNCGTGLFYV  80
+            CHC+ CR+ +G        V   ++   KG   + H     +E     FC  CG+ L  +
+Sbjct  28   CHCSRCRKASGTGNASNLMVELESYQWTKGEHLIKHFKVPEAERFTNYFCSECGSPLPKI  87
+
+Query  81   NEAVLPGLVDIQTATFDDPDAFPAMAHIQTADRIGWMRQAHELPEFERF  129
+               +  G+  I   T D   A    AHI    RI W  ++ +LP FE +
+Sbjct  88   RPNM--GIAVIPAGTLDSAPAMKPQAHIFWTSRIEWSCESGDLPVFEEY  134
+
+
+
+Lambda     K      H
+   0.329    0.140    0.482 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 15768959518
+
+
+  Database: 2014 NCBI COGs
+    Posted date:  Mar 16, 2015  3:15 PM
+  Number of letters in database: 640,579,405
+  Number of sequences in database:  1,785,722
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

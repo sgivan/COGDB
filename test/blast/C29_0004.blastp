@@ -1,0 +1,54 @@
+BLASTP 2.2.26+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 2014 NCBI COGs
+           1,785,722 sequences; 640,579,405 total letters
+
+
+
+Query= C29_0004 C29_0004: hypothetical ORF  [+ 0 upstream : + 0 downstream]
+
+Length=45
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.336    0.135    0.421 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 15772917862
+
+
+  Database: 2014 NCBI COGs
+    Posted date:  Mar 16, 2015  3:15 PM
+  Number of letters in database: 640,579,405
+  Number of sequences in database:  1,785,722
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

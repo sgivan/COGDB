@@ -1,0 +1,2974 @@
+BLASTP 2.2.26+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 2014 NCBI COGs
+           1,785,722 sequences; 640,579,405 total letters
+
+
+
+Query= C29_0010 ycgN: hypothetical protein; K09160 hypothetical protein  [+
+0 upstream : + 0 downstream]
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|103488455|ref|YP_618016.1| hypothetical protein Sala_2978 [S...   207    9e-67
+  gi|334140738|ref|YP_004533940.1| hypothetical protein [Novosphi...   205    8e-66
+  gi|294010041|ref|YP_003543501.1| hypothetical protein SJA_C1-00...   189    5e-60
+  gi|85372860|ref|YP_456922.1| hypothetical protein ELI_00165 [Er...   182    3e-57
+  gi|148555728|ref|YP_001263310.1| hypothetical protein Swit_2819...   172    6e-53
+  gi|260753379|ref|YP_003226272.1| hypothetical protein Za10_1143...   166    6e-51
+  gi|254786711|ref|YP_003074140.1| hypothetical protein TERTU_273...   166    2e-50
+  gi|145299309|ref|YP_001142150.1| hypothetical protein ASA_2353 ...   162    3e-49
+  gi|414342636|ref|YP_006984157.1| hypothetical protein B932_1649...   159    1e-47
+  gi|119386371|ref|YP_917426.1| hypothetical protein Pden_3663 [P...   156    6e-47
+  gi|374335834|ref|YP_005092521.1| hypothetical protein GU3_10075...   155    1e-46
+  gi|110634420|ref|YP_674628.1| hypothetical protein Meso_2070 [C...   155    2e-46
+  gi|90020987|ref|YP_526814.1| Uncharacterised conserved protein ...   153    1e-45
+  gi|402772037|ref|YP_006591574.1| hypothetical protein BN69_1472...   154    2e-45
+  gi|54309775|ref|YP_130795.1| hypothetical protein PBPRA2614 [Ph...   151    5e-45
+  gi|15641071|ref|NP_230703.1| hypothetical protein VC1058 [Vibri...   150    9e-45
+  gi|13472196|ref|NP_103763.1| hypothetical protein mll2411 [Meso...   150    1e-44
+  gi|209694568|ref|YP_002262496.1| hypothetical protein VSAL_I100...   150    4e-44
+  gi|568302616|ref|YP_008974901.1| Uncharacterized protein Gal_00...   149    4e-44
+  gi|260598266|ref|YP_003210837.1| hypothetical protein CTU_24740...   147    2e-43
+  gi|114328710|ref|YP_745867.1| hypothetical protein GbCGDNIH1_20...   148    2e-43
+  gi|308049440|ref|YP_003913006.1| hypothetical protein Fbal_1728...   147    2e-43
+  gi|357383704|ref|YP_004898428.1| hypothetical protein [Pelagiba...   147    3e-43
+  gi|161353596|ref|NP_460767.2| hypothetical protein STM1811 [Sal...   147    3e-43
+  gi|114320538|ref|YP_742221.1| hypothetical protein Mlg_1382 [Al...   147    5e-43
+  gi|410666115|ref|YP_006918486.1| hypothetical protein M5M_18140...   146    7e-43
+  gi|238919530|ref|YP_002933045.1| Uncharacterized protein family...   145    1e-42
+  gi|53805238|ref|YP_113040.1| hypothetical protein MCA0521 [Meth...   145    1e-42
+  gi|209885736|ref|YP_002289593.1| hypothetical protein OCAR_6616...   145    2e-42
+  gi|162147380|ref|YP_001601841.1| hypothetical protein GDI_1595 ...   144    3e-42
+  gi|162139710|ref|NP_309703.3| hypothetical protein ECs1676 [Esc...   144    4e-42
+  gi|145698245|ref|NP_415699.5| UPF0153 family cysteine cluster p...   144    5e-42
+  gi|537454611|ref|YP_008488461.1| hypothetical protein N175_1024...   144    5e-42
+  gi|206578583|ref|YP_002237817.1| hypothetical protein KPK_1978 ...   143    7e-42
+  gi|481848449|ref|YP_007872889.1| hypothetical protein RORB6_032...   143    8e-42
+  gi|389876408|ref|YP_006369973.1| hypothetical protein TMO_0550 ...   143    8e-42
+  gi|560156302|ref|YP_008849017.1| Putative cytosolic protein [Sh...   144    1e-41
+  gi|56460923|ref|YP_156204.1| hypothetical protein IL1823 [Idiom...   143    1e-41
+  gi|292492066|ref|YP_003527505.1| hypothetical protein Nhal_2011...   143    1e-41
+  gi|157145442|ref|YP_001452761.1| hypothetical protein CKO_01185...   143    1e-41
+  gi|56697987|ref|YP_168358.1| hypothetical protein SPO3155 [Rueg...   143    1e-41
+  gi|296101868|ref|YP_003612014.1| hypothetical protein ECL_01506...   142    1e-41
+  gi|333984809|ref|YP_004514019.1| hypothetical protein [Methylom...   142    2e-41
+  gi|110834627|ref|YP_693486.1| hypothetical protein ABO_1766 [Al...   142    2e-41
+  gi|83309618|ref|YP_419882.1| hypothetical protein amb0519 [Magn...   142    3e-41
+  gi|339504231|ref|YP_004691651.1| hypothetical protein RLO149_c0...   142    4e-41
+  gi|254294771|ref|YP_003060794.1| hypothetical protein Hbal_2417...   142    4e-41
+  gi|154246350|ref|YP_001417308.1| hypothetical protein Xaut_2409...   143    6e-41
+  gi|326402674|ref|YP_004282755.1| hypothetical protein ACMV_0526...   141    6e-41
+  gi|197285035|ref|YP_002150907.1| hypothetical protein PMI1174 [...   140    8e-41
+  gi|292899658|ref|YP_003539027.1| hypothetical protein EAM_1948 ...   140    9e-41
+  gi|226945352|ref|YP_002800425.1| hypothetical protein Avin_3293...   140    9e-41
+  gi|217977824|ref|YP_002361971.1| hypothetical protein Msil_1661...   141    9e-41
+  gi|119944832|ref|YP_942512.1| hypothetical protein Ping_1074 [P...   140    1e-40
+  gi|390949739|ref|YP_006413498.1| hypothetical protein Thivi_136...   140    1e-40
+  gi|158422724|ref|YP_001524016.1| hypothetical protein AZC_1100 ...   142    1e-40
+  gi|256822613|ref|YP_003146576.1| hypothetical protein Kkor_1396...   140    2e-40
+  gi|507524742|ref|YP_008046355.1| hypothetical protein SPISAL_03...   140    2e-40
+  gi|154251354|ref|YP_001412178.1| hypothetical protein Plav_0898...   139    2e-40
+  gi|258541285|ref|YP_003186718.1| hypothetical protein APA01_018...   139    3e-40
+  gi|218929190|ref|YP_002347065.1| hypothetical protein YPO2083 [...   139    3e-40
+  gi|568282872|ref|YP_008970655.1| hypothetical protein METH_0483...   139    3e-40
+  gi|357405966|ref|YP_004917890.1| hypothetical protein MEALZ_263...   139    5e-40
+  gi|37526057|ref|NP_929401.1| hypothetical protein plu2141 [Phot...   138    7e-40
+  gi|15596496|ref|NP_249990.1| hypothetical protein PA1299 [Pseud...   138    8e-40
+  gi|114800294|ref|YP_761975.1| hypothetical protein HNE_3302 [Hy...   138    9e-40
+  gi|317048436|ref|YP_004116084.1| hypothetical protein Pat9b_221...   137    1e-39
+  gi|182678600|ref|YP_001832746.1| hypothetical protein Bind_1626...   137    2e-39
+  gi|556586578|ref|YP_008754168.1| hypothetical protein SPICUR_04...   137    3e-39
+  gi|192361455|ref|YP_001982897.1| hypothetical protein CJA_2436 ...   136    4e-39
+  gi|386745381|ref|YP_006218560.1| hypothetical protein S70_20425...   136    6e-39
+  gi|116251162|ref|YP_767000.1| hypothetical protein RL1394 [Rhiz...   136    6e-39
+  gi|220920755|ref|YP_002496056.1| hypothetical protein Mnod_0721...   136    6e-39
+  gi|406025176|ref|YP_006705477.1| hypothetical protein CAHE_0280...   136    6e-39
+  gi|431931629|ref|YP_007244675.1| hypothetical protein Thimo_230...   135    7e-39
+  gi|521168587|ref|YP_008159625.1| hypothetical protein M621_1415...   135    7e-39
+  gi|328544557|ref|YP_004304666.1| hypothetical protein SL003B_29...   136    8e-39
+  gi|24374116|ref|NP_718159.1| UCP006173 family protein [Shewanel...   135    8e-39
+  gi|159184535|ref|NP_353952.2| conserved hypothetical protein [A...   135    1e-38
+  gi|83645398|ref|YP_433833.1| hypothetical protein HCH_02618 [Ha...   135    1e-38
+  gi|162382792|ref|YP_455019.2| hypothetical protein SG1339 [Soda...   135    2e-38
+  gi|17986817|ref|NP_539451.1| hypothetical protein BMEI0534 [Bru...   135    2e-38
+  gi|294084225|ref|YP_003550983.1| hypothetical protein [Candidat...   134    2e-38
+  gi|16127506|ref|NP_422070.1| hypothetical protein CC_3276 [Caul...   134    3e-38
+  gi|459291310|ref|YP_007514467.1| conserved hypothetical protein...   134    3e-38
+  gi|197106161|ref|YP_002131538.1| hypothetical protein PHZ_c2700...   133    7e-38
+  gi|114569468|ref|YP_756148.1| hypothetical protein Mmar10_0917 ...   133    7e-38
+  gi|221638724|ref|YP_002524986.1| hypothetical protein RSKD131_0...   132    8e-38
+  gi|307131128|ref|YP_003883144.1| hypothetical protein Dda3937_0...   134    8e-38
+  gi|288940118|ref|YP_003442358.1| hypothetical protein Alvin_036...   133    8e-38
+  gi|384220331|ref|YP_005611497.1| hypothetical protein BJ6T_6660...   134    9e-38
+  gi|300723137|ref|YP_003712435.1| hypothetical protein XNC1_2196...   132    1e-37
+  gi|478179624|ref|YP_007700697.1| UPF0260 family protein [Octade...   132    2e-37
+  gi|473828970|ref|YP_007682253.1| hypothetical protein TOL_1590 ...   132    2e-37
+  gi|320160466|ref|YP_004173690.1| hypothetical protein ANT_10560...   132    2e-37
+  gi|159045468|ref|YP_001534262.1| hypothetical protein Dshi_2928...   132    3e-37
+  gi|385331621|ref|YP_005885572.1| hypothetical protein HP15_1880...   131    4e-37
+  gi|298290690|ref|YP_003692629.1| hypothetical protein Snov_0678...   131    5e-37
+  gi|470154639|ref|YP_006283141.1| UPF0260 protein ycgN [Pectobac...   130    7e-37
+  gi|92113587|ref|YP_573515.1| hypothetical protein Csal_1463 [Ch...   130    7e-37
+  gi|302382336|ref|YP_003818159.1| hypothetical protein Bresu_122...   130    1e-36
+  gi|310815420|ref|YP_003963384.1| hypothetical protein EIO_0936 ...   130    1e-36
+  gi|153009021|ref|YP_001370236.1| hypothetical protein Oant_1691...   130    1e-36
+  gi|15964764|ref|NP_385117.1| hypothetical protein SMc00064 [Sin...   129    2e-36
+  gi|89055857|ref|YP_511308.1| hypothetical protein Jann_3366 [Ja...   129    2e-36
+  gi|315499031|ref|YP_004087835.1| hypothetical protein Astex_202...   129    3e-36
+  gi|334143798|ref|YP_004536954.1| hypothetical protein Thicy_070...   129    3e-36
+  gi|237808316|ref|YP_002892756.1| hypothetical protein Tola_1559...   129    4e-36
+  gi|39934937|ref|NP_947213.1| hypothetical protein RPA1868 [Rhod...   130    5e-36
+  gi|92116957|ref|YP_576686.1| hypothetical protein Nham_1404 [Ni...   129    6e-36
+  gi|387127779|ref|YP_006296384.1| hypothetical protein Q7A_1922 ...   128    6e-36
+  gi|374288316|ref|YP_005035401.1| hypothetical protein BMS_1585 ...   127    1e-35
+  gi|322832727|ref|YP_004212754.1| hypothetical protein Rahaq_201...   125    7e-35
+  gi|56708468|ref|YP_170364.1| hypothetical protein FTT_1421 [Fra...   124    1e-34
+  gi|455739249|ref|YP_007505515.1| YcgN [Morganella morganii subs...   124    2e-34
+  gi|71280329|ref|YP_270189.1| hypothetical protein CPS_3515 [Col...   124    3e-34
+  gi|338739231|ref|YP_004676193.1| hypothetical protein HYPMC_240...   124    4e-34
+  gi|312115078|ref|YP_004012674.1| hypothetical protein Rvan_2351...   121    4e-33
+  gi|307544650|ref|YP_003897129.1| hypothetical protein HELO_2060...   120    7e-33
+  gi|261855668|ref|YP_003262951.1| hypothetical protein Hneap_106...   120    1e-32
+  gi|332290292|ref|YP_004421144.1| hypothetical protein UMN179_02...   119    1e-32
+  gi|109899108|ref|YP_662363.1| hypothetical protein Patl_2798 [P...   119    3e-32
+  gi|333892434|ref|YP_004466309.1| hypothetical protein ambt_0478...   117    2e-31
+  gi|78485671|ref|YP_391596.1| hypothetical protein Tcr_1327 [Thi...   116    3e-31
+  gi|313682767|ref|YP_004060505.1| hypothetical protein Sulku_164...   115    4e-31
+  gi|117925458|ref|YP_866075.1| hypothetical protein Mmc1_2168 [M...   111    3e-29
+  gi|476414288|ref|YP_007544206.1| hypothetical protein C427_2749...   110    8e-29
+  gi|152996548|ref|YP_001341383.1| hypothetical protein Mmwyl1_25...   109    2e-28
+  gi|304321165|ref|YP_003854808.1| hypothetical protein PB2503_08...   108    5e-28
+  gi|296112435|ref|YP_003626373.1| hypothetical protein MCR_0208 ...   107    1e-27
+  gi|470166876|ref|YP_007547963.1| hypothetical protein WQG_8950 ...   107    1e-27
+  gi|407692198|ref|YP_006816987.1| hypothetical protein ASU2_0304...   106    2e-27
+  gi|482886472|ref|YP_007883645.1| hypothetical protein UPF0260 [...   106    2e-27
+  gi|387122010|ref|YP_006287893.1| hypothetical protein D7S_02368...   104    7e-27
+  gi|16273265|ref|NP_439506.1| hypothetical protein HI1355 [Haemo...   104    1e-26
+  gi|521180532|ref|YP_008164316.1| hypothetical protein PSYCG_123...   105    2e-26
+  gi|15602404|ref|NP_245476.1| hypothetical protein PM0539 [Paste...   102    9e-26
+  gi|126643436|ref|YP_001086420.1| hypothetical protein A1S_3429 ...  94.0    3e-23
+  gi|404495736|ref|YP_006719842.1| hypothetical protein Gmet_0877...  75.1    7e-16
+  gi|392413876|ref|YP_006450483.1| hypothetical protein Desti_563...  72.0    8e-15
+  gi|118579801|ref|YP_901051.1| hypothetical protein Ppro_1377 [P...  70.5    3e-14
+
+
+> gi|103488455|ref|YP_618016.1| hypothetical protein Sala_2978 
+[Sphingopyxis alaskensis RB2256]
+Length=148
+
+ Score =  207 bits (526),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 95/137 (69%), Positives = 109/137 (80%), Gaps = 0/137 (0%)
+
+Query  6    PFWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            PFWE PLASLD  QWEALCDGCGKCCLHK+EDEDTG IYPTNVACRLLD  TARC DY+H
+Sbjct  9    PFWEAPLASLDAGQWEALCDGCGKCCLHKLEDEDTGRIYPTNVACRLLDLSTARCGDYKH  68
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            RR  VPDCL LT+  VG I WLP +CAYRLRA+G PLP+WH+L  G   A+H  G S++G
+Sbjct  69   RRRRVPDCLTLTRSKVGDIEWLPQSCAYRLRAEGEPLPEWHYLVCGDRDAVHRAGESIVG  128
+
+Query  126  RVISEVHAGPIENHIIE  142
+              +SE  AGP+ENH++E
+Sbjct  129  WTVSEDVAGPLENHLVE  145
+
+
+> gi|334140738|ref|YP_004533940.1| hypothetical protein [Novosphingobium 
+sp. PP1Y]
+Length=159
+
+ Score =  205 bits (521),  Expect = 8e-66, Method: Compositional matrix adjust.
+ Identities = 91/141 (65%), Positives = 114/141 (81%), Gaps = 0/141 (0%)
+
+Query  1    MDQLTPFWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            M   TPFWE+PL +LDRAQWEALCDGCG+CCLHKVED DTG I+ TNVAC+LLD +TARC
+Sbjct  1    MSSATPFWERPLETLDRAQWEALCDGCGQCCLHKVEDADTGEIFHTNVACKLLDLKTARC  60
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+            +DY +RR+ VPDCL L+    GS+ WLP +CAYRLR++G PLP+WH+L +G   A+H  G
+Sbjct  61   SDYANRRSFVPDCLSLSLKTAGSLDWLPPSCAYRLRSEGQPLPEWHYLVSGDRNAVHEAG  120
+
+Query  121  HSVIGRVISEVHAGPIENHII  141
+             S+IG+VISE  AGP+E+HI+
+Sbjct  121  MSIIGKVISETVAGPLEHHIV  141
+
+
+> gi|294010041|ref|YP_003543501.1| hypothetical protein SJA_C1-00550 
+[Sphingobium japonicum UT26S]
+Length=141
+
+ Score =  189 bits (481),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 86/139 (62%), Positives = 102/139 (73%), Gaps = 0/139 (0%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            FWE+PL  LDRA+WEALCDGCGKCCLHK EDEDTG IYPTNVACRLLD  + +C +Y+ R
+Sbjct  3    FWEKPLDKLDRAEWEALCDGCGKCCLHKAEDEDTGRIYPTNVACRLLDRHSGQCTNYKER  62
+
+Query  67   RALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIGR  126
+            R  VPDC+RLT   V +I WLP TCAYRLR +G PLP WH+L  G   A+H    SV G 
+Sbjct  63   RRFVPDCVRLTPAKVKTIGWLPRTCAYRLRGEGKPLPQWHYLVCGDREAVHRAQESVRGW  122
+
+Query  127  VISEVHAGPIENHIIEEEL  145
+             ++E  AG  ENH+++ EL
+Sbjct  123  TVAEADAGDWENHLVDREL  141
+
+
+> gi|85372860|ref|YP_456922.1| hypothetical protein ELI_00165 [Erythrobacter 
+litoralis HTCC2594]
+Length=147
+
+ Score =  182 bits (463),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 85/136 (63%), Positives = 102/136 (75%), Gaps = 0/136 (0%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            FWE PLA L   +WEALCDGCG+CCLHK+ED D+G I  TNVAC+LLDT TARC DYR+R
+Sbjct  8    FWELPLADLSEPEWEALCDGCGRCCLHKIEDADSGEIEDTNVACKLLDTETARCTDYRNR  67
+
+Query  67   RALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIGR  126
+            +  VPDCLRLT   V  +AWLP +CAYR RADG  LP WH+L +G   A+H  G  V GR
+Sbjct  68   KTFVPDCLRLTLKIVEDVAWLPESCAYRRRADGRGLPLWHYLLSGDPEAVHRKGAGVAGR  127
+
+Query  127  VISEVHAGPIENHIIE  142
+            V+SE  AGP+E+HI++
+Sbjct  128  VVSENRAGPLEHHIVD  143
+
+
+> gi|148555728|ref|YP_001263310.1| hypothetical protein Swit_2819 
+[Sphingomonas wittichii RW1]
+Length=146
+
+ Score =  172 bits (435),  Expect = 6e-53, Method: Compositional matrix adjust.
+ Identities = 81/141 (57%), Positives = 103/141 (73%), Gaps = 1/141 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFWE + L  + RA+WE+LCDGCGKCCLHK+EDE+TG +  TNVACRLLD RT  C DY+
+Sbjct  6    PFWETKRLDEMTRAEWESLCDGCGKCCLHKLEDEETGELMATNVACRLLDRRTGLCKDYK  65
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            HRR  VP+C+RLT   +  I WLPSTCAYRL  +G PLPDWH L +G   ++H  G SV 
+Sbjct  66   HRRTFVPECVRLTPRVLREIDWLPSTCAYRLLDEGQPLPDWHPLVSGDPESVHKAGVSVR  125
+
+Query  125  GRVISEVHAGPIENHIIEEEL  145
+            G  +SE  AG +E+H+++ +L
+Sbjct  126  GWTVSEDEAGDLEHHLVDRQL  146
+
+
+> gi|260753379|ref|YP_003226272.1| hypothetical protein Za10_1143 
+[Zymomonas mobilis subsp. mobilis NCIMB 11163]
+Length=144
+
+ Score =  166 bits (421),  Expect = 6e-51, Method: Compositional matrix adjust.
+ Identities = 77/137 (56%), Positives = 99/137 (72%), Gaps = 1/137 (1%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+ PL ++ R +WEALCDGCGKCCL K+EDEDTG +  TNVACRLLD  + +C +Y+H
+Sbjct  5    FWEKIPLDAMKREEWEALCDGCGKCCLFKLEDEDTGDVVYTNVACRLLDRASGQCCNYKH  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R+  VPDC+RL    +G I WLP +CAYRL  +G PLP+WH+L  G   A+H  G SV G
+Sbjct  65   RKKYVPDCVRLEVSLLGKIPWLPESCAYRLLYEGQPLPEWHYLLCGDRDAVHRVGESVQG  124
+
+Query  126  RVISEVHAGPIENHIIE  142
+              +SE  AG +ENH++E
+Sbjct  125  WTVSEDQAGDLENHLVE  141
+
+
+> gi|254786711|ref|YP_003074140.1| hypothetical protein TERTU_2737 
+[Teredinibacter turnerae T7901]
+Length=151
+
+ Score =  166 bits (419),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 76/140 (54%), Positives = 99/140 (71%), Gaps = 2/140 (1%)
+
+Query  4    LTPFWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            +T FWE PL  L   QWE LCDGCGKCCLHK++DE+T  +Y T+VACR L+T   RC DY
+Sbjct  1    MTDFWEMPLTELSPQQWEQLCDGCGKCCLHKLQDEETDELYFTDVACRYLNTDACRCRDY  60
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+            ++R    PDCL +T  N+  ++WLPSTCAYRLR++G PLP+WH L +G+   MH  G SV
+Sbjct  61   QNRLQNQPDCLAITADNLELLSWLPSTCAYRLRSEGRPLPEWHPLISGTAERMHELGQSV  120
+
+Query  124  IGRVISEVHAGP--IENHII  141
+             GRV+SE    P  +E+H++
+Sbjct  121  RGRVVSESEVQPDDLEDHVV  140
+
+
+> gi|145299309|ref|YP_001142150.1| hypothetical protein ASA_2353 
+[Aeromonas salmonicida subsp. salmonicida A449]
+Length=145
+
+ Score =  162 bits (410),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 79/140 (56%), Positives = 99/140 (71%), Gaps = 1/140 (1%)
+
+Query  3    QLTPFW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCA  61
+            Q TPFW E+ L  +  A+WE+LCDGCGKCCL+K+ DEDT  +  TNVAC LL+T+T +C+
+Sbjct  2    QPTPFWQEKTLQQMTAAEWESLCDGCGKCCLNKLIDEDTDELVFTNVACDLLNTKTCQCS  61
+
+Query  62   DYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGH  121
+            DY +R    PDCL++T   +    WLPSTCAYRL A+G  LP+WH L TGS +AMH  G 
+Sbjct  62   DYGNRFQKEPDCLQITFDKIAEYDWLPSTCAYRLLAEGQTLPEWHPLITGSRSAMHQAGQ  121
+
+Query  122  SVIGRVISEVHAGPIENHII  141
+            SV G+VI E HAG   +HII
+Sbjct  122  SVRGKVIHEAHAGEWIDHII  141
+
+
+> gi|414342636|ref|YP_006984157.1| hypothetical protein B932_1649 
+[Gluconobacter oxydans H24]
+Length=162
+
+ Score =  159 bits (401),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 76/143 (53%), Positives = 97/143 (68%), Gaps = 1/143 (1%)
+
+Query  1    MDQLTPFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M  + PFW+  PL  +   QWE+LCDGCG+CCL+K+ DEDT  I  T VACRLLDT+T R
+Sbjct  1    MTSVLPFWQTTPLDQMTPEQWESLCDGCGRCCLNKLRDEDTDEIVYTTVACRLLDTQTCR  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C DY  R   VPDC+ LT   +  I WLP +CAYRL  DG  LP+WH L++G+L ++ A 
+Sbjct  61   CTDYLKRHRKVPDCITLTPELLAEIDWLPPSCAYRLLRDGFDLPEWHPLRSGTLESVRAS  120
+
+Query  120  GHSVIGRVISEVHAGPIENHIIE  142
+            G S  GR ISE  AG +EN+I++
+Sbjct  121  GASAGGRCISERRAGSLENYIVD  143
+
+
+> gi|119386371|ref|YP_917426.1| hypothetical protein Pden_3663 
+[Paracoccus denitrificans PD1222]
+Length=146
+
+ Score =  156 bits (395),  Expect = 6e-47, Method: Compositional matrix adjust.
+ Identities = 79/140 (56%), Positives = 98/140 (70%), Gaps = 3/140 (2%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            FWE PLA LD+ +WEALCDGCGKCCL+K+E EDTG +  T VACRLLD +T +C+ Y +R
+Sbjct  5    FWELPLARLDKEEWEALCDGCGKCCLNKIEYEDTGELAFTRVACRLLDGQTCQCSSYHNR  64
+
+Query  67   RALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+               VPDC+ LT   +  IA WLPSTCAYRLRA+G PL DWH+L +G   ++H  G SV G
+Sbjct  65   HDFVPDCVVLTPKKLKEIAWWLPSTCAYRLRAEGKPLYDWHYLISGDRESVHRAGASVRG  124
+
+Query  126  RVISE--VHAGPIENHIIEE  143
+              +SE  V     + HIIE+
+Sbjct  125  WTVSELSVTEDDWDEHIIED  144
+
+
+> gi|374335834|ref|YP_005092521.1| hypothetical protein GU3_10075 
+[Oceanimonas sp. GK1]
+Length=144
+
+ Score =  155 bits (393),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 74/136 (54%), Positives = 96/136 (71%), Gaps = 1/136 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  +   +WEALCDGCGKCCL+K+ DEDT  +  TNVAC LL+T +  C+DY +
+Sbjct  5    FWQTKTLDEMTDDEWEALCDGCGKCCLNKLIDEDTDELVHTNVACELLNTHSCACSDYAN  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R A VPDCL++T+  +    WLPSTCAYR+ A+G  LP WH L+TGS +AMH  G SV G
+Sbjct  65   RFARVPDCLKITRDKLSEFYWLPSTCAYRVLAEGKSLPSWHPLRTGSKSAMHRAGQSVRG  124
+
+Query  126  RVISEVHAGPIENHII  141
+            +V+ E  AG  E+HII
+Sbjct  125  KVVPESKAGDWEDHII  140
+
+
+> gi|110634420|ref|YP_674628.1| hypothetical protein Meso_2070 
+[Chelativorans sp. BNC1]
+Length=147
+
+ Score =  155 bits (391),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 80/146 (55%), Positives = 99/146 (68%), Gaps = 5/146 (3%)
+
+Query  4    LTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCAD  62
+            + PFW+ +PL ++  A+WE+LCDGCGKCCL K+EDEDTG I+ T+VACRL D  T RC D
+Sbjct  1    MEPFWKNKPLLAMSEAEWESLCDGCGKCCLAKLEDEDTGEIHWTSVACRLFDAGTCRCTD  60
+
+Query  63   YRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHS  122
+            Y  R A VPDC+RLT  NVG I WLPSTCAYRL A+G  LP WH L +G    +H  G S
+Sbjct  61   YAGRLARVPDCVRLTPANVGEITWLPSTCAYRLLAEGKDLPWWHPLVSGRAETVHEAGIS  120
+
+Query  123  VIGRVIS-EVHAGPIE---NHIIEEE  144
+            +  RV + E     +E    H++EEE
+Sbjct  121  MRNRVSALEDQLADVEEYFQHLLEEE  146
+
+
+> gi|90020987|ref|YP_526814.1| Uncharacterised conserved protein 
+UCP006173 [Saccharophagus degradans 2-40]
+Length=143
+
+ Score =  153 bits (386),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 76/138 (55%), Positives = 98/138 (71%), Gaps = 3/138 (2%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW E+ LA +  A+WE+LCDGCGKCCLHK+EDEDTG ++ T VAC+LLDT+TARC DY +
+Sbjct  3    FWQEKTLAEMTPAEWESLCDGCGKCCLHKLEDEDTGEVFYTYVACKLLDTQTARCTDYPN  62
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R A VP+CL L   +V S  WLP TCAYRL ++G PL  WH L +G  A++ A   SV G
+Sbjct  63   RVAKVPECLCLKPSDVASFHWLPETCAYRLLSEGQPLAAWHPLVSGDPASVKAANVSVAG  122
+
+Query  126  RVISE--VHAGPIENHII  141
+            +V++E  VH    E+ I+
+Sbjct  123  KVVAEHKVHPDDYEDCIV  140
+
+
+> gi|402772037|ref|YP_006591574.1| hypothetical protein BN69_1472 
+[Methylocystis sp. SC2]
+Length=206
+
+ Score =  154 bits (389),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 72/123 (59%), Positives = 86/123 (70%), Gaps = 0/123 (0%)
+
+Query  5    TPFWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+             PFWEQPL+ L RA+WE LCDGCG+CCL K+EDEDTG IY T+VAC+LLD ++ RC DY 
+Sbjct  55   APFWEQPLSDLTRAEWEQLCDGCGRCCLVKLEDEDTGAIYHTSVACKLLDQQSCRCGDYP  114
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             RR  VPDC+RLT   +  I WLP TCAY LR  G PLP WH L +G   ++   G S  
+Sbjct  115  RRRRYVPDCVRLTLEKLADIPWLPPTCAYVLRFRGKPLPPWHPLISGDPESVSRAGVSAR  174
+
+Query  125  GRV  127
+            GR+
+Sbjct  175  GRI  177
+
+
+> gi|54309775|ref|YP_130795.1| hypothetical protein PBPRA2614 [Photobacterium 
+profundum SS9]
+Length=147
+
+ Score =  151 bits (382),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 73/141 (52%), Positives = 92/141 (65%), Gaps = 1/141 (1%)
+
+Query  1    MDQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M  +  FWE + LA +   +WE+LCDGCGKCCLHK+ D+ T  IY TNVAC LLD  T  
+Sbjct  1    MGSMVRFWEDKELAIMTDQEWESLCDGCGKCCLHKLIDDATDDIYFTNVACSLLDNNTCS  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C DY++R     +CL+LT+  +    WLP TCAYRL A+G PLP+WH L TGS  AMH  
+Sbjct  61   CKDYQNRFESGEECLKLTRERIDEFVWLPETCAYRLLAEGKPLPEWHPLITGSKKAMHKA  120
+
+Query  120  GHSVIGRVISEVHAGPIENHI  140
+            G SV G+V+ E+     E+HI
+Sbjct  121  GESVKGQVVYEIDVIDWEDHI  141
+
+
+> gi|15641071|ref|NP_230703.1| hypothetical protein VC1058 [Vibrio 
+cholerae O1 biovar El Tor str. N16961]
+Length=145
+
+ Score =  150 bits (380),  Expect = 9e-45, Method: Compositional matrix adjust.
+ Identities = 71/138 (51%), Positives = 92/138 (67%), Gaps = 1/138 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  A+WE+LCDGCGKCCLHK+ DEDT  IY TNVAC  L++ T  C DY
+Sbjct  3    TPFWQSKTLDQMTEAEWESLCDGCGKCCLHKLMDEDTDEIYYTNVACSWLNSDTCSCKDY  62
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R +   +CL+LT+  +    WLP TCAYRL  +G  LP+WH L TGS  AMHA   SV
+Sbjct  63   PNRFSSGEECLKLTRDKIEEFNWLPDTCAYRLLGNGQTLPEWHPLLTGSKDAMHAADESV  122
+
+Query  124  IGRVISEVHAGPIENHII  141
+             G+++ EV     E+HI+
+Sbjct  123  RGKIVYEVDVIDWEDHIV  140
+
+
+> gi|13472196|ref|NP_103763.1| hypothetical protein mll2411 [Mesorhizobium 
+loti MAFF303099]
+Length=148
+
+ Score =  150 bits (380),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 76/138 (55%), Positives = 95/138 (69%), Gaps = 2/138 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  A+WE+LCDGCGKCCL K+EDEDTG IY T+V CRL D +T RC+DY
+Sbjct  3    TPFWKTKTLEQMSPAEWESLCDGCGKCCLSKLEDEDTGEIYWTSVGCRLFDAQTCRCSDY  62
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R A VPDC+ LT  NV +I+WLPSTCAYRL A+G  L  WH L +GS   +H  G S+
+Sbjct  63   ANRLARVPDCVGLTPQNVRTISWLPSTCAYRLVAEGRDLYWWHRLVSGSAETVHEAGISM  122
+
+Query  124  IGRV-ISEVHAGPIENHI  140
+             GRV  SE      E++ 
+Sbjct  123  RGRVKASETDLAEPEDYF  140
+
+
+> gi|209694568|ref|YP_002262496.1| hypothetical protein VSAL_I1007 
+[Aliivibrio salmonicida LFI1238]
+Length=190
+
+ Score =  150 bits (380),  Expect = 4e-44, Method: Compositional matrix adjust.
+ Identities = 68/135 (50%), Positives = 90/135 (67%), Gaps = 1/135 (1%)
+
+Query  7    FWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+Q  L  +   +WE+LCDGCGKCCLHK+ DEDT  +Y TNVAC  L+++T  C DY  
+Sbjct  49   FWQQKKLEEMTEQEWESLCDGCGKCCLHKLMDEDTDEVYYTNVACSWLNSKTCSCKDYAK  108
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R     +CL+L++ N+    WLP TCAYRL A+G P+P+WH L TGS +AMHA G SV  
+Sbjct  109  RFTSGEECLKLSRENIAEFNWLPVTCAYRLLAEGNPIPEWHPLITGSKSAMHAAGESVRN  168
+
+Query  126  RVISEVHAGPIENHI  140
+            +V+  +     E+HI
+Sbjct  169  KVVYAIDVKNWEDHI  183
+
+
+> gi|568302616|ref|YP_008974901.1| Uncharacterized protein Gal_00892 
+[Phaeobacter gallaeciensis DSM 26640]
+Length=156
+
+ Score =  149 bits (377),  Expect = 4e-44, Method: Compositional matrix adjust.
+ Identities = 79/143 (55%), Positives = 96/143 (67%), Gaps = 4/143 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+ PLA L+  +WEALCDGCGKCCL+K+EDED+G +  T VACRLLD  T RCA Y +
+Sbjct  14   FWEKKPLAKLNNREWEALCDGCGKCCLNKLEDEDSGEVALTRVACRLLDDATCRCAHYEN  73
+
+Query  66   RRALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VP+C+ L   N+ + A W+P TCAYRL  +G PLPDWH L TG  A++H  G SV 
+Sbjct  74   RHQFVPECIVLKPDNLDTHAYWMPQTCAYRLLWEGKPLPDWHPLITGDPASVHEAGVSVR  133
+
+Query  125  GRVISEVHAGP--IENHIIEEEL  145
+            G  +SE        E HIIEE L
+Sbjct  134  GWTVSEFDTPEEDWEEHIIEEPL  156
+
+
+> gi|260598266|ref|YP_003210837.1| hypothetical protein CTU_24740 
+[Cronobacter turicensis z3032]
+Length=148
+
+ Score =  147 bits (372),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 70/140 (50%), Positives = 93/140 (66%), Gaps = 1/140 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y
+Sbjct  4    TPFWQRKTLDEMSDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L+ GS AAMHA   SV
+Sbjct  64   ERRFEYEPDCIKLTRDNLPTFEWLPPTCAYRLLAEGKNLPQWHPLRAGSKAAMHAERISV  123
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                + E      ++HI+ +
+Sbjct  124  RHIAVKESEVRDWQDHILNK  143
+
+
+> gi|114328710|ref|YP_745867.1| hypothetical protein GbCGDNIH1_2046 
+[Granulibacter bethesdensis CGDNIH1]
+Length=166
+
+ Score =  148 bits (373),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 71/142 (50%), Positives = 92/142 (65%), Gaps = 1/142 (1%)
+
+Query  1    MDQLTPFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M +  PFW+   L  L R +WE+LCDGCG+CCLHK+ DE+T  +  TNV+CRLLDT++ R
+Sbjct  1    MTEALPFWKTKHLTELTREEWESLCDGCGRCCLHKLRDEETEELAFTNVSCRLLDTQSCR  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C  Y  R   VPDC+ LT   V  I WLP +CAYR+  +G  LP WH L +G    +H  
+Sbjct  61   CTSYATRFRKVPDCISLTPALVAEIDWLPPSCAYRIVLNGKDLPWWHPLVSGDPETVHQA  120
+
+Query  120  GHSVIGRVISEVHAGPIENHII  141
+            G SV GR I E  AGP+E++I+
+Sbjct  121  GISVRGRAIDEREAGPLEDYIV  142
+
+
+> gi|308049440|ref|YP_003913006.1| hypothetical protein Fbal_1728 
+[Ferrimonas balearica DSM 9799]
+Length=153
+
+ Score =  147 bits (371),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 67/141 (48%), Positives = 94/141 (67%), Gaps = 1/141 (1%)
+
+Query  1    MDQLTPFWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            M +  PFW++PL  +   +WE+LCDGCGKCCL+K+ D+DT  +Y TNVAC+LL+ ++ +C
+Sbjct  1    MSEQVPFWQKPLGEMTEQEWESLCDGCGKCCLNKLIDDDTDEVYFTNVACQLLNHKSCQC  60
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+              Y  R   VPDC ++T  NVG + WLP +CAY+   +G  LP WH L TGS +AMHA G
+Sbjct  61   NKYPTRFDYVPDCYKITPENVGELDWLPPSCAYKRLHEGRGLPSWHPLLTGSASAMHAAG  120
+
+Query  121  HSVIGRVISEVHAGPIENHII  141
+             S+  +V+ E   G  E+ I+
+Sbjct  121  MSIRNKVLDERDVG-TESQIL  140
+
+
+> gi|357383704|ref|YP_004898428.1| hypothetical protein [Pelagibacterium 
+halotolerans B2]
+Length=149
+
+ Score =  147 bits (371),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 74/139 (53%), Positives = 95/139 (68%), Gaps = 3/139 (2%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW E+PL ++   +WEALCDGCGKCCL K+EDED+G I+P NV C+LLD  T  C+DY +
+Sbjct  3    FWDEKPLEAMTTEEWEALCDGCGKCCLLKLEDEDSGEIFPANVRCKLLDGETCGCSDYPN  62
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R+A VPDC++LT   V  IAW+P +CAYR  A+G  L  WH L +G    +HA G SV G
+Sbjct  63   RQAKVPDCIKLTPEKVHEIAWIPKSCAYRRIAEGRGLAWWHPLVSGDPETVHAAGISVRG  122
+
+Query  126  RVISEVHA--GPIENHIIE  142
+            R I+E  A     E+HII+
+Sbjct  123  RTIAEADADTSDWESHIID  141
+
+
+> gi|161353596|ref|NP_460767.2| hypothetical protein STM1811 [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. 
+LT2]
+Length=148
+
+ Score =  147 bits (370),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 71/140 (51%), Positives = 91/140 (65%), Gaps = 1/140 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C  Y
+Sbjct  4    TPFWQRKTLDEMTDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRHY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R    PDC++LT+ N+    WLP TCAYRL A+G PLP WH L TGS AAMH    SV
+Sbjct  64   ERRFEFEPDCIKLTRENLPDFEWLPMTCAYRLLAEGKPLPTWHPLLTGSKAAMHGERISV  123
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                + E      ++HI+ +
+Sbjct  124  RHIAVKESEVRDWQDHILNK  143
+
+
+> gi|114320538|ref|YP_742221.1| hypothetical protein Mlg_1382 [Alkalilimnicola 
+ehrlichii MLHE-1]
+Length=155
+
+ Score =  147 bits (370),  Expect = 5e-43, Method: Compositional matrix adjust.
+ Identities = 72/126 (57%), Positives = 85/126 (67%), Gaps = 1/126 (1%)
+
+Query  6    PFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFWE  PL  + +AQWEALCDGCG+CCLH  EDEDTG +  T VAC+LLDT++ RC  Y 
+Sbjct  7    PFWEHLPLEEMSQAQWEALCDGCGRCCLHSFEDEDTGAVIATPVACKLLDTQSCRCTRYP  66
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             RR  VPDC +LT     S  WLP TCAYR  A+G  L DWH L +G   ++H  G SV 
+Sbjct  67   DRRQFVPDCTQLTPEGARSWKWLPETCAYRRLAEGRGLADWHPLVSGDPESVHRAGISVR  126
+
+Query  125  GRVISE  130
+            GRV+SE
+Sbjct  127  GRVVSE  132
+
+
+> gi|410666115|ref|YP_006918486.1| hypothetical protein M5M_18140 
+[Simiduia agarivorans SA1 = DSM 21679]
+Length=149
+
+ Score =  146 bits (368),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 74/138 (54%), Positives = 88/138 (64%), Gaps = 3/138 (2%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW    L+ + R QWE+LCDGCGKCCL K+EDED+G +Y T +AC+LLD  + RC DY H
+Sbjct  7    FWRTTKLSDMSRYQWESLCDGCGKCCLQKLEDEDSGEVYFTRLACKLLDIESGRCGDYPH  66
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VP CL LT   +    WLP TCAYRL A+G  LP+WH L TG   A+HA G SV G
+Sbjct  67   RLERVPGCLNLTADKIEEFHWLPVTCAYRLLAEGEDLPEWHPLITGDPQAVHAAGISVRG  126
+
+Query  126  RVISE--VHAGPIENHII  141
+            R I E  V     EN I+
+Sbjct  127  RAIPETAVSEEDWENEIV  144
+
+
+> gi|238919530|ref|YP_002933045.1| Uncharacterized protein family 
+(UPF0153) [Edwardsiella ictaluri 93-146]
+Length=153
+
+ Score =  145 bits (367),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 71/142 (50%), Positives = 91/142 (64%), Gaps = 1/142 (1%)
+
+Query  5    TPFW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW E+ L  +  A+WEALCDGCG+CCLHK++DEDT  IY TNVAC LL+ +T +C  Y
+Sbjct  4    TPFWQEKTLEQMSDAEWEALCDGCGQCCLHKLQDEDTDEIYFTNVACNLLNIKTCQCRHY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R     DC++LT+ N+ +  WLP TC YRL ++G  LP WH L++GS AAMHA   SV
+Sbjct  64   ARRFEYEEDCIKLTRENLPTFEWLPPTCTYRLLSEGASLPTWHPLRSGSKAAMHAARISV  123
+
+Query  124  IGRVISEVHAGPIENHIIEEEL  145
+                  E      E HI+ + L
+Sbjct  124  RYIAERESEVSDWEQHIMRQPL  145
+
+
+> gi|53805238|ref|YP_113040.1| hypothetical protein MCA0521 [Methylococcus 
+capsulatus str. Bath]
+Length=147
+
+ Score =  145 bits (366),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 74/139 (53%), Positives = 91/139 (65%), Gaps = 2/139 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW  + LA L  A+WE+LCDGCGKCCLHK+EDEDTG I  T VACRLLD    RC  Y
+Sbjct  4    APFWHAKALAELSLAEWESLCDGCGKCCLHKLEDEDTGEILYTRVACRLLDIAACRCTAY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+            + R  LVPDC+ L Q       WLP++CAYRL ++G PLP WH L +G+  ++H  G SV
+Sbjct  64   QDRFRLVPDCMDLRQVP-DQFHWLPASCAYRLLSEGRPLPAWHPLVSGAADSVHRAGKSV  122
+
+Query  124  IGRVISEVHAGPIENHIIE  142
+                +SE     IE+H+IE
+Sbjct  123  CRLAVSETVVDCIEDHVIE  141
+
+
+> gi|209885736|ref|YP_002289593.1| hypothetical protein OCAR_6616 
+[Oligotropha carboxidovorans OM5]
+Length=169
+
+ Score =  145 bits (366),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 74/144 (51%), Positives = 96/144 (67%), Gaps = 4/144 (3%)
+
+Query  2    DQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            DQ   FW+ + L  L  A+WE+LCDGCG+CCL K+EDEDTG IY T+VACRL D     C
+Sbjct  10   DQKDSFWKTKTLEELSSAEWESLCDGCGRCCLEKLEDEDTGKIYFTHVACRLFDVGACGC  69
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+            +DY +R A VPDC+RLT  NV ++ WLP +CAY+L A+G  L  WH L +G    +H  G
+Sbjct  70   SDYPNRSAKVPDCVRLTPENVRTLNWLPPSCAYKLVAEGRDLYWWHPLISGDPNTVHEAG  129
+
+Query  121  HSVIGRVIS---EVHAGPIENHII  141
+             SV GRV++   EV    +E+HI+
+Sbjct  130  VSVRGRVVATEDEVDDADLEDHIV  153
+
+
+> gi|162147380|ref|YP_001601841.1| hypothetical protein GDI_1595 
+[Gluconacetobacter diazotrophicus PAl 5]
+Length=160
+
+ Score =  144 bits (364),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 70/143 (49%), Positives = 94/143 (66%), Gaps = 1/143 (1%)
+
+Query  1    MDQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M    PFW+ + L  +   +WE+LCDGCG+CCLHK+ ++ T  +  T+VACRLLD  + R
+Sbjct  1    MTDTPPFWQVRSLDEMTTEEWESLCDGCGRCCLHKLREDVTDQVLYTDVACRLLDLESCR  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C+DY  RR  VPDC++LT   +  I WLP +CAYRL A+G  L  WH L +GS   +H  
+Sbjct  61   CSDYAQRRRKVPDCVQLTPAALADIDWLPPSCAYRLLAEGQTLAWWHPLVSGSPDTVHEA  120
+
+Query  120  GHSVIGRVISEVHAGPIENHIIE  142
+            G SV GR +SE  AGP+E+HI +
+Sbjct  121  GISVRGRAVSERRAGPLEHHIAD  143
+
+
+> gi|162139710|ref|NP_309703.3| hypothetical protein ECs1676 [Escherichia 
+coli O157:H7 str. Sakai]
+Length=148
+
+ Score =  144 bits (363),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 69/140 (49%), Positives = 91/140 (65%), Gaps = 1/140 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y
+Sbjct  4    VPFWQSKTLDEMSDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV
+Sbjct  64   ERRFEFEPDCIKLTRENLPTFEWLPMTCAYRLLAEGKDLPAWHPLLTGSKAAMHGERISV  123
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                + E      ++HI+ +
+Sbjct  124  RHIAVKESEVIDWQDHILNK  143
+
+
+> gi|145698245|ref|NP_415699.5| UPF0153 family cysteine cluster 
+protein, function unknown [Escherichia coli str. K-12 substr. 
+MG1655]
+Length=153
+
+ Score =  144 bits (363),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 69/140 (49%), Positives = 91/140 (65%), Gaps = 1/140 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y
+Sbjct  9    VPFWQSKTLDEMSDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNY  68
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV
+Sbjct  69   ERRFEFEPDCIKLTRENLPTFEWLPMTCAYRLLAEGKDLPAWHPLLTGSKAAMHGERISV  128
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                + E      ++HI+ +
+Sbjct  129  RHIAVKESEVIDWQDHILNK  148
+
+
+> gi|537454611|ref|YP_008488461.1| hypothetical protein N175_10240 
+[Listonella anguillarum M3]
+Length=146
+
+ Score =  144 bits (362),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 66/138 (48%), Positives = 89/138 (64%), Gaps = 1/138 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  ++WE+LCDGCGKCCLHK+ DED+  +Y TNVAC  L++ T  C DY
+Sbjct  3    TPFWQNKKLEQMTESEWESLCDGCGKCCLHKLMDEDSDEVYYTNVACSWLNSDTCSCKDY  62
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R     +CL+LT+  +    WLP TCAYR+ ++G  LP WH L TGS  AMHA   SV
+Sbjct  63   PNRFNSGEECLKLTRDKIDEFNWLPDTCAYRVLSEGKTLPQWHPLITGSKEAMHAAQESV  122
+
+Query  124  IGRVISEVHAGPIENHII  141
+              +V+ E+     E+ II
+Sbjct  123  RNKVVYEIDVIDWEDQII  140
+
+
+> gi|206578583|ref|YP_002237817.1| hypothetical protein KPK_1978 
+[Klebsiella pneumoniae 342]
+Length=148
+
+ Score =  143 bits (361),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 70/137 (51%), Positives = 90/137 (66%), Gaps = 1/137 (1%)
+
+Query  6    PFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+Q  L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y 
+Sbjct  5    PFWQQKTLDEMTDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV 
+Sbjct  65   RRFEYEPDCIKLTRENLPTFEWLPPTCAYRLLAEGKSLPAWHPLLTGSKAAMHGERISVR  124
+
+Query  125  GRVISEVHAGPIENHII  141
+               + E      ++HI+
+Sbjct  125  HIAVPESTVVDWQDHIL  141
+
+
+> gi|481848449|ref|YP_007872889.1| hypothetical protein RORB6_03205 
+[Raoultella ornithinolytica B6]
+Length=148
+
+ Score =  143 bits (361),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 69/138 (50%), Positives = 91/138 (66%), Gaps = 1/138 (1%)
+
+Query  7    FWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+Q  L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y  
+Sbjct  6    FWQQKTLDEMTDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNYER  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R    PDC++LT+ N+ +  WLP TCAYRL A+G PLP WH L +GS AAMH    SV  
+Sbjct  66   RFEYEPDCIKLTRDNLPTFEWLPPTCAYRLLAEGKPLPHWHPLLSGSKAAMHGERISVRH  125
+
+Query  126  RVISEVHAGPIENHIIEE  143
+              + E      ++HI+ +
+Sbjct  126  IAVKEETVRDWQDHILNK  143
+
+
+> gi|389876408|ref|YP_006369973.1| hypothetical protein TMO_0550 
+[Tistrella mobilis KA081020-065]
+Length=153
+
+ Score =  143 bits (361),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 69/126 (55%), Positives = 91/126 (72%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ +PL  L   +W+ALCDGCGKCCL K+EDEDTG +  T+VACRLLD  +  C DY 
+Sbjct  11   PFWKAKPLDGLSPEEWDALCDGCGKCCLVKMEDEDTGAVLSTDVACRLLDCDSCHCRDYP  70
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+A+VPDC+ LT  N+G++ W+P+TCAYRL A+G  LP WH L +G  A++   G    
+Sbjct  71   NRKAIVPDCVVLTPDNLGALDWMPATCAYRLVAEGRDLPWWHPLVSGDPASVRRAGVGAH  130
+
+Query  125  GRVISE  130
+            GRV+SE
+Sbjct  131  GRVVSE  136
+
+
+> gi|560156302|ref|YP_008849017.1| Putative cytosolic protein [Shigella 
+dysenteriae 1617]
+Length=182
+
+ Score =  144 bits (363),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 69/140 (49%), Positives = 91/140 (65%), Gaps = 1/140 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y
+Sbjct  38   VPFWQSKTLDEMSDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNY  97
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV
+Sbjct  98   DRRFEFEPDCIKLTRENLPTFEWLPMTCAYRLLAEGKDLPAWHPLLTGSKAAMHGERISV  157
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                + E      ++HI+ +
+Sbjct  158  RHIAVKESEVIDWQDHILNK  177
+
+
+> gi|56460923|ref|YP_156204.1| hypothetical protein IL1823 [Idiomarina 
+loihiensis L2TR]
+Length=143
+
+ Score =  143 bits (360),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 70/137 (51%), Positives = 97/137 (71%), Gaps = 3/137 (2%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            ++EQPL +L  AQWEALCDGCG+CCL+++ DE+  ++Y T+VACRLLDT+TA C+DY HR
+Sbjct  3    WYEQPLHTLSHAQWEALCDGCGQCCLNQLLDEE-DNLYSTDVACRLLDTKTASCSDYAHR  61
+
+Query  67   RALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLK-TGSLAAMHAGGHSVIG  125
+               VP C+ LT  N+  + ++P++CAYRLRA+G PLP WH L+  GS   M   G+ V G
+Sbjct  62   SERVPACVTLTPDNLDEVYFMPASCAYRLRAEGQPLPQWHPLRHEGSKEPMKKAGYHVAG  121
+
+Query  126  RVISEV-HAGPIENHII  141
+              +SE    G +E+ I+
+Sbjct  122  HCVSEAKFKGDLEDRIV  138
+
+
+> gi|292492066|ref|YP_003527505.1| hypothetical protein Nhal_2011 
+[Nitrosococcus halophilus Nc 4]
+Length=147
+
+ Score =  143 bits (360),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 66/137 (48%), Positives = 90/137 (66%), Gaps = 1/137 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L ++   +WEALCDGCGKCCL+K+ED +TG I+ T+VACRLLD  + RC DY+H
+Sbjct  6    FWKYKTLQAMSAEEWEALCDGCGKCCLYKLEDAETGEIFYTDVACRLLDLHSCRCTDYQH  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   V DCL L +    ++ WLPSTCAYRL  +G  L DWH L +G    +H  G S  G
+Sbjct  66   RAQKVSDCLSLREELTEALKWLPSTCAYRLIGEGKELFDWHPLISGDPETVHQAGMSARG  125
+
+Query  126  RVISEVHAGPIENHIIE  142
+            R + E     +E+H+++
+Sbjct  126  RTVLEFQVRDLEDHVVD  142
+
+
+> gi|157145442|ref|YP_001452761.1| hypothetical protein CKO_01185 
+[Citrobacter koseri ATCC BAA-895]
+Length=153
+
+ Score =  143 bits (360),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 69/139 (50%), Positives = 91/139 (65%), Gaps = 1/139 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +  A+WE+LCDGCG+CCLHK+ DEDT  IY TNVACR L+ +T +C +Y 
+Sbjct  10   PFWQSKTLDDMTDAEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACRQLNIKTCQCRNYE  69
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV 
+Sbjct  70   RRFEYEPDCIKLTRDNLPTFEWLPMTCAYRLLAEGKGLPGWHPLLTGSKAAMHGERISVR  129
+
+Query  125  GRVISEVHAGPIENHIIEE  143
+               + E      ++HI+ +
+Sbjct  130  HIAVKESEVRDWQDHILNK  148
+
+
+> gi|56697987|ref|YP_168358.1| hypothetical protein SPO3155 [Ruegeria 
+pomeroyi DSS-3]
+Length=156
+
+ Score =  143 bits (360),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 76/143 (53%), Positives = 94/143 (66%), Gaps = 4/143 (3%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE +PLA L++ +WEALCDGCGKCCL+K+EDEDTG +  T VACRLLD  +  C  Y  
+Sbjct  14   FWERKPLARLNKTEWEALCDGCGKCCLNKLEDEDTGEVELTRVACRLLDDESCHCTQYPI  73
+
+Query  66   RRALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VPDC+ LT  N+ S A W+P TCAYRL  +G PL DWH L +G   ++H  G SV 
+Sbjct  74   RHQFVPDCIVLTPDNLDSHAYWMPRTCAYRLLWEGKPLYDWHPLISGDPESVHRAGVSVR  133
+
+Query  125  GRVISEVHAGP--IENHIIEEEL  145
+            G  +SE        E+HIIEE +
+Sbjct  134  GITVSEFETPEEDWEDHIIEEPI  156
+
+
+> gi|296101868|ref|YP_003612014.1| hypothetical protein ECL_01506 
+[Enterobacter cloacae subsp. cloacae ATCC 13047]
+Length=150
+
+ Score =  142 bits (359),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 68/137 (50%), Positives = 89/137 (65%), Gaps = 1/137 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCG+CCLHK+ DEDT  IY TNVAC+ L+ +T +C +Y 
+Sbjct  9    PFWQRKTLDEMTDVEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACKQLNIKTCQCRNYE  68
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ +  WLP TCAYRL A+G  LP WH L TGS AAMH    SV 
+Sbjct  69   RRFEFEPDCIKLTRENLPTFEWLPHTCAYRLLAEGKDLPTWHPLLTGSKAAMHGERISVR  128
+
+Query  125  GRVISEVHAGPIENHII  141
+               + E      E+HI+
+Sbjct  129  HIAVKESEVRDWEDHIM  145
+
+
+> gi|333984809|ref|YP_004514019.1| hypothetical protein [Methylomonas 
+methanica MC09]
+Length=142
+
+ Score =  142 bits (358),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 67/137 (49%), Positives = 90/137 (66%), Gaps = 1/137 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE + L  +   +WE++CD CGKCCL K+EDEDTG I  T+VAC+L+D +T  C +Y  
+Sbjct  3    FWEIKTLQEMTPEEWESVCDRCGKCCLVKLEDEDTGEIAMTSVACKLIDLKTCLCTNYSQ  62
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R +LVP+C+ L Q +     WLP TCAYRL ++G PLPDWH LK+GS  ++H  G S+  
+Sbjct  63   RCSLVPECIDLKQHDFSEYQWLPDTCAYRLLSNGQPLPDWHPLKSGSAQSVHQSGMSIRS  122
+
+Query  126  RVISEVHAGPIENHIIE  142
+              I E      E+HI+E
+Sbjct  123  YAIHESPQVDPEDHIME  139
+
+
+> gi|110834627|ref|YP_693486.1| hypothetical protein ABO_1766 [Alcanivorax 
+borkumensis SK2]
+Length=153
+
+ Score =  142 bits (358),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 68/137 (50%), Positives = 88/137 (64%), Gaps = 2/137 (1%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            FW  PL+ L+  +WEALCD CG+CCL K+EDED+G +  TN+ACR LD++  +C  Y  R
+Sbjct  13   FWTLPLSDLNVREWEALCDNCGRCCLVKLEDEDSGELAFTNLACRFLDSKQCQCRVYEER  72
+
+Query  67   RALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIGR  126
+               VPDC+R+T+       WLP TCAYRLRA G PLP WH L + +  ++   G SV GR
+Sbjct  73   FKRVPDCIRVTESIARDTNWLPPTCAYRLRAKGKPLPAWHPLLSNNADSVRQAGISVAGR  132
+
+Query  127  VISE--VHAGPIENHII  141
+            V+SE  V     E HI+
+Sbjct  133  VVSEQLVREDDWEEHIV  149
+
+
+> gi|83309618|ref|YP_419882.1| hypothetical protein amb0519 [Magnetospirillum 
+magneticum AMB-1]
+Length=160
+
+ Score =  142 bits (358),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 69/137 (50%), Positives = 92/137 (67%), Gaps = 1/137 (1%)
+
+Query  6    PFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW   PL+++ R QWE+LCDGCG+CCLHK+ED DTG I+ TNVACRLL+  T  C  Y 
+Sbjct  20   PFWRTTPLSAMTREQWESLCDGCGRCCLHKLEDADTGEIHYTNVACRLLNLHTCGCKSYA  79
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R   VPDC+ L+   +  I WLPSTCAYR+ ++G  L  WH L +G   ++H  G SV 
+Sbjct  80   KRWDSVPDCVELSPVVLAGIKWLPSTCAYRVLSEGKVLQWWHPLVSGDPESVHRAGISVR  139
+
+Query  125  GRVISEVHAGPIENHII  141
+            G+VI+E  A  ++ H++
+Sbjct  140  GKVIAESRADLLDYHVV  156
+
+
+> gi|339504231|ref|YP_004691651.1| hypothetical protein RLO149_c027260 
+[Roseobacter litoralis Och 149]
+Length=156
+
+ Score =  142 bits (357),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 73/141 (52%), Positives = 96/141 (68%), Gaps = 4/141 (3%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            +WE +PL+++++ +WEALCDGCGKCCL+K+EDEDTG +  T +ACRLLD  + RCA Y +
+Sbjct  14   YWERKPLSAMNQREWEALCDGCGKCCLNKLEDEDTGEVALTRIACRLLDDDSCRCAHYEN  73
+
+Query  66   RRALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VPDC+ L   N+ + A W+P TCAYRL   G  LPDWH L +G+  ++H  G SV 
+Sbjct  74   RHQFVPDCIVLKPDNLDTHAYWMPETCAYRLLWQGDALPDWHPLISGTAQSVHDAGISVR  133
+
+Query  125  GRVISE--VHAGPIENHIIEE  143
+            G  +SE  V     E HIIEE
+Sbjct  134  GITLSEFDVPQDEWEEHIIEE  154
+
+
+> gi|254294771|ref|YP_003060794.1| hypothetical protein Hbal_2417 
+[Hirschia baltica ATCC 49814]
+Length=152
+
+ Score =  142 bits (357),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 62/126 (49%), Positives = 85/126 (67%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  L   +WE+LCDGCGKCCL K+EDEDTG I  T + C+L D  T RC++Y 
+Sbjct  7    PFWKSKTLEQLSHDEWESLCDGCGKCCLLKLEDEDTGEIAYTKLHCKLFDASTCRCSNYE  66
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+  VP+C+ LT   +  + W+P TCAYRL ++G  LP+WHHL  G   A+H  G SV+
+Sbjct  67   NRKEKVPECVTLTPAKIPDLKWMPVTCAYRLVSEGKDLPEWHHLVCGDRGAIHKAGKSVL  126
+
+Query  125  GRVISE  130
+            G+ + E
+Sbjct  127  GKTVCE  132
+
+
+> gi|154246350|ref|YP_001417308.1| hypothetical protein Xaut_2409 
+[Xanthobacter autotrophicus Py2]
+Length=206
+
+ Score =  143 bits (360),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 71/141 (50%), Positives = 94/141 (67%), Gaps = 4/141 (3%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW  +PL+++   +WE+LCDGCG+CCL K+EDEDTG +  T+VACRLLD  T RC+DY
+Sbjct  29   VPFWRAKPLSAMSTTEWESLCDGCGRCCLVKLEDEDTGQVAYTDVACRLLDAATCRCSDY  88
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R  +V DC+RLT  +V  + WLP TCAYRL  +G  LP WH L +G   ++ A G +V
+Sbjct  89   ERRSEIVSDCVRLTPESVAELNWLPPTCAYRLVGEGKDLPFWHPLVSGDAGSVAAAGITV  148
+
+Query  124  IGRVI-SEVHAGPIE--NHII  141
+             G+V  SE   G  E  +HI+
+Sbjct  149  SGKVAGSENEFGLFELVDHIV  169
+
+
+> gi|326402674|ref|YP_004282755.1| hypothetical protein ACMV_05260 
+[Acidiphilium multivorum AIU301]
+Length=158
+
+ Score =  141 bits (356),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 71/137 (52%), Positives = 90/137 (66%), Gaps = 1/137 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +  ++WE+LCDGCG+CCLHK+ DE+T  +  TNV+CRLLDT T RC +Y 
+Sbjct  8    PFWRTKRLEEMTPSEWESLCDGCGRCCLHKLRDEETNELAFTNVSCRLLDTATGRCRNYE  67
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R   VPDC  LT   V +I WLP +CAYRL A+G  LPDWH L TG   +    G SV 
+Sbjct  68   NRLREVPDCSALTPELVTAIDWLPPSCAYRLIAEGKDLPDWHPLLTGDPESTFRAGASVA  127
+
+Query  125  GRVISEVHAGPIENHII  141
+            GRV SE     +E+HI+
+Sbjct  128  GRVRSETSVHHLEDHIV  144
+
+
+> gi|197285035|ref|YP_002150907.1| hypothetical protein PMI1174 
+[Proteus mirabilis HI4320]
+Length=147
+
+ Score =  140 bits (354),  Expect = 8e-41, Method: Compositional matrix adjust.
+ Identities = 66/136 (49%), Positives = 89/136 (65%), Gaps = 1/136 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  +   +WE+LCDGCG+CCLHK+ D+DT  IY TNVAC  L+ +T +C++Y  
+Sbjct  5    FWQTKTLDEMSDDEWESLCDGCGQCCLHKLMDDDTDEIYFTNVACNQLNIKTCQCSNYED  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R    PDC++LT+ N+ +  WLP TCAYRL A+G PL DWH L  G+ A MH G  SV  
+Sbjct  65   RFRYEPDCIKLTRYNLPTFEWLPMTCAYRLLAEGKPLADWHPLIAGNKAKMHQGNISVRY  124
+
+Query  126  RVISEVHAGPIENHII  141
+              + EV     E+HI+
+Sbjct  125  IAVPEVEVEDWEDHIL  140
+
+
+> gi|292899658|ref|YP_003539027.1| hypothetical protein EAM_1948 
+[Erwinia amylovora ATCC 49946]
+Length=149
+
+ Score =  140 bits (354),  Expect = 9e-41, Method: Compositional matrix adjust.
+ Identities = 67/138 (49%), Positives = 90/138 (65%), Gaps = 1/138 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +   +WE+LCDGCG+CCL+K++D DT  IY TNVAC  L+ +T +C  Y
+Sbjct  4    TPFWQRKTLEQMSDEEWESLCDGCGQCCLNKLQDADTDEIYFTNVACNQLNIKTCQCRHY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R  L  DC++LT+ N+ +  WLP +CAYR+ A+G PLP WH L++GS AAMHA   SV
+Sbjct  64   EQRFELEEDCIKLTRENLPTFQWLPPSCAYRILAEGKPLPPWHPLRSGSRAAMHAARISV  123
+
+Query  124  IGRVISEVHAGPIENHII  141
+                + E      E HII
+Sbjct  124  RHIAVHESEVVDWEEHII  141
+
+
+> gi|226945352|ref|YP_002800425.1| hypothetical protein Avin_32930 
+[Azotobacter vinelandii DJ]
+Length=149
+
+ Score =  140 bits (354),  Expect = 9e-41, Method: Compositional matrix adjust.
+ Identities = 72/142 (51%), Positives = 90/142 (63%), Gaps = 3/142 (2%)
+
+Query  3    QLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCA  61
+            ++ PFW+ + L  LD  +WE+LCDGCG CCL K+EDE+ G +Y T +ACRLLD  T RC 
+Sbjct  4    KVEPFWKRKTLDRLDAEEWESLCDGCGLCCLQKLEDEEDGSVYYTRIACRLLDLETCRCR  63
+
+Query  62   DYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGH  121
+            DY +RR  VPDC++LT    G   WLP TCAYRL A+G  LP WH L  G   A+H    
+Sbjct  64   DYANRRRSVPDCIQLTPAQAGEFQWLPPTCAYRLLAEGEDLPLWHPLVCGDPQAVHRERI  123
+
+Query  122  SVIGRVISE--VHAGPIENHII  141
+            S  GR++SE  V     E H+I
+Sbjct  124  SRAGRMLSESAVAEDDWEEHLI  145
+
+
+> gi|217977824|ref|YP_002361971.1| hypothetical protein Msil_1661 
+[Methylocella silvestris BL2]
+Length=174
+
+ Score =  141 bits (356),  Expect = 9e-41, Method: Compositional matrix adjust.
+ Identities = 68/141 (48%), Positives = 93/141 (66%), Gaps = 4/141 (3%)
+
+Query  6    PFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW Q  L  +++ +WE+LCDGCG+CCL K+EDEDTG IY T VACRL D    RC+DY 
+Sbjct  14   PFWRQKSLEEMNKTEWESLCDGCGRCCLVKLEDEDTGEIYFTEVACRLFDANACRCSDYA  73
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +RR  V DC++LT     +++WLP +CAYRL A+G  L  WH L +GS   +HA G S  
+Sbjct  74   NRRRRVRDCIKLTPETARALSWLPPSCAYRLVAEGRDLYWWHPLVSGSTETVHAAGASAK  133
+
+Query  125  GRVI---SEVHAGPIENHIIE  142
+            G+V+   +E+      +HI++
+Sbjct  134  GKVVALETEIALNDYPHHIVK  154
+
+
+> gi|119944832|ref|YP_942512.1| hypothetical protein Ping_1074 
+[Psychromonas ingrahamii 37]
+Length=146
+
+ Score =  140 bits (353),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 63/133 (47%), Positives = 92/133 (69%), Gaps = 1/133 (1%)
+
+Query  4    LTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCAD  62
+            +  FWE + L+ +   +WE+LCDGCGKCCL+K+ D++T  ++ TNV+C LL T++ +C  
+Sbjct  1    MNKFWEYKTLSRMSDTEWESLCDGCGKCCLNKLIDDETEELHFTNVSCHLLHTKSCQCRK  60
+
+Query  63   YRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHS  122
+            Y  R  LV DC++++  ++    WLPS+CAYR  A+G P+P+WH L TGS +AMH GG S
+Sbjct  61   YDQRFKLVNDCVKVSLDDIQQFHWLPSSCAYRRLAEGKPIPEWHPLITGSKSAMHKGGFS  120
+
+Query  123  VIGRVISEVHAGP  135
+            V G++ISE    P
+Sbjct  121  VRGKIISEKTIDP  133
+
+
+> gi|390949739|ref|YP_006413498.1| hypothetical protein Thivi_1365 
+[Thiocystis violascens DSM 198]
+Length=144
+
+ Score =  140 bits (352),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 71/136 (52%), Positives = 84/136 (62%), Gaps = 2/136 (1%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE  PL ++   QW+ALCDGC KCCL K EDEDTG I  + +AC LLD  T RC DY +
+Sbjct  5    FWETIPLKAMTAEQWDALCDGCAKCCLEKFEDEDTGQIVYSRIACALLDLETCRCRDYPN  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   +PDC+ L    +   AWLP TCAYRL A+G PLPDWH L TG    +   G S+ G
+Sbjct  65   RARQMPDCITLIPEVLKKPAWLPETCAYRLLAEGKPLPDWHPLITGDPETVVEAGQSIQG  124
+
+Query  126  RVIS-EVHAGPIENHI  140
+            RVI  E    P+ N I
+Sbjct  125  RVIGPESGENPLMNLI  140
+
+
+> gi|158422724|ref|YP_001524016.1| hypothetical protein AZC_1100 
+[Azorhizobium caulinodans ORS 571]
+Length=197
+
+ Score =  142 bits (357),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 72/129 (56%), Positives = 85/129 (66%), Gaps = 1/129 (1%)
+
+Query  6    PFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW   PLA +   QWE+LCDGCG+CCL K+EDEDTG I  T++ CRLLD  T RC DY 
+Sbjct  28   PFWRTVPLARMTPEQWESLCDGCGRCCLVKLEDEDTGEIAYTDIGCRLLDGETCRCTDYP  87
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+A VPDC+RLT   V +I WLP TCAYRL  +G  LP WH L +G  A + A G SV 
+Sbjct  88   NRQAQVPDCVRLTPEAVMTIGWLPPTCAYRLLDEGKDLPWWHPLVSGDPATVTAAGISVS  147
+
+Query  125  GRVISEVHA  133
+            GR      A
+Sbjct  148  GRTAGSEDA  156
+
+
+> gi|256822613|ref|YP_003146576.1| hypothetical protein Kkor_1396 
+[Kangiella koreensis DSM 16069]
+Length=150
+
+ Score =  140 bits (352),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 66/138 (48%), Positives = 87/138 (63%), Gaps = 3/138 (2%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW    L  +   QWE+LCDGC KCC  +  D+D   +  T+V+CRLLDT++  C DY H
+Sbjct  6    FWLTTALKDMTHEQWESLCDGCAKCCCVQFIDDDDDLLMQTDVSCRLLDTKSLACTDYEH  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R + VPDC++LT   +    WLP TCAYRL A+G  LPDWH+L +G    +H  GHS+ G
+Sbjct  66   RTSKVPDCVQLTADTIEEYFWLPDTCAYRLVAEGKDLPDWHYLISGDKQLVHKKGHSIKG  125
+
+Query  126  RVISEVH--AGPIENHII  141
+            +VISE    A  +E+ II
+Sbjct  126  KVISETKLTAEEVEDRII  143
+
+
+> gi|507524742|ref|YP_008046355.1| hypothetical protein SPISAL_03980 
+[Spiribacter salinus M19-40]
+Length=151
+
+ Score =  140 bits (352),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 71/147 (48%), Positives = 94/147 (64%), Gaps = 4/147 (3%)
+
+Query  2    DQLTPFW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            D  TPFW  + LA +   +WEALCDGCG+CC H++ED DTG IYPT V+C+LL+T T +C
+Sbjct  3    DASTPFWHRKTLAEMSWPEWEALCDGCGQCCRHRLEDADTGAIYPTTVSCQLLNTHTCQC  62
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+            +DY +R A VPDC++LT   V    WLP TCAYR  A+G  L  WH L +G    +H  G
+Sbjct  63   SDYANRHATVPDCIQLTVEKVAEARWLPETCAYRRIAEGKGLAWWHPLVSGDPQTVHEAG  122
+
+Query  121  HSVIGRVISEVH---AGPIENHIIEEE  144
+             SV G + SE +      +E+++ E E
+Sbjct  123  VSVQGELTSERNLPTGAELEDYMEESE  149
+
+
+> gi|154251354|ref|YP_001412178.1| hypothetical protein Plav_0898 
+[Parvibaculum lavamentivorans DS-1]
+Length=153
+
+ Score =  139 bits (351),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 68/133 (51%), Positives = 86/133 (65%), Gaps = 1/133 (1%)
+
+Query  2    DQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            D   PFW  + L  + RA+WE+LCDGC KCCL K+EDEDTG +  T++ACRLLD  T RC
+Sbjct  3    DAEEPFWRAKRLEQMTRAEWESLCDGCAKCCLVKLEDEDTGELEYTDIACRLLDAETCRC  62
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+            +DY +R   VPDC+ LT  N+  I W+P +CAYRL  +G  LP WH L +G   A+   G
+Sbjct  63   SDYANRSERVPDCVTLTPKNLEDIDWMPPSCAYRLLKEGKDLPWWHPLVSGEYEAVRLAG  122
+
+Query  121  HSVIGRVISEVHA  133
+             SV GR + E  A
+Sbjct  123  MSVHGRFLFEDEA  135
+
+
+> gi|258541285|ref|YP_003186718.1| hypothetical protein APA01_01840 
+[Acetobacter pasteurianus IFO 3283-01]
+Length=151
+
+ Score =  139 bits (351),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 66/137 (48%), Positives = 89/137 (65%), Gaps = 1/137 (1%)
+
+Query  6    PFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFWE  PL  +   QWE+LCDGCG+CCLHK+ D+DT  ++ T+VACRLLD +T +C DY 
+Sbjct  4    PFWETTPLTEMTTEQWESLCDGCGRCCLHKLRDDDTEELHYTSVACRLLDVKTCQCTDYA  63
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R   V DC+ LT   +  + WLP  CAYR  ++G  LP WH L T +  ++ + G S  
+Sbjct  64   QRHRKVQDCITLTPKMIPELDWLPPDCAYRRLSEGRGLPQWHPLLTHTAESVISSGESAA  123
+
+Query  125  GRVISEVHAGPIENHII  141
+            GR ISE  AG +E++I+
+Sbjct  124  GRCISERRAGALEDYIV  140
+
+
+> gi|218929190|ref|YP_002347065.1| hypothetical protein YPO2083 
+[Yersinia pestis CO92]
+Length=148
+
+ Score =  139 bits (350),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 68/139 (49%), Positives = 92/139 (66%), Gaps = 1/139 (1%)
+
+Query  6    PFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+Q  LA +  ++WE+LCDGCG+CCL+K+ DEDT  IY TNVAC  L+ +T +C++Y 
+Sbjct  5    PFWQQKTLAEMSDSEWESLCDGCGQCCLNKLIDEDTDEIYFTNVACDQLNIKTCQCSNYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R  L  DC++LT+ N+ + AWLP TCAYRL  +G  LP WH L TGS AAMH    SV 
+Sbjct  65   RRFELEEDCIKLTRENLVTFAWLPPTCAYRLIGEGHDLPRWHPLLTGSKAAMHGERISVR  124
+
+Query  125  GRVISEVHAGPIENHIIEE  143
+               + E      ++HI+ +
+Sbjct  125  HIAVRESEVVDWQDHILNK  143
+
+
+> gi|568282872|ref|YP_008970655.1| hypothetical protein METH_04835 
+[Leisingera methylohalidivorans DSM 14336]
+Length=159
+
+ Score =  139 bits (351),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 72/141 (51%), Positives = 93/141 (66%), Gaps = 4/141 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+ PL  L + +WEALCDGCGKCCL+K+EDE++G +  T VACRLLD  + RC  Y  
+Sbjct  17   FWEKKPLDKLSQKEWEALCDGCGKCCLNKLEDEESGEVALTRVACRLLDDESCRCCQYPI  76
+
+Query  66   RRALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VP+C+ L   N+ + A W+P TCAYRL   G PLP+WH L TG+  ++H  G SV 
+Sbjct  77   RHQFVPECIVLKPDNLDTHAYWMPETCAYRLLWQGNPLPEWHPLLTGTPDSVHEAGVSVR  136
+
+Query  125  GRVIS--EVHAGPIENHIIEE  143
+            G  +S  E+     E+HIIEE
+Sbjct  137  GWTVSEFEISEDEWEDHIIEE  157
+
+
+> gi|357405966|ref|YP_004917890.1| hypothetical protein MEALZ_2630 
+[Methylomicrobium alcaliphilum 20Z]
+Length=142
+
+ Score =  139 bits (349),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 65/138 (47%), Positives = 87/138 (63%), Gaps = 2/138 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  +   +WE+LCDGCGKCCL+K+EDEDTG IY TN  C L+D +T RC  Y+ 
+Sbjct  3    FWKTKKLIEMSVQEWESLCDGCGKCCLNKLEDEDTGEIYLTNAVCDLIDLKTCRCTRYQE  62
+
+Query  66   RRALVPDCLRLTQGNV-GSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R  LVPDC+ L Q     +  W+P TCAYRL A G  LPDWH L +G+  ++   G S+ 
+Sbjct  63   RTRLVPDCVDLKQSTTWTAFDWMPETCAYRLLAIGEDLPDWHPLVSGNPDSVKEAGISIS  122
+
+Query  125  GRVISEVHAGPIENHIIE  142
+               I E     +E+H+I+
+Sbjct  123  SFAIKESEVDDLEDHVID  140
+
+
+> gi|37526057|ref|NP_929401.1| hypothetical protein plu2141 [Photorhabdus 
+luminescens subsp. laumondii TTO1]
+Length=143
+
+ Score =  138 bits (347),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 66/139 (47%), Positives = 90/139 (65%), Gaps = 1/139 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCG+CCLHK+ D+DT  IY TNVAC  L+ +T +C +Y 
+Sbjct  4    PFWQVKTLDQMTDEEWESLCDGCGQCCLHKLMDDDTDEIYFTNVACNQLNIKTCQCKNYE  63
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ + AWLP TCAYRL  +G PL  WH L  GS +AMH+   SV 
+Sbjct  64   DRFRYEPDCIKLTRYNLPTFAWLPITCAYRLLEEGKPLLPWHPLIKGSKSAMHSERISVR  123
+
+Query  125  GRVISEVHAGPIENHIIEE  143
+               + E+     E+HII +
+Sbjct  124  HIAVREIDVVEWEDHIINK  142
+
+
+> gi|15596496|ref|NP_249990.1| hypothetical protein PA1299 [Pseudomonas 
+aeruginosa PAO1]
+Length=149
+
+ Score =  138 bits (347),  Expect = 8e-40, Method: Compositional matrix adjust.
+ Identities = 64/133 (48%), Positives = 84/133 (63%), Gaps = 1/133 (1%)
+
+Query  3    QLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCA  61
+            ++ PFW+ + LA LD+ +WE+LCDGCG CCL K+EDED G +Y T +AC+LLD ++ RC 
+Sbjct  4    KVEPFWKRKTLAQLDQDEWESLCDGCGLCCLQKLEDEDDGSVYYTRIACKLLDLQSCRCT  63
+
+Query  62   DYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGH  121
+            +Y  R   VPDC++LT        WLP TC YRL A+G  LP WHHL  G    +H    
+Sbjct  64   NYAERIRFVPDCIQLTPAQADEFQWLPPTCGYRLVAEGKDLPLWHHLVCGDPERVHKERI  123
+
+Query  122  SVIGRVISEVHAG  134
+            S  GR++SE    
+Sbjct  124  SQSGRMLSETQVA  136
+
+
+> gi|114800294|ref|YP_761975.1| hypothetical protein HNE_3302 [Hyphomonas 
+neptunium ATCC 15444]
+Length=149
+
+ Score =  138 bits (347),  Expect = 9e-40, Method: Compositional matrix adjust.
+ Identities = 66/126 (52%), Positives = 86/126 (68%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCGKCC+ K+EDEDTG +  T + C+LLD  T +C+DY 
+Sbjct  4    PFWQSKTLEEMTPEEWESLCDGCGKCCVVKLEDEDTGALAYTRLHCKLLDGATCQCSDYA  63
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +RR  VPDC++LT   V  + WLP TCAYRL  +G PLP WHHL  G    +H  GHSV 
+Sbjct  64   NRRQHVPDCVQLTPVIVEQVDWLPRTCAYRLIDEGKPLPQWHHLVCGDRERIHELGHSVR  123
+
+Query  125  GRVISE  130
+            G+ +SE
+Sbjct  124  GQTVSE  129
+
+
+> gi|317048436|ref|YP_004116084.1| hypothetical protein Pat9b_2218 
+[Pantoea sp. At-9b]
+Length=148
+
+ Score =  137 bits (346),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 66/138 (48%), Positives = 88/138 (64%), Gaps = 1/138 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +D A+WE+LCDGCG+CCL+K++D DT  IY TNVAC  L+ +T +C +Y 
+Sbjct  5    PFWQTKRLDQMDDAEWESLCDGCGQCCLNKLQDADTDEIYFTNVACNQLNIKTCQCRNYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R     DC++LT+ N+ +  WLP TCAYRL  +G  LP WH L  GS  AMHA   SV 
+Sbjct  65   RRFEYEEDCIKLTRENLTTFNWLPRTCAYRLLGEGQTLPGWHPLVAGSKKAMHAQRISVR  124
+
+Query  125  GRVISEVHAGPIENHIIE  142
+               + E      E+HII+
+Sbjct  125  YIAVRESEVRDWEDHIID  142
+
+
+> gi|182678600|ref|YP_001832746.1| hypothetical protein Bind_1626 
+[Beijerinckia indica subsp. indica ATCC 9039]
+Length=162
+
+ Score =  137 bits (346),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 69/137 (50%), Positives = 90/137 (66%), Gaps = 1/137 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            T FW+ + L   D+A+WE+LCDGCG+CCL K+EDEDT  I+ TN+AC L D +T  C DY
+Sbjct  8    TKFWQGRALEEFDKAEWESLCDGCGRCCLVKLEDEDTSQIHFTNLACHLFDAKTCGCKDY  67
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R  LV DC+ LT   V S++WLP TCAYRL A+G  L  WH L +G   ++H  G SV
+Sbjct  68   PQRGTLVEDCIALTPDIVRSLSWLPPTCAYRLIAEGKDLAWWHPLVSGDPDSVHKAGVSV  127
+
+Query  124  IGRVISEVHAGPIENHI  140
+             GRV +     P+E++I
+Sbjct  128  RGRVAASETDIPLEDYI  144
+
+
+> gi|556586578|ref|YP_008754168.1| hypothetical protein SPICUR_04485 
+[Spiribacter sp. UAH-SP71]
+Length=151
+
+ Score =  137 bits (344),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 64/133 (48%), Positives = 88/133 (66%), Gaps = 1/133 (1%)
+
+Query  6    PFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW++  LA L   +WEALCDGCG+CC HK+ED D+G ++PT + C+LLDT + +C+DY 
+Sbjct  7    PFWQRKRLADLSWPEWEALCDGCGQCCRHKLEDADSGEVFPTRIGCQLLDTESCQCSDYN  66
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R A VPDC++LT   V    WLP +CAYR   +G  L  WH L +G    +H  G SV 
+Sbjct  67   NRHASVPDCIQLTVEKVAQYHWLPHSCAYRRLYEGTSLEWWHPLVSGDPDTVHQAGISVR  126
+
+Query  125  GRVISEVHAGPIE  137
+            G++++E   GP E
+Sbjct  127  GQLVNERTLGPDE  139
+
+
+> gi|192361455|ref|YP_001982897.1| hypothetical protein CJA_2436 
+[Cellvibrio japonicus Ueda107]
+Length=147
+
+ Score =  136 bits (343),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 69/138 (50%), Positives = 90/138 (65%), Gaps = 3/138 (2%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW  + L  +   ++E+LCDGCGKCCLHK+EDEDTG +Y TNVACR LD    RC  Y  
+Sbjct  7    FWAAKTLQEMSPDEFESLCDGCGKCCLHKLEDEDTGDVYYTNVACRHLDHDRCRCTRYDQ  66
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R+ LV +C+ LT  +V    WLP TCAYRL   GLPL DWH L +G   ++H  G SV G
+Sbjct  67   RQQLVAECVVLTPDSVRDTYWLPETCAYRLVDQGLPLFDWHPLISGDPDSVHTAGMSVAG  126
+
+Query  126  RVISE--VHAGPIENHII  141
+            +V++E  V    +E++I+
+Sbjct  127  KVVAENTVALDDLEDYIV  144
+
+
+> gi|386745381|ref|YP_006218560.1| hypothetical protein S70_20425 
+[Providencia stuartii MRSN 2154]
+Length=149
+
+ Score =  136 bits (342),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 66/137 (48%), Positives = 87/137 (64%), Gaps = 1/137 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCG+CCLHK+ DEDT  IY TNVAC  L+ +T +C  Y 
+Sbjct  4    PFWQVKTLDEMTDDEWESLCDGCGQCCLHKLMDEDTDEIYFTNVACNQLNIKTCQCKHYE  63
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R +   DC++L + N+ +  WLP TCAYRL  +G  LP WH LKTGS AAMH+   SV 
+Sbjct  64   DRFSYEADCIKLNRYNLETFEWLPHTCAYRLLLEGKTLPAWHPLKTGSKAAMHSERISVR  123
+
+Query  125  GRVISEVHAGPIENHII  141
+               + E      E+HI+
+Sbjct  124  HIAVREKDVVDWEDHIM  140
+
+
+> gi|116251162|ref|YP_767000.1| hypothetical protein RL1394 [Rhizobium 
+leguminosarum bv. viciae 3841]
+Length=158
+
+ Score =  136 bits (343),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 65/140 (46%), Positives = 94/140 (67%), Gaps = 3/140 (2%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + LA +   +WE+LCDGCG CCL+K+E+ D+G IY T+V+C+LLD  + RC+ Y 
+Sbjct  5    PFWKSKTLAEMSVPEWESLCDGCGLCCLNKIEEWDSGDIYFTSVSCKLLDGESCRCSSYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R   VPDC++LT+ NV  IAWLP TC YRL  +G  L  WH L +G    +HA G S  
+Sbjct  65   NRWDFVPDCVQLTKENVPDIAWLPPTCGYRLVNEGRDLYWWHPLVSGDPETVHAAGISAR  124
+
+Query  125  GRVI--SEVHAGPIENHIIE  142
+            GR I  +E+    +E+++++
+Sbjct  125  GRSINENEIDLDDLEDYVVD  144
+
+
+> gi|220920755|ref|YP_002496056.1| hypothetical protein Mnod_0721 
+[Methylobacterium nodulans ORS 2060]
+Length=169
+
+ Score =  136 bits (343),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 69/122 (57%), Positives = 85/122 (70%), Gaps = 1/122 (1%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW E+ L ++   +WE+LCDGCG+CCL K+EDEDTG I+ T+VAC LLDT   RC DY  
+Sbjct  19   FWREKSLDAMSPQEWESLCDGCGRCCLLKLEDEDTGEIHHTDVACTLLDTHACRCRDYAG  78
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R+  VPDC+RLT   V ++ WLP TCAYRL  +G  LP WH L +GS A +H  G SV G
+Sbjct  79   RQRRVPDCVRLTPETVRTLPWLPPTCAYRLVREGRDLPWWHPLVSGSRATVHKAGISVRG  138
+
+Query  126  RV  127
+            RV
+Sbjct  139  RV  140
+
+
+> gi|406025176|ref|YP_006705477.1| hypothetical protein CAHE_0280 
+[Cardinium endosymbiont cEper1 of Encarsia pergandiella]
+Length=151
+
+ Score =  136 bits (342),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 63/141 (45%), Positives = 87/141 (62%), Gaps = 2/141 (1%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW   PL  +  AQWE+LCDGCGKCCL K+++ +T  +  T + CRLL+TRT +C++Y+ 
+Sbjct  10   FWLSTPLEEMTPAQWESLCDGCGKCCLLKIQEAETQQVRTTKICCRLLNTRTCQCSNYQE  69
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   V DC++L   NV +I WLP +CAYRL      LPDWH L T  L +    GHSV  
+Sbjct  70   RFRYVDDCIKLNPTNVKTITWLPKSCAYRLVKQKKALPDWHPLMTKDLQSTIKSGHSVKS  129
+
+Query  126  RVISEVHAG-PIENHIIEEEL  145
+             V+       P+ N+++EE +
+Sbjct  130  FVVHPALVNKPLINYLLEETI  150
+
+
+> gi|431931629|ref|YP_007244675.1| hypothetical protein Thimo_2302 
+[Thioflavicoccus mobilis 8321]
+Length=147
+
+ Score =  135 bits (341),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 68/137 (50%), Positives = 86/137 (63%), Gaps = 1/137 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE  PLA +   QWE+LCD C KCCL K++DEDTG I+ TNVAC LLD  + +C DY  
+Sbjct  8    FWEIVPLAEMSVEQWESLCDRCAKCCLEKLQDEDTGQIHYTNVACALLDLHSGQCRDYCD  67
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   + DC+ LT   +    WLP TCAYRL A+G PLP WH L TG   ++ A G S++G
+Sbjct  68   RSEAMLDCITLTVETLRDPRWLPETCAYRLLAEGKPLPGWHPLITGEEGSVAAAGQSIVG  127
+
+Query  126  RVISEVHAGPIENHIIE  142
+            R I    A  +  H+I+
+Sbjct  128  RAIPATPAEELAWHLID  144
+
+
+> gi|521168587|ref|YP_008159625.1| hypothetical protein M621_14150 
+[Serratia plymuthica S13]
+Length=148
+
+ Score =  135 bits (341),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 66/144 (46%), Positives = 92/144 (64%), Gaps = 2/144 (1%)
+
+Query  1    MDQLTPFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M Q+ PFW+Q  LA +   +WE+LCDGCG+CCL+K+ DEDT  IY TNVAC  L+ ++ +
+Sbjct  1    MSQI-PFWQQKTLAEMSEQEWESLCDGCGQCCLNKLIDEDTDEIYFTNVACNQLNIKSCQ  59
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C +Y  R  L  DC++LT+ N+ +  WLP TCAYRL  +G PL  WH L +GS AAMH  
+Sbjct  60   CRNYERRFELEEDCIKLTRDNLTTFDWLPPTCAYRLIGEGKPLFSWHPLVSGSKAAMHGE  119
+
+Query  120  GHSVIGRVISEVHAGPIENHIIEE  143
+              +V    + E      ++HI+ +
+Sbjct  120  RITVRHIAVRESEVVDWQDHILNK  143
+
+
+> gi|328544557|ref|YP_004304666.1| hypothetical protein SL003B_2939 
+[Polymorphum gilvum SL003B-26A1]
+Length=165
+
+ Score =  136 bits (342),  Expect = 8e-39, Method: Compositional matrix adjust.
+ Identities = 70/139 (50%), Positives = 91/139 (65%), Gaps = 3/139 (2%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +  A+WE+LCDGC +CCL+K+ED DTG I  T+VAC LLD  T RC DY 
+Sbjct  14   PFWRVKSLEEMSAAEWESLCDGCARCCLNKLEDWDTGEIVWTDVACALLDDATCRCRDYP  73
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R A VPDC++LT   V S+ WLP TCAYRL  +G  L  WH L +G   ++HA G SV 
+Sbjct  74   NRTATVPDCIQLTAVEVRSLTWLPLTCAYRLVREGRDLYWWHPLVSGDRDSVHAAGISVR  133
+
+Query  125  GRVI--SEVHAGPIENHII  141
+            GR +  +EV     E+H++
+Sbjct  134  GRTVPETEVEIEDYEDHVV  152
+
+
+> gi|24374116|ref|NP_718159.1| UCP006173 family protein [Shewanella 
+oneidensis MR-1]
+Length=146
+
+ Score =  135 bits (341),  Expect = 8e-39, Method: Compositional matrix adjust.
+ Identities = 65/136 (48%), Positives = 84/136 (62%), Gaps = 1/136 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  +   +WE+LCDGCGKCCL+K+ D++T  +Y TN AC LLD +T  C  Y  
+Sbjct  3    FWQSKTLTEMTSQEWESLCDGCGKCCLNKLIDDETEELYYTNAACLLLDHQTTSCQHYSD  62
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VP C  +T  NV  + WLP +CAYR  A G  LP WH L TGS  AMH  G S+ G
+Sbjct  63   RFRYVPQCTVITAQNVHELTWLPDSCAYRRLAAGRALPSWHPLLTGSKDAMHLAGMSIQG  122
+
+Query  126  RVISEVHAGPIENHII  141
+            +V+ E     IE+HI+
+Sbjct  123  KVVDERRVKDIEDHIV  138
+
+
+> gi|159184535|ref|NP_353952.2| conserved hypothetical protein 
+[Agrobacterium fabrum str. C58]
+Length=159
+
+ Score =  135 bits (341),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 65/140 (46%), Positives = 89/140 (64%), Gaps = 3/140 (2%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCG CCL+K+ED DTG +  T+V C LLD  + RC+DY 
+Sbjct  5    PFWKTKSLTEMTGEEWESLCDGCGLCCLNKLEDWDTGEVVFTSVRCVLLDGESCRCSDYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +RRA VPDC++L    V  I WLP TCAY L  DG  L  WH+L +G +  +H  G S  
+Sbjct  65   NRRATVPDCIQLDLKKVHEIGWLPPTCAYALVRDGKDLYWWHYLVSGDIETVHEAGISAR  124
+
+Query  125  GRVISEVH--AGPIENHIIE  142
+            GR +SE H      E+++++
+Sbjct  125  GRTVSEAHVDVDDFEDYVVD  144
+
+
+> gi|83645398|ref|YP_433833.1| hypothetical protein HCH_02618 [Hahella 
+chejuensis KCTC 2396]
+Length=147
+
+ Score =  135 bits (340),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 67/130 (52%), Positives = 84/130 (65%), Gaps = 1/130 (1%)
+
+Query  7    FWEQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHR  66
+            +WEQPL  L  AQWE+LCDGCGKCCLHK++DED+  +Y T VACR LD    +C+ Y  R
+Sbjct  6    WWEQPLDRLSHAQWESLCDGCGKCCLHKLQDEDSDELYFTAVACRYLDAERVQCSCYTAR  65
+
+Query  67   RALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+             +  PDCL ++  N+  I+ WLP TCAYRLR +   LP WH L +G   ++ A G SV  
+Sbjct  66   ASKNPDCLIISPENLPKISDWLPKTCAYRLRFENQTLPAWHPLISGGPRSVEAAGQSVRH  125
+
+Query  126  RVISEVHAGP  135
+            R ISE    P
+Sbjct  126  RTISEDDIDP  135
+
+
+> gi|162382792|ref|YP_455019.2| hypothetical protein SG1339 [Sodalis 
+glossinidius str. 'morsitans']
+Length=149
+
+ Score =  135 bits (339),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 65/138 (47%), Positives = 90/138 (65%), Gaps = 1/138 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + LA +   +WE+LCDGCG+CCL+K+ D DT  IY TNVAC  L+ +T +C  Y +
+Sbjct  6    FWQTKTLAEMSDEEWESLCDGCGRCCLNKLIDADTDEIYFTNVACDQLNLKTCQCRHYAN  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R A  PDC++LT+ N+ +  WLP TCAYRL ++G PLP WH L +GS +AMH    SV  
+Sbjct  66   RFAYEPDCIKLTRKNLATFNWLPPTCAYRLHSEGKPLPYWHPLLSGSKSAMHGERISVRH  125
+
+Query  126  RVISEVHAGPIENHIIEE  143
+              + E      E+HI+ +
+Sbjct  126  IAVRESEVIDWEDHILNK  143
+
+
+> gi|17986817|ref|NP_539451.1| hypothetical protein BMEI0534 [Brucella 
+melitensis bv. 1 str. 16M]
+Length=170
+
+ Score =  135 bits (340),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 66/125 (53%), Positives = 86/125 (69%), Gaps = 1/125 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  L R++WE+LCDGCG+CCLHK++DEDT  IY T+VAC LL+  T +C DY 
+Sbjct  23   PFWQTKNLNQLTRSEWESLCDGCGQCCLHKLQDEDTDEIYWTSVACTLLNPETCQCRDYP  82
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+  VPDC+ LT   V  + WLP TCAYRL A+G  L  WH L +GS   +H  G SV 
+Sbjct  83   NRKKTVPDCIFLTPEIVDEVDWLPVTCAYRLVAEGSDLYWWHPLVSGSPETVHEAGISVR  142
+
+Query  125  GRVIS  129
+            G+V +
+Sbjct  143  GKVTA  147
+
+
+> gi|294084225|ref|YP_003550983.1| hypothetical protein [Candidatus 
+Puniceispirillum marinum IMCC1322]
+Length=145
+
+ Score =  134 bits (337),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/143 (45%), Positives = 89/143 (62%), Gaps = 3/143 (2%)
+
+Query  3    QLTPFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCA  61
+            Q   FW+Q  L  +   +WE+LCDGCGKCC+ K+ED DTG +Y T+V C+LL+  T  C 
+Sbjct  2    QDASFWKQKQLNEMSTQEWESLCDGCGKCCVLKLEDIDTGDVYYTDVGCKLLNCETCACK  61
+
+Query  62   DYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGH  121
+            DY +R+ +VPDC+ LT  N+  + W+P TCAYRL  +   LP WH L +G   +    G+
+Sbjct  62   DYGNRKQIVPDCVILTPDNLADLKWMPKTCAYRLVHEHQDLPAWHPLVSGDKNSTRTSGN  121
+
+Query  122  SVIGRVISE--VHAGPIENHIIE  142
+            +V GR+ +E  V    + NHI E
+Sbjct  122  AVAGRIFTEKDVPESELPNHITE  144
+
+
+> gi|16127506|ref|NP_422070.1| hypothetical protein CC_3276 [Caulobacter 
+crescentus CB15]
+Length=162
+
+ Score =  134 bits (338),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 63/141 (45%), Positives = 86/141 (61%), Gaps = 1/141 (1%)
+
+Query  1    MDQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M    PFW+ + LA +   +WE+LCDGCG CCL + EDEDTG I PT V C+L D R  R
+Sbjct  1    MTPRKPFWQTKTLAEMTVPEWESLCDGCGLCCLVRFEDEDTGEIIPTRVHCQLFDERLCR  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C DY +R+  VPDC++LT  N+  + W+P +CAYR   +G  LP WH L TG   + H  
+Sbjct  61   CKDYPNRKKTVPDCIKLTPYNIEDLEWMPPSCAYRRLHEGKDLPLWHPLVTGDPESTHKA  120
+
+Query  120  GHSVIGRVISEVHAGPIENHI  140
+            G S+  + +SE+     E+ +
+Sbjct  121  GVSIRNQTVSELSFKDAEDAM  141
+
+
+> gi|459291310|ref|YP_007514467.1| conserved hypothetical protein 
+[Bradyrhizobium oligotrophicum S58]
+Length=170
+
+ Score =  134 bits (338),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 70/145 (48%), Positives = 91/145 (63%), Gaps = 4/145 (3%)
+
+Query  2    DQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARC  60
+            DQ   FW+ + L  +   +WE+LCDGCG+CCL K+EDEDTG IY T+++CRLLD     C
+Sbjct  10   DQEGLFWKTKTLEEMSEVEWESLCDGCGRCCLEKLEDEDTGDIYFTHISCRLLDAGLCAC  69
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+             DY +R   V DC+RLT  NV +I WLP +C YRL A+G  L  WH L +G    +H  G
+Sbjct  70   KDYPNRSEQVSDCVRLTPENVRTITWLPPSCGYRLAAEGRDLYWWHPLISGDPQTVHEAG  129
+
+Query  121  HSVIGRV---ISEVHAGPIENHIIE  142
+             SV GRV      V A  +E+HI++
+Sbjct  130  VSVRGRVEGTEDNVPADQLEDHIVQ  154
+
+
+> gi|197106161|ref|YP_002131538.1| hypothetical protein PHZ_c2700 
+[Phenylobacterium zucineum HLK1]
+Length=154
+
+ Score =  133 bits (335),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 62/136 (46%), Positives = 88/136 (65%), Gaps = 1/136 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +  A+WE+LCDGCG CCL + EDE+TG + PT V C+L D    RC+DY 
+Sbjct  5    PFWRRKTLEQMTVAEWESLCDGCGLCCLVRFEDEETGEVIPTRVHCKLFDPDVCRCSDYA  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+A VPDC++LT  N+ ++ W+P +CAYR   +G  L DWH L +G   ++H  G SV 
+Sbjct  65   NRKAHVPDCIKLTPHNIEALEWMPKSCAYRRLHEGRDLADWHPLISGDPESVHRAGISVR  124
+
+Query  125  GRVISEVHAGPIENHI  140
+            G+ ISE     +E+ +
+Sbjct  125  GQTISEAALADLEDAL  140
+
+
+> gi|114569468|ref|YP_756148.1| hypothetical protein Mmar10_0917 
+[Maricaulis maris MCS10]
+Length=154
+
+ Score =  133 bits (335),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 66/128 (52%), Positives = 82/128 (64%), Gaps = 1/128 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  + +++WE+LCD CGKCCL K+EDEDTG    T+VAC+L D     C  Y 
+Sbjct  4    PFWKMKSLGEMSKSEWESLCDHCGKCCLIKLEDEDTGLNLDTDVACKLYDCNKGGCRHYA  63
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R   VPDC+ LT  NV  + W+P TCAYRL A+G  L DWH LKTG   +    G SVI
+Sbjct  64   NRHTHVPDCVVLTPDNVPKLKWIPQTCAYRLIAEGRDLFDWHPLKTGDPESTRKAGMSVI  123
+
+Query  125  GRVISEVH  132
+            GRV SE  
+Sbjct  124  GRVTSETQ  131
+
+
+> gi|221638724|ref|YP_002524986.1| hypothetical protein RSKD131_0625 
+[Rhodobacter sphaeroides KD131]
+Length=134
+
+ Score =  132 bits (333),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 66/129 (51%), Positives = 86/129 (67%), Gaps = 3/129 (2%)
+
+Query  18   AQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHRRALVPDCLRLT  77
+            ++WEALCDGCGKCCL+K+E EDTG +  T +ACRLLD  + RC++Y  RR  VPDC++L+
+Sbjct  4    SEWEALCDGCGKCCLNKIEFEDTGEVAFTRIACRLLDGDSCRCSNYEIRRQFVPDCVQLS  63
+
+Query  78   QGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIGRVISEVHAGP-  135
+               +  IA W+P TCAYRL  +G PL  WH+L TG   ++H  G SV G  + E      
+Sbjct  64   PATLPKIAYWMPRTCAYRLLHEGKPLHGWHYLLTGDRNSVHDAGASVQGWTVPEFEVAEE  123
+
+Query  136  -IENHIIEE  143
+              E+HIIEE
+Sbjct  124  DWEDHIIEE  132
+
+
+> gi|307131128|ref|YP_003883144.1| hypothetical protein Dda3937_02923 
+[Dickeya dadantii 3937]
+Length=175
+
+ Score =  134 bits (336),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 66/139 (47%), Positives = 86/139 (62%), Gaps = 1/139 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFWE Q L  +   +WEALCDGCG+CCLHK+ DEDT  +Y TNVAC  L+ ++ +C +Y 
+Sbjct  32   PFWETQTLEQMSDDEWEALCDGCGRCCLHKLIDEDTDELYFTNVACNQLNIKSCQCRNYA  91
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ S  WLP TCAYRL  +G  L  WH L  GS AAMH    SV 
+Sbjct  92   RRFEYEPDCIKLTRENLLSFDWLPETCAYRLIHEGKGLQPWHPLLAGSKAAMHQQRISVR  151
+
+Query  125  GRVISEVHAGPIENHIIEE  143
+               + E      ++HI+ +
+Sbjct  152  NIAVRESEVMDWQDHILNK  170
+
+
+> gi|288940118|ref|YP_003442358.1| hypothetical protein Alvin_0365 
+[Allochromatium vinosum DSM 180]
+Length=144
+
+ Score =  133 bits (334),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 71/136 (52%), Positives = 84/136 (62%), Gaps = 2/136 (1%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE  PL  L  AQWE+LCDGCGKCCL K EDE+TG+I  + VAC LLD  T RC  Y  
+Sbjct  5    FWETTPLTELTAAQWESLCDGCGKCCLEKFEDEETGNIVYSRVACALLDLETCRCRRYAE  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   +PDC+ +    +    WLP TCAYR  A+G PLP WH L +G  A++   GHSV G
+Sbjct  65   RAQHMPDCVTIVPQVLAWPNWLPETCAYRRLAEGRPLPVWHPLISGDPASVVDAGHSVRG  124
+
+Query  126  RVIS-EVHAGPIENHI  140
+            RVI  E    P+ N I
+Sbjct  125  RVIGPETGEDPLMNLI  140
+
+
+> gi|384220331|ref|YP_005611497.1| hypothetical protein BJ6T_66600 
+[Bradyrhizobium japonicum USDA 6]
+Length=171
+
+ Score =  134 bits (336),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 66/122 (54%), Positives = 84/122 (69%), Gaps = 1/122 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  L  A+WE+LCDGCG+CCL+K+EDEDTG IY T+V C+LLD  T  C DY +
+Sbjct  15   FWKTKTLEELSTAEWESLCDGCGRCCLNKLEDEDTGDIYFTHVGCKLLDAGTCGCKDYPN  74
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R A VPDC+RLT  NV ++ WLP +C Y+L A+G  L  WH L +G    +H  G SV G
+Sbjct  75   RSAKVPDCVRLTPANVRTLNWLPPSCGYKLVAEGRDLYWWHPLVSGDPNTVHEAGVSVRG  134
+
+Query  126  RV  127
+            RV
+Sbjct  135  RV  136
+
+
+> gi|300723137|ref|YP_003712435.1| hypothetical protein XNC1_2196 
+[Xenorhabdus nematophila ATCC 19061]
+Length=144
+
+ Score =  132 bits (333),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 67/144 (47%), Positives = 90/144 (63%), Gaps = 3/144 (2%)
+
+Query  1    MDQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M QL  FW+ + L  +   +WEALCDGCG+CCLHK+ DEDT  IY TNVAC  L+ +T +
+Sbjct  1    MSQL--FWQVKTLEQMTDREWEALCDGCGQCCLHKLMDEDTDEIYFTNVACNQLNIKTCQ  58
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C +Y  R    PDC++LT+ N+ +  WLP TCAYRL  +G  L  WH L +GS +A+HA 
+Sbjct  59   CKNYEDRFRYEPDCIKLTRENMVTFEWLPQTCAYRLIGEGKKLLPWHPLVSGSRSAIHAE  118
+
+Query  120  GHSVIGRVISEVHAGPIENHIIEE  143
+              SV    + E      E+HI+ +
+Sbjct  119  RISVRHIAVREADVVDWEDHILNK  142
+
+
+> gi|478179624|ref|YP_007700697.1| UPF0260 family protein [Octadecabacter 
+arcticus 238]
+Length=156
+
+ Score =  132 bits (333),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 92/143 (64%), Gaps = 4/143 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW   PL+ + + +WEALCDGCGKCCL+K+EDEDTG +  T VAC+LLD  T +C+ Y  
+Sbjct  14   FWSHVPLSKMTKPEWEALCDGCGKCCLNKLEDEDTGDVVMTRVACKLLDDSTCQCSLYPK  73
+
+Query  66   RRALVPDCLRLTQGNV-GSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VP+C+ LT   +  ++ WLP TCAYRL  +G  L  WH L +G+  ++H  G SV 
+Sbjct  74   RHNYVPECIVLTPKTIEDNMYWLPQTCAYRLVFEGKNLFHWHPLVSGNAQSVHDAGVSVQ  133
+
+Query  125  GRVISE--VHAGPIENHIIEEEL  145
+            G  +SE  +     E+HIIEE L
+Sbjct  134  GLTVSEASIPDDEWEDHIIEEPL  156
+
+
+> gi|473828970|ref|YP_007682253.1| hypothetical protein TOL_1590 
+[Thalassolituus oleivorans MIL-1]
+Length=146
+
+ Score =  132 bits (332),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 59/126 (47%), Positives = 83/126 (66%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFWE + L  +  ++WE+LCDGC  CCLHK+ED++TG +Y T+V CR LDT   +C +Y+
+Sbjct  5    PFWERKTLGEMTSSEWESLCDGCALCCLHKLEDDETGEVYYTDVHCRYLDTNNCQCTEYQ  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R  LVP C+ LT     +  WLP TCAYRL A+  PL DWH L +G+  ++H  G S+ 
+Sbjct  65   QRNTLVPSCVWLTPDQAQTFFWLPETCAYRLLAEKKPLYDWHPLISGTKESVHEAGISMR  124
+
+Query  125  GRVISE  130
+             + I++
+Sbjct  125  NKGIAD  130
+
+
+> gi|320160466|ref|YP_004173690.1| hypothetical protein ANT_10560 
+[Anaerolinea thermophila UNI-1]
+Length=147
+
+ Score =  132 bits (331),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 62/139 (45%), Positives = 88/139 (63%), Gaps = 3/139 (2%)
+
+Query  7    FWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW++  L  +++ +WEALCDGC +CCL+K++DE+TG ++ TNV CRLLD    RC  Y  
+Sbjct  6    FWKKKSLEEMNQEEWEALCDGCARCCLYKLQDEETGEVFYTNVVCRLLDVERCRCTAYSE  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R +L+P CL L       + W+P TCAYRL A+G PL  WH L +G    +H  G SV  
+Sbjct  66   RSSLMPTCLVLNPRQARELKWMPQTCAYRLLAEGKPLEWWHPLVSGDPNTVHLAGISVRY  125
+
+Query  126  RVISEVHAG--PIENHIIE  142
+            RVI E  A    +E+++++
+Sbjct  126  RVIEEKDADMEDLESYVVD  144
+
+
+> gi|159045468|ref|YP_001534262.1| hypothetical protein Dshi_2928 
+[Dinoroseobacter shibae DFL 12 = DSM 16493]
+Length=163
+
+ Score =  132 bits (332),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 68/140 (49%), Positives = 88/140 (63%), Gaps = 4/140 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE  PLA +  A+WEALCDGCG+CCL K+ED DT  +  T V+CRLLDT T RC  Y  
+Sbjct  18   FWETVPLADMTTAEWEALCDGCGRCCLLKLEDADTAEVAFTRVSCRLLDTDTCRCGQYEL  77
+
+Query  66   RRALVPDCLRLTQGNVGSIA-WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R+  VPDC+ LT  N+  IA W+P TCAYRL  +G  L  WH L +G   ++   G SV 
+Sbjct  78   RKQFVPDCVVLTPENLDQIAYWMPETCAYRLLYEGQRLKTWHPLISGRAESVREAGISVA  137
+
+Query  125  GRVIS--EVHAGPIENHIIE  142
+            G  +   EV    +E+++I+
+Sbjct  138  GWAVPEFEVAEDELEDYLID  157
+
+
+> gi|385331621|ref|YP_005885572.1| hypothetical protein HP15_1880 
+[Marinobacter adhaerens HP15]
+Length=148
+
+ Score =  131 bits (329),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 66/140 (47%), Positives = 86/140 (61%), Gaps = 3/140 (2%)
+
+Query  5    TPFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+             PFW++  L  +   +WE+LCDGCGKCCL+K+EDEDTG +Y T++ CR ++  T +C  Y
+Sbjct  5    VPFWQRKRLHEMTPEEWESLCDGCGKCCLNKLEDEDTGEVYHTDLVCRYMNEETCQCTVY  64
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+              R   VP C  LT G V    WLP TCAYR  A+  PL DWH L++G   ++H  G S+
+Sbjct  65   EERLKKVPGCTVLTPGTVNDYHWLPYTCAYRTLAEDRPLADWHPLRSGDPDSVHEAGVSI  124
+
+Query  124  IGRVISE--VHAGPIENHII  141
+              +VISE  V     E HII
+Sbjct  125  RHKVISEDRVPEEDWEEHII  144
+
+
+> gi|298290690|ref|YP_003692629.1| hypothetical protein Snov_0678 
+[Starkeya novella DSM 506]
+Length=168
+
+ Score =  131 bits (330),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 64/136 (47%), Positives = 89/136 (65%), Gaps = 1/136 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +D ++WE+LCDGCG+CCL K++DEDT  I  T++ C+LLD    RC DY 
+Sbjct  8    PFWRTKSLEEMDSSEWESLCDGCGRCCLVKLQDEDTEAIAYTDIGCKLLDEFGCRCRDYP  67
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+A + DC+RLT   V +I WLP +CAYRL  +G  L  WHHL +G    +HA G SV 
+Sbjct  68   NRQAQIEDCVRLTPETVRAIDWLPPSCAYRLVEEGRDLYWWHHLVSGDRDTVHAAGVSVR  127
+
+Query  125  GRVISEVHAGPIENHI  140
+            G+V +     P+E+ +
+Sbjct  128  GKVAALEDELPLEDFV  143
+
+
+> gi|470154639|ref|YP_006283141.1| UPF0260 protein ycgN [Pectobacterium 
+sp. SCC3193]
+Length=148
+
+ Score =  130 bits (328),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 62/137 (45%), Positives = 86/137 (63%), Gaps = 1/137 (1%)
+
+Query  6    PFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+Q  L+ +   +WE+LCDGCG+CCLHK+ DEDT  IY TNVAC  L+ ++ +C +Y 
+Sbjct  5    PFWQQKTLSEMSDDEWESLCDGCGQCCLHKLIDEDTEEIYFTNVACNQLNIKSCQCRNYE  64
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R    PDC++LT+ N+ +  WLP+TCAYRL  +   LP WH L  G+  AMH    SV 
+Sbjct  65   KRFEYEPDCIKLTRENLLTFNWLPATCAYRLVHEREDLPQWHPLVCGTKTAMHRERISVR  124
+
+Query  125  GRVISEVHAGPIENHII  141
+               + E      ++HI+
+Sbjct  125  HIAVRESEVVDWQDHIL  141
+
+
+> gi|92113587|ref|YP_573515.1| hypothetical protein Csal_1463 [Chromohalobacter 
+salexigens DSM 3043]
+Length=148
+
+ Score =  130 bits (328),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 68/139 (49%), Positives = 88/139 (63%), Gaps = 3/139 (2%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+  L  LD  +WEALCDGCG CCL K+ED+++G I   NVAC+LLDT T RC+DY +
+Sbjct  5    FWERHTLDELDDEEWEALCDGCGFCCLLKLEDDESGDIATLNVACQLLDTDTCRCSDYDN  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VP C +LT+ N+ +  WLP++CAYR  A+G  L  WH L  G    MH    SV  
+Sbjct  65   RFQHVPGCTKLTRDNLSAFRWLPASCAYRRLAEGRKLAAWHPLIAGDATRMHRKQKSVRH  124
+
+Query  126  RVISE--VHAGPIENHIIE  142
+              +SE  V    +E+HII+
+Sbjct  125  FAVSERDVSDDDLEDHIID  143
+
+
+> gi|302382336|ref|YP_003818159.1| hypothetical protein Bresu_1224 
+[Brevundimonas subvibrioides ATCC 15264]
+Length=149
+
+ Score =  130 bits (326),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 60/140 (43%), Positives = 89/140 (64%), Gaps = 1/140 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  + RA+WE+LCDGCG CCL + EDEDTG ++PT V C+L D +   C DY +
+Sbjct  3    FWQTKRLEQMTRAEWESLCDGCGLCCLIRFEDEDTGEVFPTKVHCKLFDGQKCACTDYAN  62
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R+  VPDC++LT  N+ ++ W+P +CAYR   +G  L +WH L +G    +H  G S+ G
+Sbjct  63   RKDHVPDCIKLTPWNIEALGWMPLSCAYRRLHEGRGLANWHPLISGDPETVHTAGVSIRG  122
+
+Query  126  RVISEVHAGPIENHIIEEEL  145
+            + ISE+     E+ +  E +
+Sbjct  123  QTISELDLARPEDAVEYEAI  142
+
+
+> gi|310815420|ref|YP_003963384.1| hypothetical protein EIO_0936 
+[Ketogulonicigenium vulgare Y25]
+Length=152
+
+ Score =  130 bits (327),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 64/125 (51%), Positives = 84/125 (67%), Gaps = 2/125 (2%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+  L  L  A+WEA+CDGCGKCCL+K+EDED+G ++ T VACRLLD  T +C+ Y  
+Sbjct  10   FWEKYRLEQLTPAEWEAVCDGCGKCCLNKIEDEDSGEVFLTRVACRLLDGATCQCSRYAT  69
+
+Query  66   RRALVPDCLRLTQGNV-GSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R   VP+C+ LT   +  ++ WLP TCAYRL  +G PL  WHHL +G  +A+H  G S  
+Sbjct  70   RHDYVPECIVLTPKTLRKNLYWLPQTCAYRLMHEGRPLYPWHHLISGDPSAVHKAGVSAA  129
+
+Query  125  GRVIS  129
+            G  +S
+Sbjct  130  GMTVS  134
+
+
+> gi|153009021|ref|YP_001370236.1| hypothetical protein Oant_1691 
+[Ochrobactrum anthropi ATCC 49188]
+Length=168
+
+ Score =  130 bits (328),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 64/125 (51%), Positives = 85/125 (68%), Gaps = 1/125 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  L R++WE+LCDGCG+CCLHK++D+DT  IY T+VAC LL+  + +C DY 
+Sbjct  23   PFWRTKTLNQLTRSEWESLCDGCGQCCLHKLQDDDTNEIYWTSVACTLLNPDSCQCRDYP  82
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R+  VPDC+ LT   V  + WLP TCAYRL A+G  L  WH L +GS   +H  G SV 
+Sbjct  83   NRKKTVPDCVFLTPEIVDEVDWLPVTCAYRLVAEGSDLYWWHPLVSGSPDTVHEAGISVR  142
+
+Query  125  GRVIS  129
+            G+V +
+Sbjct  143  GKVTA  147
+
+
+> gi|15964764|ref|NP_385117.1| hypothetical protein SMc00064 [Sinorhizobium 
+meliloti 1021]
+Length=155
+
+ Score =  129 bits (325),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 64/127 (50%), Positives = 85/127 (67%), Gaps = 1/127 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW+ + L  +  A+WE+LCDGCG CCL+K+ED D+  I  T++ C LLD  + RC DY
+Sbjct  4    TPFWKTKGLEEMTGAEWESLCDGCGLCCLNKLEDWDSSEIAWTSIRCTLLDGESCRCKDY  63
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R+A VPDC++LT   V  I+WLP TC YRL A+G  L  WH L +G    +HA G SV
+Sbjct  64   DNRQATVPDCIQLTPKAVREISWLPPTCGYRLVAEGRDLYWWHPLVSGDPETVHAAGISV  123
+
+Query  124  IGRVISE  130
+             GR ++E
+Sbjct  124  RGRTVAE  130
+
+
+> gi|89055857|ref|YP_511308.1| hypothetical protein Jann_3366 [Jannaschia 
+sp. CCS1]
+Length=148
+
+ Score =  129 bits (325),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 67/141 (48%), Positives = 91/141 (65%), Gaps = 4/141 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW++ P + +   +WEALCDGCGKCCL+K+EDEDT  +  T VACRLLD +T  C  Y  
+Sbjct  5    FWDRVPPSKMTAEEWEALCDGCGKCCLNKLEDEDTRDVALTRVACRLLDDQTCLCGQYEI  64
+
+Query  66   RRALVPDCLRLTQGNVGSIAW-LPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            R+ LVP+C++LT G +  +A+ +P TCAYRL  +G PL  WH L +G    +H  G SV 
+Sbjct  65   RKTLVPECIQLTPGTMKDVAYFMPETCAYRLIHEGKPLKHWHPLISGDPETVHEAGVSVR  124
+
+Query  125  GRVIS--EVHAGPIENHIIEE  143
+            G  +   E+     E++IIEE
+Sbjct  125  GITVPEFEIDEEDWEDYIIEE  145
+
+
+> gi|315499031|ref|YP_004087835.1| hypothetical protein Astex_2022 
+[Asticcacaulis excentricus CB 48]
+Length=164
+
+ Score =  129 bits (325),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 61/127 (48%), Positives = 82/127 (65%), Gaps = 1/127 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+ + L  +   +WE+LCDGCG CCL ++EDEDTG I PT V CRL DT T  C++Y 
+Sbjct  13   PFWQTKTLYQMTVPEWESLCDGCGLCCLIRLEDEDTGEIIPTRVHCRLFDTGTCACSNYA  72
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R   VPDC++LT  N+ ++ W+P++CAYR   +   LP WH+L  G    +H  G SV 
+Sbjct  73   ERHKYVPDCIKLTPHNIEALEWMPASCAYRRLHERKDLPAWHYLVCGDREEVHRRGVSVR  132
+
+Query  125  GRVISEV  131
+            G+ ISE 
+Sbjct  133  GQTISET  139
+
+
+> gi|334143798|ref|YP_004536954.1| hypothetical protein Thicy_0703 
+[Thioalkalimicrobium cyclicum ALM1]
+Length=151
+
+ Score =  129 bits (324),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 63/137 (46%), Positives = 84/137 (61%), Gaps = 2/137 (1%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            +W+  PL  L+  QWE+LCDGCG CCL K+ DEDTG +  T VAC+L+D +T  C +Y  
+Sbjct  16   YWQDVPLRYLNHEQWESLCDGCGLCCLIKLVDEDTGELVNTRVACQLMDLKTGLCRNYGE  75
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            RR  VP+C++L    +  + WLP TCAYRLR  G PLPDWH L  G    +   G   I 
+Sbjct  76   RRKYVPECIQLDMSKIPKLDWLPETCAYRLRYYGQPLPDWHPLNAGDREQVKYHGLQSIP  135
+
+Query  126  RVISEVHAGPIENHIIE  142
+             V+S     P E+++I+
+Sbjct  136  VVLSAPGIDP-EDYVIQ  151
+
+
+> gi|237808316|ref|YP_002892756.1| hypothetical protein Tola_1559 
+[Tolumonas auensis DSM 9187]
+Length=150
+
+ Score =  129 bits (323),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 63/136 (46%), Positives = 82/136 (60%), Gaps = 1/136 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            +WE + L  +   +WE LCDGCG CCL K+ DEDT  +  TNVAC LLD  +  C+DY +
+Sbjct  11   YWEHKQLEEMTDDEWEMLCDGCGHCCLTKLIDEDTDELVYTNVACNLLDLESCSCSDYLN  70
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R    PDC++L      ++ WLPSTCAYR  A+  PLP WH L  G    M+  G SV G
+Sbjct  71   RHKFEPDCIKLDVHLAKTLPWLPSTCAYRRIAENKPLPFWHPLLNGDKRKMYRYGKSVKG  130
+
+Query  126  RVISEVHAGPIENHII  141
+            +V+ E + G  E HI+
+Sbjct  131  KVVHERNRGDWEEHIV  146
+
+
+> gi|39934937|ref|NP_947213.1| hypothetical protein RPA1868 [Rhodopseudomonas 
+palustris CGA009]
+Length=202
+
+ Score =  130 bits (326),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 67/139 (48%), Positives = 87/139 (63%), Gaps = 4/139 (3%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  L   +WE+LCDGC +CCL K+EDEDTG IY T+V CRLLD     C DY +
+Sbjct  47   FWKTKTLEQLSPTEWESLCDGCARCCLEKLEDEDTGRIYFTHVGCRLLDGDACACRDYPN  106
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VPDC+RLT   V  + WLP +CAY+L A+G  L  WH L +G    +H  G SV G
+Sbjct  107  RSDRVPDCVRLTPKEVRELTWLPPSCAYKLVAEGRDLYWWHPLISGDPNTVHEAGVSVRG  166
+
+Query  126  RV---ISEVHAGPIENHII  141
+            RV    +E+    +E+HI+
+Sbjct  167  RVERTETEIPVEELEDHIV  185
+
+
+> gi|92116957|ref|YP_576686.1| hypothetical protein Nham_1404 [Nitrobacter 
+hamburgensis X14]
+Length=171
+
+ Score =  129 bits (323),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 66/140 (47%), Positives = 88/140 (63%), Gaps = 4/140 (3%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L  +  ++WE+LCDGC +CCL K+EDEDTG IY T+V+CRLLD     C DY +
+Sbjct  15   FWKTKTLEQMSSSEWESLCDGCARCCLEKLEDEDTGDIYFTHVSCRLLDAGLCACKDYAN  74
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   V DC+RLT  NV ++ WLP +C YRL A+G  L  WH L +G    +H  G SV G
+Sbjct  75   RSEQVSDCVRLTPDNVRTLNWLPPSCGYRLVAEGRDLYWWHPLISGDPNTVHEAGVSVRG  134
+
+Query  126  RVI---SEVHAGPIENHIIE  142
+            RV     E+    +E+HI +
+Sbjct  135  RVRGTEDEIPDSELEDHIAQ  154
+
+
+> gi|387127779|ref|YP_006296384.1| hypothetical protein Q7A_1922 
+[Methylophaga nitratireducenticrescens]
+Length=157
+
+ Score =  128 bits (322),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 63/138 (46%), Positives = 83/138 (60%), Gaps = 1/138 (1%)
+
+Query  5    TPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            T FW+ + L  +   +WE+LCDGCG+CCLHK+ED+    +Y T VAC LLD  T RC DY
+Sbjct  9    TEFWKHKRLGQMTHTEWESLCDGCGRCCLHKLEDDADERMYYTRVACELLDISTCRCKDY  68
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R+  VPDC++L+        WLP TCAYRL A+G  LP+WH L TG   ++   G SV
+Sbjct  69   ANRQKTVPDCIQLSVEQAHFFDWLPDTCAYRLLAEGESLPEWHPLITGDPQSVMDAGVSV  128
+
+Query  124  IGRVISEVHAGPIENHII  141
+                ISE     +   +I
+Sbjct  129  RNVAISESEDIDLTEEVI  146
+
+
+> gi|374288316|ref|YP_005035401.1| hypothetical protein BMS_1585 
+[Bacteriovorax marinus SJ]
+Length=143
+
+ Score =  127 bits (319),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 64/141 (45%), Positives = 87/141 (62%), Gaps = 3/141 (2%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW E+ L  L  ++WE+LCDGCGKCCL K+ED DT  +  T  +C LLD    +C  Y +
+Sbjct  2    FWKEKSLIQLSASEWESLCDGCGKCCLVKLEDPDTFEVAYTACSCSLLDIEKVQCQKYEN  61
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VP+CL++T  N+  + +LPS+CAYRL A G  LP+WHHL +G L  +H+ G SV  
+Sbjct  62   RFEAVPECLKITPENIEKLDYLPSSCAYRLVAKGEDLPEWHHLISGELGLVHSLGKSVAD  121
+
+Query  126  RV--ISEVHAGPIENHIIEEE  144
+                I +V    + + IIE E
+Sbjct  122  WCVPIDQVDEDDLVDMIIEIE  142
+
+
+> gi|322832727|ref|YP_004212754.1| hypothetical protein Rahaq_2012 
+[Rahnella sp. Y9602]
+Length=149
+
+ Score =  125 bits (314),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 62/139 (45%), Positives = 86/139 (62%), Gaps = 2/139 (1%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FW+ + L+ +   +WEALCDGCG+CCLHK+ DEDT  IY TNVAC  L+ ++ +C +Y  
+Sbjct  6    FWQHKTLSEMTDEEWEALCDGCGQCCLHKLIDEDTDEIYFTNVACNQLNIKSCQCRNYER  65
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHH-LKTGSLAAMHAGGHSVI  124
+            R  L  DC++LT+ N+ +  WLP TCAYRL  +G PL  WH  L   S +AMH    SV 
+Sbjct  66   RFTLEEDCIKLTRENLTTFDWLPPTCAYRLIGEGRPLLPWHPLLNKASKSAMHTAQISVR  125
+
+Query  125  GRVISEVHAGPIENHIIEE  143
+               + E      ++HI+ +
+Sbjct  126  YIAVREDDVEDWQDHILNK  144
+
+
+> gi|56708468|ref|YP_170364.1| hypothetical protein FTT_1421 [Francisella 
+tularensis subsp. tularensis SCHU S4]
+Length=149
+
+ Score =  124 bits (312),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 59/145 (41%), Positives = 90/145 (62%), Gaps = 6/145 (4%)
+
+Query  4    LTPFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCAD  62
+            ++ +W+Q  L  +   QWE++CD CG CCL+K++D++T  +Y T V+C+LLD    +C+ 
+Sbjct  2    MSKWWQQIDLKDMSSEQWESICDRCGLCCLNKLQDDETDEVYYTRVSCKLLDIGKCQCSM  61
+
+Query  63   YRHRRALVPDCLRLTQGNVGSIA--WLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+            Y+ R+ LVP+C+ LT   + + A  WLP++C+Y+L  +G  LPDWHHL TGS   MH   
+Sbjct  62   YQKRKQLVPECVNLTYKQLKNHAHKWLPNSCSYKLLFEGKDLPDWHHLNTGSTEEMHKQK  121
+
+Query  121  HSVIGRVISEVHAGP---IENHIIE  142
+             S     ISE        +E+ II+
+Sbjct  122  KSAKHFAISEYELDVDEYLEDFIIK  146
+
+
+> gi|455739249|ref|YP_007505515.1| YcgN [Morganella morganii subsp. 
+morganii KT]
+Length=148
+
+ Score =  124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 62/140 (44%), Positives = 86/140 (61%), Gaps = 2/140 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +   +WE+LCDGCG+CCL K+ D DT  IY T+VAC  LD ++ +C  Y 
+Sbjct  4    PFWTVKTLDEMSDEEWESLCDGCGQCCLQKLMDADTDEIYFTDVACNQLDIKSCQCRHYE  63
+
+Query  65   HRRALVPDCLRLTQGNVGSI-AWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             R    PDC++LT+ N+ +  AWLP TCAYRL  +G PL  WH L +GS + MH  G +V
+Sbjct  64   DRFRYEPDCIKLTRENLPTFDAWLPMTCAYRLVMEGKPLLPWHPLISGSKSLMHQKGITV  123
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+                ++E      E+HI+ +
+Sbjct  124  RHIAVTESVVQNWEDHILNK  143
+
+
+> gi|71280329|ref|YP_270189.1| hypothetical protein CPS_3515 [Colwellia 
+psychrerythraea 34H]
+Length=173
+
+ Score =  124 bits (312),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 61/159 (38%), Positives = 93/159 (58%), Gaps = 20/159 (13%)
+
+Query  3    QLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKV----------------EDEDTGHIYP  45
+            Q  PFW+ + LA + R +WE+LCDGC KCCL+K                   ++  HI+ 
+Sbjct  7    QENPFWQTKSLAEMTRPEWESLCDGCAKCCLNKFIDDEDTDDDSELLPTDHIKEGEHIFY  66
+
+Query  46   TNVACRLLDTRTARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDW  105
+            +N+AC LL+ ++ +C+ Y  R  LVPDC+RLTQ N+ ++ ++P +C YR   +G  +P W
+Sbjct  67   SNIACHLLNEKSCQCSKYEQRTTLVPDCVRLTQENIDAVFFMPPSCTYRRLQEGRGMPSW  126
+
+Query  106  HH-LKTGSLAAMHAGGHSVIGRVI--SEVHAGPIENHII  141
+            H  L  G  +AMH  G SV G+++  +EV     E+HI+
+Sbjct  127  HPLLHKGKKSAMHKAGMSVRGKIVKDNEVSIENFEDHIV  165
+
+
+> gi|338739231|ref|YP_004676193.1| hypothetical protein HYPMC_2406 
+[Hyphomicrobium sp. MC1]
+Length=173
+
+ Score =  124 bits (311),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 59/126 (47%), Positives = 79/126 (63%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +   +WEALCDGCG+CCL K+EDEDT  IY T ++C +LD RT RC DY 
+Sbjct  8    PFWRTKTLEEMSPDEWEALCDGCGRCCLVKLEDEDTAQIYLTRLSCSMLDVRTCRCKDYP  67
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+            +R   +PDCL +       ++WLP +CAYR+  +G  LP WH L +G+   +H  G SV 
+Sbjct  68   NRFEKMPDCLAIDIPRARELSWLPKSCAYRIVGEGGDLPWWHPLVSGTAETVHQAGISVR  127
+
+Query  125  GRVISE  130
+               +SE
+Sbjct  128  SFAMSE  133
+
+
+> gi|312115078|ref|YP_004012674.1| hypothetical protein Rvan_2351 
+[Rhodomicrobium vannielii ATCC 17100]
+Length=174
+
+ Score =  121 bits (304),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 60/126 (48%), Positives = 82/126 (65%), Gaps = 1/126 (1%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW  + L  +   +WE+LCDGCG+CCL K+EDEDTG I  T +AC+LLD  T +C++Y 
+Sbjct  31   PFWRTKALEEMSTEEWESLCDGCGQCCLIKLEDEDTGQIAVTRLACKLLDLGTCQCSNYP  90
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R+  V DC++LT  +V  I+WLP TCAYRL  +G  L  WH L +G+   +   G ++ 
+Sbjct  91   ARQDHVHDCVKLTPEDVRRISWLPETCAYRLVEEGKDLGWWHPLVSGTQETVFEAGIAIR  150
+
+Query  125  GRVISE  130
+            G  ISE
+Sbjct  151  GSAISE  156
+
+
+> gi|307544650|ref|YP_003897129.1| hypothetical protein HELO_2060 
+[Halomonas elongata DSM 2581]
+Length=148
+
+ Score =  120 bits (301),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 64/138 (46%), Positives = 84/138 (61%), Gaps = 4/138 (3%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRH  65
+            FWE+ PL  L   +WEALCDGCG+CCL K++D+D G +   NVAC LLD  + RC+DY +
+Sbjct  5    FWERFPLEELTDEEWEALCDGCGQCCLMKLQDDD-GDLAVLNVACELLDIGSCRCSDYEN  63
+
+Query  66   RRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVIG  125
+            R   VPDC +LT   V    WLP +CAYR  A+G  L  WH L +G    +H  G SV  
+Sbjct  64   RFERVPDCQQLTPERVEQFNWLPGSCAYRRLAEGRKLAGWHPLISGDPERVHRKGISVRS  123
+
+Query  126  RVISE--VHAGPIENHII  141
+              +S+  +    +E+HII
+Sbjct  124  FAVSQQGIPEEALEDHII  141
+
+
+> gi|261855668|ref|YP_003262951.1| hypothetical protein Hneap_1068 
+[Halothiobacillus neapolitanus c2]
+Length=155
+
+ Score =  120 bits (300),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 60/142 (42%), Positives = 84/142 (59%), Gaps = 5/142 (4%)
+
+Query  6    PFW-EQPLASLDRAQWEALCDGCGKCCLHKVEDED--TGHIYPTNVACRLLDTRTARCAD  62
+            PFW  + L+ +   +WE+LCDGC KCCL K+ D+D   G ++ T++AC LLD  T RC D
+Sbjct  7    PFWLSKRLSDMSAEEWESLCDGCAKCCLQKISDDDDSEGTVFYTDLACDLLDLNTCRCGD  66
+
+Query  63   YRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHS  122
+            Y++R   VP C+ L   ++    WLP+TCAYR  A+G  LP+WH LKTG   +    G S
+Sbjct  67   YQNRHEKVPTCVWLKPEDLDEFHWLPATCAYRRLAEGRDLPEWHPLKTGRADSARTAGFS  126
+
+Query  123  VIGRV--ISEVHAGPIENHIIE  142
+            V  R   +  ++      HI+E
+Sbjct  127  VTERARHVDGLNEDDWPEHIVE  148
+
+
+> gi|332290292|ref|YP_004421144.1| hypothetical protein UMN179_02234 
+[Gallibacterium anatis UMN179]
+Length=146
+
+ Score =  119 bits (299),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 56/116 (48%), Positives = 70/116 (60%), Gaps = 3/116 (3%)
+
+Query  7    FWEQP-LASLDRAQWEALCDGCGKCCLHKVEDE--DTGHIYPTNVACRLLDTRTARCADY  63
+            FW+Q  L  +   +WEALCDGCGKCC  K  +       +Y T +AC LLD  T RC +Y
+Sbjct  7    FWQQKSLLEMSDEEWEALCDGCGKCCYRKFIEGRGKRQRLYFTRIACDLLDLETGRCQNY  66
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+              R  L+PDC +LT+ N+    WLP TCAYRL  +G PLPDWH L  G+ + MH  
+Sbjct  67   SQRFKLMPDCTKLTKKNLPDFTWLPKTCAYRLLYEGKPLPDWHPLLVGNQSEMHKA  122
+
+
+> gi|109899108|ref|YP_662363.1| hypothetical protein Patl_2798 
+[Pseudoalteromonas atlantica T6c]
+Length=164
+
+ Score =  119 bits (298),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 63/151 (42%), Positives = 89/151 (59%), Gaps = 17/151 (11%)
+
+Query  7    FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDED-------TGHI------YPTNVACRL  52
+            FW + PL  ++ AQWE++CDGC KCCLHK  D+D       T HI      + TN+AC L
+Sbjct  5    FWLDTPLEKMNEAQWESICDGCAKCCLHKFIDDDEAETAAPTAHINSGEQIHYTNIACGL  64
+
+Query  53   LDTRTARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHH-LKTG  111
+            L+T+T  C  Y  R  LVPDC++L++ N+  I ++P++C+YR   +G  LP WH  L  G
+Sbjct  65   LNTKTCNCTRYDERTILVPDCVKLSKENIDDIFFMPTSCSYRRLHEGRGLPSWHPLLNKG  124
+
+Query  112  SLAAMHAGGHSVIGRVIS--EVHAGPIENHI  140
+              A MH  G SV G+ +   +V     E++I
+Sbjct  125  KKAKMHKVGMSVRGKTVFDHDVELEDFEDYI  155
+
+
+> gi|333892434|ref|YP_004466309.1| hypothetical protein ambt_04785 
+[Alteromonas sp. SN2]
+Length=164
+
+ Score =  117 bits (292),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 59/152 (39%), Positives = 85/152 (56%), Gaps = 17/152 (11%)
+
+Query  6    PFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTG-------------HIYPTNVACR  51
+            PFWE + L  + + +WE+LCDGC KCCLHK  D++                I+ TN+ C 
+Sbjct  4    PFWETKTLEEMTQKEWESLCDGCAKCCLHKFIDDENEEAQAPTDYINANEQIHYTNIVCS  63
+
+Query  52   LLDTRTARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHH-LKT  110
+            LL+T++  C  Y  R  LVPDC++LT+ N+  I ++P++CAYR   +G  LP WH  L  
+Sbjct  64   LLNTKSCECTQYAKRTELVPDCVQLTKANLKDIFFMPTSCAYRRLHEGRGLPSWHPLLNK  123
+
+Query  111  GSLAAMHAGGHSVIGRVISE--VHAGPIENHI  140
+            G    MH  G SV  + + E  V+    E++I
+Sbjct  124  GKKHVMHKNGMSVRNKTVFETDVNLDAFEDYI  155
+
+
+> gi|78485671|ref|YP_391596.1| hypothetical protein Tcr_1327 [Thiomicrospira 
+crunogena XCL-2]
+Length=146
+
+ Score =  116 bits (290),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 55/123 (45%), Positives = 75/123 (61%), Gaps = 4/123 (3%)
+
+Query  1    MDQLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTAR  59
+            M +  PFWE + LA +   +WE++CDGCG CCL K++D++T  I  T V C+  D +T  
+Sbjct  1    MTKEKPFWETKTLAEMTTEEWESVCDGCGLCCLTKLQDDETDQIVYTRVVCKYSDLKTGA  60
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTG---SLAAM  116
+            C+DY++R   VP C+ LT   V    WLP TCAYR+   G PLP+WH L +G   S+   
+Sbjct  61   CSDYQNRSINVPTCVNLTLDRVAEFDWLPDTCAYRVLYRGDPLPEWHPLVSGKKESVTEA  120
+
+Query  117  HAG  119
+            H G
+Sbjct  121  HVG  123
+
+
+> gi|313682767|ref|YP_004060505.1| hypothetical protein Sulku_1644 
+[Sulfuricurvum kujiense DSM 16994]
+Length=147
+
+ Score =  115 bits (289),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 62/144 (43%), Positives = 81/144 (56%), Gaps = 4/144 (3%)
+
+Query  3    QLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVED--EDTGHIYPTNVACRLLDTRTAR  59
+            +  PFWE + L  L   +WEALCDGCG CCL++++D  +D   IY T VAC   D +  R
+Sbjct  5    ETAPFWETKTLEELTDQEWEALCDGCGLCCLNRLQDADDDEAPIYLTRVACHCYDLQAQR  64
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAG  119
+            C+DY +R   V  C+RLT   V    WLP TCAYRLR    PLP WH L T    ++   
+Sbjct  65   CSDYANRHERVEGCMRLTVERVAEYEWLPETCAYRLRFAQKPLPSWHPLITKDPNSVREH  124
+
+Query  120  GHSVIGRVISEVHAGPIENHIIEE  143
+            G   +  V+       +E++IIEE
+Sbjct  125  GMYALSPVLDNEDIE-LEDYIIEE  147
+
+
+> gi|117925458|ref|YP_866075.1| hypothetical protein Mmc1_2168 
+[Magnetococcus marinus MC-1]
+Length=152
+
+ Score =  111 bits (277),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 55/108 (51%), Positives = 67/108 (62%), Gaps = 1/108 (1%)
+
+Query  5    TPFW-EQPLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADY  63
+            TPFW ++ LA L+  +WEALCD CG CCL K EDE+ G IY T++ C   D +T  C+ Y
+Sbjct  8    TPFWVQKTLAQLNAHEWEALCDRCGLCCLVKAEDEEAGDIYLTSLICPFFDLKTKVCSCY  67
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTG  111
+              R+   PDC  LT   V +  WLP  CAYRL A G PLP WH L +G
+Sbjct  68   SQRKQQNPDCSTLTPMTVQTYDWLPDHCAYRLVAAGKPLPTWHPLISG  115
+
+
+> gi|476414288|ref|YP_007544206.1| hypothetical protein C427_2749 
+[Glaciecola psychrophila 170]
+Length=163
+
+ Score =  110 bits (275),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 59/154 (38%), Positives = 87/154 (56%), Gaps = 17/154 (11%)
+
+Query  4    LTPFWEQP-LASLDRAQWEALCDGCGKCCLHKVEDED-------TGHI------YPTNVA  49
+            +  +WE   L ++   QWE +CDGC KCCLHK  D+D       T HI      + TN+A
+Sbjct  1    MDKYWETTTLENMTEKQWEGICDGCAKCCLHKFIDDDAVTEAAPTSHIQQGEKIHYTNIA  60
+
+Query  50   CRLLDTRTARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHH-L  108
+            C LL+T+T  C+ Y  R  LVP+C++LT+ N+  I ++P +C+YR   +   LP WH  L
+Sbjct  61   CGLLNTKTCACSRYAERTTLVPECVKLTKDNLQDIFFMPHSCSYRRLYEDRGLPTWHPLL  120
+
+Query  109  KTGSLAAMHAGGHSVIGRVIS--EVHAGPIENHI  140
+              G  + MH  G SV G+ ++  +V     E++I
+Sbjct  121  NKGKKSVMHKAGMSVRGKTVADHDVDLEQFEDYI  154
+
+
+> gi|152996548|ref|YP_001341383.1| hypothetical protein Mmwyl1_2529 
+[Marinomonas sp. MWYL1]
+Length=159
+
+ Score =  109 bits (272),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 53/140 (38%), Positives = 80/140 (57%), Gaps = 3/140 (2%)
+
+Query  6    PFWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYR  64
+            PFW+  PL  +   +WE++CDGCGKCCL K++D++T  ++ TN++C  L+  + +C  Y 
+Sbjct  8    PFWKTTPLEKMSPVEWESICDGCGKCCLQKLQDDETEEVFYTNLSCHQLNIGSCQCKVYE  67
+
+Query  65   HRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSVI  124
+             R+  V  C+ LT   V    WLP TC+YR+  +   LP+WH L  GS   M   G +V 
+Sbjct  68   TRQDKVSTCITLTPDQVDEFHWLPDTCSYRVLHETKDLPNWHPLVVGSDKEMLRQGLTVR  127
+
+Query  125  GRVISE--VHAGPIENHIIE  142
+               ++E  V     E H+I+
+Sbjct  128  HYAVNENTVDEEEWETHVIK  147
+
+
+> gi|304321165|ref|YP_003854808.1| hypothetical protein PB2503_08054 
+[Parvularcula bermudensis HTCC2503]
+Length=163
+
+ Score =  108 bits (270),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 55/130 (42%), Positives = 85/130 (65%), Gaps = 2/130 (2%)
+
+Query  3    QLTPFWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDT-GHIYPTNVACRLLDTRTARC  60
+            Q  PFWE + L  +  A+WE+LCDGCG+CCL  +EDE+  G  + T++ C+L D +T RC
+Sbjct  16   QDRPFWETKSLGQMSAAEWESLCDGCGRCCLVLLEDEEEEGRYHETSLCCQLFDPQTRRC  75
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGG  120
+              Y  RR +VPDC++++  N G+++W+P +CAYR  A G  L  WH L++G   ++   G
+Sbjct  76   TRYAERRLIVPDCVKVSPDNAGTLSWMPESCAYRRLAGGRGLAPWHPLRSGRRESVVEAG  135
+
+Query  121  HSVIGRVISE  130
+             +V G++ +E
+Sbjct  136  VAVDGQLTNE  145
+
+
+> gi|296112435|ref|YP_003626373.1| hypothetical protein MCR_0208 
+[Moraxella catarrhalis RH4]
+Length=154
+
+ Score =  107 bits (267),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 63/136 (46%), Positives = 79/136 (58%), Gaps = 8/136 (6%)
+
+Query  2    DQLTP-FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGHIYP-TNVACRLLDTRTA  58
+            D+L P FWE  PL +L  A+WEALCDGCG CCL K  D+D   +   T+VAC+LLD  T 
+Sbjct  4    DELRPKFWENYPLDALTDAEWEALCDGCGACCLVKFLDDDNVKLTEYTDVACQLLDCSTG  63
+
+Query  59   RCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHA  118
+             C +Y  R+ +VPDC+RLT   +  + WLP  CAY+    G  LP WH L   S    H 
+Sbjct  64   FCQNYAKRQTIVPDCIRLTPDMLPDMLWLPRHCAYKRLYLGQNLPAWHRLIKHS--QNHG  121
+
+Query  119  GGH---SVIGRVISEV  131
+             G    S  GR +SE+
+Sbjct  122  AGFAKVSTAGRCVSEL  137
+
+
+> gi|470166876|ref|YP_007547963.1| hypothetical protein WQG_8950 
+[Bibersteinia trehalosi USDA-ARS-USMARC-192]
+Length=154
+
+ Score =  107 bits (266),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/120 (43%), Positives = 69/120 (58%), Gaps = 3/120 (3%)
+
+Query  7    FWEQP-LASLDRAQWEALCDGCGKCCLHKVEDE--DTGHIYPTNVACRLLDTRTARCADY  63
+            FW++  L  ++  +WEALCDGCGKCC  K          +Y T VAC LLD  T +C +Y
+Sbjct  15   FWQKKSLLEMNETEWEALCDGCGKCCYRKYIQGRGKRERLYYTRVACNLLDVETGKCTNY  74
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R  +  DC +LT+ N+    WLP TCAYRL  +G PLPDWH L +    ++   G  +
+Sbjct  75   PNRFKIECDCTKLTKKNLPDFGWLPQTCAYRLLYEGKPLPDWHPLISKDAHSVKTAGMLI  134
+
+
+> gi|407692198|ref|YP_006816987.1| hypothetical protein ASU2_03040 
+[Actinobacillus suis H91-0380]
+Length=148
+
+ Score =  106 bits (265),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 54/111 (49%), Positives = 69/111 (62%), Gaps = 4/111 (4%)
+
+Query  2    DQLTP-FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDE--DTGHIYPTNVACRLLDTRT  57
+            +QLTP FW+ + L  ++ A+WEALCDGCGKCC  K          +Y T+VAC LLD   
+Sbjct  3    NQLTPNFWQTKSLLEMNDAEWEALCDGCGKCCYRKYIQGRGKRERLYYTSVACNLLDVDN  62
+
+Query  58   ARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHL  108
+             RC +Y +R  +  DC +LT+ N+    WLP TCAYRL  +G PL DWH L
+Sbjct  63   GRCTNYPNRFKIERDCTKLTKKNLPDFGWLPKTCAYRLLYEGKPLFDWHPL  113
+
+
+> gi|482886472|ref|YP_007883645.1| hypothetical protein UPF0260 
+[Mannheimia haemolytica M42548]
+Length=150
+
+ Score =  106 bits (264),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 57/140 (41%), Positives = 77/140 (55%), Gaps = 4/140 (3%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDED--TGHIYPTNVACRLLDTRTARCADY  63
+            FW+ + L  ++ A+WEALCDGCGKCC  K          +Y T+VAC LLD  T RC +Y
+Sbjct  11   FWQNKSLLEMNDAEWEALCDGCGKCCYRKYIQGRGRRERLYYTSVACNLLDVNTGRCMNY  70
+
+Query  64   RHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAAMHAGGHSV  123
+             +R  +  DC +LT+ N+    WLP TCAYRL  +G PL DWH L +    ++   G  +
+Sbjct  71   SNRFKIESDCTKLTKKNLPDFGWLPKTCAYRLLYEGKPLFDWHPLISKDPDSVKNAG-ML  129
+
+Query  124  IGRVISEVHAGPIENHIIEE  143
+            I   I E         +I+E
+Sbjct  130  IANGIHEKDVIDWFEFVIDE  149
+
+
+> gi|387122010|ref|YP_006287893.1| hypothetical protein D7S_02368 
+[Aggregatibacter actinomycetemcomitans D7S-1]
+Length=143
+
+ Score =  104 bits (260),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 53/114 (46%), Positives = 68/114 (60%), Gaps = 4/114 (4%)
+
+Query  3    QLTP-FW-EQPLASLDRAQWEALCDGCGKCCLHKVEDE--DTGHIYPTNVACRLLDTRTA  58
+            QL P FW  + L  ++ A+WEALCDGCGKCC  K  D      H+Y T +AC LL+    
+Sbjct  12   QLEPDFWLHKTLLDMNDAEWEALCDGCGKCCYRKYIDGYGKYEHLYYTRIACNLLELEMG  71
+
+Query  59   RCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGS  112
+            +C  Y  R  L  DC +LT+ N+    WLP+TCAYRL  +G  LP WH L +G+
+Sbjct  72   KCGQYTRRFELEEDCTKLTKENLSDFDWLPATCAYRLLHEGKSLPSWHPLISGA  125
+
+
+> gi|16273265|ref|NP_439506.1| hypothetical protein HI1355 [Haemophilus 
+influenzae Rd KW20]
+Length=154
+
+ Score =  104 bits (260),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/114 (46%), Positives = 68/114 (60%), Gaps = 4/114 (4%)
+
+Query  3    QLTP-FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDE--DTGHIYPTNVACRLLDTRTA  58
+            QL P FW+ + L  +  ++WEALCDGCGKCC  K          +Y T +AC LLD  T 
+Sbjct  6    QLEPNFWQTKSLLEMTESEWEALCDGCGKCCYRKYIQGRGKRQKLYYTRIACNLLDLETG  65
+
+Query  59   RCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGS  112
+            +C +Y  R  +  DC +LT+ N+    WLP TCAYRL  +G  LP+WH L +GS
+Sbjct  66   KCGNYSERFNIETDCTKLTKKNLPDFHWLPDTCAYRLLYEGKTLPEWHPLISGS  119
+
+
+> gi|521180532|ref|YP_008164316.1| hypothetical protein PSYCG_12325 
+[Psychrobacter sp. G]
+Length=187
+
+ Score =  105 bits (261),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 58/136 (43%), Positives = 77/136 (57%), Gaps = 11/136 (8%)
+
+Query  7    FWEQ-PLASLDRAQWEALCDGCGKCCLHKVEDEDTGH------IYPTNVACRLLDTRTAR  59
+            FW +  LA L+ ++WEALCDGCG CCL K  DED         +  T+V C+L+D  T  
+Sbjct  35   FWSRYTLAELNPSEWEALCDGCGSCCLIKYIDEDEQGNVDEDLVEYTDVTCQLMDCATGY  94
+
+Query  60   CADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTGSLAA----  115
+            C  Y  R+  VPDC++LT  N+ ++ WLPS CAY+    G  LP+WH L T    A    
+Sbjct  95   CRHYATRQEHVPDCIQLTIENLPNMMWLPSHCAYKRLYKGQSLPNWHLLLTQDTVATKQQ  154
+
+Query  116  MHAGGHSVIGRVISEV  131
+            M A    V GR ++E+
+Sbjct  155  MRAANVGVAGRCVTEI  170
+
+
+> gi|15602404|ref|NP_245476.1| hypothetical protein PM0539 [Pasteurella 
+multocida subsp. multocida str. Pm70]
+Length=158
+
+ Score =  102 bits (254),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 53/111 (48%), Positives = 66/111 (59%), Gaps = 9/111 (8%)
+
+Query  7    FWE-QPLASLDRAQWEALCDGCGKCCLHKVEDEDTGH-----IYPTNVACRLLDTRTARC  60
+            FW+ + L  +  A+WEALCDGCGKCC  K  +   GH     +Y T +AC LLD  T RC
+Sbjct  19   FWKHKTLLEMTDAEWEALCDGCGKCCYRKFIE---GHGKRKKLYYTRIACNLLDLETGRC  75
+
+Query  61   ADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHHLKTG  111
+             +Y  R  L  DC +LT+ N+    WLP TCAYRL  +  PL DWH L +G
+Sbjct  76   TNYAKRFQLETDCTKLTKKNLPDFHWLPPTCAYRLLNENKPLFDWHPLISG  126
+
+
+> gi|126643436|ref|YP_001086420.1| hypothetical protein A1S_3429 
+[Acinetobacter baumannii ATCC 17978]
+Length=100
+
+ Score = 94.0 bits (232),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 45/96 (47%), Positives = 63/96 (66%), Gaps = 2/96 (2%)
+
+Query  48   VACRLLDTRTARCADYRHRRALVPDCLRLTQGNVGSIAWLPSTCAYRLRADGLPLPDWHH  107
+            +AC+LLD  T RC+DY +R+  VPDCL+LT   + +I WLPS+CAY+   +G  LP WH+
+Sbjct  1    MACKLLDCNTGRCSDYPNRQQQVPDCLQLTPETLKTIHWLPSSCAYKRLNEGKNLPSWHY  60
+
+Query  108  LKTGSLAAMHAGGHSVIGRVISE--VHAGPIENHII  141
+            L TGS  ++     SV GR I E  VH   IE++++
+Sbjct  61   LNTGSRQSVVKAKKSVAGRCIPETDVHEDDIEDYVV  96
+
+
+> gi|404495736|ref|YP_006719842.1| hypothetical protein Gmet_0877 
+[Geobacter metallireducens GS-15]
+Length=107
+
+ Score = 75.1 bits (183),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 38/83 (46%), Positives = 50/83 (60%), Gaps = 2/83 (2%)
+
+Query  18  AQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHRRALVPDCLRLT  77
+           A WE+LC  CG CC  K+ED D+G I+ T   CR LD  T +C  Y  R  + P+C++LT
+Sbjct  9   AAWESLCRQCGLCCFEKIED-DSGTIFFTQTPCRYLDVATRQCVIYERRFEINPECVKLT  67
+
+Query  78  QGNVGSIAWLPSTCAYRLRADGL  100
+           +  V  + WL   CAYR RA G+
+Sbjct  68  EELVRELPWLHDDCAYR-RALGI  89
+
+
+> gi|392413876|ref|YP_006450483.1| hypothetical protein Desti_5639 
+[Desulfomonile tiedjei DSM 6799]
+Length=114
+
+ Score = 72.0 bits (175),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 37/80 (46%), Positives = 47/80 (59%), Gaps = 1/80 (1%)
+
+Query  14  SLDRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHRRALVPDC  73
+            LDR  WEA+C  CG+CC  KV D   G I  T+  C+ LDT+T  C  Y +R    PDC
+Sbjct  6   DLDRKDWEAICRKCGRCCYEKV-DLGGGVIRYTDEPCQYLDTKTNLCKVYENRHIAEPDC  64
+
+Query  74  LRLTQGNVGSIAWLPSTCAY  93
+           + LT+  V ++ WLP  CAY
+Sbjct  65  ISLTEHLVRTLNWLPDECAY  84
+
+
+> gi|118579801|ref|YP_901051.1| hypothetical protein Ppro_1377 
+[Pelobacter propionicus DSM 2379]
+Length=105
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 34/78 (44%), Positives = 43/78 (55%), Gaps = 1/78 (1%)
+
+Query  16  DRAQWEALCDGCGKCCLHKVEDEDTGHIYPTNVACRLLDTRTARCADYRHRRALVPDCLR  75
+           D  QW++LC  CG+CC  K+ED   G I  T  ACR LD  T RC  +  R  + P C++
+Sbjct  7   DDQQWDSLCKQCGRCCFEKLEDS-RGRIIYTQTACRYLDVITRRCKIFERRFEINPHCVK  65
+
+Query  76  LTQGNVGSIAWLPSTCAY  93
+           LT   V  + WLP  C Y
+Sbjct  66  LTPELVPQLHWLPPDCGY  83
+
+
+
+Lambda     K      H
+   0.326    0.140    0.480 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 15989399460
+
+
+  Database: 2014 NCBI COGs
+    Posted date:  Mar 16, 2015  3:15 PM
+  Number of letters in database: 640,579,405
+  Number of sequences in database:  1,785,722
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,4 @@
+clusterblast -f seqs -d cogs2014 -b blastp -B -a '-num_alignments 500 -num_descriptions 500 -seg no'
+reCOGnition.pl -S -l -g -r Alphaproteobacteria -P 0.025 -F blast -v
+bs -J reCOG reCOGnition.pl -S -l -g -P 0.025 -F blast -v
+bs -J reCOG reCOGnition.pl -S -l -g -r Alphaproteobacteria -P 0.025 -F blast -v

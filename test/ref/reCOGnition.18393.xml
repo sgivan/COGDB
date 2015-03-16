@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE reCOGnition>
+
+<reCOGnition>
+     <author>
+          <name>Scott Givan</name>
+          <email>givans@missour.edu</email>
+     </author>
+     <data>
+          <cog>
+               <id>3235</id>
+               <name>COG3791</name>
+               <description>Uncharacterized conserved protein</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0007</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>1289</id>
+               <name>COG1451</name>
+               <description>Predicted metal-dependent hydrolase</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0011</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>1946</id>
+               <name>COG2114</name>
+               <description>Adenylate cyclase, family 3 (some proteins contain HAMP domain)</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0001</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>363</id>
+               <name>COG0365</name>
+               <description>Acyl-coenzyme A synthetases/AMP-(fatty) acid ligases</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0013</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>880</id>
+               <name>COG1028</name>
+               <description>Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0012</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>1792</id>
+               <name>COG1960</name>
+               <description>Acyl-CoA dehydrogenases</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0002</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>659</id>
+               <name>COG0666</name>
+               <description>FOG: Ankyrin repeat</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0008</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>2451</id>
+               <name>COG2983</name>
+               <description>Uncharacterized conserved protein</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0010</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>619</id>
+               <name>COG0625</name>
+               <description>Glutathione S-transferase</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0006</orf>
+               </orflist>
+          </cog>
+          <cog>
+               <id>1831</id>
+               <name>COG1999</name>
+               <description>Uncharacterized protein SCO1/SenC/PrrC, involved in biogenesis of respiratory and photosynthetic systems</description>
+               <occurrence>1</occurrence>
+               <orflist>
+                    <orf>C29_0009</orf>
+               </orflist>
+          </cog>
+     </data>
+</reCOGnition>
