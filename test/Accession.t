@@ -33,12 +33,13 @@ my $listref = $accession->accessions();
 
 isa_ok($listref,'ARRAY');
 
-ok($listref->[0],'Accession number retrieved from database');
+#ok($listref->[0],'Accession number retrieved from database');
 
 SKIP: {
 
-    skip "-- test will fail if accession number doesn't exist", 2 unless (exists($listref->[0]));
+    skip "-- test will fail if accession number doesn't exist", 3 unless (exists($listref->[0]));
 
+    ok($listref->[0],'Accession number retrieved from database');
     cmp_ok($accession->exists($listref->[0]),">=",1,"Accession number exists");
     like($listref->[0],qr/\S/,"Accession number looks OK");
 }
