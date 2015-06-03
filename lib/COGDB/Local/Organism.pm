@@ -175,27 +175,27 @@ sub _get_id_local {
    return $self->{_Division};
  }
 
-# sub other {
-#   my ($self,$other) = @_;
-#   print LOG $self->stack() if ($debug);
-
-#   $other ? $self->_set_other($other) : $self->_get_other();
-# }
-
-# sub _get_other {
-#   my $self = shift;
-#   print LOG $self->stack() if ($debug);
-#   return $self->{_Other};
-# }
-
-# sub _set_other {
-#   my ($self,$other) = @_;
-#   print LOG $self->stack() if ($debug);
-
-#   $self->{_Other} = $other;
-#   return $self->{_Other};
-# }
-
+ sub other {
+   my ($self,$other) = @_;
+   print LOG $self->stack() if ($debug);
+#
+   $other ? $self->_set_other($other) : $self->_get_other();
+ }
+#
+ sub _get_other {
+   my $self = shift;
+   print LOG $self->stack() if ($debug);
+   return $self->{_Other};
+ }
+#
+ sub _set_other {
+   my ($self,$other) = @_;
+   print LOG $self->stack() if ($debug);
+#
+   $self->{_Other} = $other;
+   return $self->{_Other};
+ }
+#
 # sub fetch_all {
 #   my $self = shift;
 #   print LOG $self->stack() if ($debug);
