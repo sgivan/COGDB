@@ -50,53 +50,55 @@ sub parse_file {
 
     chomp($line);
 
-    # lines look like:
-    # 470180372,Acidimicrobidae_bacterium_YM16_304_uid193703,470180372,428,1,428,COG0001,0,
-    my @vals = split /,/, $line;
+    if (!$self->local()) {
 
-    my $id = $vals[0];
-    my $org = $vals[1];
-    $cog = $self->cog({Name => $vals[6]});
+        # lines look like:
+        # 470180372,Acidimicrobidae_bacterium_YM16_304_uid193703,470180372,428,1,428,COG0001,0,
+        my @vals = split /,/, $line;
 
-    if ($org =~ /\w+_uid(\d+)$/) {
-        $organism = $self->organism({BioProject => $1});
+        my $id = $vals[0];
+        my $org = $vals[1];
+        $cog = $self->cog({Name => $vals[6]});
+
+        if ($org =~ /\w+_uid(\d+)$/) {
+            $organism = $self->organism({BioProject => $1});
+        } else {
+            die "can't create organism";
+        }
+
+        push(@whog,[$id, $organism->id(), $cog->id()]);
+
     } else {
-        die "can't create organism";
-    }
-
-    push(@whog,[$id, $organism->id(), $cog->id()]);
-
-    if (0) {# leave this here for future reference
         if ($line =~ /^\[\w+\]\s(COG\d+)\s/) {
-        $cog = $self->cog({Name => $1});
+            $cog = $self->cog({Name => $1});
         #} elsif ( $line =~ /\s+([\w-]{3,11})\:(\s+.+)/ ) {
         } elsif ( $line =~ /\s+([\w-]{3,255})\:(\s+.+)/ ) {
 
-        if ($self->local()) {
-            $organism = $self->local()->organism({Code => $1});
-        } else {
-            $organism = $self->organism({Code => $1});
-        }
+            if ($self->local()) {
+                $organism = $self->local()->organism({Code => $1});
+            } else {
+                $organism = $self->organism({Code => $1});
+            }
 
-        my $ids = $self->get_identifiers($2);
+            my $ids = $self->get_identifiers($2);
 
-        foreach my $id (@$ids) {
-            push(@whog,[$id, $organism->id(), $cog->id()]);
-        }
+            foreach my $id (@$ids) {
+                push(@whog,[$id, $organism->id(), $cog->id()]);
+            }
 
         } elsif ($line =~ /\s+\S+/) {
 
-        my $ids = $self->get_identifiers($line);
+            my $ids = $self->get_identifiers($line);
 
-        foreach my $id (@$ids) {
-            push(@whog,[$id, $organism->id(), $cog->id()]);
-        }
+            foreach my $id (@$ids) {
+                push(@whog,[$id, $organism->id(), $cog->id()]);
+            }
 
         } else {
-        print "weird line: '$line'\n";
+            print "weird line: '$line'\n";
         }
     }
-#    last;
+
   }
   $self->load_whog(\@whog);
   return scalar(@whog);
