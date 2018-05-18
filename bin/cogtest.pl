@@ -5,7 +5,9 @@
 use warnings;
 use strict;
 use Carp;
-use lib '/home/sgivan/projects/COGDB';
+use FindBin qw/ $Bin /;
+use lib "$Bin/../lib";
+#use lib '/home/sgivan/projects/COGDB';
 use COGDB;
 
 my $cogdb;

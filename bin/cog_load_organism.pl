@@ -16,6 +16,7 @@ my $cat_load = $dbload->organism();
 #print "\$cat_load is a ", ref($cat_load), "\n";
 
 #$cat_load->parse_file('/dbase/scratch/COG/org.txt');
-$cat_load->parse_file('/ircf/dbase/COGdb/2014_update/static/outfile');
+#$cat_load->parse_file('/ircf/dbase/COGdb/2014_update/static/outfile');
+$cat_load->parse_file('/share/ircf/dbase/COGdb/2014_update/static/outfile');
 
 print "OK\n";

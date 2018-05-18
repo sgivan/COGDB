@@ -9,7 +9,7 @@ use Exporter;
 
 my $debug = 0;
 #my $HOST = 'lewis2.rnet.missouri.edu';
-my $HOST = 'ircf-login-0-1.local';
+my $HOST = 'login-0-7.local';
 #my $port = 53307;
 my $port = 3306;# default MySQL port is 3306
 

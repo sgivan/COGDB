@@ -17,10 +17,12 @@ if (! $file) {
   exit(0);
 }
 
-my $organism_id = $file;
-$organism_id =~ s/whogs_missing_\d+_//;
-#print "organism ID = '$organism_id'\n";
-
+my $organism_id = 0;
+#$organism_id =~ s/whogs_missing_\d+_//;
+if ($file =~ /whogs_missing_\d+_(\d+)/) {
+    $organism_id = $1;
+}
+print "organism ID = '$organism_id'\n";
 
 my $dbload = COGDB_Load->new();
 $dbload->localcog_load();

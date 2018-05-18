@@ -10,7 +10,9 @@ use Getopt::Std;
 use vars qw/ $opt_d $opt_D $opt_v $opt_h $opt_F $opt_f $opt_b $opt_o $opt_S $opt_l $opt_r $opt_M $opt_w $opt_p $opt_U $opt_L $opt_i $opt_X $opt_e
 $opt_g $opt_G $opt_P $opt_I $opt_x /;
 use Bio::SearchIO;
-use lib '/home/sgivan/projects/COGDB/lib';
+use FindBin qw/ $Bin /;
+#use lib '/home/sgivan/projects/COGDB/lib';
+use lib "$Bin/..//lib";
 use COGDB;
 use Statistics::Descriptive;
 use Statistics::Descriptive::Discrete;
@@ -461,11 +463,11 @@ if ($local_whog) {
   open(WHOG,">$outfile" . "_whogs") or die "can't open whogs: $!";
 
   foreach my $cogname (map { $_->{cog}->name() } values %COGS) {
+    print "cogname: '$cogname'\n" if ($debug);
     my $cog = $cogdb->cog({ Name => $cogname });
     my $categories = $cog->categories();
     my $category_codes = join '', map { $_->code() } @$categories;
     print WHOG "[$category_codes] ", $cog->name(), " ", $cog->description(), "\n";
-#    print WHOG "  ", $organism->code(), ":  ", join ' ', @{$COGS{$cogname}->{list}}, "\n";
     print WHOG "  ", $org_code, ":  ", join ' ', @{$COGS{$cogname}->{list}}, "\n";
   }
 

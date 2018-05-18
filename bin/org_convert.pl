@@ -38,13 +38,16 @@ if ($help) {
     exit(0);
 }
 
-# Opened lists/listCOGs.html with lynx and saved as text file via Print menu
-# Deleted first few lines of resulting file
-# ran these commands
-# cat org2014.txt | sed -r 's/(\w+)\s\s/\1\t/' > temp1.txt
-# cat temp1.txt | sed -r 's/\s{2,}//' > temp2.txt
-# cat temp2.txt | sed 's/\t/\t00\t/' > temp3.txt
-# run this script on temp3.txt
+#    Use lynx to print static/lists/homeCOGs.html to homeCOGs.html.txt.
+#    Delete first three lines. Save as homeCOGs.txt.
+#    grep -P "^\s{10,}[A-Z]+$" homeCOGs.txt | sed 's/ //g' | sort | uniq > supers.txt
+#    grep -v -P "^\s{10,}[A-Z]+$" homeCOGs.txt | sed -E 's/^\s{1,5}(\w+\s+.+)/\1/' > temp0.txt
+#    cat temp0.txt | sed -r 's/(\w+)\s\s/\1\t/' > temp2.txt
+#    cat temp2.txt | sed -r 's/\s{2,}//' > temp3.txt
+#    cat temp3.txt | sed 's/\t/\t00\t/' > temp4.txt
+#    create symlink to COG2014/genomes2003-2014.tab
+#    ~/projects/COGDB/bin/org_convert.pl --file temp4.txt  --debug
+#    ~/projects/COGDB/bin/cog_load_organism.pl 
 
 if (!$infile) {
     help();
