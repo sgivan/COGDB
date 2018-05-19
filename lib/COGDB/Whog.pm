@@ -101,7 +101,8 @@ sub fetch_by_organism {
 
   my @whogs;
 
-  my $sth = $dbh->prepare("select ID from Whog where ID_Organism = ?");
+  my $sth = $dbh->prepare("select ID from COGDB2014.Whog where ID_Organism = ?");
+#  my $sth = $dbh->prepare("select ID from Whog where ID_Organism = ?");
   $sth->bind_param(1,$organism->id());
   my $rtn = $cgrbdb->dbAction($dbh,$sth,2);
 

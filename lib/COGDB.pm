@@ -12,7 +12,7 @@ use vars qw/ @ISA /;
 
 @ISA = qw/ CGRBDB /;
 
-my $debug = 1;
+my $debug = 0;
 my $cnt;
 
 if ($debug) {
@@ -74,7 +74,8 @@ sub cgrbdb {
   } else {
     if (!$self->{_cgrbdb}) {
 #      print "\n\nWHOA! -- ", ++$cnt, "\n", $self->stack(), "\n\n";
-      $cgrbdb = CGRBDB->generate('COGDB2014','cogtool','cogs');
+       $cgrbdb = CGRBDB->generate('COGDB2014','cogtool','cogs');
+#      $cgrbdb = CGRBDB->generate('COGDB','cogtool','cogs');
       $self->{_cgrbdb} = $cgrbdb;
     } else {
       $cgrbdb = $self->{_cgrbdb};
@@ -251,7 +252,7 @@ sub cog {
 sub whog {
   my ($self,$params) = @_;
   print LOG $self->stack() if ($debug);
-#  print "this is a local whog call\n" if ($self->local());
+  #print "this is a local whog call\n" if ($self->local());
   eval {
     require COGDB::Whog;
   };

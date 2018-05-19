@@ -20,7 +20,9 @@ use strict;
 use warnings;
 use autodie;
 #use lib '../lib/COGDB';
-use lib '../lib/';
+#use lib '../lib/';
+use FindBin qw/ $Bin /;
+use lib "$Bin/../lib";
 
 use Test::More tests => 21;
 
@@ -45,6 +47,7 @@ isa_ok($cog2,'COGDB::COG');#8
 
 my $organism = $whog->source();
 isa_ok($organism,'COGDB::Organism');#9
+print "fetching all wogs for " . $organism->name() . "\n";
 my $orgs = $whog->fetch_by_organism($organism);
 isa_ok($orgs,'ARRAY');#10
 isa_ok($orgs->[0],'COGDB::Whog');#11
@@ -59,6 +62,7 @@ my $fetch_by_whog = $whog->fetch_by_whog({organism => $organism, cog => $cog});
 isa_ok($fetch_by_whog,'ARRAY');#16
 isa_ok($fetch_by_whog->[0],'COGDB::Whog');#17
 is($fetch_by_whog->[0]->cog()->id(),$cog->id(), 'cogID == cogID');#18
+print "cog name: '", $cog->name(), "'\n";
 
 my $coverage = $whog->coverage_by_division({cog => $cog, division => $organism->division() });
 isa_ok($coverage,'ARRAY');#19

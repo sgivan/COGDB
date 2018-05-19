@@ -51,7 +51,11 @@ sub _init {
   my ($self,$id) = @_;
   print LOG $self->stack() if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Division'});
+  #my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Division'});
+  my $fetch = $self->SUPER::_init({
+          ID => $id,
+          Table => $self->cgrbdb->{_dbase} . ".Division",
+      });
   my $data = $fetch->[0];
 
   if ($id) {

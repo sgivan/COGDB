@@ -41,7 +41,13 @@ sub _init {
   print LOG $self->stack() if ($debug);
   print LOG "initializing COG with id = '$id'\n" if ($debug);
 
-  my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.COG'});
+  #print "dbase: '", $self->cgrbdb->{_dbase}, "'\n";
+  #my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.COG'});
+  my $fetch = $self->SUPER::_init({
+          ID => $id,
+#          Table => 'COGDB.COG',
+          Table => $self->cgrbdb->{_dbase} . ".COG",
+      });
 
   if ($id) {
     $self->id($id);

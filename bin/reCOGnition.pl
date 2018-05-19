@@ -12,7 +12,7 @@ $opt_g $opt_G $opt_P $opt_I $opt_x /;
 use Bio::SearchIO;
 use FindBin qw/ $Bin /;
 #use lib '/home/sgivan/projects/COGDB/lib';
-use lib "$Bin/..//lib";
+use lib "$Bin/../lib";
 use COGDB;
 use Statistics::Descriptive;
 use Statistics::Descriptive::Discrete;
