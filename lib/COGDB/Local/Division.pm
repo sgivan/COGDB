@@ -13,7 +13,7 @@ use COGDB::Division;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB::Local::COGDB_Local COGDB::Division /; ## added COGDB::Division when things were working perfectly
 
-my $debug = 0;
+my $debug = 1;
 
 if ($debug) {
   open(LOG,">>/home/sgivan/log/COGDB.Local.Division.log") or die "can't open COGDB.Local.Organism.log: $!";
@@ -54,7 +54,8 @@ sub _init {
   #my $fetch = $self->SUPER::_init({ID => $id, Table => 'COGDB.Division'});
   my $fetch = $self->SUPER::_init({
           ID => $id,
-          Table => $self->cgrbdb->{_dbase} . ".Division",
+          #Table => $self->cgrbdb->{_dbase} . ".Division",
+          Table => 'COGDB2014.Division',
       });
   my $data = $fetch->[0];
 
@@ -72,15 +73,44 @@ sub name_to_id {
   my ($self,$name) = @_;
   my $id = '';
   print LOG $self->stack() if ($debug);
+  print $self->stack() if ($debug);
 
   my $cgrbdb = $self->cgrbdb();
   my $dbh = $cgrbdb->dbh();
+  my $table = $self->cgrbdb->{_dbase} . ".Division";
 
-  if ($name) {
-    my $query = "select ID from COGDB.Division where Name = '$name'";
+  my $newname = $self->_convert_name_to_COGDB2014($name);
+
+  if ($newname) {
+    my $query = "select ID from COGDB2014.Division where Name = '$newname'";
+    #my $query = "select ID from $table where Name = '$name'";
+    #print "query: '$query'\n" if ($debug);
     my $fetch = $self->fetch($query);
     $id = $fetch->[0]->[0];
   }
   print LOG "returning ID = '$id' for '$name'\n" if ($debug);
   return $id;
 }
+
+sub _convert_name_to_COGDB2014 {
+    my ($self,$name) = @_;
+    my $name2014 = '';
+    print LOG $self->stack() if ($debug);
+    print $self->stack() if ($debug);
+    #print "converting old division name '$name' to 2014 division name\n" if ($debug);
+
+    my $cgrbdb = $self->cgrbdb();
+    my $dbh = $cgrbdb->dbh();
+    my $table = "COGDB_Local.Division2003_To_2014";
+
+    if ($name) {
+        my $query = "Select `Name2014` from $table where `Name2003` = '$name'";
+        #print "query: '$query'\n" if ($debug);
+        my $fetch = $self->fetch($query);
+        $name2014 = $fetch->[0]->[0];
+    }
+    print LOG "returning name = '$name2014'\n" if ($debug);
+    #print "returning name = '$name2014'\n" if ($debug);
+    return $name2014;
+}
+

@@ -449,10 +449,13 @@ if ($genelist) {
 if ($local_whog) {
 
   print "\n\nmaking whog file\n" if ($verbose);
+  print "creating localcog object\n" if ($debug);
   my $local_cogdb = $cogdb->localcogs();
+  print "creating localcog organism object\n" if ($debug);
   my $organism = $local_cogdb->organism({ Code => $local_whog });
   my $org_code = $organism->code();
-#  print "\$organism is a '", ref($organism), "'\n" if ($debug);
+  print "localcog org_code: '$org_code'\n" if ($debug);
+  print "\$organism is a '", ref($organism), "'\n" if ($debug);
 
   if (! $org_code) {
     $org_code = $local_whog;
@@ -799,7 +802,7 @@ if ($crossref) {
             my ($mean,$sd) = ($stats->mean(), $stats->standard_deviation());
             $sd = $stats->mean() unless ($sd);
             my @data = $stats->get_data();
-            my ($skew,$kurtosis) = ($stats->skewness(), $stats->kurtosis());
+            my ($skew,$kurtosis) = ($stats->skewness() || '0', $stats->kurtosis() || '0');
             my (@greater,@lesser,@equal) = ((),(),());
 
             for my $val (@data) {
@@ -886,10 +889,10 @@ if ($crossref) {
             #my ($mean,$sd) = ($stats->mean(0.05),$stats->standard_deviation());
             #my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
             my ($mean,$sd) = ($stats->mean(),$stats->standard_deviation());
-            my ($skew,$kurtosis) = ($stats->skewness(),$stats->kurtosis());
+            my ($skew,$kurtosis) = ($stats->skewness() || '0',$stats->kurtosis() || '0');
             $sd = $stats->mean() unless ($sd);
             say STDERR "\tmean: '$mean', sd: '$sd'" if ($debug);
-            say STDERR "\ttally in query genome: " . $COGS{$cogname}->{count} || 'zero';
+            say STDERR "\ttally in query genome: ", $COGS{$cogname}->{count} || 'zero';
             if ($COGS{$cogname}->{count} && $COGS{$cogname}->{count} < ($mean - (2 * $sd))) {
 #                if ($stats->skewness() < 0.5) {
 #                    say "skipping '$cogname' b/c skewness = " . $stats->skewness() if ($verbose);
@@ -958,7 +961,9 @@ if ($crossref) {
     close(SHO);
     close(SLO);
 
-} # end of if ($crossref) { }
+} else { # end of if ($crossref) { }
+    print "No other organisms classified as '$crossref'\n";
+} 
 
 close(OUT);
 close(TAB);

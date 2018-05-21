@@ -20,7 +20,7 @@ use strict;
 use warnings;
 use autodie;
 
-use Test::More tests => 17;
+use Test::More tests => 18;
 use lib '/home/sgivan/projects/COGDB/lib';
 use_ok('COGDB');
 
@@ -40,6 +40,7 @@ for my $looporg (@$all_organisms) {
     like($looporg->code(), qr/^\w{6}$/, "Code looks OK '" . $looporg->code() . "'");
     like($looporg->name(), qr/[\w\s.]+/, "Name looks OK '" . $looporg->name() . "'");
     isa_ok($looporg->division(), 'COGDB::Division', "Division");
+    is($looporg->division()->name(), 'Crenarchaeota', "Division name OK");
     like($looporg->taxid(), qr/^\d+$/, 'Taxid looks OK');
     is($looporg->extend(), undef, 'Extend looks OK');
     is($looporg->pathogen(), undef, 'Pathogen looks OK');

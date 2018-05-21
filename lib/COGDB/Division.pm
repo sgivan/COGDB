@@ -11,7 +11,7 @@ use COGDB;
 use vars qw/ @ISA /;
 @ISA = qw/ COGDB /;
 
-my $debug = 0;
+my $debug = 1;
 
 if ($debug) {
   open(LOG,">>/home/sgivan/log/COGDB.Division.log") or die "can't open COGDB.Organism.log: $!";
